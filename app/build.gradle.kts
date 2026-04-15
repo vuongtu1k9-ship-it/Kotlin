@@ -53,11 +53,18 @@ dependencies {
     val coroutinesVersion = "1.9.0"
     val ktorVersion = "3.0.0"
     
-    // Ktor WebSocket
+    // Ktor WebSocket (Server)
     implementation("io.ktor:ktor-server-core:$ktorVersion")
     implementation("io.ktor:ktor-server-netty:$ktorVersion")
     implementation("io.ktor:ktor-websockets:$ktorVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
+    
+    // Ktor Client
+    implementation("io.ktor:ktor-client-core:$ktorVersion")
+    implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
+    implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
+    implementation("io.ktor:ktor-serialization-gson:$ktorVersion")
+    implementation("io.ktor:ktor-client-logging:$ktorVersion")
 
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
@@ -89,13 +96,6 @@ dependencies {
     kapt("androidx.room:room-compiler:$roomVersion")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
-
-    // Ktor Client
-    implementation("io.ktor:ktor-client-core:$ktorVersion")
-    implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
-    implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
-    implementation("io.ktor:ktor-serialization-gson:$ktorVersion")
-    implementation("io.ktor:ktor-client-logging:$ktorVersion")
 
     debugImplementation("androidx.compose.ui:ui-tooling:$composeVersion")
     debugImplementation("androidx.compose.ui:ui-test-manifest:$composeVersion")
