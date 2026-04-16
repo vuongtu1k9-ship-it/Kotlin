@@ -24,7 +24,12 @@ jobs:
         uses: android-actions/setup-android@v2
 
       - name: Accept Android SDK licenses
-        run: yes | /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --licenses || true
+        run: yes | sdkmanager --licenses || true
+
+      - name: Install Android SDK components
+        run: |
+          sdkmanager "platforms;android-34"
+          sdkmanager "build-tools;34.0.0"
 
       - name: Build APK
         run: ./gradlew assembleDebug
