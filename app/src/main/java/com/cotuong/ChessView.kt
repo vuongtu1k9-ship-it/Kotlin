@@ -205,7 +205,6 @@ private fun DrawScope.drawPieces(board: Board, selectedPiece: Piece?) {
                 }
             )
         }
-        }
     }
 }
 
