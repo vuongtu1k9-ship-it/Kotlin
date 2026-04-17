@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.graphics.nativeCanvas
 
 /**
  * Composable để vẽ bàn cờ và quân cờ.
@@ -45,6 +46,22 @@ fun ChessView(
                 fontSize = 20.sp,
                 color = Color.Red
             )
+        }
+
+        // Nút Quay lại (Undo)
+        Button(
+            onClick = {
+                if (board.undo()) {
+                    // Phát âm thanh hoàn tác
+                    soundPool.play(soundMoveId, 1f, 1f, 0, 0, 1f)
+                    // Đổi lượt người chơi
+                    currentPlayer.value = if (currentPlayer.value == PieceColor.RED) PieceColor.BLACK else PieceColor.RED
+                }
+            },
+            modifier = Modifier.padding(16.dp),
+            enabled = board.canUndo() // Vô hiệu hóa nếu không thể hoàn tác
+        ) {
+            Text("Quay lại")
         }
 
         // Nút Reset
@@ -184,8 +201,10 @@ private fun DrawScope.drawPieces(board: Board, selectedPiece: Piece?) {
                     textSize = pieceRadius
                     color = android.graphics.Color.WHITE
                     textAlign = android.graphics.Paint.Align.CENTER
+                    isAntiAlias = true
                 }
             )
+        }
         }
     }
 }
