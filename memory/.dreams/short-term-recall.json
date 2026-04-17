@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-16T07:33:35.363Z",
+  "entries": {
+    "memory:memory/2026-04-12.md:1:19": {
+      "key": "memory:memory/2026-04-12.md:1:19",
+      "path": "memory/2026-04-12.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-04-12 ## Notes - OpenClaw gateway configured and running - Telegram bot @Linh020182_bot connected - OpenRouter free models configured: - Manager: nvidia/nemotron-3-super-120b-a12b:free - Coder: arcee-ai/trinity-large-preview:free - Reviewer: openrouter/free ## Issues Fixed - Fixed model configuration (was missing provider prefix) - Added API key via auth-profiles.json - Gateway now working with free models ## Next Steps - Test all 3 agents - Configure memory search (need API key) - Add more automated tasks",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4809680134057998,
+      "maxScore": 0.4809680134057998,
+      "firstRecalledAt": "2026-04-16T07:33:35.363Z",
+      "lastRecalledAt": "2026-04-16T07:33:35.363Z",
+      "queryHashes": [
+        "bb642f70e73b"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "gateway",
+        "router",
+        "linh020182-bot",
+        "arcee-ai/trinity-large-preview",
+        "openrouter/free",
+        "auth-profiles.json",
+        "openclaw",
+        "configured"
+      ]
+    }
+  }
+}
