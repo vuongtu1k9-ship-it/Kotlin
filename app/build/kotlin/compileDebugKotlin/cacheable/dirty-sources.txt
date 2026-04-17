@@ -1,0 +1,4 @@
+/root/.openclaw/workspace/cotuong/app/src/main/java/com/cotuong/ChessView.kt
+/root/.openclaw/workspace/cotuong/app/src/main/java/com/cotuong/Board.kt
+/root/.openclaw/workspace/cotuong/app/src/main/java/com/cotuong/MainActivity.kt
+/root/.openclaw/workspace/cotuong/app/src/main/java/com/cotuong/Piece.kt

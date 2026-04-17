@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-3/36bfaeab7ca247f385c7b58509428776/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] /root/.gradle/caches/transforms-3/a33d39d13db53d149801867e041895e8/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.0] /root/.gradle/caches/transforms-3/69ee106e12c3c3f6df62bbceefcb6902/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
@@ -83,8 +83,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /root/.gradle/caches/tran
 	xmlns:android
 		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:5:5-25:19
+INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-3/36bfaeab7ca247f385c7b58509428776/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-3/36bfaeab7ca247f385c7b58509428776/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /root/.gradle/caches/transforms-3/bf3a18e66e870d340880e8cb17a640ca/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
@@ -108,41 +108,43 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/transf
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /root/.gradle/caches/transforms-3/1d7befea8406b492b5c4b8dbdbca2287/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:10:9-33
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:11:9-33
 	android:fullBackupContent
 		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:10:9-54
 	tools:targetApi
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:13:9-29
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:14:9-29
 	android:icon
 		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:12:9-45
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:13:9-45
 	android:dataExtractionRules
 		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.cotuong.MainActivity
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:14:9-23:20
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:17:13-37
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:18:13-37
 	android:exported
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:18:13-49
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:19:13-49
 	android:name
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /root/.openclaw/workspace/cotuong/app/src/main/AndroidManifest.xml
