@@ -6,15 +6,38 @@ package com.cotuong
 class Board {
     // Bàn cờ 9x10 (cột x hàng)
     private val pieces: MutableList<Piece> = mutableListOf()
+    // Stack lưu lịch sử trạng thái bàn cờ (tối đa 3 nước đi gần nhất)
+    private val history: ArrayDeque<List<Piece>> = ArrayDeque(3)
 
     init {
         initializeBoard()
     }
 
     /**
+     * Hoàn tác nước đi cuối cùng.
+     * @return true nếu hoàn tác thành công, false nếu không thể hoàn tác.
+     */
+    fun undo(): Boolean {
+        if (history.isNotEmpty()) {
+            pieces.clear()
+            pieces.addAll(history.removeLast())
+            return true
+        }
+        return false
+    }
+
+    /**
+     * Kiểm tra có thể hoàn tác không.
+     * @return true nếu có thể hoàn tác, false nếu không.
+     */
+    fun canUndo(): Boolean {
+        return history.isNotEmpty()
+    }
+
+    /**
      * Khởi tạo bàn cờ với các quân cờ ở vị trí ban đầu.
      */
-    private fun initializeBoard() {
+    fun initializeBoard() {
         // Xóa tất cả quân cờ hiện có
         pieces.clear()
 
@@ -78,6 +101,16 @@ class Board {
     }
 
     /**
+     * Lưu trạng thái hiện tại vào lịch sử.
+     */
+    private fun saveState() {
+        if (history.size >= 3) {
+            history.removeFirst() // Xóa trạng thái cũ nhất nếu vượt quá 3
+        }
+        history.addLast(pieces.map { it.copy() }) // Lưu bản sao của các quân cờ
+    }
+
+    /**
      * Di chuyển quân cờ từ (fromX, fromY) đến (toX, toY).
      * @return true nếu di chuyển thành công, false nếu không hợp lệ.
      */
@@ -99,10 +132,38 @@ class Board {
             return false
         }
 
+        // Lưu trạng thái trước khi di chuyển
+        saveState()
+
         // Di chuyển quân cờ
+        if (targetPiece != null) {
+            pieces.remove(targetPiece) // Ăn quân đối phương
+        }
         piece.x = toX
         piece.y = toY
         return true
+    }
+
+    /**
+     * Hoàn tác nước đi gần nhất (tối đa 3 lần).
+     * @return true nếu hoàn tác thành công, false nếu không có lịch sử.
+     */
+    fun undo(): Boolean {
+        if (history.isEmpty()) {
+            return false
+        }
+
+        // Khôi phục trạng thái từ lịch sử
+        pieces.clear()
+        pieces.addAll(history.removeLast())
+        return true
+    }
+
+    /**
+     * Kiểm tra có thể hoàn tác hay không.
+     */
+    fun canUndo(): Boolean {
+        return history.isNotEmpty()
     }
 
     /**

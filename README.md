@@ -15,6 +15,7 @@ App cờ tướng viết bằng **Kotlin** cho nền tảng **Android**, sử d�
 | 🏃 Tương tác chạm   | Chọn và di chuyển quân cờ bằng cách chạm vào màn hình.                                   | ✅ Hoàn thành |
 | 🔄 Luật chơi        | Tuân thủ luật cờ tướng: tướng, sĩ, tượng, xe, pháo, mã, tốt.                              | ✅ Hoàn thành |
 | 🔄 Reset game       | Nút "Reset Game" để khởi động lại ván cờ.                                               | ✅ Hoàn thành |
+| ↩️ Quay lại (Undo)  | Hoàn tác nước đi gần nhất (tối đa 3 lần).                                                 | ✅ Hoàn thành |
 | 🤖 AI chơi cờ       | Máy (quân đen) có thể chơi với người dùng (thuật toán Minimax đơn giản).                  | 🟡 Đang phát triển |
 | 🎨 Giao diện        | Hiển thị tên quân cờ bằng tiếng Việt (Tướng, Sĩ, Tượng, Xe, Pháo, Mã, Tốt).               | ✅ Hoàn thành |
 | 📱 Multiplayer      | Chế độ chơi online 2 người (sắp triển khai).                                             | ⚪ Chưa bắt đầu |
@@ -102,8 +103,8 @@ Kotlin/
 │       └── main/
 │           ├── AndroidManifest.xml  # Cấu hình ứng dụng
 │           └── java/com/cotuong/
-│               ├── Board.kt         # Logic bàn cờ + luật chơi
-│               ├── ChessView.kt     # Giao diện (Jetpack Compose)
+│               ├── Board.kt         # Logic bàn cờ + luật chơi + Undo
+│               ├── ChessView.kt     # Giao diện (Jetpack Compose + nút Undo)
 │               ├── MainActivity.kt  # Điểm khởi đầu
 │               └── Piece.kt         # Định nghĩa quân cờ
 ├── gradlew                    # Script build (Linux/macOS)
@@ -169,6 +170,23 @@ App sử dụng **SoundPool** để phát hiệu ứng âm thanh khi:
    - `sound_capture.mp3` (âm thanh ăn quân)
    - `sound_win.mp3` (âm thanh thắng/thua)
 
+---
+
+## ↩️ Hướng dẫn sử dụng tính năng Quay lại (Undo)
+
+Tính năng **Quay lại (Undo)** cho phép bạn hoàn tác nước đi gần nhất (tối đa 3 lần).
+
+### **Cách sử dụng:**
+1. Sau khi di chuyển quân cờ, nút **"Quay lại"** sẽ sáng lên.
+2. Nhấn nút **"Quay lại"** để hoàn tác nước đi gần nhất.
+3. Bạn có thể hoàn tác **tối đa 3 nước đi gần nhất**. Sau đó, nút sẽ mờ đi.
+
+### **Lưu ý:**
+- Tính năng **Undo** chỉ hoạt động trong ván cờ hiện tại.
+- Khi **Reset Game**, lịch sử hoàn tác sẽ bị xóa.
+   - `sound_capture.mp3` (âm thanh ăn quân)
+   - `sound_win.mp3` (âm thanh thắng/thua)
+
 ### **Cách tắt hiệu ứng âm thanh:**
 Xóa hoặc đổi tên file `.mp3` trong thư mục `raw`.
 
@@ -200,11 +218,11 @@ Nếu bạn có câu hỏi hoặc đề xuất tính năng mới, hãy liên h�
 
 | Tính năng          | Mô tả                                                                                     | Ưu tiên |
 |--------------------|-------------------------------------------------------------------------------------------|---------|
-| 🤖 AI chơi cờ       | Hoàn thiện thuật toán Minimax (độ sâu 3-4).                                              | Cao     |
+| 🤖 AI chơi cờ       | Hoàn thiện thuật toán Minimax (độ sâu 3-4) + tối ưu hiệu suất.                           | Cao     |
+| 🔗 Multiplayer      | Thêm chế độ chơi online 2 người qua WebSocket/Firebase.                                  | Cao     |
 | 🎨 Hình ảnh quân cờ | Thay thế text bằng hình ảnh cho từng loại quân cờ.                                       | Trung   |
-| 🔗 Multiplayer      | Thêm chế độ chơi online 2 người qua WebSocket.                                           | Trung   |
-| 💾 Lưu game         | Lưu trạng thái ván cờ vào SharedPreferences hoặc Firebase.                                | Thấp    |
-| 🔊 Âm thanh          | Thêm hiệu ứng âm thanh khi di chuyển quân cờ.                                            | Thấp    |
+| 💾 Lưu game         | Lưu trạng thái ván cờ vào SharedPreferences hoặc Firebase.                                | Trung   |
+| ↩️ Quay lại (Undo)  | Cải thiện UI/UX cho nút Undo (ví dụ: animation).                                          | Thấp    |
 
 ---
 

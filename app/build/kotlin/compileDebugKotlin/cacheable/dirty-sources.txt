@@ -1,4 +1,0 @@
-/root/Kotlin/cotuong/app/src/main/java/com/cotuong/ChessView.kt
-/root/Kotlin/cotuong/app/src/main/java/com/cotuong/Board.kt
-/root/Kotlin/cotuong/app/src/main/java/com/cotuong/MainActivity.kt
-/root/Kotlin/cotuong/app/src/main/java/com/cotuong/Piece.kt
