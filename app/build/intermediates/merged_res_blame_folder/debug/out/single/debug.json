@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.cotuong.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.cotuong.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/raw_sound_move.mp3.flat",
+        "source": "com.cotuong.app-main-59:/raw/sound_move.mp3"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cotuong.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/raw_sound_capture.mp3.flat",
+        "source": "com.cotuong.app-main-59:/raw/sound_capture.mp3"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/raw_sound_win.mp3.flat",
+        "source": "com.cotuong.app-main-59:/raw/sound_win.mp3"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cotuong.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cotuong.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
