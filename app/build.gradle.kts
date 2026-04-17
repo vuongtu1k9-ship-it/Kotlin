@@ -3,6 +3,12 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.9.20"
 }
 
+repositories {
+    google()
+    mavenCentral()
+    maven("https://jitpack.io")
+}
+
 android {
     namespace = "com.cotuong"
     compileSdk = 34

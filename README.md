@@ -19,7 +19,7 @@ App cờ tướng viết bằng **Kotlin** cho nền tảng **Android**, sử d�
 | 🎨 Giao diện        | Hiển thị tên quân cờ bằng tiếng Việt (Tướng, Sĩ, Tượng, Xe, Pháo, Mã, Tốt).               | ✅ Hoàn thành |
 | 📱 Multiplayer      | Chế độ chơi online 2 người (sắp triển khai).                                             | ⚪ Chưa bắt đầu |
 | 💾 Lưu game         | Lưu trạng thái ván cờ để chơi tiếp sau (sắp triển khai).                                 | ⚪ Chưa bắt đầu |
-| 🔊 Âm thanh          | Hiệu ứng âm thanh khi di chuyển quân cờ (sắp triển khai).                                | ⚪ Chưa bắt đầu |
+| 🔊 Âm thanh          | Hiệu ứng âm thanh khi di chuyển quân cờ, ăn quân, và thắng/thua.                        | ✅ Hoàn thành     |
 
 ---
 
@@ -150,6 +150,27 @@ Bạn muốn đóng góp vào dự án? Hãy làm theo các bước sau:
 3. Commit thay đổi: `git commit -m "Add: Mô tả thay đổi"`.
 4. Push lên nhánh: `git push origin feature/ten-tinh-nang`.
 5. Tạo **Pull Request** vào nhánh `cotuong`.
+
+---
+
+## 🔊 Hiệu ứng âm thanh
+
+App sử dụng **SoundPool** để phát hiệu ứng âm thanh khi:
+- Di chuyển quân cờ (`sound_move.mp3`)
+- Thắng/thua (`sound_win.mp3`)
+
+### **Cách thay đổi file âm thanh:**
+1. Thay thế file trong thư mục:
+   ```
+   app/src/main/res/raw/
+   ```
+2. Đổi tên file thành:
+   - `sound_move.mp3` (âm thanh di chuyển)
+   - `sound_capture.mp3` (âm thanh ăn quân)
+   - `sound_win.mp3` (âm thanh thắng/thua)
+
+### **Cách tắt hiệu ứng âm thanh:**
+Xóa hoặc đổi tên file `.mp3` trong thư mục `raw`.
 
 ---
 

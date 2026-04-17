@@ -1,5 +1,6 @@
 package com.cotuong
 
+import android.media.SoundPool
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Column
@@ -23,7 +24,12 @@ import androidx.compose.ui.unit.sp
  * Composable để vẽ bàn cờ và quân cờ.
  */
 @Composable
-fun ChessView() {
+fun ChessView(
+    soundPool: SoundPool,
+    soundMoveId: Int,
+    soundCaptureId: Int,
+    soundWinId: Int
+) {
     // Lưu trạng thái bàn cờ và quân cờ được chọn
     val board = remember { Board() }
     val selectedPiece = remember { mutableStateOf<Piece?>(null) }
@@ -77,8 +83,12 @@ fun ChessView() {
                             } else {
                                 // Di chuyển quân cờ
                                 if (board.movePiece(selectedPiece.value!!.x, selectedPiece.value!!.y, x, y)) {
+                                    // Phát âm thanh khi di chuyển quân
+                                    soundPool.play(soundMoveId, 1f, 1f, 0, 0, 1f)
+                                    
                                     // Kiểm tra thắng/thua
                                     if (isGameOver(board)) {
+                                        soundPool.play(soundWinId, 1f, 1f, 0, 0, 1f)
                                         gameStatus.value = "${if (currentPlayer.value == PieceColor.RED) "Đỏ" else "Đen"} thắng!"
                                     } else {
                                         // Đổi lượt
