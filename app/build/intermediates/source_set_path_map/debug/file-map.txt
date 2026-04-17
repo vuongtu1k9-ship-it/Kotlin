@@ -51,10 +51,10 @@ com.cotuong.app-drawerlayout-1.1.1-49 /root/.gradle/caches/transforms-3/ed6771cb
 com.cotuong.app-jetified-lifecycle-runtime-ktx-2.7.0-50 /root/.gradle/caches/transforms-3/f0e78dcb7c670bd50df2726bc9f0f63e/transformed/jetified-lifecycle-runtime-ktx-2.7.0/res
 com.cotuong.app-transition-1.5.0-51 /root/.gradle/caches/transforms-3/f43d0d8963805395ea289e701552ed98/transformed/transition-1.5.0/res
 com.cotuong.app-lifecycle-viewmodel-2.7.0-52 /root/.gradle/caches/transforms-3/fa96fcecef67f0f0b213eebcfd09bdfc/transformed/lifecycle-viewmodel-2.7.0/res
-com.cotuong.app-pngs-53 /root/.openclaw/workspace/cotuong/app/build/generated/res/pngs/debug
-com.cotuong.app-resValues-54 /root/.openclaw/workspace/cotuong/app/build/generated/res/resValues/debug
-com.cotuong.app-packageDebugResources-55 /root/.openclaw/workspace/cotuong/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.cotuong.app-packageDebugResources-56 /root/.openclaw/workspace/cotuong/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.cotuong.app-merged_res-57 /root/.openclaw/workspace/cotuong/app/build/intermediates/merged_res/debug
-com.cotuong.app-debug-58 /root/.openclaw/workspace/cotuong/app/src/debug/res
-com.cotuong.app-main-59 /root/.openclaw/workspace/cotuong/app/src/main/res
+com.cotuong.app-pngs-53 /root/Kotlin/cotuong/app/build/generated/res/pngs/debug
+com.cotuong.app-resValues-54 /root/Kotlin/cotuong/app/build/generated/res/resValues/debug
+com.cotuong.app-packageDebugResources-55 /root/Kotlin/cotuong/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.cotuong.app-packageDebugResources-56 /root/Kotlin/cotuong/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.cotuong.app-merged_res-57 /root/Kotlin/cotuong/app/build/intermediates/merged_res/debug
+com.cotuong.app-debug-58 /root/Kotlin/cotuong/app/src/debug/res
+com.cotuong.app-main-59 /root/Kotlin/cotuong/app/src/main/res
