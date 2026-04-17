@@ -14,27 +14,6 @@ class Board {
     }
 
     /**
-     * Hoàn tác nước đi cuối cùng.
-     * @return true nếu hoàn tác thành công, false nếu không thể hoàn tác.
-     */
-    fun undo(): Boolean {
-        if (history.isNotEmpty()) {
-            pieces.clear()
-            pieces.addAll(history.removeLast())
-            return true
-        }
-        return false
-    }
-
-    /**
-     * Kiểm tra có thể hoàn tác không.
-     * @return true nếu có thể hoàn tác, false nếu không.
-     */
-    fun canUndo(): Boolean {
-        return history.isNotEmpty()
-    }
-
-    /**
      * Khởi tạo bàn cờ với các quân cờ ở vị trí ban đầu.
      */
     fun initializeBoard() {
@@ -144,27 +123,7 @@ class Board {
         return true
     }
 
-    /**
-     * Hoàn tác nước đi gần nhất (tối đa 3 lần).
-     * @return true nếu hoàn tác thành công, false nếu không có lịch sử.
-     */
-    fun undo(): Boolean {
-        if (history.isEmpty()) {
-            return false
-        }
 
-        // Khôi phục trạng thái từ lịch sử
-        pieces.clear()
-        pieces.addAll(history.removeLast())
-        return true
-    }
-
-    /**
-     * Kiểm tra có thể hoàn tác hay không.
-     */
-    fun canUndo(): Boolean {
-        return history.isNotEmpty()
-    }
 
     /**
      * Kiểm tra nước đi hợp lệ theo luật cờ tướng.
