@@ -29,6 +29,9 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
 
+    - name: Create local.properties
+      run: echo "sdk.dir=$ANDROID_HOME" > local.properties
+
     - name: Grant execute permission
       run: chmod +x gradlew
 
@@ -63,7 +66,7 @@ jobs:
           - [app-release-${{ env.VERSION }}.apk](https://github.com/vuongtu1k9-ship-it/Kotlin/releases/download/v${{ env.VERSION }}/app-release-${{ env.VERSION }}.apk)
 
           ### ✨ Tính năng
-          - AI đánh cờ tướng (minimax, alpha-beta pruning)
+          - AI đánh cờ tướng
           - Luật cờ tướng đầy đủ
           - Undo (quay lại 3 nước)
 
