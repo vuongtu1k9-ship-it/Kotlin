@@ -34,10 +34,10 @@ class MainActivity : ComponentActivity() {
             .setAudioAttributes(audioAttributes)
             .build()
         
-        // Tải file âm thanh
-        soundMoveId = soundPool.load(this, R.raw.sound_move, 1)
-        soundCaptureId = soundPool.load(this, R.raw.sound_capture, 1)
-        soundWinId = soundPool.load(this, R.raw.sound_win, 1)
+        // Tải file âm thanh (nếu tồn tại)
+        soundMoveId = try { soundPool.load(this, R.raw.sound_move, 1) } catch (e: Exception) { 0 }
+        soundCaptureId = try { soundPool.load(this, R.raw.sound_capture, 1) } catch (e: Exception) { 0 }
+        soundWinId = try { soundPool.load(this, R.raw.sound_win, 1) } catch (e: Exception) { 0 }
 
         setContent {
             MaterialTheme {

@@ -36,6 +36,7 @@ fun ChessView(
     val selectedPiece = remember { mutableStateOf<Piece?>(null) }
     val currentPlayer = remember { mutableStateOf(PieceColor.RED) } // RED đi trước
     val gameStatus = remember { mutableStateOf("") }
+    val lastMove = remember { mutableStateOf("") } }
 
     Column(modifier = Modifier.fillMaxSize()) {
         // Hiển thị trạng thái trò chơi
@@ -45,6 +46,16 @@ fun ChessView(
                 modifier = Modifier.padding(16.dp),
                 fontSize = 20.sp,
                 color = Color.Red
+            )
+        }
+        
+        // Hiển thị nước đi cuối cùng
+        if (lastMove.value.isNotEmpty()) {
+            Text(
+                text = "Nước đi cuối: ${lastMove.value}",
+                modifier = Modifier.padding(horizontal = 16.dp),
+                fontSize = 16.sp,
+                color = Color.Blue
             )
         }
 
@@ -136,21 +147,58 @@ private fun DrawScope.drawBoard() {
             val left = x * cellSize
             val top = y * cellSize
             
-            // Màu sắc xen kẽ
+            // Màu sắc xen kẽ (chỉ áp dụng cho ô cờ)
             val color = if ((x + y) % 2 == 0) Color(0xFFF5F5DC) else Color(0xFFDEB887)
             drawRect(
                 color = color,
                 topLeft = Offset(left, top),
                 size = androidx.compose.ui.geometry.Size(cellSize, cellSize)
             )
+            
+            // Vẽ đường biên ô
+            drawRect(
+                color = Color.Black,
+                topLeft = Offset(left, top),
+                size = androidx.compose.ui.geometry.Size(cellSize, cellSize),
+                style = androidx.compose.ui.graphics.drawscope.Stroke(width = 1f)
+            )
         }
     }
     
-    // Vẽ sông
+    // Vẽ sông (giữa hàng 5 và 6)
     drawRect(
         color = Color.Blue.copy(alpha = 0.2f),
         topLeft = Offset(0f, 4.5f * cellSize),
         size = androidx.compose.ui.geometry.Size(size.width, cellSize)
+    )
+    
+    // Vẽ cung Tướng (hàng 1-3 và 8-10)
+    val cungSize = cellSize * 2
+    // Cung Đỏ (hàng 1-3)
+    drawLine(
+        color = Color.Red,
+        start = Offset(3.5f * cellSize, 0.5f * cellSize),
+        end = Offset(5.5f * cellSize, 2.5f * cellSize),
+        strokeWidth = 2f
+    )
+    drawLine(
+        color = Color.Red,
+        start = Offset(5.5f * cellSize, 0.5f * cellSize),
+        end = Offset(3.5f * cellSize, 2.5f * cellSize),
+        strokeWidth = 2f
+    )
+    // Cung Đen (hàng 8-10)
+    drawLine(
+        color = Color.Black,
+        start = Offset(3.5f * cellSize, 7.5f * cellSize),
+        end = Offset(5.5f * cellSize, 9.5f * cellSize),
+        strokeWidth = 2f
+    )
+    drawLine(
+        color = Color.Black,
+        start = Offset(5.5f * cellSize, 7.5f * cellSize),
+        end = Offset(3.5f * cellSize, 9.5f * cellSize),
+        strokeWidth = 2f
     )
 }
 
