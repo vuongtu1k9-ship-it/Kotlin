@@ -1,5 +1,9 @@
 package com.cotuong
 
+import com.cotuong.Board
+import com.cotuong.Piece
+import com.cotuong.PieceColor
+import com.cotuong.PieceType
 import android.media.SoundPool
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectTapGestures
