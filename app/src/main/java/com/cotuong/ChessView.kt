@@ -40,7 +40,7 @@ fun ChessView(
     val selectedPiece = remember { mutableStateOf<Piece?>(null) }
     val currentPlayer = remember { mutableStateOf(PieceColor.RED) } // RED đi trước
     val gameStatus = remember { mutableStateOf("") }
-    val lastMove = remember { mutableStateOf("") } }
+    val lastMove = remember { mutableStateOf("") }
 
     Column(modifier = Modifier.fillMaxSize()) {
         // Hiển thị trạng thái trò chơi
