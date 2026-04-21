@@ -210,7 +210,7 @@ Permission is hereby granted... (xem file LICENSE)
 
 Nếu bạn có câu hỏi hoặc đề xuất tính năng mới, hãy liên hệ:
 - **GitHub**: [@vuongtu1k9-ship-it](https://github.com/vuongtu1k9-ship-it)
-- **Email**: vuongtu1k9@gmai.com (thay thế bằng email thật nếu cần)
+- **Email**: vuongtu1k9@gmai.com
 
 ---
 
