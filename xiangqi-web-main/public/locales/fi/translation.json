@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "Ladataan...",
+    "error": "Tapahtui virhe",
+    "errorBoundaryTitle": "⚠️ Tapahtui käyttöliittymävirhe",
+    "errorBoundaryReload": "Lataa sivu uudelleen",
+    "cellAriaLabel": "Neliö {{coord}}",
+    "cellAriaLabelOccupied": "Neliö {{coord}} - varattu",
+    "back": "Takaisin",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "viewAll": "Näytä kaikki →",
+    "backToLobby": "Takaisin aulaan",
+    "search": "Haku",
+    "reset": "Nollaa",
+    "login": "Kirjaudu",
+    "you": "Sinä",
+    "close": "Sulje",
+    "agree": "Hyväksy",
+    "refresh": "Päivitä",
+    "coins": "Kulta",
+    "gold": "Kulta",
+    "saveSuccess": "Tallennettu onnistuneesti!",
+    "sides": {
+      "red": "Punainen",
+      "black": "Musta"
+    },
+    "challenge": "Haasta",
+    "send": "Lähetä",
+    "reject": "Ei",
+    "finished": "Loppu",
+    "play": "Pelaaminen",
+    "pieces": {
+      "general": "Kenraali",
+      "advisor": "Neuvonantaja",
+      "elephant": "Elefantti",
+      "horse": "Hevonen",
+      "chariot": "Vaunu",
+      "cannon": "Tykki",
+      "soldier": "Sotilas"
+    },
+    "offline": "Poissa",
+    "draw": "Piirrä",
+    "room": "Huone",
+    "and": "ja",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "verkossa",
+    "waiting": "Odottaa"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - Pelaa ammattishakkia ilmaiseksi",
+    "defaultDescription": "Ilmainen online-xiangqi-alusta kauniilla, hiljaisella ja sujuvalla käyttöliittymällä. Pelaa verkossa tai haasta tekoälymoottori.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| Xiangqi verkossa"
+  },
+  "navbar": {
+    "brand": "Xiangqi",
+    "online": "verkossa",
+    "home": "Koti",
+    "puzzles": "Pulmat",
+    "setup": "Editori",
+    "ai": "Vastustaja AI",
+    "tournaments": "Turnaukset",
+    "practice": "Harjoitus",
+    "howToPlay": "Säännöt",
+    "players": "Mestarit",
+    "leaderboard": "Ranking",
+    "shop": "Kauppa",
+    "logout": "Ulos",
+    "profile": "Profiili",
+    "settings": "Asetukset",
+    "status": "Tila",
+    "userMenu": "Käyttäjämenu",
+    "guestName": "Pelaaja",
+    "playerType": "XIANGQI-PELAAJA",
+    "coins": "Kulta",
+    "rank": "Arvo",
+    "welcome": "Tervetuloa!",
+    "loginToEarn": "Kirjaudu ansaitaksesi palkintoja ja noustaksesi listalla",
+    "googleMaintenance": "Google-kirjautuminen huollossa",
+    "useEmail": "Käytä sähköpostia",
+    "playAsGuest": "Pelaa vieraana?",
+    "statuses": {
+      "online": "Paikalla",
+      "busy": "Varattu",
+      "invisible": "Näkymätön",
+      "free": "Vapaa",
+      "offline": "Poissa"
+    },
+    "openMenu": "Avaa menu",
+    "closeMenu": "Sulje menu",
+    "menu": "Valikko",
+    "navigation": "Navigaatio",
+    "activeGameAlert": "Peli on kesken!",
+    "returnToBoard": "Palaa laudalle nyt",
+    "back": "TAKAISIN",
+    "loginWithGoogle": "Kirjaudu sisään Googlella"
+  },
+  "site": {
+    "maintenanceModeTitle": "Huoltokatko",
+    "maintenanceMessageDefault": "Parannamme järjestelmäämme. Palaa pian.",
+    "announcementLabel": "ILMOITUS"
+  },
+  "ranks": {
+    "novice": "Noviisi",
+    "amateur": "Harrastelija",
+    "intermediate": "Keskitaso",
+    "expert": "Asiantuntija",
+    "master": "Mestari",
+    "internationalMaster": "Kansainvälinen Mestari",
+    "grandmaster": "Suurmestari",
+    "player": "Pelaaja"
+  },
+  "chat": {
+    "title": "Keskustelu",
+    "new_message": "Uusi viesti",
+    "followed_you": "seurasi sinua!",
+    "view_profile": "KATSO PROFIILI",
+    "challenge_accepted": "Haaste hyväksytty!",
+    "go_to_play": "PELAA",
+    "is_online": "on online.",
+    "entered_room": "saapui huoneeseen",
+    "open_chat": "Avaa chat",
+    "close_chat": "Sulje chat",
+    "disable_global_notifs": "Ilmoitukset pois",
+    "enable_global_notifs": "Ilmoitukset päälle",
+    "disable_notifs": "Mykkä",
+    "enable_notifs": "Ääni päälle",
+    "disable_autoscroll": "Ei vieritystä",
+    "enable_autoscroll": "Vieritys päälle",
+    "tabs": {
+      "global": "Yleinen",
+      "private": "Yksityinen"
+    },
+    "to_prefix": "Kenelle: ",
+    "is_online_label": "verkossa",
+    "onlinePlayersHeader": "Online-pelaajat",
+    "history": "Keskusteluhistoria ({{count}})",
+    "labelGlobal": "Yleinen",
+    "labelRoom": "Huone {{id}}",
+    "labelPrivate": "Yksityinen: {{name}}",
+    "followed_you_message": "nyt seuraa sinua!",
+    "noMessages": "(ei viestejä)",
+    "noMessagesWelcome": "Ei viestejä vielä. Aloita chattailu!",
+    "player": "PELAAJA",
+    "guestPlaceholder": "Kirjaudu sisään keskustellaksesi",
+    "placeholder": "Lähetä viesti...",
+    "followed": "👤 Seurasit vastustajaa",
+    "wasFollowed": "🎉 Vastustaja seurasi sinua"
+  },
+  "auth": {
+    "registerTitle": "Luo tili",
+    "loginSubtitle": "Kirjaudu sisään ansaitaksesi palkintoja",
+    "registerSubtitle": "Liity suurimpaan Xiangqi-yhteisöön",
+    "loginWithGoogle": "Kirjaudu sisään Googlella",
+    "orEmail": "tai Sähköposti",
+    "emailLabel": "Sähköposti",
+    "displayNameLabel": "Näyttönimi (valinnainen)",
+    "passwordLabel": "Salasana",
+    "termsAgreementPrefix": "Olen samaa mieltä",
+    "termsLink": "Palveluehdot",
+    "privacyLink": "Tietosuojakäytäntö",
+    "termsAgreementSuffix": "Xiangqi Onlinesta.",
+    "termsError": "Sinun on hyväksyttävä ehdot ja tietosuojakäytäntö.",
+    "processing": "Käsitellään…",
+    "haveAccount": "Onko sinulla jo tili? Kirjaudu sisään",
+    "noAccount": "Luo tili",
+    "backToLobby": "Takaisin aulaan",
+    "loginPrompt": "Sinun on <0>kirjauduttava sisään</0>, jotta voit osallistua keskusteluihin",
+    "passwordsNotMatch": "Salasanat eivät täsmää.",
+    "passwordTooShort": "Salasanassa on oltava vähintään 6 merkkiä.",
+    "invalidOldPassword": "Väärä vanha salasana."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> on aktiivinen pelaaja Xiangqi Online -yhteisössä. Arvolla <1>{{rank}}</1> ({{elo}} Elo) {{name}} on osallistunut yhteensä <2>{{count}}</2> intensiiviseen otteluun. Tällä hetkellä tällä soittimella on <3>{{followers}}</3>-seuraajia, ja se on tärkeä osa alustan kansallista luokitusjärjestelmää.",
+    "social": {
+      "followers": "Seuraajat",
+      "following": "Jälkeen",
+      "empty": "Tyhjä"
+    },
+    "sections": {
+      "medals": "Mitalit",
+      "noMedals": "Ei vielä otsikoita",
+      "inventory": "Tavarat",
+      "noItems": "Ei kohteita vielä",
+      "puzzles": "Omat Pulmat",
+      "noPuzzles": "Ei vielä luovia pulmia",
+      "solved": "Ratkaistut",
+      "noSolved": "Vielä ei ole ratkaistu pulmia",
+      "history": "Historia",
+      "viewGame": "Katso 📺"
+    },
+    "gifts": {
+      "title": "Lähetä lahja",
+      "loading": "Ladataan lahjoja...",
+      "empty": "Tyhjä",
+      "sending": "Lähetetään...",
+      "confirm": "Ok",
+      "loginPrivate": "Kirjaudu viestiin.",
+      "loginChallenge": "Kirjaudu haasteeseen."
+    },
+    "bioTitle": "Bio ja saavutukset",
+    "game": {
+      "active": "Aktiivinen",
+      "redWin": "Punainen voittaa",
+      "blackWin": "Musta voittaa",
+      "moves": "liikkuu"
+    },
+    "notFound": "Käyttäjää ei löydy",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "Luo huone",
+    "playWithAi": "AI-vastustaja",
+    "findMatch": "Etsi vastustaja",
+    "headerTitle": "Harjoittele Xiangqia <0>AI:n kanssa</0> & ratko pulmia",
+    "headerSubtitle": "Johtava alusta kilpailuun & taktiikkaan",
+    "waiting": "Haetaan vastustajaa...",
+    "noRooms": "Ei vapaita huoneita.",
+    "activeGameTitle": "Peli on vielä kesken!",
+    "activeGameSubtitle": "Palaa jatkamaan peliä",
+    "returnToGame": "Palaa peliin",
+    "roomList": "Huoneet",
+    "roomListSubtitle": "Aktiiviset pelit & historia",
+    "noRoomsFiltered": "Pelejä ei löytynyt.",
+    "onlinePlayers": "Pelaajia paikalla",
+    "onlinePlayersCount": "{{count}} jäsentä online",
+    "loginToChat": "Kirjaudu chattiin.",
+    "loginToChallenge": "Kirjaudu haastamaan.",
+    "chatAction": "Keskustelu",
+    "challengeAction": "Kutsu",
+    "tabs": {
+      "live": "Suorana",
+      "open": "Avoin",
+      "finished": "Valmiit",
+      "all": "Kaikki"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "Uusimmat Pulmat",
+        "subtitle": "Tutki yhteisön taktiikoita",
+        "puzzleType": "Pulma",
+        "unnamed": "Nimetön",
+        "levelPrefix": "Taso {{level}}",
+        "normalLevel": "Tavallinen",
+        "solve": "Ratkaise"
+      },
+      "features": {
+        "title": "Miksi valita Xiangqi Online?",
+        "premium": {
+          "title": "⚡ Ilmainen Premium-kokemus",
+          "desc": "Nopea ja puhdas alusta. Voit <0>luoda pulmia online</0> ilman mainoksia."
+        },
+        "ai": {
+          "title": "🤖 Pelaa AI:ta vastaan (Pikafish)",
+          "desc": "Haasta tietokone maailman vahvimmalla Pikafish-moottorilla. Tasot 1-10."
+        },
+        "data": {
+          "title": "🧩 Valtava pulmapankki",
+          "desc": "Tuhansia <0>xiangqi-pulmia</0> taktiikkaharjoitteluun joka päivä."
+        }
+      },
+      "guide": {
+        "title": "Xiangqi Online -opas",
+        "intro": "Aloita 3 helpolla askeleella <0>cotuong.xyz</0> -sivustolla:",
+        "step1": {
+          "title": "Rekisteröidy:",
+          "desc": "Tallenna historia ja Elo-pisteet."
+        },
+        "step2": {
+          "title": "Etsi rivali:",
+          "desc": "Kutsu pelaajia listalta tai luo huone."
+        },
+        "step3": {
+          "title": "Harjoittele:",
+          "desc": "Opi matti-kuviot <0>Oppiminen</0>-osiossa."
+        },
+        "note": "* Elo-järjestelmä reiluihin peleihin."
+      },
+      "faq": {
+        "title": "UKK",
+        "q1": {
+          "q": "K: Onko se ilmaista?",
+          "a": "V: Kyllä, täysin. Kaikki toiminnot ovat ilmaisia."
+        },
+        "q2": {
+          "q": "K: Miten kutsun kaverin?",
+          "a": "V: Luo huone ja lähetä URL-osoite kaverillesi."
+        },
+        "q3": {
+          "q": "K: Voinko katsoa pelejäni jälkikäteen?",
+          "a": "V: Kyllä, ne löytyvät profiilisi historiasta."
+        },
+        "q4": {
+          "q": "K: Miksi en voi siirtää nappuloita?",
+          "a": "V: Tarkista onko vuorosi tai tarkista nettiyhteys."
+        }
+      },
+      "meta": {
+        "title": "Xiangqi Online - AI-harjoittelu, Pulmat & Konetta vastaan",
+        "description": "Premium-alusta: harjoittele Pikafish AI:n kanssa, ratko pulmia ja pelaa ilmaiseksi."
+      },
+      "schema": {
+        "siteName": "Xiangqi Online",
+        "siteDesc": "Ratko pulmia, käytä editoria ja harjoittele AI:n kanssa.",
+        "q1": {
+          "name": "Miten pelata xiangqia online kaverin kanssa?",
+          "text": "Luo huone ja lähetä linkki kaverillesi."
+        },
+        "q2": {
+          "name": "Onko cotuong.xyz:n AI vahva?",
+          "text": "Käyttää Pikafishiä, tasot aloittelijasta suurmestariin."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "Xiangqi-säännöt - Perusopas",
+      "description": "Kattava opas sääntöihin: nappulat, siirrot ja kielletyt asiat."
+    },
+    "title": "Miten pelata Xiangqia",
+    "subtitle": "Opi perusteet ja siirrot",
+    "intro": "Xiangqi (Kiinalainen shakki) on strategiapeli kahdelle. Tavoite on matittaa vastustajan <0>Kenraali</0>.",
+    "intro_p1": "Xiangqi on strategiapeli. Tavoitteena on matittaa",
+    "intro_p3": "vastustajalta.",
+    "section1": {
+      "title": "1. Lauta ja alueet",
+      "river": {
+        "label": "Joki (He):",
+        "desc": "Jakaa laudan puoliksi. Tietyt nappulat (kuten Elefantti) eivät voi ylittää sitä."
+      },
+      "palace": {
+        "label": "Palatsi (Jiu Gong):",
+        "desc": "3x3 alue, jossa on ristikkäiset viivat. Kenraali ja Neuvonantajat pysyvät täällä."
+      },
+      "boardDesc": "Laudalla on 10 riviä ja 9 linjaa. Nappulat asetetaan risteyskohtiin.",
+      "openingTitle": "Alkuasetelma"
+    },
+    "section2": {
+      "title": "2. Nappuloiden siirrot",
+      "pieces": {
+        "general": {
+          "desc": "1 askel pysty- tai vaakasuuntaan. Vain Palatsissa.",
+          "action": "→ Harjoittele Kenraalia",
+          "name": "Kenraali"
+        },
+        "advisor": {
+          "desc": "1 askel vinottain. Vain Palatsissa.",
+          "action": "→ Harjoittele Neuvonantajaa",
+          "name": "Neuvonantaja"
+        },
+        "elephant": {
+          "desc": "2 askelta vinottain. Ei voi ylittää jokea. Estyy, jos välissä on nappula.",
+          "action": "→ Harjoittele Elefanttia",
+          "name": "Elefantti"
+        },
+        "horse": {
+          "desc": "L-muotoinen siirto. Estyy, jos viereisessä risteyksessä on nappula.",
+          "action": "→ Harjoittele Hevosta",
+          "name": "Hevonen"
+        },
+        "chariot": {
+          "desc": "Rajaton matka suoraan (vaaka- tai pystysuuntaan).",
+          "action": "→ Harjoittele Vaunua",
+          "name": "Vaunu"
+        },
+        "cannon": {
+          "desc": "Siirtyy kuin Vaunu. Syöminen vaatii hyppäämisen tasan yhden muun nappulan yli.",
+          "action": "→ Harjoittele Tykkiä",
+          "name": "Tykki"
+        },
+        "soldier": {
+          "desc": "Ennen jokea: 1 eteenpäin. Joen jälkeen: eteenpäin tai sivulle.",
+          "action": "→ Harjoittele Sotilasta",
+          "name": "Sotilas"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Punainen vs Musta",
+      "intro": "Nappulat ovat samanarvoisia, mutta niissä on usein eri merkit värien erottamiseksi.",
+      "table": {
+        "type": "Tyyppi",
+        "red": "Punainen",
+        "black": "Musta",
+        "meaning": "Merkitys"
+      },
+      "meanings": {
+        "general": "Pun: Marsalkka / Mus: Kenraali",
+        "advisor": "Pun: Oppinut / Mus: Suojelija",
+        "elephant": "Pun: Ministeri / Mus: Elefantti",
+        "horse": "Pun: Sotahevonen / Mus: Hevonen",
+        "cannon": "Pun: Tulitykki / Mus: Katapulti",
+        "soldier": "Pun: Sotilas / Mus: Sotilas",
+        "chariot": "Sama merkitys molemmilla"
+      },
+      "why": {
+        "title": "Miksi eroa?",
+        "desc": "Perustuu Chu-Han-sotaan. Punainen on Han, Musta on Chu. Auttaa pelaajia tunnistamaan omat nappulansa."
+      },
+      "elephantExample": {
+        "title": "Esimerkki norsusta (相/象)",
+        "desc": "Tämä pari on hämmentävämpi. Punainen on <0>相 (ministeri)</0>, musta on <1>象 (norsu)</1>. Molemmat eivät voi ylittää jokea, koska he ovat puolustavia suojelijoita.",
+        "desc_p1": "Tämä pari on hämmentävämpi. Punainen on",
+        "desc_p2": "相 (ministeri)",
+        "desc_p3": "ja musta on",
+        "desc_p4": "象 (norsu)",
+        "desc_p5": "Molemmat eivät voi ylittää jokea, koska he ovat puolustavia suojelijoita."
+      }
+    },
+    "section4": {
+      "title": "4. Nappuloiden arvot",
+      "table": {
+        "piece": "Nappula",
+        "score": "Pisteet",
+        "stage": "Vahvin vaihe"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "Vaunu",
+          "power": "Vahvin kaikissa vaiheissa"
+        },
+        "cannon": {
+          "name": "Tykki",
+          "power": "Vahva alussa ja keskipelissä"
+        },
+        "horse": {
+          "name": "Hevonen",
+          "power": "Vahvimmillaan loppupelissä"
+        },
+        "soldier": {
+          "name": "Sotilas",
+          "power": "Arvo nousee joen ylityksen jälkeen"
+        },
+        "defense": {
+          "name": "Neuvonantaja / Elefantti",
+          "power": "Välttämätön puolustus"
+        },
+        "general": {
+          "name": "Kenraali"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Erityissäännöt ja kiellot",
+      "rules": {
+        "kingFace": {
+          "label": "Kenraalit vastakkain:",
+          "desc": "Kenraalit eivät saa olla samalla linjalla ilman muita nappuloita välissä."
+        },
+        "check": {
+          "label": "Shakki:",
+          "desc": "Kenraali on välittömän uhan alla."
+        },
+        "mate": {
+          "label": "Shakkimatti:",
+          "desc": "Kenraali on shakissa eikä voi paeta."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Perustaktiikat",
+      "phases": {
+        "opening": {
+          "title": "⚔️ Avauspeli",
+          "quote": "\"Vaunut nopeasti, itsevarmasti. Hevoset harkiten. Tykit joustavasti.\"",
+          "desc": "Kehitä raskaat nappulat (Vaunut, Tykit, Hevoset) strategisille paikoille."
+        },
+        "midgame": {
+          "title": "🛡️ Keskipeli",
+          "desc": "Taisteluvaihe. Koordinoi nappuloiden yhteistyötä painostaaksesi vastustajaa."
+        },
+        "endgame": {
+          "title": "🔚 Loppupeli",
+          "desc": "Nappuloiden vähentyessä Hevonen ja hyökkäävät Sotilaat ratkaisevat voiton."
+        },
+        "tactics": {
+          "title": "🔥 Matti-kuviot",
+          "maHauPhao": "Tykki Hevosen takana: Käytä Hevosta Tykin tuki-nappulana.",
+          "thienDiaPhao": "Taivaan ja maan tykit: Kaksi Tykkiä hallitsee linjoja ja rivejä.",
+          "daiDamXa": "Rohkea Vaunu: Suora hyökkäys Palatsin keskelle."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. Kielletyt asiat (UKK)",
+      "faqs": {
+        "f1": {
+          "q": "K: Onko ikuinen shakki sallittua?",
+          "a": "V: Ei! Samalla nappulalla ei saa shakata vastustajaa yli 3 kertaa peräkkäin muuttamatta siirtoa. Muuten peli katsotaan häviöksi."
+        },
+        "f2": {
+          "q": "K: Voiko Kenraali poistua Palatsista?",
+          "a": "V: Ei koskaan. Kenraali ja Neuvonantajat pysyvät 3x3-alueella."
+        },
+        "f3": {
+          "q": "K: Milloin peli on tasapeli?",
+          "a": "V: Tasapeli (Draw) tapahtuu kun:<1 />1. <0>60 siirron sääntö:</0> 60 siirtoa ilman syömistä.<2 />2. <0>Sopimus:</0> Pelaajat sopivat tasapelistä.<3 />3. <0>Toisto:</0> Sama asema toistuu 3 kertaa.<4 />4. <0>Tekninen tasapeli:</0> Ei riittävästi nappuloita mattiin.",
+          "a_intro": "Tasapeli tapahtuu kun:",
+          "a_item1_title": "60 siirron sääntö:",
+          "a_item1_desc": "60 siirtoa ilman syömistä.",
+          "a_item2_title": "Sopimus:",
+          "a_item2_desc": "Pelaajat sopivat tasapelistä.",
+          "a_item3_title": "Toisto:",
+          "a_item3_desc": "Sama asema toistuu 3 kertaa.",
+          "a_item4_title": "Tekninen tasapeli:",
+          "a_item4_desc": "Ei riittävästi nappuloita mattiin."
+        },
+        "f4": {
+          "q": "K: Häviänkö jos aika loppuu?",
+          "a": "V: Kyllä! Jos aikasi loppuu, peli katsotaan <0>häviöksi</0> vaikka olisit edellä nappuloissa.",
+          "a_p1": "V: Kyllä. Kun ottelun kokonaisaika umpeutuu (Timeout), kyseinen puoli häviää välittömästi laudan eduista huolimatta.",
+          "a_p2": "häviöksi",
+          "a_p3": "välittömästi hallituksen eduista huolimatta."
+        }
+      },
+      "practiceAction": "🔥 Mene harjoittelemaan nyt"
+    },
+    "history": {
+      "title": "Xiangqin historia",
+      "p1": "Kehittynyt muinaisesta <0>Chaturangasta</0>. Simuloi sotaa <1>Chun ja Hanin</1> välillä.",
+      "p2": "Tuhansia vuosia Itä-Aasian kulttuurin ytimessä.",
+      "p3": "Nykyään <0>cotuong.xyz</0> yhdistää miljoonaa fania ympäri maailmaa."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "Pelaa vs AI",
+    "labelWithId": "Huone {{id}}",
+    "ready": "Valmis",
+    "finished": "Päättynyt",
+    "waitingPlayer": "Odotetaan",
+    "join": "Pelaa",
+    "copyLinkSuccess": "Huoneen linkki kopioitu leikepöydälle!",
+    "inviteBtn": "Kutsu ystävä",
+    "role": "Rooli",
+    "turn": "Käänny",
+    "spectatorsShort": "Kat.",
+    "noSpectators": "Ei mitään"
+  },
+  "game": {
+    "sides": {
+      "red": "Punainen",
+      "black": "Musta"
+    },
+    "timeModes": {
+      "blitz": "Blitz",
+      "rapid": "Nopea",
+      "standard": "Vakio",
+      "slow": "Hidas",
+      "gridLabel": "Aikatila"
+    },
+    "timeModeSub": {
+      "blitz": "3 m",
+      "rapid": "10 m",
+      "standard": "20 m",
+      "slow": "45 m"
+    },
+    "status": {
+      "redWin": "Punainen voitti",
+      "blackWin": "Musta voitti",
+      "draw": "Tasapeli",
+      "ongoing": "Käynnissä",
+      "check": "TARKISTA!",
+      "startPrompt_red": "Sinun vuorosi - Tee ensimmäinen liike aloittaaksesi",
+      "startPrompt_black": "Odotetaan, että Red tekee ensimmäisen liikkeen",
+      "waitingForPlayers": "Pelaajia odotellessa..."
+    },
+    "actions": {
+      "draw": "Tarjoa tasapeliä",
+      "resign": "Luovuta",
+      "swap": "Vaihda puolta",
+      "leave": "Poistu",
+      "publish": "Julkaise",
+      "undo": "Kumoa",
+      "newGame": "Uusi Peli"
+    },
+    "confirm": {
+      "drawTitle": "Tasapeli",
+      "drawMsg": "Lähetä tasapelitahjous vastustajalle?",
+      "resignTitle": "Luovuta",
+      "resignMsg": "Oletko varma että haluat luovuttaa?",
+      "leaveTitle": "Poistu ja häviä",
+      "leaveMsg": "Peli on kesken. Poistuminen tarkoittaa häviötä. Jatketaanko?",
+      "loginTitle": "Kirjautuminen vaaditaan",
+      "loginMsg": "Kirjaudu tallentaaksesi suosikkipelejäsi.",
+      "leaveMsg_casual": "Tämä on rento ottelu, oletko varma, että haluat lähteä?",
+      "leaveMsg_spectator": "Olet poistumassa katsojahuoneesta.",
+      "undoMsg": "Haluatko lähettää peruutuspyynnön vastustajallesi?"
+    },
+    "modals": {
+      "swapTitle": "Vaihda puolia",
+      "swapMessage": "Vastustaja haluaa vaihtaa värejä. Hyväksytkö?",
+      "drawTitle": "Tasapelitarjous",
+      "drawMessage": "Vastustaja tarjoaa tasapeliä. Hyväksytkö?",
+      "accept": "Kyllä"
+    },
+    "comments": "Kommentit",
+    "private": "Yksityinen peli",
+    "publishDesc": "Julkaise peli",
+    "viewDetails": "Katso ottelun tiedot",
+    "notFoundTitle": "Tyhjä tila",
+    "notFoundDesc": "Peliä #{{id}} ei löytynyt.",
+    "redSide": "Punainen puoli",
+    "blackSide": "Musta puoli",
+    "sideBlack": "Pelaa mustaa",
+    "aiPlayer": "AI",
+    "rankGeneric": "Pelaaja",
+    "redPlayerDefault": "Punainen pelaaja",
+    "blackPlayerDefault": "Musta pelaaja",
+    "roomIdLabel": "Huone ID: #{{id}}",
+    "active": "Ottelussa",
+    "moves": "{{count}} liikkuu",
+    "seo": {
+      "title": {
+        "prefix": "Analyysi: ",
+        "videoTitle": "Pelivideo: {{title}}"
+      },
+      "intro": "Jännittävä <0>xiangqi online</0> peli pelaajien <1>{{red}}</1> ja <2>{{black}}</2> välillä. <3>Pelin katsominen</3> on paras tapa oppia.",
+      "comments": {
+        "title": "💡 Analyysin arvo",
+        "desc": "Järjestelmä tukee <0>xiangqi-notaatiota</0>. Opi <1>pro-taktiikoita</1>."
+      },
+      "ai": {
+        "title": "🤖 AI-harjoittelu",
+        "desc": "Käytä <0>Pikafish AI:ta</0> vaikeiden tilanteiden analysoimiseen."
+      },
+      "keywords": "xiangqi, online-xiangqi, {{red}}, {{black}}, arvosteluottelu, online-areena, xiangqi-turnaus, xiangqi-taktiikka, pelaa tietokoneella, harjoittele ai:lla, pelaa xiangqia koneella",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "Päästä toiseen",
+      "analysis": "Analyysi",
+      "matchesCount": "{{count}} vastaa",
+      "recentMatches": "Viimeaikaiset ottelut",
+      "collectingData": "Kerätään H2H-tietoja...",
+      "red": "Punainen",
+      "black": "Musta",
+      "youWin": "SINÄ VOITAT",
+      "opponentWin": "Vastustaja VOITTO"
+    },
+    "panel": {
+      "title": "Ottelutiedot",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} SIDE",
+      "winStatus": "VOITTOINEN",
+      "drawStatus": "PIIRTÄ",
+      "reasons": {
+        "checkmate": "Matti",
+        "stalemate": "umpikuja",
+        "timeout": "Aikakatkaisu",
+        "resign": "Eroaminen",
+        "perpetual": "Ikuinen sääntö",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "Otsikko",
+        "defaultTitle": "Ottelu #{{id}}",
+        "puzzleOrigin": "Luotu palapelistä",
+        "puzzleTitle": "Palapeli # {{id}}",
+        "drawRules": "Piirrä säännöt",
+        "rule60": "Piirrä, jos 60 liikkuu ilman sieppausta.",
+        "ruleRepeat": "Tappio, jos Perpetual Check tai Chase 3 kertaa.",
+        "ruleTimeout": "Tappio välittömästi aikakatkaisun jälkeen.",
+        "rule60Label": "60 siirtosääntö:",
+        "ruleRepeatLabel": "Toisto:",
+        "ruleTimeoutLabel": "Aikakatkaisu:",
+        "materialAdvantage": "Materiaalietu",
+        "drawProgress": "Piirrä edistyminen",
+        "redAdvantage": "PUNAINEN + {{count}}",
+        "blackAdvantage": "MUSTA +{{count}}",
+        "balanced": "TASAPAINOINEN"
+      },
+      "actions": {
+        "save": "TALLENTAA",
+        "lobby": "AULA"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "Voitto!",
+      "loss": "Voittaa",
+      "draw": "Piirrä!",
+      "finished": "Ottelu päättynyt",
+      "elo": "ELO-luokitus",
+      "reward": "Palkkio",
+      "review": "Arvostelu",
+      "share": "Jakaa"
+    },
+    "spectators": {
+      "title": "Katsojat ({{count}})",
+      "empty": "Kukaan ei katso",
+      "label_short": "KATSOJAA",
+      "alt": "Katsoja {{name}}"
+    },
+    "lobbyTitle": "Aula",
+    "puzzleTag": "Pulma",
+    "aiLevels": {
+      "1": "Aloittelija",
+      "2": "Perus",
+      "3": "Keski",
+      "4": "Osaaja",
+      "5": "Edistynyt",
+      "6": "Mestari",
+      "default": "Taso {{level}}"
+    },
+    "moveList": {
+      "progress": "Pelin kulku",
+      "first": "Alku",
+      "prev": "Edellinen",
+      "next": "Seuraava",
+      "last": "Loppu",
+      "pause": "Tauko",
+      "play": "Toista",
+      "empty": "Ei siirtoja vielä",
+      "initial": "Alkuasema",
+      "viewMove": "Katso siirto {{index}}",
+      "returnToLive": "Palaa nykyhetkeen"
+    },
+    "export": {
+      "copyFen": "Kopioi FEN",
+      "copyFenSuccess": "FEN kopioitu!",
+      "copyFenError": "Virhe FEN-kopioinnissa",
+      "exportFile": "Vie tiedosto",
+      "saveImage": "Tallenna kuva (Client)",
+      "saveImageSuccess": "Kuva tallennettu!",
+      "saveImageError": "Virhe kuvan tallennuksessa",
+      "downloadHd": "Lataa HD (Server)",
+      "downloadHdSuccess": "HD-kuva tallennettu!",
+      "downloadHdError": "HD-virhe: {{message}}",
+      "cancelInfo": "Vienti peruutettu",
+      "noMovesError": "Ei siirtoja videon luomiseen",
+      "clientVideo": "Video - nopea (WebM)",
+      "clientVideoSuccess": "Video viety onnistuneesti!",
+      "clientVideoError": "Video-virhe: {{message}}",
+      "serverVideo": "Video - laadukas (MP4)",
+      "serverVideoSuccess": "Lataus {{format}} onnistui!",
+      "serverVideoError": "Palvelinvirhe: {{message}}",
+      "serverTimeout": "Palvelin on varattu. Käytä Client-vientiä.",
+      "animatedGif": "GIF-animaatio",
+      "size": "Koko",
+      "ratios": {
+        "horizontal": "Vaaka",
+        "vertical": "Pysty",
+        "square": "Neliö",
+        "board": "Vain lauta"
+      }
+    },
+    "move": "Siirto",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "Punainen saapui!",
+    "blackJoined": "Musta saapui!",
+    "redLeft": "Punainen poistui.",
+    "blackLeft": "Musta poistui.",
+    "opponentDisconnected": "Vastustaja menetti yhteyden!",
+    "opponentReconnected": "Vastustaja palasi linjoille!",
+    "newSpectator": "Uusi katsoja (Yhteensä {{count}})",
+    "started": "Peli alkoi! Onnea.",
+    "drawDeclined": "Vastustaja hylkäsi tasapelitarjouksen.",
+    "swapDeclined": "Vastustaja hylkäsi puolen vaihdon.",
+    "swapSuccess": "Vaihdoit puolelle {{side}} onnistuneesti!",
+    "resultDraw": "Loppu: Tasapeli",
+    "resultWin": "Onnittelut! Olet voittanut!",
+    "resultLoss": "Loppu: Hävisit pelin.",
+    "resultOtherWin": "Loppu: {{side}} voitti!",
+    "errorViewingReplay": "Katsot uusintaa.",
+    "backToLive": "Palaa live-tilaan",
+    "errorLoginToPlay": "Kirjaudu pelataksesi.",
+    "errorNotYourTurn": "Ei ole vuorosi.",
+    "errorSpectator": "Olet vain katsoja.",
+    "engineError": "AI-moottorin virhe: {{error}}",
+    "config": {
+      "titleChallenge": "Haasta pelaaja",
+      "titlePuzzle": "Pulma-peli",
+      "titleNew": "Uusi peli",
+      "readyToPlay": "Valmiina pelaamaan",
+      "invitedOpponent": "Sait haasteen",
+      "challengeInvite": "{{name}} haastaa sinut!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} kieltäytyi.",
+        "wait": "⏳ {{name}} on varattu.",
+        "accepted": "🎉 Haaste hyväksytty! Valmistaudu.",
+        "canceled": "Haaste peruutettu.",
+        "sent": "Haaste lähetetty pelaajalle {{name}}.",
+        "busy": "📭 {{name}} on varattu. Haastesi on jonossa.",
+        "offline": "Offline-tila. Ei voi aloittaa."
+      },
+      "ready": {
+        "title": "Peli valmis",
+        "desc": "Ensimmäinen on Musta (siirtää seuraavaksi), toinen on Punainen.",
+        "action": "LIITY NYT",
+        "hide": "Piilota"
+      },
+      "gifts": {
+        "received": "Sait lahjan!",
+        "coins": "Sait kultaa!",
+        "coinsDesc": "+{{amount}} 🪙",
+        "candy": "🍬 Karkki",
+        "bear": "🧸 Karhu",
+        "ring": "💍 Sormus"
+      },
+      "defaultConfigDesc": "Peli luotiin oletusasetuksilla:",
+      "defaultConfigDetails": "20 min, Julkinen, Elo-ranking.",
+      "advancedConfig": "⚙️ Lisäasetukset",
+      "timeMode": "Aikatila",
+      "findOpponent": "Etsi vastustaja",
+      "selected": "Valittu",
+      "searchPlaceholder": "Nimi tai UID...",
+      "online": "verkossa",
+      "noResults": "Ei löytynyt...",
+      "select": "Valitse",
+      "unselect": "Poista",
+      "boardOptions": "Laudan valinnat",
+      "private": "🔒 Yksityinen (Ei Eloa)",
+      "public": "🌐 Julkinen (Elo Ranking)",
+      "boardType": "Tyyppi",
+      "standard": "♟ Vakio",
+      "puzzle": "🧩 Pulma",
+      "puzzleSetup": "Aseta pulma",
+      "selectedPuzzle": "Valittu",
+      "change": "Vaihda",
+      "suggestions": "Ehdotukset",
+      "searchPuzzlePlaceholder": "Pulman nimi...",
+      "level": "Taso",
+      "challengeOptions": "Haasteen valinnat",
+      "message": "Viesti",
+      "defaultMessage": "Pelataanko xiangqia yhdessä?",
+      "betGifts": "Bettaa lahjoja",
+      "betActive": "🎁 Betattu",
+      "betNone": "🎁 Ei bettauksia",
+      "giftType": "Lahjan tyyppi",
+      "backToSimple": "« Takaisin perusnäkymään",
+      "goldWarning": "ℹ️ Pulmapelit eivät välttämättä anna kultaa",
+      "goldSuccess": "ℹ️ Vakiopelit antavat kultaa",
+      "creating": "Luodaan...",
+      "sendChallenge": "⚔️ Lähetä haaste",
+      "openMatch": "🚀 Avaa julkinen peli",
+      "playNow": "🚀 Pelaa nyt",
+      "modes": {
+        "blitz": "⚡ Blitz",
+        "rapid": "🏃 Nopeasti",
+        "standard": "⏱ Vakio",
+        "slow": "🎯 Hidas"
+      },
+      "toasts": {
+        "loginRequired": "Kirjaudu luodaksesi pelin.",
+        "challengeSent": "Haaste lähetetty pelaajalle {{name}}!",
+        "roomCreated": "Huone luotu onnistuneesti!",
+        "alreadyInGame": "Sinulla on jo peli kesken.",
+        "serverError": "Palvelinyhteysvirhe."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "Ratkaise <0>Pulmia</0>",
+    "subtitle": "Tuhansia pulmia yhteisöltä",
+    "listTitle": "Xiangqi-pulmalista",
+    "explore": "Tutki",
+    "saved": "Tallennetut",
+    "searchPlaceholder": "Haku...",
+    "level": "Vaikeusaste",
+    "levelValue": "Taso {{level}}",
+    "unclassified": "Luokittelematon",
+    "sort": {
+      "label": "Järjestys",
+      "newest": "Uusimmat",
+      "popular": "Suosituimmat",
+      "solved": "Ratkaistuimmat"
+    },
+    "time": {
+      "label": "Aika",
+      "all": "Kaikki",
+      "day": "Tänään",
+      "week": "Tällä viikolla",
+      "month": "Tässä kuussa"
+    },
+    "empty": {
+      "title": "Pulmia ei löytynyt",
+      "desc": "Kokeile muuttaa suodattimia.",
+      "reset": "Nollaa suodattimet"
+    },
+    "actions": {
+      "solve": "Ratkaise nyt",
+      "loadMore": "Lataa lisää ↓",
+      "backToSolve": "Takaisin"
+    },
+    "loginToSave": "Kirjaudu tallentaaksesi.",
+    "loginToChallenge": "Kirjaudu haastaaksesi.",
+    "red": "Punainen",
+    "black": "Musta",
+    "byUser": "Tekijä: {{name}}",
+    "meta": {
+      "title": "Ratkaise Xiangqi-pulmia Online - Paras tietokanta",
+      "description": "Avaukset, loppupelit ja taktiikat. Harjoittele ilmaiseksi.",
+      "itemListDesc": "Parhaat xiangqi-pulmat",
+      "itemListSchemaDesc": "Xiangqi-pulmatietokanta online.",
+      "home": "Koti",
+      "puzzles": "Pulmat",
+      "schemaGameTitle": "Pulma: {{name}}",
+      "schemaVideoTitle": "Video: {{name}}",
+      "schemaVideoDesc": "Miten ratkaista: {{name}}.",
+      "schemaVideoSolutionTitle": "Palapeliratkaisuvideo: {{name}} (Ratkaisu {{index}})",
+      "schemaVideoSolutionDesc": "Kuinka ratkaista xiangqi-pulma: {{name}} - Ratkaisu {{index}}.",
+      "authorDefault": "Xiangqi Online"
+    },
+    "seoContent": {
+      "whyTitle": "Miksi harjoitella <0>Pulmien</0> avulla?",
+      "intro": "<0>Pulmien ratkonta</0> on taktiikan ydin. Välttämätöntä taitojen kehittämiseksi.",
+      "guide": {
+        "title": "Opas aloittelijoille",
+        "intro": "Kehittyäksesi:",
+        "item1": "<0>Arvio:</0> Katso mitä nappuloita on jäljellä.",
+        "item2": "<0>Analyysi:</0> Etsi vastustajan heikot kohdat.",
+        "item3": "<0>Laskenta:</0> Etsi nopein matti-reitti."
+      },
+      "ai": {
+        "title": "Käytä AI-apua",
+        "intro": "Käytä <0>Pikafish AI:ta</0>:",
+        "item1": "Löytääksesi piilotetut siirrot.",
+        "item2": "Virheanalyysiin.",
+        "item3": "Laskemaan 10-20 siirtoa eteenpäin."
+      },
+      "benefits": {
+        "title": "Edut",
+        "satt": {
+          "title": "Satt",
+          "desc": "Hallitse tunnetut matti-kuviot."
+        },
+        "tanquoc": {
+          "title": "Loppupeli",
+          "desc": "Opi voittamaan vähillä nappuloilla."
+        },
+        "tuduy": {
+          "title": "Ajattelu",
+          "desc": "Tunnista voittavat kuviot automaattisesti."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "Analyysi:",
+        "defaultName": "Klassikko",
+        "intro": "Pulma <0>{{name}}</0> on loistava <1>taktiikkaharjoitus</1>.",
+        "tips": {
+          "title": "💡 Vinkki",
+          "desc": "Seuraa hyökkääviä nappuloita. Yllättävä <0>shakki</0> voi olla avain voittoon."
+        },
+        "advanced": {
+          "title": "📈 Edistyminen",
+          "desc": "Onnistuneen ratkaisun jälkeen käytä AI:ta nähdäksesi muut vaihtoehdot."
+        }
+      },
+      "seoTitle": "Ratkaise pulma: {{name}} - Xiangqi Online",
+      "seoDesc": "Ratkaise {{name}} online. Harjoita laskentataitoasi.",
+      "rewardFirst": "🏆 Upeaa! Ansaitsit {{count}} 🪙.",
+      "rewardUpdate": "Onnittelut! Tuloksesi on päivitetty.",
+      "viewingSolution": "Katso ratkaisu: ",
+      "loadError": "Laudan lataus epäonnistui",
+      "loginRequiredTitle": "Kirjautuminen!",
+      "loginRequiredMsg": "Kirjaudu suorittaaksesi tämän toiminnon.",
+      "mission": "Tehtävä",
+      "missionDesc": "Etsi tapa voittaa.",
+      "aiSolver": "AI-ratkaisija",
+      "aiSolverDesc": "Aktivoi \"🤖 AI-apu\" auto-vastausta varten.",
+      "achievement": "Saavutus",
+      "achievementDesc": "Ansaitse kultaa ensimmäisestä oikeasta ratkaisusta.",
+      "aiServer": "AI-palvelin",
+      "aiServerDesc": "Vaativat tasot käyttävät Pikafish-palvelinta.",
+      "title": "Info",
+      "backToList": "Lista",
+      "puzzleNameLabel": "Pulma nro {{id}}",
+      "firstPlayer": "Aloittaja",
+      "redFirst": "🔴 Punainen ensin",
+      "blackFirst": "⚫ Musta ensin",
+      "creator": "Tekijä",
+      "difficulty": "Vaikeusaste",
+      "relatedGames": "Liittyvät pelit",
+      "justHappened": "Juuri nyt",
+      "saved": "Tallennettu",
+      "savePuzzle": "Tallenna pulma",
+      "solverTitle": "Ratkaisu",
+      "solveMode": "Tila",
+      "modeAi": "🤖 AI (Automaattinen)",
+      "modeManual": "👥 Itse (Ei AI)",
+      "aiLevel": "AI Vahvuus",
+      "sideSelect": "Puolesi",
+      "redSide": "Punainen",
+      "blackSide": "Musta",
+      "undo": "Peruuta",
+      "restart": "Aloita alusta",
+      "hallOfFame": "Kunnian galleria",
+      "solvedBy": "Ratkaissut",
+      "player": "Pelaaja",
+      "movesCount": "Siirrot: {{count}}",
+      "view": "Katso",
+      "noSolutions": "Kukaan mestari ei ole vielä ratkaissut tätä.\nOle ensimmäinen!",
+      "similarPuzzles": "Samankaltaisia pulmia",
+      "relatedMatchReports": "Liittyvät raportit"
+    }
+  },
+  "notifications": {
+    "title": "Ilmoitukset",
+    "panelHeader": "Viestit",
+    "clearAll": "Tyhjennä kaikki",
+    "empty": "Ei uusia viestejä.",
+    "viewNow": "Katso nyt →",
+    "push": {
+      "prompt": "Ota ilmoitukset käyttöön, ettet missaa haasteita!",
+      "enable": "Aktivoi",
+      "saveError": "Asetusten tallennus epäonnistui.",
+      "deniedError": "Lupa evätty. Salli ilmoitukset selaimesta.",
+      "genericError": "Aktivointi epäonnistui."
+    },
+    "challenges": {
+      "standard": "Vakio",
+      "puzzle": "Pulma",
+      "accepted": "🔥 Hyväksytty",
+      "declined": "❌ Kieltäydytty",
+      "canceled": "⚪ Peruutettu",
+      "waitOpponent": "⏳ Odotetaan vastustajaa...",
+      "waitYou": "⏳ Odotetaan sinua...",
+      "acceptAction": "Kyllä",
+      "waitAction": "Odota",
+      "cancelAction": "Peruuta",
+      "deleteAction": "Poista",
+      "inGameTooltip": "Pelaat parhaillaan"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "Virheellinen lauta",
+      "checkAgain": "Tarkista uudelleen",
+      "loginRequired": "Ole hyvä ja kirjaudu sisään jatkaaksesi.",
+      "nameRequired": "Anna tälle asetukselle nimi.",
+      "descRequired": "Anna kuvaus tälle asetukselle.",
+      "twoKings": "Asetuksella on oltava täsmälleen 2 kuningasta.",
+      "faceToFace": "Virhe: Kuninkaat eivät voi kohdata toisiaan suoraan.",
+      "redCheck": "Red King on tällä hetkellä tarkastuksessa.",
+      "blackCheck": "Black King on tällä hetkellä kurissa.",
+      "pieceLimit": "Enintään {{type}}-tyypin {{limit}}-kappaleita sallitaan.",
+      "generalPalace": "{{side}}-kenraalin on oltava palatsin sisällä (3x3).",
+      "advisorPalace": "{{side}} Advisorin on oltava palatsin sisällä (3x3).",
+      "advisorDiagonal": "{{side}} Advisor voidaan sijoittaa vain diagonaalisiin palatsipisteisiin.",
+      "elephantRiver": "{{side}} Elephant ei voi ylittää jokea.",
+      "elephantPoints": "{{side}} Elephant voidaan sijoittaa vain kiinteisiin kotisivuasentoihin.",
+      "redSoldierBackward": "Red Soldier ei voi liikkua taaksepäin lähtöviivan takana.",
+      "redSoldierColumns": "Red Soldier ennen jokea voi seistä vain parittomilla pylväillä (1, 3, 5, 7, 9).",
+      "blackSoldierBackward": "Black Soldier ei voi liikkua taaksepäin lähtöviivan takana.",
+      "blackSoldierColumns": "Black Soldier ennen jokea voi seistä vain parittomilla pylväillä (1, 3, 5, 7, 9).",
+      "saveError": "Virhe tallennettaessa",
+      "unknownError": "Tapahtui tuntematon virhe.",
+      "connError": "Yhteysvirhe",
+      "connMsg": "Ei saatu yhteyttä palvelimeen.",
+      "fenError": "FEN error.",
+      "red": "Punainen",
+      "black": "Musta",
+      "successLoad": "Ladattu: {{name}}",
+      "successUpdate": "Päivitetty: {{name}}",
+      "successSave": "Tallennettu: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "Editori & Laudan asetus",
+    "tryoutTitle": "Kokeile AI:ta",
+    "tryout": {
+      "modeLabel": "Tila:",
+      "modeAi": "🤖 Pelaa vs AI",
+      "modeManual": "👥 Itse (molemmat)",
+      "selectBot": "Valitse vastustaja:",
+      "levelLabel": "AI-taso:",
+      "levelOption": "TASO {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "Puoli:",
+      "viewLabel": "Näkymä:",
+      "sideRed": "Punainen",
+      "sideBlack": "Musta",
+      "backLabel": "Takaisin"
+    },
+    "paletteTitle": "Nappulat",
+    "palette": {
+      "selecting": "Valittu:",
+      "erase": "Poista",
+      "clear": "Tyhjennä",
+      "redPrefix": "Punaiset",
+      "blackPrefix": "Mustat"
+    },
+    "fen": {
+      "label": "Tuo FEN",
+      "placeholder": "Enter FEN string...",
+      "apply": "Ok"
+    },
+    "historyTitle": "Tallennetut",
+    "history": {
+      "loadAction": "Ladata",
+      "viewAction": "Näytä"
+    },
+    "modals": {
+      "duplicateTitle": "Asennus on jo olemassa",
+      "duplicateMsg": "Sama kuin [{{name}}].",
+      "duplicateAction": "NÄYTÄ ASETUKSET",
+      "clearTitle": "Tyhjennä hallitus?",
+      "clearMsg": "Poistetaanko kaikki osat?"
+    },
+    "rules": {
+      "title": "Editorin säännöt",
+      "orientation": {
+        "label": "Suunta:",
+        "desc": "Punainen alhaalta, musta ylhäältä."
+      },
+      "turn": {
+        "label": "Siirrä käännöstä:",
+        "desc": "Oletusarvoisesti punainen liikkuu ensin."
+      },
+      "general": {
+        "label": "Yleistä:",
+        "desc": "1 kpl per puoli, palatsissa (3x3)."
+      },
+      "check": {
+        "label": "Matti:",
+        "desc": "Kumpikaan kenraali ei voi olla tarkastuksen alla."
+      },
+      "facing": {
+        "label": "Kenraaleja vastaan:",
+        "desc": "Kenraalit eivät voi kohdata toisiaan samassa tiedostossa."
+      },
+      "defense": {
+        "label": "Neuvonantaja/Elefantti:",
+        "desc": "Max 2 kpl kutakin. Neuvonantaja palatsissa, Elefantti ei voi ylittää jokea."
+      },
+      "soldier": {
+        "label": "Sotilas:",
+        "desc": "Max 5 kpl. Ei voi ylittää jokea parillisissa tiedostoissa (alkuperäisessä VN:ssä väärin, mutta pidän logiikkaa)."
+      }
+    },
+    "seoTitle": "Xiangqi Boardin asennus- ja palapelieditori verkossa",
+    "seoDesc": "Set up boards, create puzzles and explore with AI. Professional tools on cotuong.xyz.",
+    "modeTryout": "Analyysi",
+    "modeEditor": "Editointi",
+    "actionTry": "vs AI",
+    "actionUndo": "Kumoa",
+    "actionReset": "Nollaus",
+    "toast": {
+      "loginSave": "Kirjaudu tallentaaksesi.",
+      "loginChallenge": "Kirjaudu sisään haastaaksesi.",
+      "boardCleared": "Tyhjä."
+    },
+    "seoContent": {
+      "title": "Ammattimainen <0>Xiangqin online-asennus</0> -työkalu",
+      "intro": "Johtava <0>xiangqi-asennus</0> ja <1>palapelieditori</1>. <2>Aseta lautoja vapaasti</2>, luo mattiharjoituksia tai pääteasentoja.",
+      "feature1": {
+        "title": "Tehokkaat ominaisuudet",
+        "desc": "Drag-and-drop, FEN input, integrated <1>AI software</1> (Pikafish) for instant checks."
+      },
+      "feature2": {
+        "title": "Jaa intohimosi",
+        "desc": "Tietokantaan tallennetut tai julkiset <0>palapelit</0>. Harjoittele ajatteluasi ja osallistu."
+      }
+    },
+    "form": {
+      "guestTitle": "Vierastila",
+      "guestDesc": "Kirjaudu sisään tallentaaksesi ja jakaaksesi.",
+      "nameLabel": "Nimi:",
+      "namePlaceholder": "Anna nimi...",
+      "levelLabel": "Vaikeus:",
+      "levelOption": "VALITA",
+      "levelValue": "Taso {{level}}",
+      "descLabel": "Kuvaus:",
+      "descPlaceholder": "...",
+      "saveAction": "Tallenna",
+      "loginSaveAction": "🔐 Kirjaudu",
+      "importError": "FEN-tuontivirhe:"
+    }
+  },
+  "tournaments": {
+    "title": "Turnaukset",
+    "subtitle": "Mestareiden Areena",
+    "loading": "Ladataan turnauslistaa...",
+    "empty": "Turnauksia ei ole tällä hetkellä käynnissä.",
+    "listTitle": "Turnauslista",
+    "listDesc": "Käynnissä olevat ja tulevat turnaukset alustalla.",
+    "champion": "Mestari: {{name}}",
+    "players": {
+      "pendingTitle": "Liittymispyynnöt ({{count}})",
+      "registeredTitle": "Rekisteröidyt pelaajat ({{count}})",
+      "empty": "Pelaajia ei ole vielä rekisteröitynyt.",
+      "approve": "Hyväksyä"
+    },
+    "rounds": "{{count}} Kierrosta",
+    "minElo": "Minimielo: {{elo}}",
+    "requireApproval": "Hyväksyntä vaaditaan",
+    "hasPrizes": "On Palkintoja",
+    "deadline": "Ilm. loppuu:",
+    "createdAt": "Luotu:",
+    "noDescription": "Ei kuvausta.",
+    "status": {
+      "registration": "Rekisteröinti",
+      "active": "Käynnissä",
+      "deadline_closed": "Määräaika päättynyt",
+      "finished": "Loppu"
+    },
+    "backToList": "Takaisin luetteloon",
+    "noDescriptionDetail": "Tästä turnauksesta ei ole saatavilla yksityiskohtaista kuvausta.",
+    "currentRound": "Kierros: {{current}}{{total}}",
+    "playersCount": "Pelaajat: {{current}}/{{total}}",
+    "registrationInfo": "Ilmoittautumistiedot",
+    "start": "Aloita",
+    "closed": "Suljettu",
+    "joinAction": "Rekisteröidy nyt",
+    "joining": "Liitytään...",
+    "joined": "Rekisteröity",
+    "pendingApproval": "Odottaa hyväksyntää",
+    "formats": {
+      "swiss": "Sveitsin järjestelmä",
+      "roundrobin": "Round Robin"
+    },
+    "timeline": {
+      "emptyAdmin": "Ei otteluita vielä. Luo uusi kierros!",
+      "emptyUser": "Otteluita päivitetään...",
+      "roundLabel": "Pyöreä {{round}}",
+      "status": {
+        "active": "Aktiivinen"
+      },
+      "actions": {
+        "review": "Arvostelu",
+        "play": "Pelaa nyt",
+        "watch": "Katsella"
+      },
+      "sides": {
+        "red": "Punainen",
+        "black": "Musta"
+      }
+    },
+    "standings": {
+      "empty": "Tilannetietoja ei ole saatavilla.",
+      "stats": {
+        "win": "Voittaa",
+        "draw": "Piirrä",
+        "loss": "Menetys",
+        "bye": "Heippa"
+      }
+    },
+    "prizes": {
+      "title": "Palkintorakenne",
+      "goldUnit": "Kulta"
+    },
+    "announcements": {
+      "placeholder": "Lisää ilmoituksen sisältö...",
+      "postAction": "Lähetä ilmoitus",
+      "empty": "Ei ilmoituksia tästä turnauksesta."
+    },
+    "detail": {
+      "notFound": "Turnausta ei löydy.",
+      "champion": {
+        "title": "Mestari",
+        "points": "pts",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "Rekisteröidy",
+        "joined": "Rekisteröity",
+        "pending": "Odottaa",
+        "createRound": "Luo kierros {{round}}",
+        "finishTournament": "Maali Turnaus"
+      },
+      "tabs": {
+        "timeline": "Aikajana",
+        "standings": "Sarjataulukko",
+        "players": "Pelaajat",
+        "prizes": "Palkinnot",
+        "announcements": "Ilmoitukset"
+      },
+      "meta": {
+        "title": "{{name}} | Xiangqi verkossa",
+        "description": "{{name}}-turnauksen tiedot, aikataulu ja sijoitukset."
+      },
+      "messages": {
+        "joinSuccess": "✅ Ilmoittautuminen onnistui!",
+        "joinPending": "✅ Hakemus lähetetty, odottaa järjestelmänvalvojan hyväksyntää.",
+        "roundStarted": "✅ Kierros {{round}} luotu — {{count}} vastaa {{bye}}:ää",
+        "bye": "({{name}} sai BYE)",
+        "tournamentFinished": "🏆 Turnaus päättynyt! Mestari: {{name}}",
+        "confirmFinish": "Lopetetaanko turnaus ja julkistetaan mestari?",
+        "confirm": "Vahvista Valmis"
+      },
+      "errors": {
+        "joinClosed": "⏰ Ilmoittautumisaika on päättynyt.",
+        "joinFull": "❌ Turnaus on täynnä.",
+        "joinNotRegistration": "❌ Turnaukseen ei enää oteta ilmoittautumisia.",
+        "joinFailed": "❌ Yhteysvirhe.",
+        "maxRounds": "{{count}}-kierrosten enimmäismäärä saavutettu!",
+        "notEnoughPlayers": "Vähintään 2 pelaajaa vaaditaan.",
+        "alreadyFinished": "Turnaus on päättynyt.",
+        "finishError": "Virhe turnauksen lopettamisessa."
+      }
+    },
+    "meta": {
+      "title": "Xiangqi-turnaukset Online",
+      "description": "Join online xiangqi tournaments, compete with masters and receive valuable rewards. Fair and professional competition system at cotuong.xyz.",
+      "home": "Koti",
+      "tournaments": "Turnaukset"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "<0>Mestarien</0> areena",
+        "desc": "The tournament system at cotuong.xyz is where the sharpest tactical minds meet. We provide a professional, transparent, and dramatic playground for all levels of players."
+      },
+      "features": {
+        "formats": {
+          "title": "Monipuoliset formaatit",
+          "desc": "Sveitsiläisestä järjestelmästä Round Robiniin, mikä varmistaa oikeudenmukaisuuden ja löytää arvokkaimman voittajan."
+        },
+        "prizes": {
+          "title": "Arvokkaita palkintoja",
+          "desc": "Palkinnot sisältävät kolikoita (XQG) ja ainutlaatuisia koriste-esineitä asemasi vahvistamiseksi."
+        },
+        "experience": {
+          "title": "Sujuva kokemus",
+          "desc": "Automatisoitu matchmaking, pisteytys ja reaaliaikaiset tulostaulukon päivitykset."
+        },
+        "honor": {
+          "title": "Mestareiden kunniaksi",
+          "desc": "Mestarien nimet tullaan kunnioittamaan yhteisön historiassa."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Pelaa Xiangqi vs {{name}} (AI) - Online Xiangqi -koulutus",
+    "seoTitleDefault": "Pelaa Xiangqia Botin kanssa - Erittäin vahva Pikafish AI",
+    "seoDesc": "Haasta itsesi pelaamalla xiangqi vs {{name}} tasolla {{level}}. Huipputason Pikafish AI -teknologian käyttö auttaa sinua parantamaan taitojasi.",
+    "seoDescDefault": "Harjoittele xiangqia botin kanssa tasolla {{level}}. Maailman vahvin Pikafish AI -alusta, joka tukee liikeanalyysiä.",
+    "title": "<0>Duelo con IA</0>",
+    "settings": "Ajuste",
+    "undo": "Kumoa",
+    "newGame": "Nueva",
+    "agentsOnline": "{{count}}-agentit verkossa",
+    "personality": {
+      "aggressive": "Aggressiivinen",
+      "defensive": "Puolustava",
+      "balanced": "Tasapainoinen"
+    },
+    "ranks": {
+      "level1": "Aloittelija",
+      "level4": "Ammattilainen",
+      "level6": "Suurmestari"
+    },
+    "bot": {
+      "error_not_found": "Boteja ei löytynyt. Tarkista Järjestelmänvalvoja › Botit."
+    },
+    "seoContent": {
+      "title": "Entrena con <0>Pikafish</0>",
+      "intro": "Welcome to the <0>play xiangqi with bot</0> page at cotuong.xyz. We provide a professional training experience with Pikafish AI – one of the strongest xiangqi engines today. Whether you are a beginner or a master, our AI system always has a suitable difficulty Level for you.",
+      "feature1": {
+        "title": "Pikafish AI -moottori",
+        "desc": "Pikafish Enginen käyttäminen (optimoitu Stockfish Xiangqille) ja kyky laskea miljoonia liikkeitä sekunnissa."
+      },
+      "feature2": {
+        "title": "Monipuoliset tasot",
+        "desc": "Tasolta 1 (aloittelija) tasolle 10 (suurmestari), joka auttaa sinua edistymään askel askeleelta matkallasi xiangqin hallitsemiseen."
+      },
+      "feature3": {
+        "title": "Välitön analyysi",
+        "desc": "Järjestelmä tallentaa merkinnän ja antaa sinun tarkastella ja analysoida virheitä heti ottelun jälkeen oppiaksesi niistä."
+      },
+      "whyTitle": "Miksi harjoitella tekoälyllä?",
+      "whyDesc": "Koneella harjoitteleminen auttaa harjoittelemaan kärsivällisyyttä ja tarkkoja laskelmia. Toisin kuin ihmisten vastustajat, tekoäly ei koskaan tee typeriä virheitä, mikä pakottaa sinut pelaamaan korkeimmalla keskittymällä.",
+      "tags": {
+        "online": "Online",
+        "withAi": "vs IA",
+        "engine": "Pikafish",
+        "practice": "trainxiangqi",
+        "hall": "mindhall",
+        "ai": "tekoäly"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "Teema: Tumma"
+    },
+    "title": "Tili",
+    "dashboard": "Aula",
+    "account": "Asetukset",
+    "overview": "Toiminnan yleiskatsaus",
+    "customize": "Boutique",
+    "boardInterface": "Hallituksen käyttöliittymä",
+    "boardInterfaceDesc": "Mukauta taulun katselukokemusta.",
+    "autoScroll": "Autoscroll",
+    "autoScrollDesc": "Vieritä laudalle saapuessasi otteluun",
+    "autoScrollSuccess": "Boardin vieritysasetus päivitetty",
+    "cropAvatar": "Rajaa Avatar",
+    "zoom": "Zoomaa",
+    "saveImage": "Tallenna kuva",
+    "updateNameSuccess": "Näyttönimi päivitetty onnistuneesti!",
+    "updateAvatarSuccess": "Avatar päivitetty onnistuneesti!",
+    "pieceStyle": "Tyyli",
+    "pieceStyleDesc": "Valitse haluamasi kappalesarjan visualisointi.",
+    "pieceStyles": {
+      "traditional": "Kiinalainen",
+      "international": "Länsimainen",
+      "simple": "Zen"
+    },
+    "voicePack": "Äänet",
+    "voicePackDesc": "Pelin tiedotusäänet.",
+    "voicePacks": {
+      "vi": "vietnam",
+      "en": "englanti",
+      "zh": "kiinalainen",
+      "ja": "japanilainen",
+      "none": "Ei ääntä (vain äänet)"
+    },
+    "changePasswordSuccess": "¡Ok!",
+    "deletePuzzleTitle": "?",
+    "deletePuzzleConfirm": "Haluatko varmasti poistaa pulman [{{name}}]? Tätä toimintoa ei voi kumota.",
+    "deletePuzzleAction": "POISTA NYT",
+    "deletePuzzleSuccess": "Palapeli poistettu!",
+    "notificationsEnabled": "Ilmoitukset otettu käyttöön onnistuneesti!",
+    "notificationsError": "Ilmoituksia ei voitu ottaa käyttöön.",
+    "matchHistory": "Otteluhistoria",
+    "achievements": "Saavutukset",
+    "inventory": "Varasto",
+    "myContent": "Oma sisältö",
+    "security": "Turva",
+    "notifications": "Ilmoitukset",
+    "changePassword": "Pass",
+    "oldPassword": "Vanha salasana",
+    "newPassword": "Uusi salasana",
+    "confirmPassword": "Vahvista salasana",
+    "displayName": "Nimi",
+    "updateProfile": "Päivitä profiili",
+    "notificationsDesc": "Vastaanota ilmoituksia turnauksista, viesteistä ja uusista haasteista.",
+    "pushSuccess": "Ilmoitukset otettu käyttöön!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - Xiangqin koti. Pikafish AI.",
+    "missionShort": "Premium Xiangqi -alusta",
+    "experience": "Kokea",
+    "knowledge": "Tietoa",
+    "services": "Palvelut",
+    "contactLegal": "Yhteystiedot ja lakiasiat",
+    "onlineArena": "Arena",
+    "puzzles": "Pulmat",
+    "playWithAi": "Pelaa AI:lla",
+    "leaderboard": "Rank",
+    "howToPlay": "Säännöt",
+    "basicTactics": "Perustaktiikat",
+    "practicalEndgame": "Käytännön loppupeli",
+    "news": "News",
+    "shop": "Boutique",
+    "profile": "Käyttäjäprofiili",
+    "vipUpgrade": "VIP-päivitys",
+    "support": "Käyttäjätuki",
+    "privacy": "Privacy",
+    "terms": "Ehdot",
+    "officialRules": "Viralliset säännöt",
+    "active": "Aktiivinen",
+    "globalServer": "Maailmanlaajuinen palvelin",
+    "facebookPage": "Facebook sivu",
+    "facebookGroup": "Facebook ryhmä",
+    "allSystemsOperational": "Kaikki järjestelmät toimivat",
+    "joinPlayers": "Liity yli 50 000 pelaajan joukkoon",
+    "globalPresence": "Globaali läsnäolo",
+    "infrastructure": "Infrastruktuuri",
+    "security": "Turvallisuus",
+    "versionControl": "Versionhallinta",
+    "release": "Vapauta",
+    "deployTime": "Käyttöönottoaika",
+    "staticHub": "Globaali staattinen keskus",
+    "sslVerified": "SSL vahvistettu",
+    "build": "Rakentaa",
+    "time": "Aika",
+    "copyright": "Xiangqi Online - Design by <0>cotuong.xyz</0>. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "Palveluehdot | Xiangqi verkossa",
+      "description": "Xiangqi Onlinen käyttöehdot. Tilejä, reilua peliä ja käyttäjävastuuta koskevat säännöt."
+    },
+    "title": "Ehdot & <0>Reglas</0>",
+    "title_p1": "Ehdot &",
+    "title_p2": "ehdot",
+    "intro": "Tervetuloa online-xiangqi-yhteisöön. Sivistyneen, reilun ja jännittävän shakkiympäristön rakentamiseksi määritämme yleiset säännöt, joita jokaisen pelaajan on noudatettava.",
+    "cardTitle": "Sopimus",
+    "lastUpdated": "Viimeksi päivitetty",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "acceptance": {
+        "title": "Ehtojen hyväksyminen",
+        "content": "By accessing and using the Xiangqi Online website (cotuong.xyz), you agree to comply with the terms and conditions set forth here. If you do not agree with any part of these terms, please do not use our services."
+      },
+      "accounts": {
+        "title": "Tilit",
+        "item1": "Olet vastuussa tilitietojesi ja salasanasi turvallisuudesta.",
+        "item2": "Sitoudut antamaan tarkat ja ajantasaiset tiedot rekisteröityessäsi.",
+        "item3": "Jokaisella käyttäjällä tulee olla korkeintaan yksi tili sijoituksen oikeudenmukaisuuden varmistamiseksi.",
+        "item4": "Varaamme oikeuden jäädyttää tai poistaa tilit, jos rikkomuksia havaitaan."
+      },
+      "fairplay": {
+        "title": "Reilu peli",
+        "intro": "Xiangqi Online edistää urheilullisuutta ja älykkyyttä. Seuraavat käytökset ovat ehdottomasti kiellettyjä:",
+        "item1": "Moottoreiden, tekoälyn tai muiden huijaustyökalujen käyttäminen online-otteluissa muiden pelaajien kanssa.",
+        "item2": "Hiekkasäkkien lisääminen tai ottelutulosten järjestäminen ELO-pisteiden epätavallisen lisäämiseksi/vähentämiseksi.",
+        "item3": "Loukkaavan, loukkaavan tai syrjivän kielen käyttäminen chat-huoneessa.",
+        "item4": "Roskapostin lähettäminen tai muiden pelaajien häirintä."
+      },
+      "copyright": {
+        "title": "Sisältö ja tekijänoikeus",
+        "content": "Kaikki verkkosivuston sisältö, mukaan lukien käyttöliittymä, lähdekoodi, shakkinappulakuvat ja oppitunnit, on Xiangqi Onlinen tekijänoikeuksien suojaama tai lisensoitu käytettäväksi. Et saa kopioida tai käyttää uudelleen kaupallisiin tarkoituksiin ilman kirjallista lupaa."
+      },
+      "liability": {
+        "title": "Vastuun rajoitus",
+        "content": "Palvelu tarjotaan \"sellaisenaan\". Emme takaa, että sivusto toimii aina ilman virheitä tai keskeytyksiä. Emme ole vastuussa mistään menetyksistä, jotka johtuvat palvelun käytöstä tai kyvyttömyydestä käyttää."
+      },
+      "changes": {
+        "title": "Muutokset ehtoihin",
+        "content": "Pidätämme oikeuden muuttaa näitä ehtoja milloin tahansa. Muutokset astuvat voimaan heti, kun ne on julkaistu verkkosivulla. Jatkuva käyttösi muutosten jälkeen tarkoittaa, että hyväksyt uudet ehdot."
+      }
+    },
+    "footer": "Kiitos, että olet osa online-xiangqi-yhteisöä"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Tietosuojakäytäntö | Xiangqi verkossa",
+      "description": "Xiangqi Onlinen tietosuojakäytäntö. Tietoja tiedonkeruusta, käyttäjien oikeuksien suojasta ja tilin turvallisuudesta."
+    },
+    "title": "Privacy & <0>Turva</0>",
+    "title_p1": "Yksityisyys &",
+    "title_p2": "Turvallisuus",
+    "intro": "Player's personal data and privacy are a top priority at cotuong.xyz. We are committed to transparency in collecting and protecting your information.",
+    "cardTitle": "Politiikka",
+    "lastUpdated": "Viimeksi päivitetty",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "collection": {
+        "title": "Keräämämme tiedot",
+        "intro": "Keräämme seuraavat tiedot tarjotaksemme parhaan xiangqi-palvelun:",
+        "item1": "Tilitiedot: Sähköposti, näyttönimi, profiilikuva (jos käytät Google-kirjautumista).",
+        "item2": "Pelitiedot: Otteluhistoria, ELO-pisteet, suoritetut oppitunnit ja kertyneet kolikot.",
+        "item3": "Tekniset tiedot: IP-osoite, selaintyyppi järjestelmän turvallisuutta ja petostentorjuntaa varten."
+      },
+      "usage": {
+        "title": "Tiedon käytön tarkoitus",
+        "intro": "Käytämme kerättyjä tietoja seuraaviin tarkoituksiin:",
+        "item1": "Tilinhallinta, yksilöllinen pelaajakokemus.",
+        "item2": "Otteluhistorian tallentaminen, sijoitusten päivittäminen ja oppimisen edistyminen.",
+        "item3": "Tärkeiden järjestelmäilmoitusten lähettäminen (tarvittaessa).",
+        "item4": "Tietojen analysointi (Google Analytics) käyttöliittymän ja ominaisuuksien parantamiseksi."
+      },
+      "security": {
+        "title": "Tietoturva",
+        "content": "Olemme sitoutuneet suojaamaan tietosi nykyaikaisilla teknisillä toimenpiteillä, kuten salasanasalauksella ja HTTPS:llä. Mikään Internet-lähetys ei kuitenkaan ole 100% turvallista, sinun tulee suojata oma salasanasi."
+      },
+      "sharing": {
+        "title": "Kolmannen osapuolen tietojen jakaminen",
+        "content": "Emme <0>koskaan</0> myy dataasi.",
+        "content_p1": "Me",
+        "content_p2": "ei koskaan",
+        "content_p3": "myydä tai vuokrata henkilötietojasi kolmansille osapuolille. Jaamme vain tärkeitä tietoja palvelukumppaneiden, kuten Googlen, kanssa."
+      },
+      "rights": {
+        "title": "Käyttäjän oikeudet",
+        "intro": "Sinulla on täydet oikeudet henkilötietoihisi:",
+        "item1": "Päivitä henkilökohtaiset tiedot asetuksissa.",
+        "item2": "Pyydä tilin ja kaikkien osumatietojen poistamista.",
+        "item3": "Järjestelmän ilmoitusten poistaminen käytöstä."
+      }
+    },
+    "footer": "Your privacy is a top priority at cotuong.xyz"
+  },
+  "shop": {
+    "title": "Lahjatavarakauppa",
+    "meta": {
+      "title": "Lahjakauppa | Xiangqi verkossa",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Xiangqin verkkolahjakauppa",
+      "listDesc": "Hengellisiä lahjoja xiangqi-pelaajille.",
+      "home": "Kotiin",
+      "shop": "Kauppa",
+      "loading": "Ladataan kauppaa..."
+    },
+    "subtitle": "\"Ruusun antaminen jättää tuoksun käteen\". Lähetä rakkautta pelaajillesi.",
+    "yourCoins": "Sinun kolikoitasi",
+    "messages": {
+      "success": "Lahja ostettu onnistuneesti!",
+      "insufficient": "Ei tarpeeksi kolikoita!",
+      "error": "Virhe lahjan ostamisessa.",
+      "networkError": "Verkkovirhe lahjaa ostettaessa."
+    },
+    "buy": {
+      "processing": "Ostaminen...",
+      "insufficient": "Riittämätön kolikoita",
+      "now": "Osta nyt",
+      "defaultDesc": "Pieni lahja, jolla on suuri merkitys."
+    },
+    "tips": {
+      "title": "Vinkkejä kolikoiden ansaitsemiseen",
+      "desc": "Kolikot ovat ensisijainen valuutta Xiangqi Onlinessa. Et voi ostaa kolikoita oikealla rahalla, vaan sinun täytyy <0>kertyä vaivalla</0> ja harjoitella taitojasi:",
+      "item1": "Suorita harjoitukset kohdassa <0>Kuinka pelata</0>. Jokainen uusi oppitunti tuo kelvollisen määrän kolikoita.",
+      "item2": "Osallistu <0>verkkoturnauksiin</0>. Korkea-arvoiset pelaajat saavat kolikoita ja arvoesineitä.",
+      "item3": "Vastaanota lahjoja ystäviltä ja faneilta, kun sinulla on erinomaisia ​​otteluita.",
+      "viewTournaments": "Näytä tulevat turnaukset →"
+    },
+    "culture": {
+      "title": "Lahjakulttuuri",
+      "desc1": "Shakin maailmassa lahjojen antaminen ei tarkoita vain aineellisia asioita, vaan <0>kunnioituksen ja yhteyden osoittamista</0> pelaajien välillä.",
+      "desc2": "\"Kansallinen vastustaja\" - Pienet lahjat, kuten 🌹 ruusut tai ☕ kahvi, ovat loistava tapa aloittaa uusi ystävyys stressaavan ottelun jälkeen. Käytä ansaittuja kolikoitasi kaunistaaksesi Xiangqi-yhteisöämme."
+    }
+  },
+  "leaderboard": {
+    "title": "Mestarit ja jäsenet",
+    "subtitle": "Community Hall of Fame ({{count}}-jäsenet)",
+    "meta": {
+      "title": "Leaderboard - Honoring Masters | Xiangqi verkossa",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Xiangqi Online Playerin tulostaulukko",
+      "listDesc": "Luettelo pelaajista, joilla on korkein elo yhteisössä.",
+      "home": "Kotiin"
+    },
+    "hierarchy": {
+      "title": "Pelaajahierarkia ja Elo-järjestelmä",
+      "desc": "Elon luokitusjärjestelmä on rakennettu kansainvälisten standardien pohjalta, ja se heijastaa tarkasti pelaajan tasoa ja suorituskykyä.",
+      "rank1": {
+        "title": "Noviisi ja rento",
+        "desc": "Ensimmäiset askeleet xiangqin valloittamisessa. Keskity perusmattien hallitsemiseen."
+      },
+      "rank2": {
+        "title": "Keskitaso ja edistynyt",
+        "desc": "Syvä ymmärrys avauksesta ja keskipelistä. Joustava kappaleiden koordinointi."
+      },
+      "rank3": {
+        "title": "Hallita",
+        "desc": "Saavutti korkeimman tason, pystyi laskemaan kymmeniä liikkeitä syvälle."
+      },
+      "rank4": {
+        "title": "Suurmestari",
+        "desc": "Yhteisön legendoja, jotka hallitsevat kaikkia salaisia ​​taiteita ja ansoja."
+      }
+    },
+    "search": "Etsi pelaajia...",
+    "table": {
+      "rank": "#",
+      "player": "Pelaaja",
+      "elo": "Elo",
+      "games": "Pelit",
+      "status": "Tila",
+      "playing": "Pelaaminen",
+      "actions": "Toiminnot"
+    },
+    "statuses": {
+      "searching": "Haetaan..."
+    },
+    "actions": {
+      "view": "📺 Katso",
+      "message": "Viesti"
+    },
+    "empty": "Pelaajia ei löytynyt",
+    "pagination": {
+      "page": "Sivu {{current}} / {{total}}",
+      "total": "{{count}} soittimet",
+      "prev": "Ed",
+      "next": "Seuraavaksi"
+    },
+    "footer": "Elon rankingjärjestelmä perustuu julkisiin otteluihin. Liity kilpailuihin saadaksesi paremmuusjärjestyksen ja päästäksesi Hall of Fameen!",
+    "lesson": "Oppitunti"
+  },
+  "practice": {
+    "title": "Opi ja <0>harjoittele</0>",
+    "subtitle": "Harjoittele perusasioita edistyneisiin matti- ja loppupeleihin",
+    "loading": "Ladataan oppituntia...",
+    "meta": {
+      "title": "Opi ja harjoittele Xiangqi Online - Matti- ja Endgame Training",
+      "description": "Liity xiangqi-kursseille peruskurssista edistyneeseen. Harjoittele palaliikkeitä, ratkaise pulmia ja harjoittele AI Pikafishin kanssa parantaaksesi taitojasi joka päivä.",
+      "home": "Kotiin",
+      "practice": "Harjoitella"
+    },
+    "list": {
+      "title": "Tutustu Xiangqin olemukseen",
+      "description": "Opi perusosasta edistyneeseen jäsennellyn tiekartan avulla. Jokaisella oppitunnilla on interaktiivinen taulu ja tekoälytuki jokaiselle liikkeelle.",
+      "coins": "Kertynyt kulta",
+      "all": "Kaikki",
+      "lessonCount": "{{count}} oppitunnit"
+    },
+    "curriculum": {
+      "title": "Pelaajien koulutusohjelma (opetusohjelma)",
+      "subtitle": "4-vaiheinen tiekartta aloittelijasta suurmestariksi",
+      "steps": {
+        "01": {
+          "title": "Perus (perustukset)",
+          "desc": "Tutustu tauluun, 7 nappulatyyppiin ja perussääntöihin, kuten Check and Facing Generals."
+        },
+        "02": {
+          "title": "Taktiikka (Sekmattit)",
+          "desc": "Opi viimeistelykoordinaatio: hevonen-sitten-tykki, taivas-ja-maa-tykit, tukahdutettu perämies, pyörivät tykit."
+        },
+        "03": {
+          "title": "Loppupeli (tekniikat)",
+          "desc": "Tekniikat, joissa käytetään yksittäistä vaunua, yksittäistykkiä, hevosta/sotilaista voittaaksesi viimeisessä vaiheessa."
+        },
+        "04": {
+          "title": "Avaaminen (strategiat)",
+          "desc": "Tutki klassisia muodostelmia, kuten Central Cannon vs Screen Horse, Same Direction Cannons, Opposite Direction Cannons."
+        }
+      }
+    },
+    "card": {
+      "reward": "Kulta",
+      "status": {
+        "completed": "Valmis",
+        "pending": "Ei opittu"
+      },
+      "start": "Aloita oppiminen nyt",
+      "defaultDesc": "Opi huipputason xiangqi-taktiikoita.",
+      "completedTitle": "Valmis"
+    },
+    "sidebar": {
+      "back": "Kaikki oppitunnit",
+      "difficulty": "Vaikeusaste:",
+      "content": "Oppitunnin sisältö:",
+      "defaultMission": "Aloita harjoitus saadaksesi uutta tietoa.",
+      "reward": "Palkinto:",
+      "status": "Tila:",
+      "statusDone": "Tehty",
+      "statusPending": "Odottaa",
+      "processing": "Käsitellään...",
+      "nextLesson": "Seuraava oppitunti",
+      "finishCourse": "Täydellinen kurssi",
+      "completeAndNext": "Täydellinen ja seuraava oppitunti"
+    },
+    "panel": {
+      "history": "Siirrä historiaa",
+      "aiTrain": "Harjoittele tekoälyn kanssa",
+      "aiTrainDesc": "Testiliikkeet konetta vasten",
+      "engine": "Moottori:",
+      "level": "Taso:",
+      "humanSide": "Sivu:",
+      "redSide": "Punainen (pelaa punaista)",
+      "blackSide": "Musta (Play Black)",
+      "guide": {
+        "title": "Opinto-opas",
+        "step1": "Tarkkaile asemaa ja tehtävää.",
+        "step2": "Siirrä kappaleita tai harjoittele tekoälyllä.",
+        "step3": "Napsauta \"Complete\" saadaksesi palkintoja."
+      }
+    },
+    "board": {
+      "tab": "Levy {{index}}: {{title}}",
+      "defaultTitle": "Oletus",
+      "supplemental": {
+        "title": "Syvällinen lisätieto",
+        "p1": "Xiangqissa laudan ja kappaleiden sijoittelun ymmärtäminen on tärkein perusta. Palatsi ei ole vain kenraalin asuinpaikka, vaan myös vastustajan ensisijainen kohde.",
+        "p2": "Kun opit {{title}}:stä, kiinnitä huomiota kappaleiden väliseen koordinaatioon. Älä katso vain yhtä kappaletta; katso, kuinka se suojelee tai tukee muita luodakseen kiinteän muodostelman."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> <span className=\"text-blue-600\">Xiangqi-verkkokurssi</span> peruskurssista edistyneeseen",
+      "intro": "<strong className=\"text-slate-600 dark:text-white/60\">xiangqi-tunti</strong>-järjestelmä on tieteellisesti suunniteltu auttamaan sinua hallitsemaan säännöt, kappaleiden liikkeet, <strong className=\"text-slate-600 dark:text-white/60\">taktiat</strong> ja klassiset <strong className=\"text-slate-600 dark:0\">end-white/6:text. Ihanteellinen kaikentasoisille pelaajille hiomaan taitojaan päivittäin.",
+      "whyTitle": "Miksi harjoitella mattia ja loppupeliä?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "Tappaja ajattelutapa",
+        "desc": "Tunnista nopeasti klassiset mattimallit (hevonen-sitten-tykki, taivas-ja-maa-tykit...)."
+      },
+      "item2": {
+        "title": "Loppupelitekniikat",
+        "desc": "Mestari päättyy kuin yhden vaunun voittanut hevonen-neuvoja-norsu, tykki-neuvoja voittanut norsu... Kuolemallisia oppitunteja jokaiselle mestarille."
+      },
+      "item3": {
+        "title": "Harjoittele tekoälyn kanssa",
+        "desc": "Jokaisessa lautakokoonpanossa on Pikafish Engine, joten voit yrittää konetta vastaan ​​välittömästi."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "Peli <0>Galleria</0>",
+    "subtitle": "Katso ja opi tuhansista online-otteluista",
+    "meta": {
+      "title": "Xiangqi Game Gallery - Live & Replay ottelut",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 Livenä",
+      "open": "⏳ Odotetaan",
+      "finished": "🏁 Valmis",
+      "all": "🌍 Kaikki"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ Kaikki tilat",
+        "blitz": "Blitz",
+        "rapid": "Nopea",
+        "standard": "Vakio"
+      },
+      "sort": {
+        "newest": "🕒 Uusin",
+        "popular": "🔥 Suosittu",
+        "spectators": "👁 Katsojat"
+      },
+      "timeRange": {
+        "all": "📅 Kaiken aikaa",
+        "day": "Tänään",
+        "week": "Tällä viikolla",
+        "month": "Tässä kuussa"
+      },
+      "red": "Punainen",
+      "black": "Musta"
+    },
+    "empty": {
+      "searching": "Haetaan osumia...",
+      "noGames": "Ei osumia",
+      "noResults": "Suodattimiasi vastaavia osumia ei löytynyt. Kokeile vaihtaa suodattimet.",
+      "clear": "Tyhjennä suodattimet"
+    },
+    "card": {
+      "puzzle": "Palapeli",
+      "waiting": "Odotetaan...",
+      "watch": "Katsella",
+      "participate": "Liity",
+      "loadMore": "Tutustu vanhempiin osumiin ↓"
+    },
+    "seoContent": {
+      "title": "Verkossa <0>Xiangqi</0> Peligalleria",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "Visuaaliset peliarkistot",
+        "desc": "Jokainen ottelu päättymisen jälkeen tallennetaan yksityiskohtaisena <0>peliennätyksenä</0>. Voit toistaa jokaisen liikkeen, analysoida virheitä ja löytää kohokohtia mestarin ajattelusta."
+      },
+      "item2": {
+        "title": "Vilkas verkkoyhteisö",
+        "desc": "Liity keskusteluihin, kommentoi ja tykkää upeista peleistä. <0>Xiangqi verkossa</0> ei ole vain voittoa tai häviämistä, vaan myös paikka vaihtaa kokemuksia ja intohimoa 64 neliön taiteeseen."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "Palapelikeskustelu",
+    "titleTournament": "Turnauskeskustelu",
+    "titleDefault": "Kommentit",
+    "placeholderPuzzle": "Ehdota ratkaisua tai kysy kysymys...",
+    "placeholderDefault": "Kirjoita kommentti...",
+    "emptyStateFirst": "Ei vielä kommentteja.",
+    "emptyStateSecond": "Ole ensimmäinen, joka jakaa ajatuksesi!",
+    "loginPrompt": "Sinun on <0>kirjauduttava sisään</0> liittyäksesi keskusteluun.",
+    "sending": "...",
+    "deleteTooltip": "Poista kommentti (järjestelmänvalvoja)",
+    "deleteTitle": "Poistetaanko kommentti?",
+    "deleteMsg": "Haluatko varmasti poistaa tämän kommentin? Tätä toimintoa ei voi kumota.",
+    "deleteAction": "POISTA NYT",
+    "errorTitle": "Virheellinen kommentti",
+    "errorNoLinks": "Kommentit eivät saa sisältää linkkejä.",
+    "errorRateLimitTitle": "Lähetys liian nopeasti",
+    "errorRateLimit": "Lähetät liian nopeasti. Yritä uudelleen 1 minuutin kuluttua.",
+    "redPlayer": "PUNAINEN",
+    "blackPlayer": "MUSTA",
+    "reltime": {
+      "justNow": "juuri nyt",
+      "minutes": "{{count}} minuuttia sitten",
+      "hours": "{{count}} tuntia sitten"
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "checkingPermissions": "Tarkistetaan käyttöoikeuksia...",
+    "noPermission": "⚠️ Sinulla ei ole järjestelmänvalvojan oikeuksia.",
+    "syncingData": "Synkronoidaan järjestelmätietoja...",
+    "searchPlaceholder": "Etsi tietoa...",
+    "sidebar": {
+      "dashboard": "IA",
+      "users": "Käyttäjät",
+      "matches": "Huoneet",
+      "puzzles": "Palapelit",
+      "tournaments": "Eventos",
+      "bots": "Botin hallinta",
+      "comments": "Kommentit",
+      "practice": "Oppitunnit",
+      "shop": "Kauppa",
+      "analytics": "Analytics (Google)",
+      "ai": "IA Gen",
+      "push": "Push-ilmoitukset",
+      "cache": "Välimuisti (Redis)",
+      "server": "Järjestelmä (lokit)",
+      "settings": "Kokoonpanot",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "Anna otsikko ja sisältö",
+      "errorUid": "Anna vastaanottajan UID",
+      "errorSystem": "Järjestelmävirhe lähetettäessä"
+    },
+    "ai": {
+      "enterElo": "Anna uusi ELO:",
+      "invalidNumber": "Virheellinen numero"
+    },
+    "cache": {
+      "cleared": "Kaikki välimuisti tyhjennetty!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

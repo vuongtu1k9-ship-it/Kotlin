@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "errorBoundaryTitle": "⚠️ インターフェースエラーが発生しました",
+    "errorBoundaryReload": "ページをリロードする",
+    "cellAriaLabel": "スクエア{{coord}}",
+    "cellAriaLabelOccupied": "スクエア {{coord}} - 占有",
+    "back": "戻る",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "viewAll": "すべて表示 →",
+    "backToLobby": "ロビーに戻る",
+    "search": "検索",
+    "reset": "リセット",
+    "login": "ログイン",
+    "you": "あなた",
+    "close": "閉じる",
+    "agree": "同意する",
+    "refresh": "リフレッシュ",
+    "coins": "ゴールド",
+    "gold": "ゴールド",
+    "saveSuccess": "正常に保存されました！",
+    "sides": {
+      "red": "赤",
+      "black": "黒"
+    },
+    "challenge": "挑戦",
+    "send": "送信",
+    "reject": "拒否",
+    "finished": "終了",
+    "play": "遊ぶ",
+    "pieces": {
+      "general": "将（帅）",
+      "advisor": "士 (仕)",
+      "elephant": "象 (相)",
+      "horse": "馬",
+      "chariot": "車",
+      "cannon": "砲 (炮)",
+      "soldier": "卒 (兵)"
+    },
+    "offline": "オフライン",
+    "draw": "描く",
+    "room": "部屋",
+    "and": "そして",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "オンライン",
+    "waiting": "待っている"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - 無料でプロのチェスをプレイ",
+    "defaultDescription": "美しく、静かで、スムーズなインターフェイスを備えた無料のオンライン xiangqi プラットフォーム。オンラインでプレイするか、AI エンジンに挑戦してください。",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "|シャンチーオンライン"
+  },
+  "navbar": {
+    "brand": "シャンチー",
+    "online": "オンライン",
+    "home": "ホーム",
+    "puzzles": "詰将棋",
+    "setup": "盤面作成",
+    "ai": "CPU対戦",
+    "tournaments": "大会",
+    "practice": "練習",
+    "howToPlay": "遊び方",
+    "players": "棋士",
+    "leaderboard": "ランキング",
+    "shop": "ショップ",
+    "logout": "ログアウト",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "status": "ステータス",
+    "userMenu": "ユーザーメニュー",
+    "guestName": "ゲスト",
+    "playerType": "シャンチープレイヤー",
+    "coins": "ゴールド",
+    "rank": "ランク",
+    "welcome": "ようこそ!",
+    "loginToEarn": "ログインして報酬を受け取り、ランキングに参加しましょう",
+    "googleMaintenance": "Googleログインはメンテナンス中です",
+    "useEmail": "メールアドレスを使用",
+    "playAsGuest": "ゲストとしてプレイしますか？",
+    "statuses": {
+      "online": "オンライン",
+      "busy": "取り込み中",
+      "invisible": "隠れ身",
+      "free": "対局待ち",
+      "offline": "オフライン"
+    },
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "menu": "メニュー",
+    "navigation": "ナビゲーション",
+    "activeGameAlert": "対局中です！",
+    "returnToBoard": "盤面に戻る",
+    "back": "戻る",
+    "loginWithGoogle": "Googleでサインイン"
+  },
+  "site": {
+    "maintenanceModeTitle": "システムメンテナンス中",
+    "maintenanceMessageDefault": "最高の体験を提供するためにシステムをアップグレードしています。後でもう一度お越しください。",
+    "announcementLabel": "お知らせ"
+  },
+  "ranks": {
+    "novice": "初心者",
+    "amateur": "アマチュア",
+    "intermediate": "中級者",
+    "expert": "エキスパート",
+    "master": "マスター",
+    "internationalMaster": "インターナショナル・マスター",
+    "grandmaster": "グランドマスター",
+    "player": "プレイヤー"
+  },
+  "chat": {
+    "title": "チャット",
+    "new_message": "新しいメッセージ",
+    "followed_you": "があなたをフォローしました！",
+    "view_profile": "プロフィールを表示",
+    "challenge_accepted": "挑戦が承認されました！",
+    "go_to_play": "対局へ",
+    "is_online": "がオンラインになりました。",
+    "entered_room": "が入室しました",
+    "open_chat": "チャットを開く",
+    "close_chat": "チャットを閉じる",
+    "disable_global_notifs": "全体通知をオフにする",
+    "enable_global_notifs": "全体通知をオンにする",
+    "disable_notifs": "通知をオフにする",
+    "enable_notifs": "通知をオンにする",
+    "disable_autoscroll": "自動スクロールをオフにする",
+    "enable_autoscroll": "自動スクロールをオンにする",
+    "tabs": {
+      "global": "グローバル",
+      "private": "プライベート"
+    },
+    "to_prefix": "宛先: ",
+    "is_online_label": "オンライン",
+    "onlinePlayersHeader": "オンラインプレイヤー",
+    "history": "チャット履歴({{count}})",
+    "labelGlobal": "グローバル",
+    "labelRoom": "部屋{{id}}",
+    "labelPrivate": "プライベート: {{name}}",
+    "followed_you_message": "があなたをフォローしています！",
+    "noMessages": "(メッセージはありません)",
+    "noMessagesWelcome": "まだメッセージはありません。チャットを始めましょう！",
+    "player": "プレーヤー",
+    "guestPlaceholder": "チャットするにはサインインしてください",
+    "placeholder": "メッセージを送信してください...",
+    "followed": "👤 相手をフォローしました",
+    "wasFollowed": "🎉 相手があなたをフォローしました"
+  },
+  "auth": {
+    "registerTitle": "アカウントを作成する",
+    "loginSubtitle": "サインインして特典を獲得してください",
+    "registerSubtitle": "Xiangqi最大のコミュニティに参加しましょう",
+    "loginWithGoogle": "Googleでサインイン",
+    "orEmail": "または電子メール",
+    "emailLabel": "電子メール",
+    "displayNameLabel": "表示名 (オプション)",
+    "passwordLabel": "パスワード",
+    "termsAgreementPrefix": "に同意します",
+    "termsLink": "利用規約",
+    "privacyLink": "プライバシーポリシー",
+    "termsAgreementSuffix": "Xiangqiオンラインの。",
+    "termsError": "利用規約とプライバシー ポリシーに同意する必要があります。",
+    "processing": "処理…",
+    "haveAccount": "すでにアカウントをお持ちですか?サインイン",
+    "noAccount": "アカウントを作成する",
+    "backToLobby": "ロビーに戻る",
+    "loginPrompt": "ディスカッションに参加するには<0>ログイン</0>する必要があります",
+    "passwordsNotMatch": "パスワードが一致しません。",
+    "passwordTooShort": "パスワードは6文字以上である必要があります。",
+    "invalidOldPassword": "古いパスワードが間違っています。"
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> は Xiangqi Online コミュニティのアクティブなプレイヤーです。ランク <1>{{rank}}</1> ({{elo}} Elo) の {{name}} は、合計 <2>{{count}}</2> の激しい試合に参加しました。現在、このプレイヤーには <3>{{followers}}</3> 人のフォロワーがおり、プラットフォーム上の全国レーティング システムの重要な部分を占めています。",
+    "social": {
+      "followers": "フォロワー",
+      "following": "続く",
+      "empty": "リストが空です"
+    },
+    "sections": {
+      "medals": "称号・勲章",
+      "noMedals": "なし",
+      "inventory": "アイテム",
+      "noItems": "まだアイテムがありません",
+      "puzzles": "作成パズル",
+      "noPuzzles": "クリエイティブなパズルはまだありません",
+      "solved": "正解パズル",
+      "noSolved": "まだパズルは解けていない",
+      "history": "履歴",
+      "viewGame": "対局を見る 📺"
+    },
+    "gifts": {
+      "title": "マスターにギフトを送る",
+      "loading": "ギフトを読み込んでいます...",
+      "empty": "インベントリが空です",
+      "sending": "送信中...",
+      "confirm": "送信の確認",
+      "loginPrivate": "メッセージにログインします。",
+      "loginChallenge": "ログインしてチャレンジしてください。"
+    },
+    "bioTitle": "略歴と業績",
+    "game": {
+      "active": "アクティブ",
+      "redWin": "赤の勝ち",
+      "blackWin": "黒の勝ち",
+      "moves": "動く"
+    },
+    "notFound": "ユーザーが見つかりません",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "ルーム作成",
+    "playWithAi": "CPUと対戦",
+    "findMatch": "対戦相手を探す",
+    "headerTitle": "AIと<0>特訓</0> & 詰シャンチー",
+    "headerSubtitle": "世界をリードする対戦・パズルプラットフォーム",
+    "waiting": "相手を探しています...",
+    "noRooms": "待機中のルームはありません。",
+    "activeGameTitle": "未完了の対局があります!",
+    "activeGameSubtitle": "対局に戻って相手と続けましょう",
+    "returnToGame": "対局に戻る",
+    "roomList": "対局リスト",
+    "roomListSubtitle": "進行中および過去の対局",
+    "noRoomsFiltered": "フィルタに一致する対局はありません。",
+    "onlinePlayers": "オンラインプレイヤー",
+    "onlinePlayersCount": "{{count}} 人がオンライン",
+    "loginToChat": "チャットするにはログインしてください。",
+    "loginToChallenge": "挑戦するにはログインしてください。",
+    "chatAction": "チャット",
+    "challengeAction": "招待",
+    "tabs": {
+      "live": "ライブ",
+      "open": "オープン",
+      "finished": "終局",
+      "all": "すべて"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "最新のパズル",
+        "subtitle": "コミュニティから投稿された戦術パズル",
+        "puzzleType": "パズル",
+        "unnamed": "名前のないパズル",
+        "levelPrefix": "レベル {{level}}",
+        "normalLevel": "ノーマル",
+        "solve": "解く"
+      },
+      "features": {
+        "title": "なぜシャンチー・オンラインを選ぶのか？",
+        "premium": {
+          "title": "⚡ 無料のプレミアム体験",
+          "desc": "速度と静寂に最適化されたプラットフォーム。広告や邪魔されることなく、<0>オンラインで盤面設定</0>やプレイを楽しめます。"
+        },
+        "ai": {
+          "title": "🤖 AI対戦 (Pikafish AI)",
+          "desc": "世界最強のPikafishエンジンを使用した<0>CPU対戦</0>。初心者向けのレベル1から、国際マスターに挑戦するレベル10まで。"
+        },
+        "data": {
+          "title": "🧩 膨大なパズルデータ",
+          "desc": "コミュニティによって更新される<0>詰シャンチー</0>システムで、毎日戦術的思考と終盤技術を鍛えられます。"
+        }
+      },
+      "guide": {
+        "title": "オンラインガイド",
+        "intro": "<0>cotuong.xyz</0> での旅を始めるには、3つの簡単なステップに従うだけです:",
+        "step1": {
+          "title": "アカウント登録:",
+          "desc": "対局履歴とEloレーティングを保存します。"
+        },
+        "step2": {
+          "title": "相手を探す:",
+          "desc": "プレイヤーリストから直接招待するか、新しいルームを作成します。"
+        },
+        "step3": {
+          "title": "練習:",
+          "desc": "<0>学習</0>セクションを使用して、基本的な戦術をマスターします。"
+        },
+        "note": "* Eloシステムは相手の強さに基づいて計算され、公平性と高い競争力を保証します。"
+      },
+      "faq": {
+        "title": "よくある質問 (FAQ)",
+        "q1": {
+          "q": "Q: 無料でプレイできますか？",
+          "a": "A: 完全に無料です。パズル、AI対戦から大会まで、すべての機能が無料です。"
+        },
+        "q2": {
+          "q": "Q: 友達を招待するには？",
+          "a": "A: 「ルーム作成」後に表示されるURLをコピーして友達に送るだけです。"
+        },
+        "q3": {
+          "q": "Q: 過去の対局を見返せますか？",
+          "a": "A: はい。プロフィールの「履歴」に保存されており、いつでも分析できます。"
+        },
+        "q4": {
+          "q": "Q: 駒が動かせないのですが？",
+          "a": "A: 自分の番であるか（盤の下にインジケータがあります）、または通信環境を確認してください。"
+        }
+      },
+      "meta": {
+        "title": "シャンチー・オンライン - AI特訓、詰シャンチー、オンライン対局",
+        "description": "最高峰のオンライン・シャンチー：最強AI Pikafish、数千のパズル、無料対局。"
+      },
+      "schema": {
+        "siteName": "シャンチー・オンライン",
+        "siteDesc": "無料のシャンチー・パズル、盤面作成、AI特訓プラットフォーム。",
+        "q1": {
+          "name": "友達とオンラインで遊ぶには？",
+          "text": "ルーム作成を選択し、リンクを友達に送ってください。"
+        },
+        "q2": {
+          "name": "AIは強いですか？",
+          "text": "初心者からグランドマスターまで対応する最強のPikafishエンジンを搭載しています。"
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "最新のシャンチー・ルール - 基本ガイド",
+      "description": "シャンチーの最新ルール：車、砲、馬、将、士、象、卒の動き方と反則行為の解説。"
+    },
+    "title": "遊び方",
+    "subtitle": "基本ルールと駒の動きを学ぶ",
+    "intro": "シャンチー（中国将棋）は二人で行う戦術的なボードゲームです。最終的な目的は、相手の<0>将（帥）</0>を詰ませる、または捕獲することです。",
+    "intro_p1": "シャンチー（中国将棋）は二人で行う戦術的なボードゲームです。最終的な目的は、相手の",
+    "intro_p3": "を詰ませる、または捕獲することです。",
+    "section1": {
+      "title": "1. 盤面とエリア",
+      "river": {
+        "label": "河界 (河):",
+        "desc": "中央にあり、盤を二分します。象などの特定の駒は河を渡ることができません。"
+      },
+      "palace": {
+        "label": "九宮:",
+        "desc": "両端にある 3x3 の正方形のエリア。将（帥）と士（仕）はこの中だけで移動できます。"
+      },
+      "boardDesc": "盤は縦9本、横10本の線で構成され、駒は線の交点に置かれます。",
+      "openingTitle": "基本定跡"
+    },
+    "section2": {
+      "title": "2. 駒の動き",
+      "pieces": {
+        "general": {
+          "desc": "縦横に1マスずつ動けます。九宮から出ることはできません。",
+          "action": "→ 動きを練習",
+          "name": "将（帅）"
+        },
+        "advisor": {
+          "desc": "斜めに1マスずつ動けます。九宮から出ることはできません。",
+          "action": "→ 動きを練習",
+          "name": "士 (仕)"
+        },
+        "elephant": {
+          "desc": "斜めに2マス（田の字）動けます。河を渡ることはできず、間に駒があると動けません。",
+          "action": "→ 動きを練習",
+          "name": "象 (相)"
+        },
+        "horse": {
+          "desc": "L字型に動けます。進行方向に駒がある（馬の足を止める）と動けません。",
+          "action": "→ 動きを練習",
+          "name": "馬"
+        },
+        "chariot": {
+          "desc": "縦横に何マスでも動けます。間に駒がない限り止まりません。",
+          "action": "→ 動きを練習",
+          "name": "車"
+        },
+        "cannon": {
+          "desc": "動きは車と同じですが、駒を取るときは必ず1つの駒を飛び越える必要があります。",
+          "action": "→ 動きを練習",
+          "name": "砲 (炮)"
+        },
+        "soldier": {
+          "desc": "河までは前に1マス進めます。河を渡ると前または横に1マス動けます。後ろには戻れません。",
+          "action": "→ 動きを練習",
+          "name": "卒 (兵)"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. 赤と黒の表記の違い",
+      "intro": "対照的な駒は価値も動きも同じですが、赤側と黒側を区別するために文字が異なる場合があります。",
+      "table": {
+        "type": "駒の種類",
+        "red": "紅 (赤) の駒",
+        "black": "黒の駒",
+        "meaning": "意味"
+      },
+      "meanings": {
+        "general": "紅: 帥 (元帥) / 黒: 将 (将軍)",
+        "advisor": "紅: 仕 (策士) / 黒: 士 (衛兵)",
+        "elephant": "紅: 相 (宰相) / 黒: 象 (象)",
+        "horse": "紅: 傌 / 黒: 馬",
+        "cannon": "紅: 炮 / 黒: 砲",
+        "soldier": "紅: 兵 / 黒: 卒",
+        "chariot": "どちらも 車"
+      },
+      "why": {
+        "title": "なぜ違うのか？",
+        "desc": "これは楚漢合戦を模しているためです。劉邦（漢 - 赤）と項羽（楚 - 黒）の戦いを表しています。"
+      },
+      "elephantExample": {
+        "title": "相/象 の例",
+        "desc": "赤側は <0>相 (宰相)</0>、黒側は <1>象 (象)</1> です。どちらも防御的な駒なので河を渡れません。",
+        "desc_p1": "赤側は",
+        "desc_p2": "相 (宰相)",
+        "desc_p3": "、黒側は",
+        "desc_p4": "象 (象)",
+        "desc_p5": "です。どちらも防御的な駒なので河を渡れません。"
+      }
+    },
+    "section4": {
+      "title": "4. 駒の価値 (参考)",
+      "table": {
+        "piece": "駒",
+        "score": "点数",
+        "stage": "最強の段階"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "車",
+          "power": "全段階で最強"
+        },
+        "cannon": {
+          "name": "砲 (炮)",
+          "power": "序盤・中盤で非常に強力"
+        },
+        "horse": {
+          "name": "馬",
+          "power": "中盤・終盤で本領発揮"
+        },
+        "soldier": {
+          "name": "卒 (兵)",
+          "power": "河を渡った終盤で価値急上昇"
+        },
+        "defense": {
+          "name": "仕 / 相",
+          "power": "不可欠な防御壁"
+        },
+        "general": {
+          "name": "将（帅）"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. 特殊ルールと禁止行為",
+      "rules": {
+        "kingFace": {
+          "label": "明将:",
+          "desc": "将帥が同じ線上で、間に駒がない状態で向き合うことはできません。"
+        },
+        "check": {
+          "label": "王手 (将):",
+          "desc": "相手の将帥を攻撃すること。"
+        },
+        "mate": {
+          "label": "詰み (殺):",
+          "desc": "将帥が攻撃を逃れられない状態。"
+        }
+      }
+    },
+    "section6": {
+      "title": "6. 高度な戦術",
+      "phases": {
+        "opening": {
+          "title": "⚔️ 序盤戦",
+          "quote": "「車を出し、馬を活かし、砲を柔軟に」",
+          "desc": "主力駒（車・砲・馬）を良い位置に展開することを優先します。"
+        },
+        "midgame": {
+          "title": "🛡️ 中盤戦",
+          "desc": "戦闘が本格化する段階です。駒を連動させてプレッシャーをかけましょう。"
+        },
+        "endgame": {
+          "title": "🔚 終盤戦",
+          "desc": "駒が少なくなると、馬の機動力と卒の強さが重要になります。基本的な詰みをマスターしましょう。"
+        },
+        "tactics": {
+          "title": "🔥 詰みの手筋",
+          "maHauPhao": "馬後砲：馬を台にして砲で王手をかける手筋。",
+          "thienDiaPhao": "天地砲：2つの砲で縦横を支配する手筋。",
+          "daiDamXa": "大胆穿心：車を九宮のど真ん中に飛び込ませる手筋。"
+        }
+      }
+    },
+    "section7": {
+      "title": "7. 禁止ルール (FAQ)",
+      "faqs": {
+        "f1": {
+          "q": "Q: 連続王手は許されますか？",
+          "a": "A: いいえ。同じ状態の王手を3回繰り返すことはできません。違反は負けとなります。"
+        },
+        "f2": {
+          "q": "Q: 将帥は九宮から出られますか？",
+          "a": "A: 絶対に無理です。将帥と士は九宮に縛られています。"
+        },
+        "f3": {
+          "q": "Q: 引き分けになるのは？",
+          "a": "A: 以下の場合です：<1 />1. <0>60手ルール：</0> 双方駒を取らずに60手経過。<2 />2. <0>合意：</0> 双方の合意。<3 />3. <0>千日手：</0> 同じ状態の3回繰り返し（王手以外）。",
+          "a_intro": "以下の場合です：",
+          "a_item1_title": "60手ルール：",
+          "a_item1_desc": "双方駒を取らずに60手経過。",
+          "a_item2_title": "合意：",
+          "a_item2_desc": "双方の合意。",
+          "a_item3_title": "千日手：",
+          "a_item3_desc": "同じ状態の3回繰り返し（王手以外）。",
+          "a_item4_title": "技術的引き分け：",
+          "a_item4_desc": "どちらのプレイヤーも詰ますのに十分な駒がない。"
+        },
+        "f4": {
+          "q": "Q: 時間切れは負けですか？",
+          "a": "A: はい。形勢に関わらず即負けになります。",
+          "a_p1": "A: はい。形勢に関わらず",
+          "a_p2": "即負け",
+          "a_p3": "になります。"
+        }
+      },
+      "practiceAction": "🔥 今すぐ練習を開始"
+    },
+    "history": {
+      "title": "シャンチーの歴史",
+      "p1": "古代インドの<0>チャトランガ</0>が中国に伝わり、河界や九宮が加わって発展しました。盤面は<1>楚漢戦争</1>を模しています。",
+      "p2": "現在では、<0>cotuong.xyz</0> を通じて何百万人ものプレイヤーがつながり、いつでもどこでも対戦を楽しめます。",
+      "p3": "Today, playing online at <0>cotuong.xyz</0> connects millions of players, sharing passion and training thinking anytime, anywhere."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "AI と対戦する",
+    "labelWithId": "部屋{{id}}",
+    "ready": "準備完了",
+    "finished": "終局",
+    "waitingPlayer": "待機中",
+    "join": "参戦",
+    "copyLinkSuccess": "ルームリンクがクリップボードにコピーされました!",
+    "inviteBtn": "友達を招待する",
+    "role": "役割",
+    "turn": "振り向く",
+    "spectatorsShort": "仕様",
+    "noSpectators": "なし"
+  },
+  "game": {
+    "sides": {
+      "red": "赤",
+      "black": "黒"
+    },
+    "timeModes": {
+      "blitz": "ブリッツ",
+      "rapid": "急速な",
+      "standard": "標準",
+      "slow": "遅い",
+      "gridLabel": "時間モード"
+    },
+    "timeModeSub": {
+      "blitz": "3m",
+      "rapid": "10メートル",
+      "standard": "20m",
+      "slow": "45メートル"
+    },
+    "status": {
+      "redWin": "紅 (赤) の勝ち",
+      "blackWin": "黒の勝ち",
+      "draw": "引き分け",
+      "ongoing": "対局中",
+      "check": "チェック！",
+      "startPrompt_red": "あなたの番 - 最初の動きをして開始します",
+      "startPrompt_black": "レッドが最初の行動を起こすのを待っている",
+      "waitingForPlayers": "プレイヤーを待っています..."
+    },
+    "actions": {
+      "draw": "引き分け提案",
+      "resign": "投了",
+      "swap": "入れ替え",
+      "leave": "退室",
+      "publish": "公開",
+      "undo": "元に戻す",
+      "newGame": "新しいゲーム"
+    },
+    "confirm": {
+      "drawTitle": "引き分け",
+      "drawMsg": "相手に引き分けを提案しますか？",
+      "resignTitle": "投了",
+      "resignMsg": "本当に投了しますか？",
+      "leaveTitle": "退室して投了",
+      "leaveMsg": "対局中です。今退出すると負けになります。続けますか？",
+      "loginTitle": "ログインが必要",
+      "loginMsg": "対局を保存するにはログインしてください。",
+      "leaveMsg_casual": "これはカジュアルマッチです。退会してもよろしいですか?",
+      "leaveMsg_spectator": "あなたは観客席から出ようとしています。",
+      "undoMsg": "相手に取り消しリクエストを送信しますか?"
+    },
+    "modals": {
+      "swapTitle": "配置変更",
+      "swapMessage": "相手が先手・後手の変更を希望しています。同意しますか？",
+      "drawTitle": "引き分け提案",
+      "drawMessage": "相手が引き分けを提案しています。受け入れますか？",
+      "accept": "承認"
+    },
+    "comments": "コメント",
+    "private": "プライベート対局",
+    "publishDesc": "対局を公開する",
+    "viewDetails": "試合の詳細を見る",
+    "notFoundTitle": "廃墟エリア",
+    "notFoundDesc": "対局 #{{id}} は存在しないか、削除されました。",
+    "redSide": "先手 (紅)",
+    "blackSide": "後手 (黒)",
+    "sideBlack": "プレイブラック",
+    "aiPlayer": "AI",
+    "rankGeneric": "プレーヤー",
+    "redPlayerDefault": "先手プレイヤー",
+    "blackPlayerDefault": "後手プレイヤー",
+    "roomIdLabel": "ルームID: #{{id}}",
+    "active": "試合中",
+    "moves": "{{count}}が移動します",
+    "seo": {
+      "title": {
+        "prefix": "詳細分析: ",
+        "videoTitle": "ゲームビデオ: {{title}}"
+      },
+      "intro": "<1>{{red}}</1> と <2>{{black}}</2> の激しい <0>オンライン対局</0> です。<3>棋譜を見直す</3> ことは上達への近道です。",
+      "comments": {
+        "title": "💡 分析の価値",
+        "desc": "リアルタイムで <0>棋譜</0> を追跡し、コメントできます。トップクラスの対局には <1>戦術</1> が詰まっています。"
+      },
+      "ai": {
+        "title": "🤖 AIで特訓",
+        "desc": "<0>CPU対戦</0> AI (Pikafish) を使用して、この対局の難しい場面を再現できます。"
+      },
+      "keywords": "シャンチー、オンライン シャンチー、{{red}}、{{black}}、レビュー マッチ、オンライン アリーナ、シャンチー トーナメント、シャンチー戦術、コンピューターでプレイ、AI でトレーニング、マシンでシャンチーをプレイ",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "直接対決",
+      "analysis": "分析",
+      "matchesCount": "{{count}} の一致",
+      "recentMatches": "最近の試合",
+      "collectingData": "H2H データを収集しています...",
+      "red": "赤",
+      "black": "黒",
+      "youWin": "あなたの勝ちです",
+      "opponentWin": "相手の勝利"
+    },
+    "panel": {
+      "title": "試合情報",
+      "matchId": "ID:#{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}}サイド",
+      "winStatus": "勝利",
+      "drawStatus": "描く",
+      "reasons": {
+        "checkmate": "チェックメイト",
+        "stalemate": "手詰まり",
+        "timeout": "タイムアウト",
+        "resign": "辞任",
+        "perpetual": "永久ルール",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "タイトル",
+        "defaultTitle": "一致番号{{id}}",
+        "puzzleOrigin": "パズルから作成",
+        "puzzleTitle": "パズル#{{id}}",
+        "drawRules": "描画ルール",
+        "rule60": "キャプチャなしで 60 移動した場合はドローします。",
+        "ruleRepeat": "永久チェックまたはチェイスを3回行うと負け。",
+        "ruleTimeout": "タイムアウトで即負け。",
+        "rule60Label": "60手ルール:",
+        "ruleRepeatLabel": "繰り返し：",
+        "ruleTimeoutLabel": "タイムアウト：",
+        "materialAdvantage": "マテリアルアドバンテージ",
+        "drawProgress": "描画の進行状況",
+        "redAdvantage": "レッド+{{count}}",
+        "blackAdvantage": "ブラック+{{count}}",
+        "balanced": "バランスの取れた"
+      },
+      "actions": {
+        "save": "保存",
+        "lobby": "ロビー"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "勝利！",
+      "loss": "敗北",
+      "draw": "描く！",
+      "finished": "試合終了",
+      "elo": "ELO 評価",
+      "reward": "褒美",
+      "review": "レビュー",
+      "share": "共有"
+    },
+    "spectators": {
+      "title": "観客 ({{count}})",
+      "empty": "誰も見てないよ",
+      "label_short": "観客",
+      "alt": "観客 {{name}}"
+    },
+    "lobbyTitle": "ロビー",
+    "puzzleTag": "残局",
+    "aiLevels": {
+      "1": "入門",
+      "2": "初級",
+      "3": "中級",
+      "4": "上級",
+      "5": "有段",
+      "6": "最強",
+      "default": "レベル {{level}}"
+    },
+    "moveList": {
+      "progress": "対局進行",
+      "first": "最初",
+      "prev": "前へ",
+      "next": "次へ",
+      "last": "最後",
+      "pause": "停止",
+      "play": "再生",
+      "empty": "記録なし",
+      "initial": "開始局面",
+      "viewMove": "第 {{index}} 手を表示",
+      "returnToLive": "ライブに戻る"
+    },
+    "export": {
+      "copyFen": "FENをコピー",
+      "copyFenSuccess": "コピーしました!",
+      "copyFenError": "コピー失敗",
+      "exportFile": "ファイル出力",
+      "saveImage": "画像を保存",
+      "saveImageSuccess": "保存できました!",
+      "saveImageError": "保存失敗",
+      "downloadHd": "高画質ダウンロード",
+      "downloadHdSuccess": "保存完了!",
+      "downloadHdError": "エラー: {{message}}",
+      "cancelInfo": "中止されました",
+      "noMovesError": "記録がないため作成できません",
+      "clientVideo": "ビデオ作成 (WebM)",
+      "clientVideoSuccess": "作成完了!",
+      "clientVideoError": "エラー: {{message}}",
+      "serverVideo": "ビデオ作成 (MP4)",
+      "serverVideoSuccess": "保存しました!",
+      "serverVideoError": "エラー: {{message}}",
+      "serverTimeout": "サーバータイムアウト。短い対局でお試しください。",
+      "animatedGif": "GIFアニメ",
+      "size": "サイズ",
+      "ratios": {
+        "horizontal": "横長",
+        "vertical": "縦長",
+        "square": "正方形",
+        "board": "盤面のみ"
+      }
+    },
+    "move": "着手",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "赤のプレイヤーが入室しました！",
+    "blackJoined": "黑のプレイヤーが入室しました！",
+    "redLeft": "赤のプレイヤーが退室しました。",
+    "blackLeft": "黑のプレイヤーが退室しました。",
+    "opponentDisconnected": "対戦相手が切断されました！",
+    "opponentReconnected": "対戦相手が再接続されました！",
+    "newSpectator": "新しい観戦者が入室しました（合計 {{count}} 人）",
+    "started": "対局開始！幸運を祈ります。",
+    "drawDeclined": "相手が引き分けの提案を拒否しました。",
+    "swapDeclined": "相手が交代のリクエストを拒否しました。",
+    "swapSuccess": "{{side}} に交代しました",
+    "resultDraw": "対局終了：引き分け",
+    "resultWin": "おめでとうございます！あなたの勝ちです！",
+    "resultLoss": "対局終了：あなたの負けです。",
+    "resultOtherWin": "対局終了：{{side}} の勝ち！",
+    "errorViewingReplay": "リプレイを視聴中です。",
+    "backToLive": "ライブに戻る",
+    "errorLoginToPlay": "対局するにはログインしてください。",
+    "errorNotYourTurn": "あなたの手番ではありません。",
+    "errorSpectator": "あなたは観戦者です。",
+    "engineError": "エンジンエラー: {{error}}",
+    "config": {
+      "titleChallenge": "プレイヤーを招待",
+      "titlePuzzle": "パズル対戦",
+      "titleNew": "新しい対局を作成",
+      "readyToPlay": "対局準備完了",
+      "invitedOpponent": "挑戦状が届きました",
+      "challengeInvite": "{{name}} さんから挑戦が届きました!",
+      "inviteDesc": "【V0】・【V1】",
+      "status": {
+        "declined": "❌ {{name}} さんが挑戦を辞退しました。",
+        "wait": "⏳ {{name}} さんは取り込み中です。少々お待ちください!",
+        "accepted": "🎉 挑戦が承認されました! 対局開始の準備をしてください。",
+        "canceled": "挑戦がキャンセルされました。",
+        "sent": "{{name}} さんに挑戦状を送りました。",
+        "busy": "📭 {{name}} さんは現在「取り込み中」です。挑戦状は待ちリストに入りました。",
+        "offline": "挑戦者がオフラインになりました。対局を開始できません。"
+      },
+      "ready": {
+        "title": "対局の準備が整いました",
+        "desc": "先にルームに入ったプレイヤーが黒番（後手）、後に届いたプレイヤーが赤番（先手）となります。急いでください!",
+        "action": "今すぐ参戦",
+        "hide": "閉じる"
+      },
+      "gifts": {
+        "received": "{{name}} さんからギフトが届きました!",
+        "coins": "{{name}} さんからお年玉（コイン）が届きました!",
+        "coinsDesc": "+{{amount}} コインを受け取りました",
+        "candy": "🍬 キャンディ",
+        "bear": "🧸 クマのぬいぐるみ",
+        "ring": "💍 ダイヤモンドリング"
+      },
+      "defaultConfigDesc": "デフォルト設定で作成します:",
+      "defaultConfigDetails": "標準 (20分), 公開, レーティング対局。",
+      "advancedConfig": "⚙️ 詳細設定",
+      "timeMode": "持ち時間",
+      "findOpponent": "相手を探す",
+      "selected": "選択済み",
+      "searchPlaceholder": "名前やUIDで検索...",
+      "online": "オンライン",
+      "noResults": "見つかりません...",
+      "select": "選択",
+      "unselect": "解除",
+      "boardOptions": "盤面オプション",
+      "private": "🔒 非公式 (レーティングなし)",
+      "public": "🌐 公式 (レーティングあり)",
+      "boardType": "対局形式",
+      "standard": "♟ 標準",
+      "puzzle": "🧩 パズル",
+      "puzzleSetup": "パズル設定",
+      "selectedPuzzle": "選択中",
+      "change": "変更",
+      "suggestions": "おすすめ",
+      "searchPuzzlePlaceholder": "名前で検索...",
+      "level": "レベル",
+      "challengeOptions": "オプション",
+      "message": "メッセージ",
+      "defaultMessage": "対戦しましょう!",
+      "betGifts": "ギフトを賭ける",
+      "betActive": "🎁 賭けあり",
+      "betNone": "🎁 なし",
+      "giftType": "ギフトの種類",
+      "backToSimple": "« 簡易表示に戻る",
+      "goldWarning": "ℹ️ パズルでは報酬が得られない場合があります",
+      "goldSuccess": "ℹ️ 報酬獲得可能です",
+      "creating": "作成中...",
+      "sendChallenge": "⚔️ 挑戦状を送る",
+      "openMatch": "🚀 公開対局を開始",
+      "playNow": "🚀 今すぐプレイ",
+      "modes": {
+        "blitz": "⚡ 超速",
+        "rapid": "🏃 早指し",
+        "standard": "⏱ 標準",
+        "slow": "🎯 ゆっくり"
+      },
+      "toasts": {
+        "loginRequired": "作成するにはログインが必要です。",
+        "challengeSent": "{{name}} に挑戦を送りました!",
+        "roomCreated": "作成に成功しました!",
+        "alreadyInGame": "進行中の対局があります。",
+        "serverError": "サーバーエラーが発生しました。"
+      }
+    }
+  },
+  "puzzles": {
+    "title": "パズルを<0>解く</0>",
+    "subtitle": "コミュニティから投稿された膨大なパズル集",
+    "listTitle": "シャンチー・パズル一覧",
+    "explore": "探検",
+    "saved": "保存済み",
+    "searchPlaceholder": "名前で検索...",
+    "level": "レベル",
+    "levelValue": "レベル {{level}}",
+    "unclassified": "未分類",
+    "sort": {
+      "label": "並べ替え",
+      "newest": "新着",
+      "popular": "人気",
+      "solved": "解かれた数"
+    },
+    "time": {
+      "label": "期間",
+      "all": "全期間",
+      "day": "今日",
+      "week": "今週",
+      "month": "今月"
+    },
+    "empty": {
+      "title": "見つかりませんでした",
+      "desc": "フィルタに一致するものは存在しません。",
+      "reset": "リセット"
+    },
+    "actions": {
+      "solve": "今すぐ解く",
+      "loadMore": "さらに読み込む ↓",
+      "backToSolve": "パズルに戻る"
+    },
+    "loginToSave": "保存するにはログインが必要です。",
+    "loginToChallenge": "挑戦するにはログインが必要です。",
+    "red": "先手 (紅)",
+    "black": "後手 (黒)",
+    "byUser": "作成: {{name}}",
+    "meta": {
+      "title": "オンライン・シャンチー・パズル - 最高の詰局面集",
+      "description": "数千のパズルに挑戦：序盤、終盤、戦術。無料で解き方を練習。",
+      "itemListDesc": "おすすめパズルリスト",
+      "itemListSchemaDesc": "パズル データベース、xiangqi エンドゲーム演習オンライン。",
+      "home": "ホーム",
+      "puzzles": "パズル",
+      "schemaGameTitle": "残局: {{name}}",
+      "schemaVideoTitle": "謎解きビデオ: {{name}}",
+      "schemaVideoDesc": "シャンチーパズルの解き方：{{name}}。勝つために正しい動きに注意してください。",
+      "schemaVideoSolutionTitle": "パズル解法動画：{{name}}（解法{{index}}）",
+      "schemaVideoSolutionDesc": "xiangqi パズルの解き方: {{name}} - 解答 {{index}}。",
+      "authorDefault": "シャンチー・オンライン"
+    },
+    "seoContent": {
+      "whyTitle": "なぜ<0>パズル</0>を解くのか？",
+      "intro": "<0>終盤戦術</0>は思考の根幹です。練習はスキルの向上に不可欠です。",
+      "guide": {
+        "title": "初心者のためのヒント",
+        "intro": "解くための基本的なステップ:",
+        "item1": "<0>戦力分析:</0> 残っている駒を確認します。",
+        "item2": "<0>配置分析:</0> 相手の弱点、特に王の位置を探します。",
+        "item3": "<0>読み込み:</0> 詰みの手順を予測します。"
+      },
+      "ai": {
+        "title": "AIの活用",
+        "intro": "<0>cotuong.xyz</0> のトレーニングセンターで:",
+        "item1": "肉眼では見にくい隠れた手を発見 (深層分析)。",
+        "item2": "なぜ失敗したのか変化を分析。",
+        "item3": "10-20手先を読む正確性を養う。"
+      },
+      "benefits": {
+        "title": "パズル練習のメリット",
+        "satt": {
+          "title": "詰みの形",
+          "desc": "馬後砲、天地砲などの手筋をマスター。"
+        },
+        "tanquoc": {
+          "title": "終盤技術",
+          "desc": "少ない駒での連携、特に卒の使い方を学ぶ。"
+        },
+        "tuduy": {
+          "title": "思考力",
+          "desc": "実戦でパターンの認識力を高める。"
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "パズル分析:",
+        "defaultName": "古典的手筋",
+        "intro": "<0>{{name}}</0> は典型的な <1>オンライン訓練</1> です。",
+        "tips": {
+          "title": "💡 ヒント",
+          "desc": "攻撃駒に注目。急な<0>王手</0>が鍵になることも。"
+        },
+        "advanced": {
+          "title": "📈 上達のために",
+          "desc": "解いた後、<0>AIソフト</0>で変化を確認してください。"
+        }
+      },
+      "seoTitle": "パズルを解く: {{name}} - オンライン練習",
+      "seoDesc": "{{name}} をオンラインで解く。計算力と仕留める力を鍛えます。",
+      "rewardFirst": "🏆 素晴らしい! 初回正解報酬として {{count}} 🪙 コインを獲得しました。",
+      "rewardUpdate": "おめでとうございます! 記録が更新されました。",
+      "viewingSolution": "解答を表示中",
+      "loadError": "データを読み込めませんでした",
+      "loginRequiredTitle": "ログインが必要",
+      "loginRequiredMsg": "この操作にはログインが必要です。",
+      "mission": "ミッション",
+      "missionDesc": "勝利または優勢になる手順を見つけてください。",
+      "aiSolver": "AI 解析器",
+      "aiSolverDesc": "「🤖 AI 解析器」をONにすると自動で応答します。",
+      "achievement": "報酬",
+      "achievementDesc": "初回正解で 🪙 コインを獲得できます。",
+      "aiServer": "AIサーバー",
+      "aiServerDesc": "より高いレベルでは Pikafish サーバーを使用します。",
+      "title": "パズルの詳細",
+      "backToList": "一覧に戻る",
+      "puzzleNameLabel": "パズル {{id}}",
+      "firstPlayer": "先手",
+      "redFirst": "🔴 赤 (帥) 先",
+      "blackFirst": "⚫ 黒 (将) 先",
+      "creator": "作成者",
+      "difficulty": "難易度",
+      "relatedGames": "関連する対局",
+      "justHappened": "たった今",
+      "saved": "保存済み",
+      "savePuzzle": "保存する",
+      "solverTitle": "パズルの解答",
+      "solveMode": "モード",
+      "modeAi": "🤖 AI 解析器 (自動応答)",
+      "modeManual": "👥 自分で解く (AIなし)",
+      "aiLevel": "AI難易度",
+      "sideSelect": "あなたの陣営",
+      "redSide": "赤 (紅) 側",
+      "blackSide": "黒側",
+      "undo": "待った",
+      "restart": "最初から",
+      "hallOfFame": "栄誉殿堂",
+      "solvedBy": "正解者一覧",
+      "player": "プレイヤー",
+      "movesCount": "{{count}} 手",
+      "view": "表示",
+      "noSolutions": "まだ正解者がいません。\n最初の一人になりましょう!",
+      "similarPuzzles": "似ているパズル",
+      "relatedMatchReports": "関連レポート"
+    }
+  },
+  "notifications": {
+    "title": "通知",
+    "panelHeader": "お知らせ",
+    "clearAll": "すべてクリア",
+    "empty": "通知はありません。",
+    "viewNow": "今すぐチェック →",
+    "push": {
+      "prompt": "通知をオンにして対局を見逃さないようにしましょう!",
+      "enable": "通知をオンにする",
+      "saveError": "保存に失敗しました。",
+      "deniedError": "許可されていません。",
+      "genericError": "エラーが発生しました。"
+    },
+    "challenges": {
+      "standard": "標準",
+      "puzzle": "パズル",
+      "accepted": "🔥 承認済み",
+      "declined": "❌ 拒絶済み",
+      "canceled": "⚪ キャンセル",
+      "waitOpponent": "⏳ 相手が待っています...",
+      "waitYou": "⏳ 待ち...",
+      "acceptAction": "承認",
+      "waitAction": "待機",
+      "cancelAction": "キャンセル",
+      "deleteAction": "削除",
+      "inGameTooltip": "対局中です"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "無効なボード",
+      "checkAgain": "もう一度ご確認ください",
+      "loginRequired": "続行するにはログインしてください。",
+      "nameRequired": "この設定の名前を入力してください。",
+      "descRequired": "この設定の説明を入力してください。",
+      "twoKings": "セットアップにはちょうど 2 つのキングが必要です。",
+      "faceToFace": "エラー: キング同士は直接対峙することはできません。",
+      "redCheck": "レッドキングは現在チェック中です。",
+      "blackCheck": "ブラックキングは現在チェック中です。",
+      "pieceLimit": "タイプ {{type}} の最大 {{limit}} 個が許可されます。",
+      "generalPalace": "{{side}} 将軍は宮殿内にいる必要があります (3x3)。",
+      "advisorPalace": "{{side}} 顧問は宮殿内にいる必要があります (3x3)。",
+      "advisorDiagonal": "{{side}}アドバイザーは対角の宮殿ポイントにのみ配置できます。",
+      "elephantRiver": "{{side}} ゾウは川を渡ることができません。",
+      "elephantPoints": "{{side}} ゾウはホーム側の固定位置にのみ配置できます。",
+      "redSoldierBackward": "レッドソルジャーはスタートラインより後ろに下がることはできません。",
+      "redSoldierColumns": "リバー前のレッドソルジャーは奇数列（1、3、5、7、9）にしか立つことができません。",
+      "blackSoldierBackward": "ブラックソルジャーはスタートラインから後退することはできません。",
+      "blackSoldierColumns": "リバー前の黒兵は奇数列 (1、3、5、7、9) にしか立つことができません。",
+      "saveError": "保存中にエラーが発生しました",
+      "unknownError": "不明なエラーが発生しました。",
+      "connError": "接続エラー",
+      "connMsg": "サーバーに接続できませんでした。",
+      "fenError": "FEN error.",
+      "red": "赤",
+      "black": "黒",
+      "successLoad": "ロード済み: {{name}}",
+      "successUpdate": "更新日: {{name}}",
+      "successSave": "保存済み: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "盤面作成",
+    "tryoutTitle": "AIで試す",
+    "tryout": {
+      "modeLabel": "モード:",
+      "modeAi": "🤖 AIと試局",
+      "modeManual": "👥 手動 (両側) ",
+      "selectBot": "対戦相手を選択:",
+      "levelLabel": "AIレベル:",
+      "levelOption": "レベル {{level}}: {{name}}",
+      "sideLabel": "あなたの側:",
+      "viewLabel": "視点:",
+      "sideRed": "先手 (紅)",
+      "sideBlack": "後手 (黒)",
+      "backLabel": "設定に戻る"
+    },
+    "paletteTitle": "駒パレット",
+    "palette": {
+      "selecting": "選択中:",
+      "erase": "削除",
+      "clear": "全消去",
+      "redPrefix": "赤 (紅)",
+      "blackPrefix": "黒"
+    },
+    "fen": {
+      "label": "FENでインポート",
+      "placeholder": "FEN文字列を入力...",
+      "apply": "反映"
+    },
+    "historyTitle": "保存した配置",
+    "history": {
+      "loadAction": "読み込む",
+      "viewAction": "詳細"
+    },
+    "modals": {
+      "duplicateTitle": "既存の構成",
+      "duplicateMsg": "[{{name}}] と同一です。",
+      "duplicateAction": "表示する",
+      "clearTitle": "クリアしますか？",
+      "clearMsg": "すべての駒を消去します。"
+    },
+    "rules": {
+      "title": "作成ルール",
+      "orientation": {
+        "label": "方向:",
+        "desc": "下が赤、上が黒。"
+      },
+      "turn": {
+        "label": "手番:",
+        "desc": "デフォルトは赤先。"
+      },
+      "general": {
+        "label": "王:",
+        "desc": "各1つ。九宮内のみ。"
+      },
+      "check": {
+        "label": "王手:",
+        "desc": "開始時に王手状態は不可。"
+      },
+      "facing": {
+        "label": "明将:",
+        "desc": "王同士が向かい合うのは不可。"
+      },
+      "defense": {
+        "label": "仕/相:",
+        "desc": "仕は九宮、相は河を超えられません。"
+      },
+      "soldier": {
+        "label": "兵士：",
+        "desc": "最大5個まで。偶数ファイルで川を渡ることはできません (元の VN では間違っていますが、ロジックはそのままにします)。"
+      }
+    },
+    "seoTitle": "オンライン・シャンチー・盤面設定・パズルエディタ",
+    "seoDesc": "盤面を作成し、AIで研究。 プロツールを無料で。",
+    "modeTryout": "試行モード",
+    "modeEditor": "編集モード • クリックで配置",
+    "actionTry": "AIと対局",
+    "actionUndo": "戻る",
+    "actionReset": "リセット",
+    "toast": {
+      "loginSave": "保存するにはログインが必要です。",
+      "loginChallenge": "ログインしてチャレンジしてください。",
+      "boardCleared": "クリアしました。"
+    },
+    "seoContent": {
+      "title": "オンライン盤面作成ツール",
+      "intro": "最高峰の<0>盤面設定</0>機能。自由に作成可能です。",
+      "feature1": {
+        "title": "強力な機能",
+        "desc": "ドラッグ＆ドロップ、FEN対応、最強AI搭載。"
+      },
+      "feature2": {
+        "title": "共有",
+        "desc": "思考を鍛え、貢献しましょう。"
+      }
+    },
+    "form": {
+      "guestTitle": "ゲストモード",
+      "guestDesc": "保存するにはログインしてください。",
+      "nameLabel": "名前:",
+      "namePlaceholder": "入力...",
+      "levelLabel": "難易度:",
+      "levelOption": "選ぶ",
+      "levelValue": "レベル {{level}}",
+      "descLabel": "説明:",
+      "descPlaceholder": "...",
+      "saveAction": "盤面を保存",
+      "loginSaveAction": "🔐 ログインして保存",
+      "importError": "FEN インポート エラー:"
+    }
+  },
+  "tournaments": {
+    "title": "大会",
+    "subtitle": "最高の棋士が集う場所",
+    "loading": "読み込み中...",
+    "empty": "現在開催されている大会はありません。",
+    "listTitle": "オンラインXiangqiトーナメントリスト",
+    "listDesc": "プラットフォーム上で進行中および今後開催されるトーナメント。",
+    "champion": "チャンピオン: {{name}}",
+    "players": {
+      "pendingTitle": "参加リクエスト ({{count}})",
+      "registeredTitle": "登録選手（【V0】）",
+      "empty": "まだプレイヤーが登録されていません。",
+      "approve": "承認する"
+    },
+    "rounds": "{{count}}ラウンド",
+    "minElo": "ミンエロ: {{elo}}",
+    "requireApproval": "承認が必要です",
+    "hasPrizes": "賞品あり",
+    "deadline": "締め切り：",
+    "createdAt": "作成:",
+    "noDescription": "説明はありません。",
+    "status": {
+      "registration": "参加受付中",
+      "active": "開催中",
+      "deadline_closed": "受付終了",
+      "finished": "終了"
+    },
+    "backToList": "リストに戻る",
+    "noDescriptionDetail": "このトーナメントに関する詳細な説明はありません。",
+    "currentRound": "ラウンド：{{current}}{{total}}",
+    "playersCount": "プレイヤー：{{current}}/{{total}}",
+    "registrationInfo": "登録情報",
+    "start": "始める",
+    "closed": "閉店",
+    "joinAction": "今すぐ登録",
+    "joining": "接合...",
+    "joined": "登録済み",
+    "pendingApproval": "承認待ち",
+    "formats": {
+      "swiss": "スイスシステム",
+      "roundrobin": "ラウンドロビン"
+    },
+    "timeline": {
+      "emptyAdmin": "まだ一致はありません。新しいラウンドを作成してください!",
+      "emptyUser": "試合は更新中です...",
+      "roundLabel": "ラウンド{{round}}",
+      "status": {
+        "active": "アクティブ"
+      },
+      "actions": {
+        "review": "レビュー",
+        "play": "今すぐプレイ",
+        "watch": "時計"
+      },
+      "sides": {
+        "red": "赤",
+        "black": "黒"
+      }
+    },
+    "standings": {
+      "empty": "順位データはありません。",
+      "stats": {
+        "win": "勝つ",
+        "draw": "描く",
+        "loss": "損失",
+        "bye": "さよなら"
+      }
+    },
+    "prizes": {
+      "title": "賞品の構造",
+      "goldUnit": "ゴールド"
+    },
+    "announcements": {
+      "placeholder": "お知らせ内容を入力してください...",
+      "postAction": "発表後",
+      "empty": "この大会に関する発表はありません。"
+    },
+    "detail": {
+      "notFound": "トーナメントが見つかりません。",
+      "champion": {
+        "title": "チャンピオン",
+        "points": "ポイント",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "登録する",
+        "joined": "登録済み",
+        "pending": "保留中",
+        "createRound": "ラウンドの作成 {{round}}",
+        "finishTournament": "フィニッシュトーナメント"
+      },
+      "tabs": {
+        "timeline": "タイムライン",
+        "standings": "順位表",
+        "players": "選手",
+        "prizes": "賞品",
+        "announcements": "お知らせ"
+      },
+      "meta": {
+        "title": "{{name}} |シャンチーオンライン",
+        "description": "{{name}}大会の詳細、スケジュール、順位表。"
+      },
+      "messages": {
+        "joinSuccess": "✅ 登録が成功しました！",
+        "joinPending": "✅ アプリケーションが送信され、管理者の承認を待っています。",
+        "roundStarted": "✅ ラウンド {{round}} が作成されました — {{count}} が {{bye}} と一致します",
+        "bye": "({{name}} は BYE を受け取りました)",
+        "tournamentFinished": "🏆トーナメント終了！チャンピオン: {{name}}",
+        "confirmFinish": "トーナメントを終了してチャンピオンを発表しますか？",
+        "confirm": "終了の確認"
+      },
+      "errors": {
+        "joinClosed": "⏰ 登録期間は終了しました。",
+        "joinFull": "❌ トーナメントは満員です。",
+        "joinNotRegistration": "❌ トーナメントは登録の受付を終了しました。",
+        "joinFailed": "❌ 接続エラーです。",
+        "maxRounds": "最大{{count}}ラウンド到達！",
+        "notEnoughPlayers": "少なくとも 2 人のプレイヤーが必要です。",
+        "alreadyFinished": "トーナメントは終了しました。",
+        "finishError": "トーナメント終了時にエラーが発生しました。"
+      }
+    },
+    "meta": {
+      "title": "オンライン・大会 | シャンチー・オンライン",
+      "description": "Join online xiangqi tournaments, compete with masters and receive valuable rewards. Fair and professional competition system at cotuong.xyz.",
+      "home": "ホーム",
+      "tournaments": "大会"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "<0>チャンピオン</0>のアリーナ",
+        "desc": "The tournament system at cotuong.xyz is where the sharpest tactical minds meet. We provide a professional, transparent, and dramatic playground for all levels of players."
+      },
+      "features": {
+        "formats": {
+          "title": "多様なフォーマット",
+          "desc": "スイス方式からラウンドロビンまで、公平性を確保し、最も価値のある勝者を見つけます。"
+        },
+        "prizes": {
+          "title": "貴重な賞品",
+          "desc": "報酬には、コイン (XQG) やステータスを主張するユニークな装飾品が含まれます。"
+        },
+        "experience": {
+          "title": "スムーズな体験",
+          "desc": "自動化されたマッチメイキング、スコアリング、リアルタイムのリーダーボード更新。"
+        },
+        "honor": {
+          "title": "マスターを讃える",
+          "desc": "チャンピオンの名前はコミュニティの歴史に刻まれます。"
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Xiangqi vs {{name}} (AI) をプレイ - オンライン Xiangqi トレーニング",
+    "seoTitleDefault": "ボットで Xiangqi をプレイ - 非常に強力な Pikafish AI",
+    "seoDesc": "レベル {{level}} で xiangqi 対 {{name}} のプレイに挑戦してください。最高レベルの Pikafish AI テクノロジーを使用してスキルを向上させます。",
+    "seoDescDefault": "レベル{{level}}のボットでシャンチーを練習します。動き分析をサポートする世界最強のPikafish AIプラットフォーム。",
+    "title": "CPU特訓",
+    "settings": "対局設定",
+    "undo": "戻る",
+    "newGame": "新対局",
+    "agentsOnline": "{{count}} エージェントがオンライン",
+    "personality": {
+      "aggressive": "攻撃的",
+      "defensive": "守備的",
+      "balanced": "バランスの取れた"
+    },
+    "ranks": {
+      "level1": "初心者",
+      "level4": "プロ",
+      "level6": "グランドマスター"
+    },
+    "bot": {
+      "error_not_found": "ボットは見つかりませんでした。 「管理者」 > 「ボット」を確認します。"
+    },
+    "seoContent": {
+      "title": "Pikafish AIと特訓",
+      "intro": "世界最強AIとの実戦。",
+      "feature1": {
+        "title": "ピカフィッシュ AI エンジン",
+        "desc": "1 秒あたり数百万の動きを計算する機能を備えた Pikafish エンジン (Xiangqi 用に最適化された Stockfish) を使用します。"
+      },
+      "feature2": {
+        "title": "多様なレベル",
+        "desc": "レベル 1 (初心者) からレベル 10 (グランドマスター) まで、xiangqi をマスターする旅を段階的に進めるのに役立ちます。"
+      },
+      "feature3": {
+        "title": "即時分析",
+        "desc": "システムは記録を保存し、試合直後にミスを確認して分析し、そこから学ぶことができます。"
+      },
+      "whyTitle": "なぜ AI を使ってトレーニングするのか?",
+      "whyDesc": "マシンを使ったトレーニングは、忍耐力と正確な計算の練習に役立ちます。人間の対戦相手とは異なり、AI は愚かなミスを決してしないため、最高の集中力を持ってプレイすることが求められます。",
+      "tags": {
+        "online": "cotuongonline",
+        "withAi": "機械で遊ぶ翔qi",
+        "engine": "ナキウサギ",
+        "practice": "トレインシャンチー",
+        "hall": "マインドホール",
+        "ai": "人工知能"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "テーマ: ダーク"
+    },
+    "title": "マイページ",
+    "dashboard": "ロビー",
+    "account": "設定",
+    "overview": "概要",
+    "customize": "カスタマイズ",
+    "boardInterface": "盤面設定",
+    "boardInterfaceDesc": "ボードの表示エクスペリエンスをカスタマイズします。",
+    "autoScroll": "自動スクロール",
+    "autoScrollDesc": "試合に参加するときにボードまでスクロールします",
+    "autoScrollSuccess": "ボードスクロール設定を更新しました",
+    "cropAvatar": "作物のアバター",
+    "zoom": "ズーム",
+    "saveImage": "保存",
+    "updateNameSuccess": "名前を更新しました!",
+    "updateAvatarSuccess": "画像を更新しました!",
+    "pieceStyle": "駒のスタイル",
+    "pieceStyleDesc": "お好みの駒のデザインを選択してください。",
+    "pieceStyles": {
+      "traditional": "伝統的 (漢字)",
+      "international": "国際 (シンボル)",
+      "simple": "ミニマル"
+    },
+    "voicePack": "ボイスパック",
+    "voicePackDesc": "対局中の音声ガイド。",
+    "voicePacks": {
+      "vi": "ベトナム語",
+      "en": "英語",
+      "zh": "中国語",
+      "ja": "日本語",
+      "none": "ボイスなし (効果音のみ)"
+    },
+    "changePasswordSuccess": "パスワードが正常に変更されました。",
+    "deletePuzzleTitle": "パズルを削除しますか?",
+    "deletePuzzleConfirm": "パズル [{{name}}] を削除してもよろしいですか?この操作は元に戻すことができません。",
+    "deletePuzzleAction": "今すぐ削除",
+    "deletePuzzleSuccess": "パズルが削除されました！",
+    "notificationsEnabled": "通知が正常に有効になりました。",
+    "notificationsError": "通知を有効にできませんでした。",
+    "matchHistory": "試合履歴",
+    "achievements": "業績",
+    "inventory": "在庫",
+    "myContent": "私のコンテンツ",
+    "security": "安全",
+    "notifications": "通知",
+    "changePassword": "パスワードを変更する",
+    "oldPassword": "以前のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "パスワードを認証する",
+    "displayName": "ニックネーム",
+    "updateProfile": "更新",
+    "notificationsDesc": "トーナメント、メッセージ、新しいチャレンジに関する通知を受け取ります。",
+    "pushSuccess": "通知が正常に有効になりました。"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - シャンチー愛好家のための、世界をリードする知的プラットフォーム。情熱的なプレイヤーが集い、Pikafish AIと共に特訓し、Eloランキングの頂点を目指します。",
+    "missionShort": "プレミアム・シャンチー・プラットフォーム",
+    "experience": "体験",
+    "knowledge": "知識",
+    "services": "サービス",
+    "contactLegal": "連絡・法務",
+    "onlineArena": "オンライン対局",
+    "puzzles": "シャンチー・パズル",
+    "playWithAi": "AI対局",
+    "leaderboard": "ランキング",
+    "howToPlay": "遊び方",
+    "basicTactics": "基礎戦術",
+    "practicalEndgame": "実用終盤",
+    "news": "大会ニュース",
+    "shop": "アイテム＆ショップ",
+    "profile": "プロフィール",
+    "vipUpgrade": "VIPアップグレード",
+    "support": "サポート",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "officialRules": "公式ルール",
+    "active": "稼働中",
+    "globalServer": "グローバルサーバー",
+    "facebookPage": "Facebookページ",
+    "facebookGroup": "Facebookグループ",
+    "allSystemsOperational": "全システム正常稼働中",
+    "joinPlayers": "50,000 人以上のプレイヤーに参加しましょう",
+    "globalPresence": "世界的な存在感",
+    "infrastructure": "インフラストラクチャー",
+    "security": "安全",
+    "versionControl": "バージョン管理",
+    "release": "リリース",
+    "deployTime": "デプロイ時間",
+    "staticHub": "グローバル静的ハブ",
+    "sslVerified": "SSL認証済み",
+    "build": "ビルド",
+    "time": "時間",
+    "copyright": "オンライン象棋 (Xiangqi Online) - コンテンツおよびデザインの著作権は <0>cotuong.xyz</0> に帰属します。すべてのモバイルおよびデスクトップデバイスに最適化された、広告のない体験を提供することをお約束します。将棋を愛するエンジニアチームによって ❤️ を込めて開発されました。&copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "利用規約 | シャンチー・オンライン",
+      "description": "シャンチー・オンラインの利用規約。アカウント、フェアプレイ、ユーザーの責任に関する規定。"
+    },
+    "title": "利用規約 & <0>規定</0>",
+    "title_p1": "利用規約 &",
+    "title_p2": "規定",
+    "intro": "オンライン・シャンチー・コミュニティへようこそ。文明的、公平、そしてエキサイティングな対局環境を構築するために、すべてのプレイヤーが従うべき一般規則を定めています。",
+    "cardTitle": "サービス利用契約",
+    "lastUpdated": "最終更新日",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "acceptance": {
+        "title": "規約の同意",
+        "content": "シャンチー・オンラインのウェブサイト（cotuong.xyz）にアクセスして使用することにより、ここに記載されている利用規約に従うことに同意したことになります。これらの規約のいずれかの部分に同意しない場合は、当社のサービスを使用しないでください。"
+      },
+      "accounts": {
+        "title": "ユーザーアカウント",
+        "item1": "アカウント情報とパスワードのセキュリティについては、お客様が責任を負うものとします。",
+        "item2": "登録時には正確で最新の情報を提供することに同意するものとします。",
+        "item3": "ランキングの公平性を確保するため、1人のユーザーが持つアカウントは最大1つである必要があります。",
+        "item4": "違反が発見された場合、当社はアカウントを一時停止または削除する権利を留保します。"
+      },
+      "fairplay": {
+        "title": "フェアプレイルール",
+        "intro": "シャンチー・オンラインはスポーツマンシップと知性を推奨します。以下の行為は厳格に禁止されています：",
+        "item1": "他のプレイヤーとのオンライン対局において、エンジン、AI、またはあらゆる不正ツールを使用すること。",
+        "item2": "ELOポイントを不自然に増減させるために、わざと負けたり（サンドバギング）、対局結果を操作したりすること。",
+        "item3": "チャットルームで侮辱的、攻撃的、または差別的な言葉を使用すること。",
+        "item4": "他のプレイヤーへのスパム行為や嫌がらせ。"
+      },
+      "copyright": {
+        "title": "コンテンツと著作権",
+        "content": "ウェブサイト上のインターフェース、ソースコード、駒の画像、レッスンを含むすべてのコンテンツは、シャンチー・オンラインの著作権であるか、使用ライセンスを受けています。事前の書面による同意なしに、商業目的でコピーまたは再利用することはできません。"
+      },
+      "liability": {
+        "title": "責任の制限",
+        "content": "サービスは「現状のまま」提供されます。当社は、ウェブサイトが常にエラーや中断なしに動作することを保証しません。当社は、サービスの使用または使用不能から生じるいかなる損失についても責任を負いません。"
+      },
+      "changes": {
+        "title": "規約の変更",
+        "content": "当社は、いつでもこれらの規約を変更する権利を留保します。変更はウェブサイトに掲載された時点で即座に有効になります。変更後も引き続き使用される場合は、新しい規約に同意したものとみなされます。"
+      }
+    },
+    "footer": "オンライン・シャンチー・コミュニティに参加していただきありがとうございます"
+  },
+  "privacy": {
+    "meta": {
+      "title": "プライバシーポリシー | シャンチー・オンライン",
+      "description": "シャンチー・オンラインのプライバシーポリシー。データ収集、ユーザー権利の保護、アカウントのセキュリティに関する情報。"
+    },
+    "title": "プライバシー & <0>セキュリティ</0>",
+    "title_p1": "プライバシー &",
+    "title_p2": "セキュリティ",
+    "intro": "プレイヤーのパーソナルデータとプライバシーは、cotuong.xyz の最優先事項です。当社は、情報の収集と保護における透明性を確保することをお約束します。",
+    "cardTitle": "プライバシーポリシー",
+    "lastUpdated": "最終更新日",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "collection": {
+        "title": "収集する情報",
+        "intro": "最高のシャンチーサービスを提供するために、以下の情報を収集します：",
+        "item1": "アカウント情報：メールアドレス、表示名、プロフィール画像（Googleログインを使用する場合）。",
+        "item2": "ゲームデータ：対局履歴、ELOポイント、完了したレッスン、蓄積されたコイン。",
+        "item3": "技術情報：システムセキュリティと不正防止のためのIPアドレス、ブラウザタイプ。"
+      },
+      "usage": {
+        "title": "情報の利用目的",
+        "intro": "収集した情報は以下の目的で使用します：",
+        "item1": "アカウント管理、プレイヤー体験のパーソナライズ。",
+        "item2": "対局履歴の保存、ランキングの更新、学習の進捗管理。",
+        "item3": "重要なシステム通知の送信（必要な場合）。",
+        "item4": "インターフェースと機能を改善するためのデータ分析（Googleアナリティクス）。"
+      },
+      "security": {
+        "title": "データのセキュリティ",
+        "content": "当社は、パスワードの暗号化やHTTPSを介したデータ転送などの最新の技術的措置を講じて、お客様のデータを保護することをお約束します。ただし、100%安全なインターネット転送方法は存在しないため、パスワードはご自身で保護してください。"
+      },
+      "sharing": {
+        "title": "第三者との情報共有",
+        "content": "当社は、お客様のパーソナルデータを第三者に販売または貸与することは<0>決してありません</0>。Googleなどのサービスパートナーとは、必要最低限の情報のみを共有します。",
+        "content_p1": "当社は、お客様のパーソナルデータを第三者に販売または貸与することは",
+        "content_p2": "決してありません",
+        "content_p3": "。Googleなどの服务パートナーとは、必要最低限の情報のみを共有します。"
+      },
+      "rights": {
+        "title": "ユーザーの権利",
+        "intro": "お客様はご自身のパーソナルデータに対して完全な権利を有します：",
+        "item1": "設定画面で個人情報を更新する。",
+        "item2": "アカウントの削除とすべての対局データの削除をリクエストする。",
+        "item3": "システム通知の受信を拒否する。"
+      }
+    },
+    "footer": "お客様のプライバシーは cotuong.xyz の最優先事項です"
+  },
+  "shop": {
+    "title": "ギフトショップ",
+    "meta": {
+      "title": "ギフトショップ |シャンチーオンライン",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Xiangqiオンラインギフトショップ",
+      "listDesc": "xiangqi プレイヤーへのスピリチュアルな贈り物。",
+      "home": "家",
+      "shop": "店",
+      "loading": "ショップを読み込み中..."
+    },
+    "subtitle": "仲間に贈り物を送りましょう。",
+    "yourCoins": "所持コイン",
+    "messages": {
+      "success": "購入に成功しました!",
+      "insufficient": "コインが足りません!",
+      "error": "ギフト購入エラー。",
+      "networkError": "ギフトの購入中にネットワーク エラーが発生しました。"
+    },
+    "buy": {
+      "processing": "購入中...",
+      "insufficient": "コインが不足しています",
+      "now": "今すぐ購入",
+      "defaultDesc": "大きな意味を持つ小さな贈り物。"
+    },
+    "tips": {
+      "title": "コインを稼ぐためのヒント",
+      "desc": "コインは Xiangqi Online の主要通貨です。コインは実際のお金で購入することはできませんが、<0>努力とスキルのトレーニングによって蓄積する必要があります</0>:",
+      "item1": "<0>遊び方</0>の演習を完了してください。新しいレッスンごとに、価値のある量のコインがもたらされます。",
+      "item2": "<0>オンライン トーナメント</0>に参加してください。上位プレイヤーにはコインや貴重なアイテムがプレゼントされます。",
+      "item3": "素晴らしい試合があった場合は、友達やファンからギフトを受け取りましょう。",
+      "viewTournaments": "今後のトーナメントを見る →"
+    },
+    "culture": {
+      "title": "贈り物の文化",
+      "desc1": "チェスの世界では、贈り物をすることは物質的なものだけではなく、 プレイヤー間の<0>敬意とつながりを示す</0>ことにもなります。",
+      "desc2": "「ふさわしい相手」 - 🌹 バラや ☕ コーヒーなどの小さな贈り物は、ストレスの多い試合の後に新しい友情を始めるのに最適な方法です。獲得したコインを使用して、Xiangqi コミュニティを美化してください。"
+    }
+  },
+  "leaderboard": {
+    "title": "棋士一覧",
+    "subtitle": "栄誉殿堂 ({{count}} 名)",
+    "meta": {
+      "title": "リーダーボード - マスターを讃える |シャンチーオンライン",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Xiangqi オンライン プレイヤー リーダーボード",
+      "listDesc": "コミュニティ内で最高の Elo を持つプレイヤーのリスト。",
+      "home": "家"
+    },
+    "hierarchy": {
+      "title": "プレイヤー階層と Elo システム",
+      "desc": "Elo レーティング システムは国際基準に基づいて構築されており、プレイヤーのレベルとパフォーマンスを正確に反映しています。",
+      "rank1": {
+        "title": "初心者&カジュアル",
+        "desc": "xiangqiを征服するための第一歩。基本的なチェックメイトをマスターすることに重点を置きます。"
+      },
+      "rank2": {
+        "title": "中級および上級",
+        "desc": "序盤と中盤を深く理解する。柔軟なアイテムコーディネート。"
+      },
+      "rank3": {
+        "title": "マスター",
+        "desc": "数十手を深く計算できる至高のレベルに達しました。"
+      },
+      "rank4": {
+        "title": "グランドマスター",
+        "desc": "あらゆる秘術と罠を使いこなす、コミュニティの伝説。"
+      }
+    },
+    "search": "検索...",
+    "table": {
+      "rank": "#",
+      "player": "プレイヤー",
+      "elo": "Elo",
+      "games": "局数",
+      "status": "状況",
+      "playing": "遊ぶ",
+      "actions": "アクション"
+    },
+    "statuses": {
+      "searching": "探し中..."
+    },
+    "actions": {
+      "view": "📺 見る",
+      "message": "メッセージ"
+    },
+    "empty": "プレーヤーが見つかりません",
+    "pagination": {
+      "page": "ページ {{current}} / {{total}}",
+      "total": "{{count}}プレイヤー",
+      "prev": "前へ",
+      "next": "次へ"
+    },
+    "footer": "Elo ランキング システムは公開マッチに基づいています。コンテストに参加してランクアップし、殿堂入りを目指しましょう！",
+    "lesson": "レッスン"
+  },
+  "practice": {
+    "title": "学習 & <0>特訓</0>",
+    "subtitle": "初級から上級まで",
+    "loading": "レッスンを読み込んでいます...",
+    "meta": {
+      "title": "オンラインで Xiangqi を学んで練習 - チェックメイトとエンドゲームのトレーニング",
+      "description": "xiangqi の基礎から上級までのコースに参加してください。駒の動きを練習し、パズルを解き、AI Pikafish でトレーニングして毎日スキルを向上させましょう。",
+      "home": "家",
+      "practice": "練習する"
+    },
+    "list": {
+      "title": "Xiangqiの本質を発見する",
+      "description": "構造化されたロードマップを使用して、基礎から上級まで学習します。各レッスンにはインタラクティブなボードとあらゆる動きに対する AI サポートが備えられています。",
+      "coins": "蓄積されたゴールド",
+      "all": "全て",
+      "lessonCount": "{{count}}レッスン"
+    },
+    "curriculum": {
+      "title": "選手育成プログラム（カリキュラム）",
+      "subtitle": "ビギナーからグランドマスターまでの 4 段階のロードマップ",
+      "steps": {
+        "01": {
+          "title": "基礎（基礎）",
+          "desc": "ボード、7 種類の駒、チェックや対面のジェネラルなどの基本ルールに慣れましょう。"
+        },
+        "02": {
+          "title": "戦術 (チェックメイト)",
+          "desc": "フィニッシュコーディネーションを学びましょう: Horse-then-Cannon、Heaven-and-Earth Cannons、Smothered Mate、Rolling Cannons。"
+        },
+        "03": {
+          "title": "終盤（テクニック）",
+          "desc": "シングルチャリオット、シングルキャノン、馬/兵士を使用して最終ステージで勝つためのテクニック。"
+        },
+        "04": {
+          "title": "オープニング（戦略）",
+          "desc": "セントラルキャノン対スクリーンホース、同方向キャノン、反対方向キャノンなどの古典的なフォーメーションを学びましょう。"
+        }
+      }
+    },
+    "card": {
+      "reward": "ゴールド",
+      "status": {
+        "completed": "完了",
+        "pending": "学習していない"
+      },
+      "start": "今すぐ学習を始めましょう",
+      "defaultDesc": "トップレベルのシャンチー戦術を学びましょう。",
+      "completedTitle": "完了"
+    },
+    "sidebar": {
+      "back": "すべてのレッスン",
+      "difficulty": "困難：",
+      "content": "レッスン内容：",
+      "defaultMission": "新しい知識を発見するために演習を開始します。",
+      "reward": "褒美：",
+      "status": "状態：",
+      "statusDone": "終わり",
+      "statusPending": "保留中",
+      "processing": "処理...",
+      "nextLesson": "次のレッスン",
+      "finishCourse": "コンプリートコース",
+      "completeAndNext": "完了して次のレッスン"
+    },
+    "panel": {
+      "history": "移動履歴",
+      "aiTrain": "AIを使って練習する",
+      "aiTrainDesc": "マシンに対するテストの動き",
+      "engine": "エンジン：",
+      "level": "レベル：",
+      "humanSide": "側：",
+      "redSide": "レッド (プレイレッド)",
+      "blackSide": "ブラック(プレイブラック)",
+      "guide": {
+        "title": "学習ガイド",
+        "step1": "立場と使命を遵守してください。",
+        "step2": "AI を使って駒を動かしたり、練習したりできます。",
+        "step3": "「完了」をクリックして報酬を受け取ります。"
+      }
+    },
+    "board": {
+      "tab": "ボード{{index}}: {{title}}",
+      "defaultTitle": "デフォルト",
+      "supplemental": {
+        "title": "詳しい補足知識",
+        "p1": "象棋では、盤と駒の位置を理解することが最も重要な基礎です。宮殿は将軍が住む場所であるだけでなく、敵の主な標的でもあります。",
+        "p2": "【V0】を学ぶ際には、ピース間の連携に注目してください。単一の部分だけを見てはいけません。それが他の人をどのように保護またはサポートして強固なフォーメーションを作成するかを見てください。"
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> 基礎から上級までのオンライン <span className=\"text-blue-600\">Xiangqi コース</span>",
+      "intro": "<strong className=\"text-slate-600 dark:text-white/60\">xiangqi レッスン</strong>システムは、ルール、駒の動き、<strong className=\"text-slate-600 dark:text-white/60\">戦術</strong>、 古典的な<strong className=\"text-slate-600 dark:text-white/60\">エンドゲーム</strong>をマスターできるように科学的に設計されています。あらゆるレベルのプレーヤーが毎日スキルを磨くのに最適です。",
+      "whyTitle": "なぜチェックメイトとエンドゲームを訓練するのか?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "キラーマインドセット",
+        "desc": "古典的なチェックメイト パターン (馬から大砲、天と地の大砲など) をすぐに認識します。"
+      },
+      "item2": {
+        "title": "終盤のテクニック",
+        "desc": "マスターのエンディングは、馬とアドバイザーとゾウに勝つ一輪車、大砲とアドバイザーに勝つゾウのようなものです...すべてのマスターへの死の教訓。"
+      },
+      "item3": {
+        "title": "AIを使って練習する",
+        "desc": "すべてのボードセットアップには Pikafish エンジンが統合されているため、すぐにマシンに対して試すことができます。"
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "コミュニティ <0>闘技場</0>",
+    "subtitle": "数千のオンライン対局を観戦し学ぶ",
+    "meta": {
+      "title": "Xiangqi ゲーム ギャラリー - ライブ & リプレイ マッチ",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 ライブ",
+      "open": "⏳ 待ち",
+      "finished": "🏁 終了",
+      "all": "🌍 すべて"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ すべてのモード",
+        "blitz": "ブリッツ",
+        "rapid": "急速な",
+        "standard": "標準"
+      },
+      "sort": {
+        "newest": "🕒 最新",
+        "popular": "🔥 人気",
+        "spectators": "👁 観客"
+      },
+      "timeRange": {
+        "all": "📅 オールタイム",
+        "day": "今日",
+        "week": "今週",
+        "month": "今月"
+      },
+      "red": "紅 (赤)",
+      "black": "黒"
+    },
+    "empty": {
+      "searching": "一致するものを検索しています...",
+      "noGames": "一致するものが見つかりませんでした",
+      "noResults": "フィルターに一致するものが見つかりませんでした。フィルターを変更してみてください。",
+      "clear": "フィルターをクリアする"
+    },
+    "card": {
+      "puzzle": "パズル",
+      "waiting": "待っている...",
+      "watch": "観る",
+      "participate": "参戦",
+      "loadMore": "古い試合を探索する ↓"
+    },
+    "seoContent": {
+      "title": "オンライン <0>Xiangqi</0> ギャラリー システム",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "視覚的な棋譜",
+        "desc": "終了後のすべての試合は詳細な<0>試合記録</0>として保存されます。各手をリプレイし、間違いを分析し、マスターの考え方のハイライトを見つけることができます。"
+      },
+      "item2": {
+        "title": "活気に満ちたオンライン コミュニティ",
+        "desc": "ディスカッションに参加したり、コメントしたり、素晴らしいゲームに「いいね」を付けたりしましょう。 <0>Xiangqi オンライン</0> は、勝ち負けだけを競うのではなく、64 マスのアートに対する経験や情熱を交換する場所でもあります。"
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "パズルディスカッション",
+    "titleTournament": "トーナメントディスカッション",
+    "titleDefault": "コメント",
+    "placeholderPuzzle": "解決策を提案するか、質問してください...",
+    "placeholderDefault": "コメントを書いてください...",
+    "emptyStateFirst": "コメントはまだありません。",
+    "emptyStateSecond": "あなたの考えを最初に共有してください!",
+    "loginPrompt": "ディスカッションに参加するには<0>ログイン</0>する必要があります。",
+    "sending": "...",
+    "deleteTooltip": "コメントの削除（管理者）",
+    "deleteTitle": "コメントを削除しますか?",
+    "deleteMsg": "このコメントを削除してもよろしいですか?この操作は元に戻すことができません。",
+    "deleteAction": "今すぐ削除",
+    "errorTitle": "無効なコメント",
+    "errorNoLinks": "コメントにリンクを含めることはできません。",
+    "errorRateLimitTitle": "送信が速すぎます",
+    "errorRateLimit": "送信が速すぎます。 1分後にもう一度試してください。",
+    "redPlayer": "赤",
+    "blackPlayer": "黒",
+    "reltime": {
+      "justNow": "ちょうど今",
+      "minutes": "{{count}}分前",
+      "hours": "{{count}} 時間前"
+    }
+  },
+  "admin": {
+    "title": "管理ダッシュボード",
+    "checkingPermissions": "権限を確認中...",
+    "noPermission": "⚠️ 管理者権限がありません。",
+    "syncingData": "システムデータを同期中...",
+    "searchPlaceholder": "情報を検索...",
+    "sidebar": {
+      "dashboard": "概要 (AI)",
+      "users": "ユーザー管理",
+      "matches": "対局ルーム",
+      "puzzles": "詰将棋管理",
+      "tournaments": "大会管理",
+      "bots": "ボット管理",
+      "comments": "コメント管理",
+      "practice": "練習管理",
+      "shop": "ショップ管理",
+      "analytics": "分析 (Google)",
+      "ai": "AIジェネレーター",
+      "push": "プッシュ通知",
+      "cache": "キャッシュ管理 (Redis)",
+      "server": "システム (ログ)",
+      "settings": "システム設定",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "タイトルと内容を入力してください",
+      "errorUid": "受信者のUIDを入力してください",
+      "errorSystem": "送信時のシステムエラー"
+    },
+    "ai": {
+      "enterElo": "新しい ELO を入力してください:",
+      "invalidNumber": "無効な番号です"
+    },
+    "cache": {
+      "cleared": "キャッシュがすべてクリアされました！"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

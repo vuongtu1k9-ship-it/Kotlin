@@ -1,0 +1,16 @@
+[Unit]
+Description=Cotuong/Xiangqi API (Node)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/xiangqi-web
+EnvironmentFile=/var/www/xiangqi-web/server.env
+ExecStart=/usr/bin/node server/index.mjs
+Restart=always
+RestartSec=3
+# hardening (minimal)
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

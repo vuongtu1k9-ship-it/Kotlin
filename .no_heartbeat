@@ -1,0 +1,6 @@
+# Heartbeat Disabled
+# Tất cả cơ chế heartbeat đã bị vô hiệu hóa vĩnh viễn theo yêu cầu của user.
+# File này ngăn hệ thống tự động tạo lại HEARTBEAT.md.
+
+DISABLED_AT="2026-04-19T04:10:00Z"
+REQUESTED_BY="Đỗ Linh (8562520530)"

@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "errorBoundaryTitle": "⚠️ Se produjo un error en la interfaz",
+    "errorBoundaryReload": "Recargar página",
+    "cellAriaLabel": "Cuadrado {{coord}}",
+    "cellAriaLabelOccupied": "Cuadrado {{coord}} - Ocupado",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "viewAll": "Ver todo →",
+    "backToLobby": "Volver al Lobby",
+    "search": "Buscar",
+    "reset": "Restablecer",
+    "login": "Acceso",
+    "you": "Tú",
+    "close": "Cerrar",
+    "agree": "Aceptar",
+    "refresh": "Refrescar",
+    "coins": "Oro",
+    "gold": "Oro",
+    "saveSuccess": "¡Guardado exitosamente!",
+    "sides": {
+      "red": "Rojo",
+      "black": "Negro"
+    },
+    "challenge": "Reto",
+    "send": "Enviar",
+    "reject": "Rechazar",
+    "finished": "Fin",
+    "play": "Jugando",
+    "pieces": {
+      "general": "General",
+      "advisor": "Tutor",
+      "elephant": "Elefante (Xiang)",
+      "horse": "Caballo (Ma)",
+      "chariot": "Carro (Ju)",
+      "cannon": "Cañón",
+      "soldier": "Soldado"
+    },
+    "offline": "Desconectado",
+    "draw": "Dibujar",
+    "room": "Sala",
+    "and": "y",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "En línea",
+    "waiting": "Espera"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - Juega ajedrez profesional gratis",
+    "defaultDescription": "Plataforma xiangqi en línea gratuita con una interfaz hermosa, silenciosa y fluida. Juega en línea o desafía el motor de IA.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| Xiangqi en línea"
+  },
+  "navbar": {
+    "brand": "Xiangqi",
+    "online": "En línea",
+    "home": "Inicio",
+    "puzzles": "Rompecabezas",
+    "setup": "Editor",
+    "ai": "Contra IA",
+    "tournaments": "Torneos",
+    "practice": "Práctica",
+    "howToPlay": "Cómo jugar",
+    "players": "Maestros",
+    "leaderboard": "Tabla de clasificación",
+    "shop": "Tienda",
+    "logout": "Cerrar sesión",
+    "profile": "Perfil",
+    "settings": "Ajustes",
+    "status": "Estado",
+    "userMenu": "Menu de Usuario",
+    "guestName": "Jugador",
+    "playerType": "JUGADOR DE XIANGQI",
+    "coins": "Oro",
+    "rank": "Rango",
+    "welcome": "¡Bienvenido!",
+    "loginToEarn": "Inicia sesión para recibir recompensas y competir en el ranking",
+    "googleMaintenance": "El inicio de sesión de Google está en mantenimiento",
+    "useEmail": "Usar Email",
+    "playAsGuest": "¿Jugar como Invitado?",
+    "statuses": {
+      "online": "En línea",
+      "busy": "Ocupado",
+      "invisible": "Invisible",
+      "free": "Disponible",
+      "offline": "Desconectado"
+    },
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": "Menú",
+    "navigation": "Navegación",
+    "activeGameAlert": "¡Tienes una partida activa!",
+    "returnToBoard": "Volver al tablero ahora",
+    "back": "VOLVER",
+    "loginWithGoogle": "Iniciar sesión con Google"
+  },
+  "site": {
+    "maintenanceModeTitle": "Mantenimiento del Sistema",
+    "maintenanceMessageDefault": "Estamos actualizando nuestros sistemas para brindar la mejor experiencia. Por favor vuelve más tarde.",
+    "announcementLabel": "AVISO"
+  },
+  "ranks": {
+    "novice": "Novato",
+    "amateur": "Aficionado",
+    "intermediate": "Intermedio",
+    "expert": "Experto",
+    "master": "Maestro",
+    "internationalMaster": "Maestro Internacional",
+    "grandmaster": "Gran Maestro",
+    "player": "Jugador"
+  },
+  "chat": {
+    "title": "Charlar",
+    "new_message": "Nuevo mensaje",
+    "followed_you": "¡te ha seguido!",
+    "view_profile": "VER PERFIL",
+    "challenge_accepted": "¡Desafío aceptado!",
+    "go_to_play": "IR A JUGAR",
+    "is_online": "ahora está activo.",
+    "entered_room": "entró",
+    "open_chat": "Abrir chat",
+    "close_chat": "Cerrar chat",
+    "disable_global_notifs": "Desactivar Notificaciones Globales",
+    "enable_global_notifs": "Activar Notificaciones Globales",
+    "disable_notifs": "Silenciar Chat",
+    "enable_notifs": "Activar Sonido",
+    "disable_autoscroll": "Desactivar Autoscroll",
+    "enable_autoscroll": "Activar Autoscroll",
+    "tabs": {
+      "global": "Global",
+      "private": "Privado"
+    },
+    "to_prefix": "Para: ",
+    "is_online_label": "En línea",
+    "onlinePlayersHeader": "Jugadores en línea",
+    "history": "Historial de chat ({{count}})",
+    "labelGlobal": "Global",
+    "labelRoom": "Habitación {{id}}",
+    "labelPrivate": "Privado: {{name}}",
+    "followed_you_message": "¡Ahora te está siguiendo!",
+    "noMessages": "(sin mensajes)",
+    "noMessagesWelcome": "Aún no hay mensajes. ¡Empieza a chatear!",
+    "player": "JUGADOR",
+    "guestPlaceholder": "Por favor inicia sesión para chatear",
+    "placeholder": "Enviar un mensaje...",
+    "followed": "👤 Seguiste al oponente",
+    "wasFollowed": "🎉 El oponente te siguió"
+  },
+  "auth": {
+    "registerTitle": "Crear una cuenta",
+    "loginSubtitle": "Inicia sesión para ganar recompensas",
+    "registerSubtitle": "Únase a la comunidad más grande de Xiangqi",
+    "loginWithGoogle": "Iniciar sesión con Google",
+    "orEmail": "o correo electrónico",
+    "emailLabel": "Correo electrónico",
+    "displayNameLabel": "Nombre para mostrar (opcional)",
+    "passwordLabel": "Contraseña",
+    "termsAgreementPrefix": "Estoy de acuerdo con el",
+    "termsLink": "Términos de servicio",
+    "privacyLink": "política de privacidad",
+    "termsAgreementSuffix": "de Xiangqi en línea.",
+    "termsError": "Debe aceptar los Términos y la Política de privacidad.",
+    "processing": "Tratamiento…",
+    "haveAccount": "¿Ya tienes una cuenta? Iniciar sesión",
+    "noAccount": "Crear una cuenta",
+    "backToLobby": "Volver al vestíbulo",
+    "loginPrompt": "Debes <0>iniciar sesión</0> para participar en los debates.",
+    "passwordsNotMatch": "Las contraseñas no coinciden.",
+    "passwordTooShort": "La contraseña debe tener al menos 6 caracteres.",
+    "invalidOldPassword": "Contraseña antigua incorrecta."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> es un jugador activo en la comunidad Xiangqi Online. Con un rango de <1>{{rank}}</1> ({{elo}} Elo), {{name}} ha participado en un total de <2>{{count}}</2> intensos partidos. Actualmente, este jugador tiene <3>{{followers}}</3> seguidores y es una parte importante del sistema de clasificación nacional de la plataforma.",
+    "social": {
+      "followers": "Seguidores",
+      "following": "Siguiente",
+      "empty": "La lista está vacía"
+    },
+    "sections": {
+      "medals": "Medallas",
+      "noMedals": "Aún no hay títulos",
+      "inventory": "Items",
+      "noItems": "Aún no hay artículos",
+      "puzzles": "Mis Puzzles",
+      "noPuzzles": "Aún no hay rompecabezas creativos",
+      "solved": "Resueltos",
+      "noSolved": "Aún no hay acertijos resueltos",
+      "history": "Historial",
+      "viewGame": "Ver 📺"
+    },
+    "gifts": {
+      "title": "Enviar Regalo",
+      "loading": "Cargando regalos...",
+      "empty": "inventario vacio",
+      "sending": "Enviando...",
+      "confirm": "Firma",
+      "loginPrivate": "Inicie sesión para enviar mensajes.",
+      "loginChallenge": "Inicie sesión para desafiar."
+    },
+    "bioTitle": "Biografía y logros",
+    "game": {
+      "active": "Activo",
+      "redWin": "El rojo gana",
+      "blackWin": "Las negras ganan",
+      "moves": "se mueve"
+    },
+    "notFound": "Usuario no encontrado",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "Crear Sala",
+    "playWithAi": "Jugar con IA",
+    "findMatch": "Buscar Rival",
+    "headerTitle": "Entrena a Xiangqi <0>con IA</0> y resuelve acertijos",
+    "headerSubtitle": "Plataforma líder de competición y rompecabezas",
+    "waiting": "Buscando rival...",
+    "noRooms": "No hay salas esperando en este momento.",
+    "activeGameTitle": "¡Tienes una partida sin terminar!",
+    "activeGameSubtitle": "Por favor, regresa para continuar jugando con tu oponente",
+    "returnToGame": "Volver a la Partida",
+    "roomList": "Lista de Salas",
+    "roomListSubtitle": "Partidas activas e historial",
+    "noRoomsFiltered": "No hay partidas que coincidan con este filtro.",
+    "onlinePlayers": "Jugadores Online",
+    "onlinePlayersCount": "{{count}} miembros en línea",
+    "loginToChat": "Por favor inicia sesión para chatear.",
+    "loginToChallenge": "Por favor inicia sesión para desafiar.",
+    "chatAction": "Charlar",
+    "challengeAction": "Invitar",
+    "tabs": {
+      "live": "En vivo",
+      "open": "Abierto",
+      "finished": "Terminadas",
+      "all": "Todas"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "Puzzles Recientes",
+        "subtitle": "Explora acertijos tácticos de la comunidad.",
+        "puzzleType": "Rompecabezas",
+        "unnamed": "Puzzle sin nombre",
+        "levelPrefix": "Nivel {{level}}",
+        "normalLevel": "Normal",
+        "solve": "Resolver"
+      },
+      "features": {
+        "title": "¿Por qué elegir Xiangqi en línea?",
+        "premium": {
+          "title": "⚡ Experiencia Premium Gratis",
+          "desc": "Plataforma optimizada para velocidad y tranquilidad. Puedes <0>editar puzzles online</0> y jugar sin anuncios ni distracciones."
+        },
+        "ai": {
+          "title": "🤖 Jugar contra IA (Pikafish AI)",
+          "desc": "Ponte a prueba con <0>jugar xiangqi con la máquina</0> utilizando el motor Pikafish más potente del mundo. Desde el nivel 1 para principiantes hasta el nivel 10 desafiantes maestros internacionales."
+        },
+        "data": {
+          "title": "🧩 Base de Datos Masiva de Puzzles",
+          "desc": "El sistema de ejercicios <0>resolver acertijos xiangqi</0> se actualiza continuamente desde la comunidad, lo que te ayuda a entrenar tu pensamiento táctico y tus habilidades finales todos los días."
+        }
+      },
+      "guide": {
+        "title": "Guía de juego en línea de Xiangqi",
+        "intro": "Para comenzar tu viaje en <0>cotuong.xyz</0>, solo sigue 3 pasos simples:",
+        "step1": {
+          "title": "Registre una cuenta:",
+          "desc": "Para guardar tu historial de partidas y tu Elo."
+        },
+        "step2": {
+          "title": "Busca un rival:",
+          "desc": "Invita directamente desde la lista de jugadores o crea una sala nueva."
+        },
+        "step3": {
+          "title": "Tren:",
+          "desc": "Utilice la sección <0>Aprender</0> para dominar los patrones básicos de jaque mate."
+        },
+        "note": "* Aquí el sistema Elo se calcula en función de la fuerza del oponente, lo que garantiza equidad y alta competitividad en la comunidad en línea."
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes (FAQ)",
+        "q1": {
+          "q": "P: ¿Jugar a xiangqi en línea aquí es gratis?",
+          "a": "R: Totalmente gratis. Todas las funciones, desde puzzles hasta torneos, no tienen costo."
+        },
+        "q2": {
+          "q": "P: ¿Cómo invito a amigos a jugar?",
+          "a": "R: Después de hacer clic en \"Configurar partido\" y crear una sala, simplemente copia la URL de esa página de partido y envíala a tus amigos."
+        },
+        "q3": {
+          "q": "¿Puedo volver a ver mis partidas?",
+          "a": "R: Sí. Todas tus coincidencias se almacenan en el Historial de tu página de perfil, puedes volver a ver y analizar movimientos en cualquier momento."
+        },
+        "q4": {
+          "q": "P: ¿Por qué no puedo mover las piezas?",
+          "a": "R: Verifique si es su turno (hay un indicador de giro debajo del tablero) o si su conexión a Internet es estable."
+        }
+      },
+      "meta": {
+        "title": "Xiangqi Online: entrena con IA, resuelve acertijos y juega con máquinas",
+        "description": "Plataforma premium en línea xiangqi: entrena con la IA de Pikafish más potente, resuelve miles de acertijos tácticos y juega xiangqi con la máquina de forma gratuita."
+      },
+      "schema": {
+        "siteName": "Xiangqi Online",
+        "siteDesc": "Plataforma de entrenamiento de inteligencia artificial, configuración de tableros y resolución de acertijos xiangqi en línea de forma gratuita.",
+        "q1": {
+          "name": "¿Cómo jugar xiangqi online con amigos?",
+          "text": "Haz clic en \"Configurar coincidencia\" y envía el enlace de la sala a tus amigos."
+        },
+        "q2": {
+          "name": "¿Es fuerte la IA en cotuong.xyz?",
+          "text": "Utiliza el motor Pikafish más potente, desde principiante hasta gran maestro."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "Últimas reglas de Xiangqi: guía básica de cómo jugar",
+      "description": "Últimas reglas de xiangqi: guía sobre cómo jugar básico, cómo mover Chariot Cannon Horse General Advisor Elephant Soldier y reglas prohibidas."
+    },
+    "title": "Cómo jugar Xiangqi",
+    "subtitle": "Aprende reglas básicas y cómo se mueven las piezas.",
+    "intro": "Xiangqi (ajedrez chino) es un juego mental táctico para dos jugadores. El objetivo final es dar jaque mate o capturar al <0>general</0> del oponente.",
+    "intro_p1": "Xiangqi (ajedrez chino) es un juego mental táctico para dos jugadores. El objetivo final es dar jaque mate o capturar al oponente.",
+    "intro_p3": "rival.",
+    "section1": {
+      "title": "1. El Tablero y las Zonas",
+      "river": {
+        "label": "Río (Él):",
+        "desc": "Ubicado en el centro, divide el tablero. Las piezas defensivas (como el Elefante) no pueden cruzarlo."
+      },
+      "palace": {
+        "label": "El Palacio (Jiu Gong):",
+        "desc": "Un cuadrado de 3x3 con líneas diagonales a cada lado. El General y los Asesores sólo pueden moverse dentro de esta área."
+      },
+      "boardDesc": "El tablero consta de 10 líneas horizontales y 9 líneas verticales, las piezas se colocan en las intersecciones de las líneas.",
+      "openingTitle": "Aperturas Básicas"
+    },
+    "section2": {
+      "title": "2. Movimiento de las Piezas",
+      "pieces": {
+        "general": {
+          "desc": "Se mueve 1 punto horizontal o vertical. Debe permanecer dentro del Palacio.",
+          "action": "→ Práctica general",
+          "name": "General"
+        },
+        "advisor": {
+          "desc": "Se mueve 1 punto diagonalmente. Debe permanecer dentro del Palacio.",
+          "action": "→ Asesor de práctica",
+          "name": "Tutor"
+        },
+        "elephant": {
+          "desc": "Mueve 2 cuadrados en diagonal (patrón X). No se puede cruzar el río. Bloqueado si hay una pieza intermedia presente.",
+          "action": "→ Practica Elefante",
+          "name": "Elefante (Xiang)"
+        },
+        "horse": {
+          "desc": "Se mueve en L. Se bloquea si hay una pieza en su casilla adyacente ('la rodilla').",
+          "action": "→ Caballo de práctica",
+          "name": "Caballo (Ma)"
+        },
+        "chariot": {
+          "desc": "Mueve horizontal o verticalmente cualquier número de casillas si no está bloqueado.",
+          "action": "→ Practica carro",
+          "name": "Carro (Ju)"
+        },
+        "cannon": {
+          "desc": "Mueve como el Carro. Para capturar, debe saltar sobre una pieza (llamada 'montaña').",
+          "action": "→ Cañón de práctica",
+          "name": "Cañón"
+        },
+        "soldier": {
+          "desc": "Antes de cruzar el río, avanza 1 casilla. Después de cruzar, puede avanzar 1 casilla hacia adelante o hacia los lados.",
+          "action": "→ Soldado de práctica",
+          "name": "Soldado"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Diferencias entre Rojo y Negro",
+      "intro": "Si bien las piezas simétricas tienen valor y movimiento idénticos, los caracteres grabados en ellas a menudo difieren para distinguir el lado \"rojo\" del lado \"negro\".",
+      "table": {
+        "type": "Pieza",
+        "red": "Pieza Roja",
+        "black": "Pieza Negra",
+        "meaning": "Significado"
+      },
+      "meanings": {
+        "general": "Rojo: Mariscal / Negro: General",
+        "advisor": "Rojo: Oficial Civil / Negro: Guardia Erudita",
+        "elephant": "Rojo: Ministro / Negro: Elefante",
+        "horse": "Rojo: Calvario / Negro: Caballo",
+        "cannon": "Rojo: Cañón de fuego / Negro: Catapulta",
+        "soldier": "Rojo: Guerrero / Negro: Milicia",
+        "chariot": "Idéntico para ambos"
+      },
+      "why": {
+        "title": "¿Por qué son diferentes?",
+        "desc": "Esto surge de la simulación de la Contienda Chu-Han. Liu Bang (Han - Rojo) representa la corte/legitimidad, Xiang Yu (Chu - Negro) representa el poder militar práctico. Los diferentes personajes también ayudan a los jugadores a distinguir las piezas fácilmente en las configuraciones del tablero."
+      },
+      "elephantExample": {
+        "title": "Ejemplo de elefante (相/象)",
+        "desc": "Este par es muy confuso. El rojo es <0>相 (ministro)</0>, el negro es <1>象 (elefante)</1>. Ambos no pueden cruzar el río ya que son protectores defensivos.",
+        "desc_p1": "Este par es muy confuso. El rojo es",
+        "desc_p2": "相 (Ministro)",
+        "desc_p3": "y el negro es",
+        "desc_p4": "象 (elefante)",
+        "desc_p5": "Ambos no pueden cruzar el río ya que son protectores defensivos."
+      }
+    },
+    "section4": {
+      "title": "4. Valor de las piezas (Referencia)",
+      "table": {
+        "piece": "Pieza",
+        "score": "Puntaje",
+        "stage": "Etapa más fuerte"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "Carro (Ju)",
+          "power": "Más fuerte en todas las etapas."
+        },
+        "cannon": {
+          "name": "Cañón",
+          "power": "Muy fuerte al inicio y medio juego"
+        },
+        "horse": {
+          "name": "Caballo (Ma)",
+          "power": "Gran potencial al final del juego"
+        },
+        "soldier": {
+          "name": "Soldado",
+          "power": "Los valores aumentan después de cruzar el río en Endgame"
+        },
+        "defense": {
+          "name": "Asesor / Elefante",
+          "power": "Escudo defensivo vital"
+        },
+        "general": {
+          "name": "General"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Reglas Especiales",
+      "rules": {
+        "kingFace": {
+          "label": "Reyes Frente a Frente:",
+          "desc": "Los generales no pueden verse directamente en la misma columna sin piezas en medio."
+        },
+        "check": {
+          "label": "Jaque:",
+          "desc": "Cuando una pieza amenaza directamente al General."
+        },
+        "mate": {
+          "label": "Jaque Mate:",
+          "desc": "Cuando el General está bajo control y no tiene forma de escapar."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Tácticas avanzadas",
+      "phases": {
+        "opening": {
+          "title": "⚔️ Apertura",
+          "quote": "\"Los carros salen temprano, los caballos llegan más tarde, los cañones son flexibles\"",
+          "desc": "Moviliza tus piezas mayores a posiciones abiertas."
+        },
+        "midgame": {
+          "title": "🛡️ Medio Juego",
+          "desc": "Cuando el combate estalla. Coordina para presionar al General rival."
+        },
+        "endgame": {
+          "title": "🔚 Final",
+          "desc": "Con pocas piezas, la agilidad del Caballo y el Soldado son clave."
+        },
+        "tactics": {
+          "title": "🔥 Patrones de Mate",
+          "maHauPhao": "Compañero de caballo y luego cañón: uso del caballo como montura para el cañón.",
+          "thienDiaPhao": "Cañones de Cielo y Tierra: Control de filas y columnas con dos Cañones.",
+          "daiDamXa": "Bold Chariot: Conduciendo Chariot directamente al palacio central."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. FAQ: Reglas Prohibidas",
+      "faqs": {
+        "f1": {
+          "q": "¿Se permite el jaque perpetuo?",
+          "a": "R: No. En las reglas modernas, no puedes repetir los ataques/estados de verificación más de 3 veces. Las violaciones resultan en una pérdida."
+        },
+        "f2": {
+          "q": "¿Puede el General salir del Palacio?",
+          "a": "R: No. El General y sus Consejeros viven siempre en el 3x3."
+        },
+        "f3": {
+          "q": "P: ¿Cuándo un partido se considera empatado?",
+          "a": "R: Se produce un empate cuando:<1 />1. <0>Regla de los 60 movimientos:</0> 60 movimientos consecutivos por cada bando sin captura. Reiniciar si se captura alguna pieza.<2 />2. <0>Acuerdo:</0> Ambos jugadores acuerdan empatar.<3 />3. <0>Repetición perpetua:</0> Repetir un estado 3 veces (sin verificación).<4 />4. <0>Empate técnico:</0> Ningún bando tiene fuerza suficiente para dar mate.",
+          "a_intro": "Empate ocurre por:",
+          "a_item1_title": "Regla de 60 pasos:",
+          "a_item1_desc": "Sin capturas en 60 jugadas.",
+          "a_item2_title": "Acuerdo:",
+          "a_item2_desc": "Ambos aceptan el empate.",
+          "a_item3_title": "Repetición perpetua:",
+          "a_item3_desc": "Repetir un estado 3 veces (sin verificación).",
+          "a_item4_title": "Sorteo Técnico:",
+          "a_item4_desc": "Sin piezas suficientes para ganar."
+        },
+        "f4": {
+          "q": "¿Pierdo si se me acaba el tiempo?",
+          "a": "R: Sí. Cuando expira el tiempo total del partido (Tiempo muerto), ese lado pierde inmediatamente, independientemente de la ventaja del tablero.",
+          "a_p1": "R: Sí. Cuando expira el tiempo total del partido (Tiempo muerto), ese lado pierde inmediatamente, independientemente de la ventaja del tablero.",
+          "a_p2": "pierde",
+          "a_p3": "inmediatamente, independientemente de la ventaja del tablero."
+        }
+      },
+      "practiceAction": "🔥 Ir a Practicar Ahora"
+    },
+    "history": {
+      "title": "Historia del Xiangqi",
+      "p1": "Xiangqi evolucionó a partir del antiguo indio <0>Saturanga</0>, se introdujo en China y mejoró significativamente. El tablero con River y Palace simula la <1>Contención Chu-Han</1> entre Liu Bang y Xiang Yu.",
+      "p2": "Durante miles de años, se convirtió en un elemento cultural básico en el este de Asia. En Vietnam, se juega en todas partes, desde las aceras hasta los estadios profesionales.",
+      "p3": "Hoy, <0>cotuong.xyz</0> conecta a millones de entusiastas en todo el mundo."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "Jugar contra IA",
+    "labelWithId": "Habitación {{id}}",
+    "ready": "Listo",
+    "finished": "Juego Terminado",
+    "waitingPlayer": "Esperando",
+    "join": "Jugar",
+    "copyLinkSuccess": "¡Enlace de la sala copiado al portapapeles!",
+    "inviteBtn": "invitar amigo",
+    "role": "Rol",
+    "turn": "Doblar",
+    "spectatorsShort": "Especulación.",
+    "noSpectators": "Ninguno"
+  },
+  "game": {
+    "sides": {
+      "red": "Rojo",
+      "black": "Negro"
+    },
+    "timeModes": {
+      "blitz": "Bombardeo aéreo",
+      "rapid": "Rápido",
+      "standard": "Estándar",
+      "slow": "Lento",
+      "gridLabel": "Modo de hora"
+    },
+    "timeModeSub": {
+      "blitz": "3m",
+      "rapid": "10m",
+      "standard": "20m",
+      "slow": "45m"
+    },
+    "status": {
+      "redWin": "Rojos Ganan",
+      "blackWin": "Negros Ganan",
+      "draw": "Tablas",
+      "ongoing": "En curso",
+      "check": "¡CONTROLAR!",
+      "startPrompt_red": "Tu turno: haz el primer movimiento para comenzar.",
+      "startPrompt_black": "Esperando a que Red dé el primer paso",
+      "waitingForPlayers": "Esperando jugadores..."
+    },
+    "actions": {
+      "draw": "Ofrecer Empate",
+      "resign": "Rendirse",
+      "swap": "Cambiar Bandos",
+      "leave": "Salir",
+      "publish": "Publicar",
+      "undo": "Deshacer",
+      "newGame": "Nuevo juego"
+    },
+    "confirm": {
+      "drawTitle": "Ofrecer Empate",
+      "drawMsg": "¿Enviar una oferta de empate al oponente?",
+      "resignTitle": "Rendirse",
+      "resignMsg": "¿Confirma que desea rendirse?",
+      "leaveTitle": "Salir y Perder",
+      "leaveMsg": "Estás en un partido. Irse ahora resultará en una pérdida. ¿Continuar?",
+      "loginTitle": "Acceso Requerido",
+      "loginMsg": "Inicie sesión para guardar el partido en favoritos.",
+      "leaveMsg_casual": "Este es un partido casual, ¿estás seguro de que quieres irte?",
+      "leaveMsg_spectator": "Estás a punto de abandonar la sala de espectadores.",
+      "undoMsg": "¿Quieres enviar una solicitud de deshacer a tu oponente?"
+    },
+    "modals": {
+      "swapTitle": "Cambio de Bando",
+      "swapMessage": "El oponente propone cambiar colores. ¿Aceptas?",
+      "drawTitle": "Propuesta de Tablas",
+      "drawMessage": "El oponente ofrece tablas. ¿Aceptas?",
+      "accept": "Aceptar"
+    },
+    "comments": "Comentarios",
+    "private": "Partida Privada",
+    "publishDesc": "Publicar partida",
+    "viewDetails": "Ver detalles del partido",
+    "notFoundTitle": "Zona desmantelada",
+    "notFoundDesc": "La partida #{{id}} no existe.",
+    "redSide": "Bando Rojo",
+    "blackSide": "Bando Negro",
+    "sideBlack": "Jugar negro",
+    "aiPlayer": "IA",
+    "rankGeneric": "Jugador",
+    "redPlayerDefault": "Rojos",
+    "blackPlayerDefault": "Negros",
+    "roomIdLabel": "Sala: #{{id}}",
+    "active": "En partido",
+    "moves": "{{count}} se mueve",
+    "seo": {
+      "title": {
+        "prefix": "Análisis profundo:",
+        "videoTitle": "Vídeo del juego: {{title}}"
+      },
+      "intro": "Partida de <0>xiangqi online</0> entre <1>{{red}}</1> y <2>{{black}}</2>. <3>Replay</3> para mejorar tus habilidades.",
+      "comments": {
+        "title": "💡 Valor del comentario y análisis",
+        "desc": "El sistema admite la <1>notación xiangqi</1> en tiempo real, lo que le permite seguir cada movimiento y participar en debates comunitarios. Los juegos de primer nivel a menudo contienen <3>tácticas xiangqi</3> profundas que puedes aplicar a tus propios juegos."
+      },
+      "ai": {
+        "title": "🤖 Entrena con IA",
+        "desc": "Si quieres probar movimientos similares, utiliza la función <1>jugar xiangqi con máquina</1> AI (Pikafish) para simular situaciones difíciles de este partido. Este es el método más eficaz para <3>entrenar con súper IA</3>."
+      },
+      "keywords": "xiangqi, xiangqi en línea, {{red}}, {{black}}, revisión del partido, arena en línea, torneo de xiangqi, tácticas de xiangqi, jugar con computadora, entrenar con ai, jugar xiangqi con máquina",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "Cara a cara",
+      "analysis": "Análisis",
+      "matchesCount": "{{count}} coincidencias",
+      "recentMatches": "Partidos recientes",
+      "collectingData": "Recopilando datos H2H...",
+      "red": "Rojo",
+      "black": "Negro",
+      "youWin": "TU GANAS",
+      "opponentWin": "GANANCIA DEL OPONENTE"
+    },
+    "panel": {
+      "title": "Información del partido",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} LADO",
+      "winStatus": "VICTORIOSO",
+      "drawStatus": "DIBUJAR",
+      "reasons": {
+        "checkmate": "Mate",
+        "stalemate": "Estancamiento",
+        "timeout": "Se acabó el tiempo",
+        "resign": "Renuncia",
+        "perpetual": "Regla perpetua",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "Título",
+        "defaultTitle": "Partido #{{id}}",
+        "puzzleOrigin": "Creado a partir de un rompecabezas",
+        "puzzleTitle": "Rompecabezas #{{id}}",
+        "drawRules": "Reglas de sorteo",
+        "rule60": "Empate si 60 se mueven sin captura.",
+        "ruleRepeat": "Pérdida si se realiza un cheque perpetuo o se persigue 3 veces.",
+        "ruleTimeout": "Pérdida inmediatamente después del tiempo de espera.",
+        "rule60Label": "Regla de los 60 movimientos:",
+        "ruleRepeatLabel": "Repetición:",
+        "ruleTimeoutLabel": "Se acabó el tiempo:",
+        "materialAdvantage": "Ventaja material",
+        "drawProgress": "Progreso del sorteo",
+        "redAdvantage": "ROJO +{{count}}",
+        "blackAdvantage": "NEGRO +{{count}}",
+        "balanced": "EQUILIBRADO"
+      },
+      "actions": {
+        "save": "AHORRAR",
+        "lobby": "VESTÍBULO"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "¡Victoria!",
+      "loss": "Fracaso",
+      "draw": "¡Dibujar!",
+      "finished": "Partido terminado",
+      "elo": "Clasificación ELO",
+      "reward": "Premio",
+      "review": "Revisar",
+      "share": "Compartir"
+    },
+    "spectators": {
+      "title": "Espectadores ({{count}})",
+      "empty": "nadie esta mirando",
+      "label_short": "PÚBLICO",
+      "alt": "Espectador {{name}}"
+    },
+    "lobbyTitle": "Sala",
+    "puzzleTag": "Rompecabezas",
+    "aiLevels": {
+      "1": "Novato",
+      "2": "BÁSICO",
+      "3": "Intermedio",
+      "4": "EXPERTO",
+      "5": "Avanzado",
+      "6": "CAMPEÓN",
+      "default": "Nivel {{level}}"
+    },
+    "moveList": {
+      "progress": "Progreso",
+      "first": "Inicio",
+      "prev": "Anterior",
+      "next": "Sig",
+      "last": "Final",
+      "pause": "Pausa",
+      "play": "Play",
+      "empty": "Sin movimientos",
+      "initial": "Posición inicial",
+      "viewMove": "Ver jugada {{index}}",
+      "returnToLive": "Volver al Directo"
+    },
+    "export": {
+      "copyFen": "Copiar FEN",
+      "copyFenSuccess": "¡FEN copiado!",
+      "copyFenError": "Error al copiar FEN",
+      "exportFile": "Exportar Archivo",
+      "saveImage": "Imagen (Local)",
+      "saveImageSuccess": "¡Imagen guardada!",
+      "saveImageError": "Error al guardar imagen",
+      "downloadHd": "Descarga HD (Server)",
+      "downloadHdSuccess": "¡HD guardada!",
+      "downloadHdError": "Error HD: {{message}}",
+      "cancelInfo": "Cancelado",
+      "noMovesError": "Sin movimientos para video",
+      "clientVideo": "Video (WebM)",
+      "clientVideoSuccess": "¡Video exportado!",
+      "clientVideoError": "Error video local: {{message}}",
+      "serverVideo": "Video (MP4)",
+      "serverVideoSuccess": "¡Descarga {{format}} lista!",
+      "serverVideoError": "Error servidor: {{message}}",
+      "serverTimeout": "Tiempo de espera del servidor. Coincidencia demasiado larga, utilice \"Video - Cliente\" (Calidad HD)",
+      "animatedGif": "GIF Animado",
+      "size": "Tamaño",
+      "ratios": {
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "square": "Cuadrado",
+        "board": "Tablero"
+      }
+    },
+    "move": "Movimiento",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "¡Rojos han entrado!",
+    "blackJoined": "¡Negros han entrado!",
+    "redLeft": "Rojos han salido.",
+    "blackLeft": "Negros han salido.",
+    "opponentDisconnected": "¡Rival desconectado!",
+    "opponentReconnected": "¡Rival reconectado!",
+    "newSpectator": "Nuevo espectador (Total {{count}})",
+    "started": "¡Partida iniciada! Suerte.",
+    "drawDeclined": "El oponente rechazó la oferta de empate.",
+    "swapDeclined": "El oponente rechazó la solicitud de intercambio.",
+    "swapSuccess": "Has cambiado al bando {{side}}",
+    "resultDraw": "Fin: Tablas",
+    "resultWin": "¡Felicidades! Ganaste.",
+    "resultLoss": "Fin: Perdiste.",
+    "resultOtherWin": "¡Victoria bando {{side}}!",
+    "errorViewingReplay": "Estás viendo una repetición.",
+    "backToLive": "Vovler al Vivo",
+    "errorLoginToPlay": "Accede para jugar.",
+    "errorNotYourTurn": "No es tu turno.",
+    "errorSpectator": "Eres espectador.",
+    "engineError": "Error Motor: {{error}}",
+    "config": {
+      "titleChallenge": "Invitar Jugador",
+      "titlePuzzle": "Match de Puzzle",
+      "titleNew": "Nueva Partida",
+      "readyToPlay": "Listo para Jugar",
+      "invitedOpponent": "Desafío entrante",
+      "challengeInvite": "¡{{name}} te desafió!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} rechazó la invitación.",
+        "wait": "⏳ {{name}} está ocupado, ¡espere!",
+        "accepted": "🎉 Aceptado. Iniciando...",
+        "canceled": "Cancelado.",
+        "sent": "Desafío enviado a {{name}}.",
+        "busy": "📭 {{name}} ocupado. En lista de espera.",
+        "offline": "Desconectado."
+      },
+      "ready": {
+        "title": "Partida Lista",
+        "desc": "El primero entra es Negro, el segundo Rojo. ¡Corre!",
+        "action": "ENTRAR YA",
+        "hide": "Ocultar"
+      },
+      "gifts": {
+        "received": "¡Te enviaron un regalo!",
+        "coins": "¡Te enviaron oro!",
+        "coinsDesc": "+{{amount}} 🪙",
+        "candy": "🍬 Caramelo",
+        "bear": "🧸 Peluche",
+        "ring": "💍 Anillo"
+      },
+      "defaultConfigDesc": "La coincidencia se creará con la configuración predeterminada:",
+      "defaultConfigDetails": "Estándar (20p), Público, Clasificación ELO.",
+      "advancedConfig": "⚙️ Ajustes",
+      "timeMode": "Ritmo",
+      "findOpponent": "Buscar rival",
+      "selected": "Elegido",
+      "searchPlaceholder": "Nombre o UID...",
+      "online": "En línea",
+      "noResults": "No hallado...",
+      "select": "Elegir",
+      "unselect": "Quitar",
+      "boardOptions": "Opciones",
+      "private": "🔒 Privada (Sin puntos)",
+      "public": "🌐 Público (clasificación ELO)",
+      "boardType": "Tipo",
+      "standard": "♟ Normal",
+      "puzzle": "🧩 Rompecabezas",
+      "puzzleSetup": "Ajuste Puzzle",
+      "selectedPuzzle": "Elegido",
+      "change": "Cambiar",
+      "suggestions": "Sugerencias",
+      "searchPuzzlePlaceholder": "Nombre puzzle...",
+      "level": "Nivel",
+      "challengeOptions": "Opciones de desafío",
+      "message": "Mensaje",
+      "defaultMessage": "¡Juguemos!",
+      "betGifts": "Apuesta",
+      "betActive": "🎁 Apuesta Activa",
+      "betNone": "🎁 Sin Apuesta",
+      "giftType": "Tipo regalo",
+      "backToSimple": "« Modo Simple",
+      "goldWarning": "ℹ️ Puzzles pueden no dar oro",
+      "goldSuccess": "ℹ️ Los rompecabezas estándar recompensan con oro",
+      "creating": "Creando...",
+      "sendChallenge": "⚔️ Desafiar",
+      "openMatch": "🚀 Partido público abierto",
+      "playNow": "🚀 Jugar Ya",
+      "modes": {
+        "blitz": "⚡ Bombardeo",
+        "rapid": "🏃 Rápido",
+        "standard": "⏱ Estándar",
+        "slow": "🎯 Lento"
+      },
+      "toasts": {
+        "loginRequired": "Necesitas iniciar sesión para crear una coincidencia.",
+        "challengeSent": "¡Desafío enviado a {{name}}!",
+        "roomCreated": "¡Sala lista!",
+        "alreadyInGame": "Ya tienes una partida.",
+        "serverError": "Error de servidor."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "Resuelve <0>Puzzles</0>",
+    "subtitle": "Miles de puzzles de nuestra comunidad",
+    "listTitle": "Lista de Puzzles",
+    "explore": "Explorar",
+    "saved": "Guardados",
+    "searchPlaceholder": "Buscar...",
+    "level": "Dificultad",
+    "levelValue": "Nivel {{level}}",
+    "unclassified": "sin clasificar",
+    "sort": {
+      "label": "Orden",
+      "newest": "Nuevos",
+      "popular": "Populares",
+      "solved": "Más resueltos"
+    },
+    "time": {
+      "label": "Tiempo",
+      "all": "Siempre",
+      "day": "Hoy",
+      "week": "Semana",
+      "month": "Mes"
+    },
+    "empty": {
+      "title": "Sin resultados",
+      "desc": "Cambia los filtros.",
+      "reset": "Restablecer filtros"
+    },
+    "actions": {
+      "solve": "Resolver",
+      "loadMore": "Explora más rompecabezas ↓",
+      "backToSolve": "Volver"
+    },
+    "loginToSave": "Accede para guardar.",
+    "loginToChallenge": "Accede para retar.",
+    "red": "Rojo",
+    "black": "Negro",
+    "byUser": "De {{name}}",
+    "meta": {
+      "title": "Resolver Puzzles Xiangqi Online - Mejor Base",
+      "description": "Explora miles de acertijos xiangqi de la comunidad: aperturas, finales, movimientos maestros. Practica resolviendo acertijos en línea de forma gratuita.",
+      "itemListDesc": "Mejores puzzles.",
+      "itemListSchemaDesc": "Base de datos de rompecabezas, ejercicios de finales de xiangqi en línea.",
+      "home": "Inicio",
+      "puzzles": "Rompecabezas",
+      "schemaGameTitle": "Rompecabezas de Xiangqi: {{name}}",
+      "schemaVideoTitle": "Vídeo de solución de rompecabezas: {{name}}",
+      "schemaVideoDesc": "Cómo resolver el rompecabezas xiangqi: {{name}}. Mira los movimientos correctos para ganar.",
+      "schemaVideoSolutionTitle": "Video de solución de rompecabezas: {{name}} (Solución {{index}})",
+      "schemaVideoSolutionDesc": "Cómo resolver el rompecabezas xiangqi: {{name}} - Solución {{index}}.",
+      "authorDefault": "Xiangqi Online"
+    },
+    "seoContent": {
+      "whyTitle": "¿Por qué deberías practicar <0>Resolución de acertijos</0>?",
+      "intro": "En el arte del xiangqi, <0>Resolver acertijos (o tácticas de finales)</0> es la esencia del pensamiento estratégico. <1>Crear acertijos</1> y resolverlos no es solo entretenimiento, sino un método de entrenamiento obligatorio para mejorar tus habilidades.",
+      "guide": {
+        "title": "Consejos",
+        "intro": "Para mejorar sus habilidades de <0>resolución de acertijos</0>, debe dominar los pasos básicos de análisis:",
+        "item1": "<0>Evaluación de fuerza:</0> Considere el número restante de piezas para los lados rojo y negro.",
+        "item2": "<0>Análisis de posición:</0> Encuentra las debilidades del oponente, especialmente la posición del Rey.",
+        "item3": "Calcula el mate."
+      },
+      "ai": {
+        "title": "Uso de Pikafish",
+        "intro": "Use AI <0>puzzle solving software</0> (Pikafish) right at cotuong.xyz's training center to:",
+        "item1": "Halla jugadas ocultas.",
+        "item2": "Analiza errores.",
+        "item3": "Calcula 10-20 pasos."
+      },
+      "benefits": {
+        "title": "Beneficios",
+        "satt": {
+          "title": "Mates",
+          "desc": "Domina movimientos finales como Horse-Cannon, Double Cannon, etc."
+        },
+        "tanquoc": {
+          "title": "Finales",
+          "desc": "Juego con pocas piezas."
+        },
+        "tuduy": {
+          "title": "Pensamiento",
+          "desc": "Atrapa patrones ganadores."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "Análisis de rompecabezas:",
+        "defaultName": "Tácticas clásicas",
+        "intro": "El rompecabezas <1>{{name}}</1> es un típico <3>ejercicio de rompecabezas en línea</3>, que se centra en la capacidad de coordinar piezas para acabar con el oponente. Esta es una gran oportunidad para que practiques <5>cómo resolver acertijos xiangqi</5> en situaciones reales.",
+        "tips": {
+          "title": "💡 Tip",
+          "desc": "Mira las piezas al ataque. Jaques sorpresa valen oro."
+        },
+        "advanced": {
+          "title": "📈 Avanza tu nivel",
+          "desc": "Después de resolverlo usted mismo, utilice la herramienta integrada del <1>software de resolución de acertijos</1> para ver otras variantes. Esto te ayuda a comprender más profundamente la estructura del rompecabezas y a memorizar patrones de jaque mate."
+        }
+      },
+      "seoTitle": "Pinacoteca: {{name}} - Online",
+      "seoDesc": "Resuelve el rompecabezas xiangqi {{name}} en línea. Practica la resolución de acertijos, la capacidad de cálculo y termina el partido.",
+      "rewardFirst": "🏆 ¡Genial! Recibiste monedas {{count}} 🪙 por tu primera solución.",
+      "rewardUpdate": "¡Actualizado!",
+      "viewingSolution": "Visualización de la solución desde",
+      "loadError": "No se pudieron cargar los datos del tablero",
+      "loginRequiredTitle": "Iniciar sesión requerido",
+      "loginRequiredMsg": "Por favor inicie sesión para realizar esta acción.",
+      "mission": "Misión",
+      "missionDesc": "Encuentre una manera de ganar o obtener ventaja según sea necesario.",
+      "aiSolver": "Auto-IA",
+      "aiSolverDesc": "Habilite \"🤖 AI Solver\" para el oponente automático.",
+      "achievement": "Logro",
+      "achievementDesc": "Reciba 🪙 Oro por la primera solución correcta.",
+      "aiServer": "Server IA",
+      "aiServerDesc": "Los niveles superiores utilizan el servidor Pikafish.",
+      "title": "Info",
+      "backToList": "A la lista",
+      "puzzleNameLabel": "Rompecabezas {{id}}",
+      "firstPlayer": "Bando",
+      "redFirst": "🔴 Rojo",
+      "blackFirst": "⚫ Negro",
+      "creator": "Autor",
+      "difficulty": "Nivel",
+      "relatedGames": "Relacionados",
+      "justHappened": "acaba de suceder",
+      "saved": "Guardados",
+      "savePuzzle": "Guardar",
+      "solverTitle": "solucionador de rompecabezas",
+      "solveMode": "Modo",
+      "modeAi": "🤖 IA (Auto)",
+      "modeManual": "👥 Manual",
+      "aiLevel": "Poder IA",
+      "sideSelect": "Tu Bando",
+      "redSide": "LADO ROJO",
+      "blackSide": "LADO NEGRO",
+      "undo": "Undo",
+      "restart": "Reiniciar",
+      "hallOfFame": "Best Of",
+      "solvedBy": "Resuelto por",
+      "player": "Jugador",
+      "movesCount": "{{count}} jugadas",
+      "view": "Ver",
+      "noSolutions": "Nadie lo ha solucionado todavía.\n¡Sé el primero!",
+      "similarPuzzles": "Rompecabezas similares",
+      "relatedMatchReports": "Informes de partidos relacionados"
+    }
+  },
+  "notifications": {
+    "title": "Avisos",
+    "panelHeader": "Mensajes",
+    "clearAll": "Borrar Todo",
+    "empty": "Sin avisos.",
+    "viewNow": "Ver ahora →",
+    "push": {
+      "prompt": "¡Activa avisos para no perder nada!",
+      "enable": "Activar",
+      "saveError": "No se pudo guardar la configuración. Vuelve a intentarlo más tarde.",
+      "deniedError": "No permitido por el navegador.",
+      "genericError": "Error al habilitar las notificaciones."
+    },
+    "challenges": {
+      "standard": "Estándar",
+      "puzzle": "Rompecabezas",
+      "accepted": "🔥 Ok",
+      "declined": "❌ No",
+      "canceled": "⚪ Cancelado",
+      "waitOpponent": "⏳ Espera...",
+      "waitYou": "⏳ Estás esperando...",
+      "acceptAction": "Ok",
+      "waitAction": "Esperar",
+      "cancelAction": "Off",
+      "deleteAction": "Borrar",
+      "inGameTooltip": "estas en un partido"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "Tablero no válido",
+      "checkAgain": "Por favor revisa nuevamente",
+      "loginRequired": "Por favor inicia sesión para continuar.",
+      "nameRequired": "Introduzca un nombre para esta configuración.",
+      "descRequired": "Introduzca una descripción para esta configuración.",
+      "twoKings": "La configuración debe tener exactamente 2 Reyes.",
+      "faceToFace": "Error: Los reyes no pueden enfrentarse directamente.",
+      "redCheck": "Red King está actualmente bajo control.",
+      "blackCheck": "Black King está actualmente bajo control.",
+      "pieceLimit": "Se permiten piezas {{limit}} máximas del tipo {{type}}.",
+      "generalPalace": "{{side}} General debe estar dentro del palacio (3x3).",
+      "advisorPalace": "El asesor {{side}} debe estar dentro del palacio (3x3).",
+      "advisorDiagonal": "El asesor {{side}} solo se puede colocar en puntos diagonales del palacio.",
+      "elephantRiver": "{{side}} El elefante no puede cruzar el río.",
+      "elephantPoints": "{{side}} Elephant solo se puede colocar en posiciones fijas del lado local.",
+      "redSoldierBackward": "El Soldado Rojo no puede retroceder detrás de la línea de salida.",
+      "redSoldierColumns": "El Soldado Rojo antes del río sólo puede estar en columnas impares (1, 3, 5, 7, 9).",
+      "blackSoldierBackward": "El Soldado Negro no puede retroceder detrás de la línea de salida.",
+      "blackSoldierColumns": "El Soldado Negro antes del río sólo puede estar en columnas impares (1, 3, 5, 7, 9).",
+      "saveError": "Error al guardar",
+      "unknownError": "Se produjo un error desconocido.",
+      "connError": "Error de conexión",
+      "connMsg": "No se pudo conectar al servidor.",
+      "fenError": "FEN error.",
+      "red": "Rojo",
+      "black": "Negro",
+      "successLoad": "Cargado: {{name}}",
+      "successUpdate": "Actualizado: {{name}}",
+      "successSave": "Guardado: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "Editor & Ajuste Tablero",
+    "tryoutTitle": "Probar con IA",
+    "tryout": {
+      "modeLabel": "Modo:",
+      "modeAi": "🤖 Jugar vs IA",
+      "modeManual": "👥 Manual",
+      "selectBot": "Seleccionar oponente:",
+      "levelLabel": "Poder IA:",
+      "levelOption": "NIVEL {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "Bando:",
+      "viewLabel": "PUNTO DE VISTA:",
+      "sideRed": "Rojo",
+      "sideBlack": "Negro",
+      "backLabel": "Volver"
+    },
+    "paletteTitle": "Piezas",
+    "palette": {
+      "selecting": "Seleccionado:",
+      "erase": "Quitar",
+      "clear": "Vaciar",
+      "redPrefix": "Rojos",
+      "blackPrefix": "Negros"
+    },
+    "fen": {
+      "label": "Import FEN",
+      "placeholder": "Enter FEN string...",
+      "apply": "Ok"
+    },
+    "historyTitle": "Guardados",
+    "history": {
+      "loadAction": "Carga",
+      "viewAction": "Vista"
+    },
+    "modals": {
+      "duplicateTitle": "La configuración ya existe",
+      "duplicateMsg": "Idéntico a [{{name}}].",
+      "duplicateAction": "VER CONFIGURACIÓN",
+      "clearTitle": "¿Tablero claro?",
+      "clearMsg": "¿Quitar todas las piezas?"
+    },
+    "rules": {
+      "title": "Reglas Editor",
+      "orientation": {
+        "label": "Orientación:",
+        "desc": "Rojo abajo, negro arriba."
+      },
+      "turn": {
+        "label": "Mover Turno:",
+        "desc": "El rojo se mueve primero por defecto."
+      },
+      "general": {
+        "label": "General:",
+        "desc": "1 pieza por lado, en palacio (3x3)."
+      },
+      "check": {
+        "label": "Mate:",
+        "desc": "Ninguno de los generales puede estar bajo control."
+      },
+      "facing": {
+        "label": "Frente a los generales:",
+        "desc": "Los generales no pueden enfrentarse entre sí en la misma fila."
+      },
+      "defense": {
+        "label": "Asesor/Elefante:",
+        "desc": "Máximo 2 piezas cada una. Consejero en palacio, El elefante no puede cruzar el río."
+      },
+      "soldier": {
+        "label": "Soldado:",
+        "desc": "Máximo 5 piezas. No se puede cruzar el río en archivos pares (incorrecto en VN original pero mantendré la lógica)."
+      }
+    },
+    "seoTitle": "Editor de rompecabezas y configuración de tableros Xiangqi en línea",
+    "seoDesc": "Set up boards, create puzzles and explore with AI. Professional tools on cotuong.xyz.",
+    "modeTryout": "MODO DE PRUEBA",
+    "modeEditor": "MODO EDITOR • HAGA CLIC PARA COLOCAR",
+    "actionTry": "vs IA",
+    "actionUndo": "Deshacer",
+    "actionReset": "Reiniciar",
+    "toast": {
+      "loginSave": "Inicie sesión para guardar la configuración.",
+      "loginChallenge": "Por favor inicia sesión para desafiar.",
+      "boardCleared": "Tablero despejado."
+    },
+    "seoContent": {
+      "title": "Herramienta profesional de <0>configuración de Xiangqi en línea</0>",
+      "intro": "Líder en <0>configuración de xiangqi</0> y <1>editor de rompecabezas</1>. <2>Configura tableros</2> libremente, crea ejercicios de jaque mate o posiciones finales.",
+      "feature1": {
+        "title": "Funciones potentes",
+        "desc": "Drag-and-drop, FEN input, integrated <1>AI software</1> (Pikafish) for instant checks."
+      },
+      "feature2": {
+        "title": "Comparte tu pasión",
+        "desc": "<0>Rompecabezas</0> almacenados en una base de datos o públicos. Entrena tu pensamiento y contribuye."
+      }
+    },
+    "form": {
+      "guestTitle": "Modo invitado",
+      "guestDesc": "Inicie sesión para guardar y compartir.",
+      "nameLabel": "Nombre:",
+      "namePlaceholder": "Introduce el nombre...",
+      "levelLabel": "Dificultad:",
+      "levelOption": "ELEGIR",
+      "levelValue": "Nivel {{level}}",
+      "descLabel": "Descripción:",
+      "descPlaceholder": "...",
+      "saveAction": "Guardar",
+      "loginSaveAction": "🔐 INICIA SESIÓN PARA AHORRAR",
+      "importError": "Error de importación FEN:"
+    }
+  },
+  "tournaments": {
+    "title": "Torneos",
+    "subtitle": "Compite contra miles de jugadores de todas partes",
+    "loading": "Cargando lista de torneos...",
+    "empty": "Actualmente no hay torneos en marcha.",
+    "listTitle": "Lista Torneos",
+    "listDesc": "Torneos en curso y próximos en la plataforma.",
+    "champion": "Campeón: {{name}}",
+    "players": {
+      "pendingTitle": "Solicitudes de unión ({{count}})",
+      "registeredTitle": "Jugadores registrados ({{count}})",
+      "empty": "Aún no hay jugadores registrados.",
+      "approve": "Aprobar"
+    },
+    "rounds": "{{count}} Rondas",
+    "minElo": "Elo mínimo: {{elo}}",
+    "requireApproval": "Se requiere aprobación",
+    "hasPrizes": "Tiene premios",
+    "deadline": "Fecha límite:",
+    "createdAt": "Creado:",
+    "noDescription": "Sin descripción.",
+    "status": {
+      "registration": "Registro",
+      "active": "Juego",
+      "deadline_closed": "Plazo cerrado",
+      "finished": "Fin"
+    },
+    "backToList": "Volver a la lista",
+    "noDescriptionDetail": "No hay una descripción detallada disponible para este torneo.",
+    "currentRound": "Ronda: {{current}}{{total}}",
+    "playersCount": "Jugadores: {{current}}/{{total}}",
+    "registrationInfo": "Información de registro",
+    "start": "Comenzar",
+    "closed": "Cerrado",
+    "joinAction": "Regístrese ahora",
+    "joining": "Unión...",
+    "joined": "Registrado",
+    "pendingApproval": "Pendiente de aprobación",
+    "formats": {
+      "swiss": "Sistema suizo",
+      "roundrobin": "Ronda Robin"
+    },
+    "timeline": {
+      "emptyAdmin": "Aún no hay coincidencias. ¡Crea una nueva ronda!",
+      "emptyUser": "Los partidos se están actualizando...",
+      "roundLabel": "Redondo {{round}}",
+      "status": {
+        "active": "Activo"
+      },
+      "actions": {
+        "review": "Revisar",
+        "play": "Jugar ahora",
+        "watch": "Mirar"
+      },
+      "sides": {
+        "red": "Rojo",
+        "black": "Negro"
+      }
+    },
+    "standings": {
+      "empty": "No hay datos de clasificación disponibles.",
+      "stats": {
+        "win": "Ganar",
+        "draw": "Dibujar",
+        "loss": "Pérdida",
+        "bye": "Adiós"
+      }
+    },
+    "prizes": {
+      "title": "Estructura de premios",
+      "goldUnit": "Oro"
+    },
+    "announcements": {
+      "placeholder": "Ingrese el contenido del anuncio...",
+      "postAction": "Publicar anuncio",
+      "empty": "No hay anuncios para este torneo."
+    },
+    "detail": {
+      "notFound": "Torneo no encontrado.",
+      "champion": {
+        "title": "Campeón",
+        "points": "puntos",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "Registro",
+        "joined": "Registrado",
+        "pending": "Pendiente",
+        "createRound": "Crear ronda {{round}}",
+        "finishTournament": "Terminar el torneo"
+      },
+      "tabs": {
+        "timeline": "Línea de tiempo",
+        "standings": "Clasificación",
+        "players": "Jugadores",
+        "prizes": "Premios",
+        "announcements": "Anuncios"
+      },
+      "meta": {
+        "title": "{{name}} | Xiangqi en línea",
+        "description": "Detalles, calendario y clasificación del torneo {{name}}."
+      },
+      "messages": {
+        "joinSuccess": "✅ ¡Registro exitoso!",
+        "joinPending": "✅Solicitud enviada, esperando aprobación del administrador.",
+        "roundStarted": "✅ Ronda {{round}} creada - {{count}} coincide con {{bye}}",
+        "bye": "({{name}} recibió un BYE)",
+        "tournamentFinished": "🏆 ¡Torneo terminado! Campeón: {{name}}",
+        "confirmFinish": "¿Terminar el torneo y anunciar el campeón?",
+        "confirm": "Confirmar finalización"
+      },
+      "errors": {
+        "joinClosed": "⏰ El plazo de inscripción ha finalizado.",
+        "joinFull": "❌ El torneo está lleno.",
+        "joinNotRegistration": "❌ El torneo ya no acepta inscripciones.",
+        "joinFailed": "❌Error de conexión.",
+        "maxRounds": "¡Se alcanzó el máximo de rondas {{count}}!",
+        "notEnoughPlayers": "Se requieren al menos 2 jugadores.",
+        "alreadyFinished": "El torneo ha terminado.",
+        "finishError": "Error al finalizar el torneo."
+      }
+    },
+    "meta": {
+      "title": "Torneos Xiangqi Online - Honor",
+      "description": "Join online xiangqi tournaments, compete with masters and receive valuable rewards. Fair and professional competition system at cotuong.xyz.",
+      "home": "Inicio",
+      "tournaments": "Torneos"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "Arena de <0>Campeones</0>",
+        "desc": "The tournament system at cotuong.xyz is where the sharpest tactical minds meet. We provide a professional, transparent, and dramatic playground for all levels of players."
+      },
+      "features": {
+        "formats": {
+          "title": "Diversos formatos",
+          "desc": "Del sistema suizo al Round Robin, garantizando la equidad y encontrando al ganador más digno."
+        },
+        "prizes": {
+          "title": "Premios valiosos",
+          "desc": "Las recompensas incluyen monedas (XQG) y artículos decorativos únicos para afirmar tu estatus."
+        },
+        "experience": {
+          "title": "Experiencia fluida",
+          "desc": "Emparejamiento automatizado, puntuación y actualizaciones de tablas de clasificación en tiempo real."
+        },
+        "honor": {
+          "title": "Honrando a los Maestros",
+          "desc": "Los nombres de los campeones serán honrados en la historia de la comunidad."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Juega Xiangqi vs {{name}} (AI) - Entrenamiento Xiangqi en línea",
+    "seoTitleDefault": "Juega a Xiangqi con Bot: IA de Pikafish extremadamente fuerte",
+    "seoDesc": "Ponte a prueba jugando xiangqi vs {{name}} en el nivel {{level}}. Utilizamos la tecnología Pikafish AI de primer nivel para ayudarte a mejorar tus habilidades.",
+    "seoDescDefault": "Practica xiangqi con bot en el nivel {{level}}. La plataforma Pikafish AI más potente del mundo, que admite el análisis de movimientos.",
+    "title": "<0>Duelo con IA</0>",
+    "settings": "Ajustes",
+    "undo": "Deshacer",
+    "newGame": "Nueva",
+    "agentsOnline": "Agentes {{count}} en línea",
+    "personality": {
+      "aggressive": "Agresivo",
+      "defensive": "Defensivo",
+      "balanced": "Equilibrado"
+    },
+    "ranks": {
+      "level1": "Principiante",
+      "level4": "Profesional",
+      "level6": "gran maestro"
+    },
+    "bot": {
+      "error_not_found": "No se encontraron robots. Marque Administrador > Bots."
+    },
+    "seoContent": {
+      "title": "Entrena con <0>Pikafish</0>",
+      "intro": "Welcome to the <0>play xiangqi with bot</0> page at cotuong.xyz. We provide a professional training experience with Pikafish AI – one of the strongest xiangqi engines today. Whether you are a beginner or a master, our AI system always has a suitable difficulty Level for you.",
+      "feature1": {
+        "title": "Motor de IA Pikafish",
+        "desc": "Usando Pikafish Engine (Stockfish optimizado para Xiangqi) con la capacidad de calcular millones de movimientos por segundo."
+      },
+      "feature2": {
+        "title": "Diversos niveles",
+        "desc": "Desde el nivel 1 (Principiante) hasta el nivel 10 (Gran Maestro), ayudándote a progresar paso a paso en tu viaje hacia el dominio del xiangqi."
+      },
+      "feature3": {
+        "title": "Análisis instantáneo",
+        "desc": "El sistema guarda la notación y te permite revisar y analizar los errores inmediatamente después del partido para aprender de ellos."
+      },
+      "whyTitle": "¿Por qué entrenar con IA?",
+      "whyDesc": "Entrenar con una máquina te ayuda a practicar la paciencia y el cálculo preciso. A diferencia de los oponentes humanos, la IA nunca comete errores tontos, lo que te obliga a jugar con la mayor concentración.",
+      "tags": {
+        "online": "Online",
+        "withAi": "vs IA",
+        "engine": "Pikafish",
+        "practice": "trenxiangqi",
+        "hall": "mindhall",
+        "ai": "inteligencia artificial"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "Tema: Oscuro"
+    },
+    "title": "Mi Cuenta",
+    "dashboard": "Vestíbulo",
+    "account": "Ajustes",
+    "overview": "Descripción general de la actividad",
+    "customize": "Boutique",
+    "boardInterface": "Interfaz de placa",
+    "boardInterfaceDesc": "Personaliza la experiencia de visualización del tablero.",
+    "autoScroll": "Autoscroll",
+    "autoScrollDesc": "Desplácese al tablero al ingresar a una partida",
+    "autoScrollSuccess": "Configuración de desplazamiento del tablero actualizada",
+    "cropAvatar": "Avatar de cultivo",
+    "zoom": "Zoom",
+    "saveImage": "Salvar el imagen",
+    "updateNameSuccess": "¡El nombre para mostrar se actualizó correctamente!",
+    "updateAvatarSuccess": "¡Avatar actualizado exitosamente!",
+    "pieceStyle": "Estilo Piezas",
+    "pieceStyleDesc": "Elija su visualización de conjunto de piezas preferida.",
+    "pieceStyles": {
+      "traditional": "Chino",
+      "international": "Western",
+      "simple": "Zen"
+    },
+    "voicePack": "Voces",
+    "voicePackDesc": "Locuciones de anuncios del juego.",
+    "voicePacks": {
+      "vi": "vietnamita",
+      "en": "Inglés",
+      "zh": "Chino",
+      "ja": "japonés",
+      "none": "Sin voz (solo sonidos)"
+    },
+    "changePasswordSuccess": "¡Ok!",
+    "deletePuzzleTitle": "¿Borrar?",
+    "deletePuzzleConfirm": "¿Estás seguro de que deseas eliminar el rompecabezas [{{name}}]? Esta acción no se puede deshacer.",
+    "deletePuzzleAction": "BORRAR AHORA",
+    "deletePuzzleSuccess": "¡Rompecabezas eliminado!",
+    "notificationsEnabled": "¡Notificaciones habilitadas exitosamente!",
+    "notificationsError": "No se pudieron habilitar las notificaciones.",
+    "matchHistory": "Historial de partidos",
+    "achievements": "Logros",
+    "inventory": "Inventario",
+    "myContent": "Mi contenido",
+    "security": "Seguridad",
+    "notifications": "Avisos",
+    "changePassword": "Pass",
+    "oldPassword": "Contraseña anterior",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "confirmar Contraseña",
+    "displayName": "Nombre",
+    "updateProfile": "Actualizar perfil",
+    "notificationsDesc": "Recibe notificaciones sobre torneos, mensajes y nuevos desafíos.",
+    "pushSuccess": "¡Notificaciones habilitadas exitosamente!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - El hogar del xiangqi. Pikafish AI.",
+    "missionShort": "Plataforma premium Xiangqi",
+    "experience": "Experiencia",
+    "knowledge": "Conocimiento",
+    "services": "Servicios",
+    "contactLegal": "Contacto y Legal",
+    "onlineArena": "Arena",
+    "puzzles": "Puzzles",
+    "playWithAi": "Juega con IA",
+    "leaderboard": "Rank",
+    "howToPlay": "Reglas",
+    "basicTactics": "Tácticas básicas",
+    "practicalEndgame": "Final práctico",
+    "news": "News",
+    "shop": "Boutique",
+    "profile": "Perfil de usuario",
+    "vipUpgrade": "Actualización VIP",
+    "support": "Soporte al usuario",
+    "privacy": "Privacidad",
+    "terms": "Condiciones",
+    "officialRules": "Reglas oficiales",
+    "active": "Activo",
+    "globalServer": "Servidor global",
+    "facebookPage": "Página de Facebook",
+    "facebookGroup": "grupo de facebook",
+    "allSystemsOperational": "Todos los sistemas operativos.",
+    "joinPlayers": "Únete a más de 50.000 jugadores",
+    "globalPresence": "Presencia global",
+    "infrastructure": "Infraestructura",
+    "security": "Seguridad",
+    "versionControl": "Control de versiones",
+    "release": "Liberar",
+    "deployTime": "Tiempo de implementación",
+    "staticHub": "Centro estático global",
+    "sslVerified": "SSL verificado",
+    "build": "Construir",
+    "time": "Tiempo",
+    "copyright": "Xiangqi Online - Design by <0>cotuong.xyz</0>. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "Términos de servicio | Xiangqi en línea",
+      "description": "Términos de servicio para Xiangqi Online. Reglas de cuentas, juego limpio y responsabilidad del usuario."
+    },
+    "title": "Reglas & <0>Condiciones</0>",
+    "title_p1": "Términos &",
+    "title_p2": "Condiciones",
+    "intro": "Bienvenido a la comunidad xiangqi en línea. Para construir un entorno de ajedrez civilizado, justo y emocionante, establecemos reglas generales que todo jugador debe seguir.",
+    "cardTitle": "Contrato",
+    "lastUpdated": "Última actualización",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de términos",
+        "content": "By accessing and using the Xiangqi Online website (cotuong.xyz), you agree to comply with the terms and conditions set forth here. If you do not agree with any part of these terms, please do not use our services."
+      },
+      "accounts": {
+        "title": "Cuentas",
+        "item1": "Cuida tu pass.",
+        "item2": "Usted acepta proporcionar información precisa y actualizada al registrarse.",
+        "item3": "Cada usuario debe tener como máximo una cuenta para garantizar la equidad en la clasificación.",
+        "item4": "Nos reservamos el derecho de suspender o eliminar cuentas si se encuentran violaciones."
+      },
+      "fairplay": {
+        "title": "Fair-play",
+        "intro": "Xiangqi Online promueve el espíritu deportivo y la inteligencia. Están estrictamente prohibidos los siguientes comportamientos:",
+        "item1": "No IA contra humanos.",
+        "item2": "Colocar sacos de arena o organizar resultados de partidos para aumentar/disminuir anormalmente los puntos ELO.",
+        "item3": "Usar lenguaje insultante, ofensivo o discriminatorio en la sala de chat.",
+        "item4": "Enviar spam o acosar a otros jugadores."
+      },
+      "copyright": {
+        "title": "Contenido y derechos de autor",
+        "content": "Todo el contenido del sitio web, incluida la interfaz, el código fuente, las imágenes de piezas de ajedrez y las lecciones, tiene derechos de autor de Xiangqi Online o tiene licencia para su uso. No puede copiar ni reutilizar con fines comerciales sin el consentimiento por escrito."
+      },
+      "liability": {
+        "title": "Limitación de responsabilidad",
+        "content": "El servicio se proporciona \"tal cual\". No garantizamos que el sitio web funcione siempre sin errores ni interrupciones. No somos responsables de ninguna pérdida que surja del uso o la imposibilidad de utilizar el servicio."
+      },
+      "changes": {
+        "title": "Cambios a los términos",
+        "content": "Nos reservamos el derecho de cambiar estos términos en cualquier momento. Los cambios entrarán en vigor inmediatamente después de su publicación en el sitio web. Su uso continuo después de los cambios significa que acepta los nuevos términos."
+      }
+    },
+    "footer": "Gracias por ser parte de la comunidad xiangqi en línea."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de privacidad | Xiangqi en línea",
+      "description": "Política de privacidad de Xiangqi Online. Información sobre recopilación de datos, protección de derechos de usuario y seguridad de cuentas."
+    },
+    "title": "Privacidad & <0>Seguridad</0>",
+    "title_p1": "Privacidad &",
+    "title_p2": "Seguridad",
+    "intro": "Player's personal data and privacy are a top priority at cotuong.xyz. We are committed to transparency in collecting and protecting your information.",
+    "cardTitle": "política de privacidad",
+    "lastUpdated": "Última actualización",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "collection": {
+        "title": "Información que recopilamos",
+        "intro": "Para brindar el mejor servicio xiangqi, recopilamos la siguiente información:",
+        "item1": "Información de la cuenta: correo electrónico, nombre para mostrar, imagen de perfil (si utiliza el inicio de sesión de Google).",
+        "item2": "Datos del juego: historial de partidos, puntos ELO, lecciones completadas y monedas acumuladas.",
+        "item3": "Información técnica: dirección IP, tipo de navegador para seguridad del sistema y prevención de fraude."
+      },
+      "usage": {
+        "title": "Propósito del uso de la información",
+        "intro": "Utilizamos la información recopilada para los siguientes fines:",
+        "item1": "Gestión de cuentas, personalización de la experiencia del jugador.",
+        "item2": "Almacenamiento del historial de partidos, actualización de clasificaciones y progreso del aprendizaje.",
+        "item3": "Envío de notificaciones importantes del sistema (si es necesario).",
+        "item4": "Análisis de datos (Google Analytics) para mejorar la interfaz y las funciones."
+      },
+      "security": {
+        "title": "Seguridad de datos",
+        "content": "Nos comprometemos a proteger sus datos con medidas técnicas modernas como cifrado de contraseña y HTTPS. Sin embargo, ninguna transmisión por Internet es 100% segura; debes proteger tu propia contraseña."
+      },
+      "sharing": {
+        "title": "Intercambio de información con terceros",
+        "content": "<0>Nunca</0> vendemos tus datos.",
+        "content_p1": "Nosotros",
+        "content_p2": "nunca",
+        "content_p3": "vender o alquilar sus datos personales a terceros. Solo compartimos información esencial con socios de servicios como Google."
+      },
+      "rights": {
+        "title": "Derechos de usuario",
+        "intro": "Tienes plenos derechos sobre tus datos personales:",
+        "item1": "Actualiza la información personal en Configuración.",
+        "item2": "Solicitar la eliminación de la cuenta y todos los datos del partido.",
+        "item3": "Optar por no recibir notificaciones del sistema."
+      }
+    },
+    "footer": "Your privacy is a top priority at cotuong.xyz"
+  },
+  "shop": {
+    "title": "Tienda de regalos",
+    "meta": {
+      "title": "Tienda de regalos | Xiangqi en línea",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Tienda de regalos en línea Xiangqi",
+      "listDesc": "Dones espirituales para jugadores de xiangqi.",
+      "home": "Hogar",
+      "shop": "Comercio",
+      "loading": "Cargando tienda..."
+    },
+    "subtitle": "\"Regalar una rosa deja la fragancia en la mano\". Envía amor a tus compañeros jugadores.",
+    "yourCoins": "Tus monedas",
+    "messages": {
+      "success": "¡Regalo comprado con éxito!",
+      "insufficient": "¡No hay suficientes monedas!",
+      "error": "Error al comprar el regalo.",
+      "networkError": "Error de red al comprar un regalo."
+    },
+    "buy": {
+      "processing": "Comprar...",
+      "insufficient": "Monedas insuficientes",
+      "now": "Comprar ahora",
+      "defaultDesc": "Un pequeño regalo con un gran significado."
+    },
+    "tips": {
+      "title": "Consejos para ganar monedas",
+      "desc": "Las monedas son la moneda principal en Xiangqi Online. No puedes comprar Monedas con dinero real, sino que debes <0>acumularlas a través del esfuerzo</0> y entrenando tus habilidades:",
+      "item1": "Completa los ejercicios en <0>Cómo jugar</0>. Cada nueva lección trae una cantidad digna de monedas.",
+      "item2": "Participa en <0>Torneos online</0>. Los jugadores de alto rango recibirán monedas y artículos valiosos.",
+      "item3": "Recibe regalos de amigos y fanáticos cuando tengas excelentes coincidencias.",
+      "viewTournaments": "Ver próximos torneos →"
+    },
+    "culture": {
+      "title": "Cultura de regalos",
+      "desc1": "En el mundo del ajedrez, dar regalos no se trata sólo de cosas materiales sino de <0>mostrar respeto y conexión</0> entre los jugadores.",
+      "desc2": "\"Oponente digno\": pequeños obsequios como 🌹 rosas o ☕ café son una excelente manera de comenzar una nueva amistad después de un partido estresante. Utilice las monedas que haya ganado para embellecer nuestra comunidad Xiangqi."
+    }
+  },
+  "leaderboard": {
+    "title": "Maestros y miembros",
+    "subtitle": "Salón de la fama de la comunidad (miembros de {{count}})",
+    "meta": {
+      "title": "Clasificación - Honrando a los Maestros | Xiangqi en línea",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Tabla de clasificación de jugadores en línea de Xiangqi",
+      "listDesc": "Lista de jugadores con mayor Elo de la comunidad.",
+      "home": "Hogar"
+    },
+    "hierarchy": {
+      "title": "Jerarquía de jugadores y sistema Elo",
+      "desc": "El sistema de clasificación Elo se basa en estándares internacionales y refleja con precisión el nivel y el rendimiento del jugador.",
+      "rank1": {
+        "title": "Novato y casual",
+        "desc": "Primeros pasos para la conquista de xiangqi. Concéntrate en dominar los jaque mate básicos."
+      },
+      "rank2": {
+        "title": "Intermedio y avanzado",
+        "desc": "Profundo conocimiento de la apertura y el medio juego. Coordinación flexible de piezas."
+      },
+      "rank3": {
+        "title": "Maestro",
+        "desc": "Alcanzó un nivel supremo, capaz de calcular decenas de movimientos de profundidad."
+      },
+      "rank4": {
+        "title": "gran maestro",
+        "desc": "Leyendas de la comunidad, dominando todas las artes y trampas secretas."
+      }
+    },
+    "search": "Buscar jugadores...",
+    "table": {
+      "rank": "#",
+      "player": "Jugador",
+      "elo": "Elo",
+      "games": "Juegos",
+      "status": "Estado",
+      "playing": "Jugando",
+      "actions": "Comportamiento"
+    },
+    "statuses": {
+      "searching": "Búsqueda..."
+    },
+    "actions": {
+      "view": "📺 Ver",
+      "message": "Mensaje"
+    },
+    "empty": "No se encontraron jugadores",
+    "pagination": {
+      "page": "Página {{current}} / {{total}}",
+      "total": "Reproductores {{count}}",
+      "prev": "Anterior",
+      "next": "Próximo"
+    },
+    "footer": "El sistema de clasificación Elo se basa en partidos públicos. ¡Únete a competiciones para subir de rango y entrar al Salón de la Fama!",
+    "lesson": "Lección"
+  },
+  "practice": {
+    "title": "Aprenda y <0>practique</0>",
+    "subtitle": "Entrena maniobras de jaque mate y finales desde básicas hasta avanzadas.",
+    "loading": "Cargando lección...",
+    "meta": {
+      "title": "Aprenda y practique Xiangqi en línea: jaque mate y entrenamiento de finales",
+      "description": "Únase a los cursos de xiangqi desde básico hasta avanzado. Practica movimientos de piezas, resuelve acertijos y entrena con AI Pikafish para mejorar tus habilidades todos los días.",
+      "home": "Hogar",
+      "practice": "Práctica"
+    },
+    "list": {
+      "title": "Descubre la esencia de Xiangqi",
+      "description": "Aprenda desde lo básico hasta lo avanzado con una hoja de ruta estructurada. Cada lección cuenta con un tablero interactivo y soporte de IA para cada movimiento.",
+      "coins": "Oro acumulado",
+      "all": "Todo",
+      "lessonCount": "Lecciones {{count}}"
+    },
+    "curriculum": {
+      "title": "Programa de formación de jugadores (plan de estudios)",
+      "subtitle": "Hoja de ruta de 4 etapas desde principiante hasta gran maestro",
+      "steps": {
+        "01": {
+          "title": "Básico (Fundamentos)",
+          "desc": "Familiarízate con el tablero, los 7 tipos de piezas y las reglas básicas como Jaque y Enfrentamiento de generales."
+        },
+        "02": {
+          "title": "Tácticas (jaque mate)",
+          "desc": "Aprenda la coordinación de remates: caballo y luego cañón, cañones de cielo y tierra, compañero sofocado, cañones rodantes."
+        },
+        "03": {
+          "title": "Final del juego (Técnicas)",
+          "desc": "Técnicas que utilizan un solo carro, un solo cañón, caballo/soldado para ganar en la etapa final."
+        },
+        "04": {
+          "title": "Apertura (Estrategias)",
+          "desc": "Estudie formaciones clásicas como Central Cannon vs Screen Horse, Cañones en la misma dirección, Cañones en dirección opuesta."
+        }
+      }
+    },
+    "card": {
+      "reward": "Oro",
+      "status": {
+        "completed": "Terminado",
+        "pending": "no aprendido"
+      },
+      "start": "Empieza a aprender ahora",
+      "defaultDesc": "Aprenda tácticas xiangqi de primer nivel.",
+      "completedTitle": "Terminado"
+    },
+    "sidebar": {
+      "back": "Todas las lecciones",
+      "difficulty": "Dificultad:",
+      "content": "Contenido de la lección:",
+      "defaultMission": "Inicia el ejercicio para descubrir nuevos conocimientos.",
+      "reward": "Premio:",
+      "status": "Estado:",
+      "statusDone": "Hecho",
+      "statusPending": "Pendiente",
+      "processing": "Tratamiento...",
+      "nextLesson": "Próxima lección",
+      "finishCourse": "Curso completo",
+      "completeAndNext": "Lección completa y siguiente"
+    },
+    "panel": {
+      "history": "Historial de movimientos",
+      "aiTrain": "Practica con IA",
+      "aiTrainDesc": "Movimientos de prueba contra la máquina.",
+      "engine": "Motor:",
+      "level": "Nivel:",
+      "humanSide": "Lado:",
+      "redSide": "Rojo (Juega Rojo)",
+      "blackSide": "Negro (Jugar negro)",
+      "guide": {
+        "title": "Guía de estudio",
+        "step1": "Observe la posición y la misión.",
+        "step2": "Mueve piezas o practica con IA.",
+        "step3": "Haga clic en \"Completar\" para recibir recompensas."
+      }
+    },
+    "board": {
+      "tab": "Placa {{index}}: {{title}}",
+      "defaultTitle": "Por defecto",
+      "supplemental": {
+        "title": "Conocimiento complementario profundo",
+        "p1": "En xiangqi, comprender el tablero y la posición de las piezas es la base más importante. El Palacio no es sólo el lugar donde reside el General sino también el objetivo principal del oponente.",
+        "p2": "Al aprender sobre {{title}}, preste atención a la coordinación entre piezas. No mires sólo una sola pieza; vea cómo protege o apoya a otros para crear una formación sólida."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> <span className=\"text-blue-600\">Curso de Xiangqi</span> en línea desde básico hasta avanzado",
+      "intro": "El sistema de <strong className=\"text-slate-600 dark:text-white/60\">lecciones de xiangqi</strong> está científicamente diseñado para ayudarte a dominar las reglas, el movimiento de piezas, las <strong className=\"text-slate-600 dark:text-white/60\">tácticas</strong> y los clásicos <strong className=\"text-slate-600 dark:text-white/60\">finales</strong>. Ideal para que jugadores de todos los niveles mejoren sus habilidades a diario.",
+      "whyTitle": "¿Por qué entrenar el jaque mate y el final?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "Mentalidad asesina",
+        "desc": "Reconoce rápidamente los patrones clásicos de jaque mate (caballo y luego cañón, cañones de cielo y tierra...)."
+      },
+      "item2": {
+        "title": "Técnicas de finales",
+        "desc": "Maestro que termina como un solo carro ganando caballo-consejero-elefante, cañón-consejero ganando elefante... Lecciones mortales para cada maestro."
+      },
+      "item3": {
+        "title": "Practica con IA",
+        "desc": "Cada configuración de tablero integra Pikafish Engine para que puedas probar contra la máquina de inmediato."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "Juego <0>Galería</0>",
+    "subtitle": "Mira y aprende de miles de partidos en línea",
+    "meta": {
+      "title": "Galería de juegos Xiangqi: partidos en vivo y repetidos",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 En vivo",
+      "open": "⏳ Esperando",
+      "finished": "🏁 Terminado",
+      "all": "🌍 Todos"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ Todos los modos",
+        "blitz": "Bombardeo aéreo",
+        "rapid": "Rápido",
+        "standard": "Estándar"
+      },
+      "sort": {
+        "newest": "🕒 Más nuevo",
+        "popular": "🔥 Populares",
+        "spectators": "👁 Espectadores"
+      },
+      "timeRange": {
+        "all": "📅 Todos los tiempos",
+        "day": "Hoy",
+        "week": "Esta semana",
+        "month": "este mes"
+      },
+      "red": "Rojo",
+      "black": "Negro"
+    },
+    "empty": {
+      "searching": "Buscando coincidencias...",
+      "noGames": "No se encontraron coincidencias",
+      "noResults": "No se encontraron coincidencias que coincidan con sus filtros. Prueba a cambiar los filtros.",
+      "clear": "Borrar filtros"
+    },
+    "card": {
+      "puzzle": "Rompecabezas",
+      "waiting": "Espera...",
+      "watch": "Mirar",
+      "participate": "Unirse",
+      "loadMore": "Explorar coincidencias más antiguas ↓"
+    },
+    "seoContent": {
+      "title": "Sistema de galería <0>Xiangqi</0> en línea",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "Registros visuales del juego",
+        "desc": "Cada partido después de finalizar se almacena como un <0>registro del juego</0> detallado. Puedes repetir cada movimiento, analizar errores y encontrar puntos destacados en el pensamiento de los maestros."
+      },
+      "item2": {
+        "title": "Comunidad en línea vibrante",
+        "desc": "Únase a debates, comente y disfrute de fantásticos juegos. <0>Xiangqi online</0> no se trata solo de ganar o perder, sino también de un lugar para intercambiar experiencias y pasión por el arte de los 64 cuadrados."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "Discusión de rompecabezas",
+    "titleTournament": "Discusión del torneo",
+    "titleDefault": "Comentarios",
+    "placeholderPuzzle": "Sugiere una solución o haz una pregunta...",
+    "placeholderDefault": "Escribe un comentario...",
+    "emptyStateFirst": "Aún no hay comentarios.",
+    "emptyStateSecond": "¡Sé el primero en compartir tus pensamientos!",
+    "loginPrompt": "Debes <0>iniciar sesión</0> para unirte a la discusión.",
+    "sending": "...",
+    "deleteTooltip": "Eliminar comentario (Administrador)",
+    "deleteTitle": "¿Eliminar comentario?",
+    "deleteMsg": "¿Estás seguro de que quieres eliminar este comentario? Esta acción no se puede deshacer.",
+    "deleteAction": "BORRAR AHORA",
+    "errorTitle": "Comentario no válido",
+    "errorNoLinks": "Los comentarios no pueden contener enlaces.",
+    "errorRateLimitTitle": "Envío demasiado rápido",
+    "errorRateLimit": "Estás enviando demasiado rápido. Inténtalo de nuevo en 1 minuto.",
+    "redPlayer": "ROJO",
+    "blackPlayer": "NEGRO",
+    "reltime": {
+      "justNow": "En este momento",
+      "minutes": "{{count}} hace minutos",
+      "hours": "Hace {{count}} horas"
+    }
+  },
+  "admin": {
+    "title": "Panel Admin",
+    "checkingPermissions": "Comprobando permisos...",
+    "noPermission": "⚠️ No tienes permisos de administrador.",
+    "syncingData": "Sincronizando datos del sistema...",
+    "searchPlaceholder": "Buscar información...",
+    "sidebar": {
+      "dashboard": "IA",
+      "users": "Gente",
+      "matches": "Salas",
+      "puzzles": "Rompecabezas",
+      "tournaments": "Eventos",
+      "bots": "Gestión de robots",
+      "comments": "Comentarios",
+      "practice": "Lecciones",
+      "shop": "Comercio",
+      "analytics": "Analítica (Google)",
+      "ai": "IA Gen",
+      "push": "Notificaciones push",
+      "cache": "Caché (Redis)",
+      "server": "Sistema (registros)",
+      "settings": "Configuraciones",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "Por favor ingrese título y contenido",
+      "errorUid": "Por favor ingresa el UID del destinatario",
+      "errorSystem": "Error del sistema al enviar"
+    },
+    "ai": {
+      "enterElo": "Ingrese un nuevo ELO:",
+      "invalidNumber": "Número no válido"
+    },
+    "cache": {
+      "cleared": "¡Todo el caché borrado!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

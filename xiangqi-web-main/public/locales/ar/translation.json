@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "errorBoundaryTitle": "⚠️ حدث خطأ في الواجهة",
+    "errorBoundaryReload": "إعادة تحميل الصفحة",
+    "cellAriaLabel": "مربع {{coord}}",
+    "cellAriaLabelOccupied": "المربع {{coord}} - محتلة",
+    "back": "رجوع",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "viewAll": "عرض الكل ←",
+    "backToLobby": "العودة إلى الردهة",
+    "search": "بحث",
+    "reset": "إعادة ضبط",
+    "login": "تسجيل الدخول",
+    "you": "أنت",
+    "close": "إغلاق",
+    "agree": "موافق",
+    "refresh": "ينعش",
+    "coins": "ذهب",
+    "gold": "ذهب",
+    "saveSuccess": "تم الحفظ بنجاح!",
+    "sides": {
+      "red": "الأحمر",
+      "black": "الأسود"
+    },
+    "challenge": "تحدي",
+    "send": "يرسل",
+    "reject": "رفض",
+    "finished": "انتهت بـ",
+    "play": "اللعب",
+    "pieces": {
+      "general": "كش مات لجنرال",
+      "advisor": "المستشار",
+      "elephant": "الفيل",
+      "horse": "الحصان",
+      "chariot": "العربة",
+      "cannon": "المدفع",
+      "soldier": "الجندي"
+    },
+    "offline": "غير متصل",
+    "draw": "يرسم",
+    "room": "غرفة",
+    "and": "و",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "متصل",
+    "waiting": "منتظر"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - العب لعبة الشطرنج الاحترافية مجانًا",
+    "defaultDescription": "منصة xiangqi المجانية عبر الإنترنت مع واجهة جميلة وهادئة وسلسة. العب عبر الإنترنت أو تحدي محرك الذكاء الاصطناعي.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| شيانغكي اون لاين"
+  },
+  "navbar": {
+    "brand": "الشيانغ تشي",
+    "online": "أونلاين",
+    "home": "الرئيسية",
+    "puzzles": "الألغاز",
+    "setup": "المحرر",
+    "ai": "ضد الحاسوب",
+    "tournaments": "البطولات",
+    "practice": "تدريب",
+    "howToPlay": "كيفية اللعب",
+    "players": "المحترفون",
+    "leaderboard": "لوحة المتصدرين",
+    "shop": "المتجر",
+    "logout": "خروج",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "status": "الحالة",
+    "userMenu": "قائمة المستخدم",
+    "guestName": "لاعب",
+    "playerType": "لاعب شيانغ تشي",
+    "coins": "ذهب",
+    "rank": "الرتبة",
+    "welcome": "أهلاً بك!",
+    "loginToEarn": "سجل دخولك لكسب الجوائز والارتقاء في الترتيب",
+    "googleMaintenance": "جوجل قيد الصيانة",
+    "useEmail": "استخدم البريد",
+    "playAsGuest": "اللعب كضيف؟",
+    "statuses": {
+      "online": "متصل",
+      "busy": "مشغول",
+      "invisible": "خفي",
+      "free": "متاح",
+      "offline": "غير متصل"
+    },
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "menu": "قائمة",
+    "navigation": "الملاحة",
+    "activeGameAlert": "لديك مباراة نشطة!",
+    "returnToBoard": "العودة للوحة الآن",
+    "back": "رجوع",
+    "loginWithGoogle": "قم بتسجيل الدخول باستخدام جوجل"
+  },
+  "site": {
+    "maintenanceModeTitle": "صيانة النظام",
+    "maintenanceMessageDefault": "نحن نقوم بتحسين النظام. يرجى العودة لاحقاً.",
+    "announcementLabel": "إعلان"
+  },
+  "ranks": {
+    "novice": "مبتدئ",
+    "amateur": "هاوٍ",
+    "intermediate": "متوسط",
+    "expert": "خبير",
+    "master": "أستاذ",
+    "internationalMaster": "أستاذ دولي",
+    "grandmaster": "أستاذ كبير",
+    "player": "لاعب"
+  },
+  "chat": {
+    "title": "محادثة",
+    "new_message": "رسالة جديدة",
+    "followed_you": "قام بمتابعتك!",
+    "view_profile": "الملف الشخصي",
+    "challenge_accepted": "تم قبول التحدي!",
+    "go_to_play": "اذهب للعب",
+    "is_online": "متصل الآن.",
+    "entered_room": "دخل الغرفة",
+    "open_chat": "فتح المحادثة",
+    "close_chat": "إغلاق المحادثة",
+    "disable_global_notifs": "تعطيل التنبيهات",
+    "enable_global_notifs": "تفعيل التنبيهات",
+    "disable_notifs": "كتم",
+    "enable_notifs": "صوت",
+    "disable_autoscroll": "إيقاف التمرير التلقائي",
+    "enable_autoscroll": "تفعيل التمرير التلقائي",
+    "tabs": {
+      "global": "عالمي",
+      "private": "خاص"
+    },
+    "to_prefix": "إلى: ",
+    "is_online_label": "متصل",
+    "onlinePlayersHeader": "اللاعبين عبر الإنترنت",
+    "history": "سجل الدردشة ({{count}})",
+    "labelGlobal": "عالمي",
+    "labelRoom": "الغرفة {{id}}",
+    "labelPrivate": "خاص: {{name}}",
+    "followed_you_message": "يتابعك الآن!",
+    "noMessages": "(لا توجد رسائل)",
+    "noMessagesWelcome": "لا توجد رسائل حتى الآن. ابدأ الدردشة!",
+    "player": "لاعب",
+    "guestPlaceholder": "الرجاء تسجيل الدخول للدردشة",
+    "placeholder": "أرسل رسالة...",
+    "followed": "👤 لقد تابعت الخصم",
+    "wasFollowed": "🎉 الخصم تبعك"
+  },
+  "auth": {
+    "registerTitle": "إنشاء حساب",
+    "loginSubtitle": "تسجيل الدخول لكسب المكافآت",
+    "registerSubtitle": "انضم إلى أكبر مجتمع Xiangqi",
+    "loginWithGoogle": "قم بتسجيل الدخول باستخدام جوجل",
+    "orEmail": "أو البريد الإلكتروني",
+    "emailLabel": "بريد إلكتروني",
+    "displayNameLabel": "اسم العرض (اختياري)",
+    "passwordLabel": "كلمة المرور",
+    "termsAgreementPrefix": "أنا أوافق على",
+    "termsLink": "شروط الخدمة",
+    "privacyLink": "سياسة الخصوصية",
+    "termsAgreementSuffix": "من Xiangqi على الانترنت.",
+    "termsError": "يجب عليك الموافقة على الشروط وسياسة الخصوصية.",
+    "processing": "يعالج…",
+    "haveAccount": "هل لديك حساب بالفعل؟ تسجيل الدخول",
+    "noAccount": "إنشاء حساب",
+    "backToLobby": "العودة إلى الردهة",
+    "loginPrompt": "تحتاج إلى <0>تسجيل الدخول</0> للمشاركة في المناقشات",
+    "passwordsNotMatch": "كلمات المرور غير متطابقة.",
+    "passwordTooShort": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
+    "invalidOldPassword": "كلمة المرور القديمة غير صحيحة."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> هو لاعب نشط في مجتمع Xiangqi Online. برتبة <1>{{rank}}</1> ({{elo}} Elo)، شارك {{name}} في إجمالي <2>{{count}}</2> من المباريات المكثفة. حاليًا، لدى هذا اللاعب <3>{{followers}}</3> متابع وهو جزء مهم من نظام التصنيف الوطني على المنصة.",
+    "social": {
+      "followers": "المتابعون",
+      "following": "يتابع",
+      "empty": "لا توجد بيانات"
+    },
+    "sections": {
+      "medals": "ميداليات الشرف",
+      "noMedals": "لا توجد ميداليات بعد",
+      "inventory": "العناصر الشخصية",
+      "noItems": "لا توجد عناصر",
+      "puzzles": "الألغاز المصممة",
+      "noPuzzles": "لم يصمم أي لغاز",
+      "solved": "ألغاز تم حلها",
+      "noSolved": "لم يحل أي لغاز",
+      "history": "سجل المباريات",
+      "viewGame": "مشاهدة 📺"
+    },
+    "gifts": {
+      "title": "إرسال هدية",
+      "loading": "جاري تحميل الهدايا...",
+      "empty": "لا تملك أي عناصر",
+      "sending": "جاري الإرسال...",
+      "confirm": "تأكيد الإرسال",
+      "loginPrivate": "سجل الدخول للرسائل الخاصة.",
+      "loginChallenge": "سجل الدخول للتحدي الخاص."
+    },
+    "bioTitle": "السيرة الذاتية والإنجازات",
+    "game": {
+      "active": "نشيط",
+      "redWin": "انتصارات الأحمر",
+      "blackWin": "انتصارات الأسود",
+      "moves": "التحركات"
+    },
+    "notFound": "لم يتم العثور على المستخدم",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "إنشاء غرفة",
+    "playWithAi": "ضد الحاسوب",
+    "findMatch": "بحث عن منافس",
+    "headerTitle": "تدرب على الشيانغ تشي <0>مع الذكاء الاصطناعي</0> وحل الألغاز",
+    "headerSubtitle": "المنصة الرائدة للمنافسة والتاكتيكات",
+    "waiting": "بحث عن منافس...",
+    "noRooms": "لا توجد غرف متاحة.",
+    "activeGameTitle": "لديك مباراة غير مكتملة!",
+    "activeGameSubtitle": "عد لمواصلة اللعب",
+    "returnToGame": "العودة للمباراة",
+    "roomList": "الغرف",
+    "roomListSubtitle": "المباريات النشطة والتاريخ",
+    "noRoomsFiltered": "لم يتم العثور على مباريات.",
+    "onlinePlayers": "اللاعبون المتصلون",
+    "onlinePlayersCount": "{{count}} أعضاء متصلون",
+    "loginToChat": "سجل الدخول للدردشة.",
+    "loginToChallenge": "سجل الدخول للتحدي.",
+    "chatAction": "محادثة",
+    "challengeAction": "تحدي",
+    "tabs": {
+      "live": "مباشر",
+      "open": "مفتوح",
+      "finished": "منتهي",
+      "all": "الكل"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "ألغاز حديثة",
+        "subtitle": "استكشف تاكتيكات المجتمع",
+        "puzzleType": "لغز",
+        "unnamed": "لغز بلا اسم",
+        "levelPrefix": "مستوى {{level}}",
+        "normalLevel": "عادي",
+        "solve": "حل"
+      },
+      "features": {
+        "title": "لماذا تختار Xiangqi Online؟",
+        "premium": {
+          "title": "⚡ تجربة بريميوم مجانية",
+          "desc": "منصة سريعة وهادئة. يمكنك <0>إنشاء التشكيلات أونلاين</0> بدون إعلانات."
+        },
+        "ai": {
+          "title": "🤖 العب ضد الحاسوب (Pikafish AI)",
+          "desc": "تحدَّ الحاسوب باستخدام أقوى محرك (Pikafish). من المستوى 1 إلى 10."
+        },
+        "data": {
+          "title": "🧩 قاعدة بيانات ألغاز ضخمة",
+          "desc": "آلاف <0>ألغاز الشيانغ تشي</0> لتطوير مهاراتك يومياً."
+        }
+      },
+      "guide": {
+        "title": "دليل الشيانغ تشي أونلاين",
+        "intro": "ابدأ في 3 خطوات بسيطة على <0>cotuong.xyz</0>:",
+        "step1": {
+          "title": "سجل حسابك:",
+          "desc": "لحفظ تاريخك وتصنيف Elo."
+        },
+        "step2": {
+          "title": "ابحث عن منافس:",
+          "desc": "تحدَّ مباشرة أو أنشئ غرفة."
+        },
+        "step3": {
+          "title": "تدرب:",
+          "desc": "استخدم قسم <0>التعلم</0> لفهم القواعد."
+        },
+        "note": "* نظام تصنيف عادل للجميع."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "q1": {
+          "q": "س: هل اللعب مجاني هنا؟",
+          "a": "ج: نعم، تماماً. كل الميزات مجانية."
+        },
+        "q2": {
+          "q": "س: كيف أدعو صديقاً للعب؟",
+          "a": "ج: أنشئ غرفة وأرسل الرابط (URL) لصديقك."
+        },
+        "q3": {
+          "q": "س: هل يمكنني مشاهدة مبارياتي السابقة؟",
+          "a": "ج: نعم، في سجل التاريخ بملفك الشخصي."
+        },
+        "q4": {
+          "q": "س: لماذا لا أستطيع تحريك القطع؟",
+          "a": "ج: تأكد إذا كان دورك أو تفحص اتصالك بالإنترنت."
+        }
+      },
+      "meta": {
+        "title": "شيانغ تشي أونلاين - تدريب ذكاء اصطناعي، ألغاز ولعب ضد الحاسوب",
+        "description": "منصة بريميوم للشيانغ تشي: تدرب مع Pikafish AI، حل الألغاز والعب مجاناً."
+      },
+      "schema": {
+        "siteName": "الشيانغ تشي أونلاين",
+        "siteDesc": "حل ألغاز، محرر لوحة وتدريب ذكاء اصطناعي مجاني.",
+        "q1": {
+          "name": "كيف تلعب الشيانغ تشي مع الأصدقاء أونلاين؟",
+          "text": "أنشئ غرفة وأرسل الرابط لصديقك."
+        },
+        "q2": {
+          "name": "هل الذكاء الاصطناعي في الموقع قوي؟",
+          "text": "نستخدم محرك Pikafish، بمستويات تبدأ من مبتدئ إلى أستاذ كبير."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "قواعد الشيانغ تشي - دليل المبتدئين بالكامل",
+      "description": "قواعد الشيانغ تشي: كيفية تحريك القطع، القواعد الممنوعة والدليل الأساسي."
+    },
+    "title": "كيفية لعب الشيانغ تشي",
+    "subtitle": "تعرف على القواعد الأساسية وحركات القطع",
+    "intro": "الشيانغ تشي (الشطرنج الصيني) هي لعبة استراتيجية لشخصين. الهدف هو أسر أو <0>كش مات</0> لجنرال الخصم.",
+    "intro_p1": "الشيانغ تشي هي لعبة استراتيجية. الهدف هو",
+    "intro_p3": "الخصم.",
+    "section1": {
+      "title": "1. اللوحة والمناطق",
+      "river": {
+        "label": "النهر (He):",
+        "desc": "يقسم اللوحة إلى نصفين. بعض القطع (مثل الفيل) لا يمكنها عبوره."
+      },
+      "palace": {
+        "label": "القصر (Jiu Gong):",
+        "desc": "منطقة 3x3 بخطوط متقاطعة. الجنرال والمستشارون لا يخرجون منها."
+      },
+      "boardDesc": "تتكون اللوحة من 10 خطوط أفقية و 9 عمودية. توضع القطع على نقاط التقاطع.",
+      "openingTitle": "الإعداد الأولي"
+    },
+    "section2": {
+      "title": "2. حركات القطع",
+      "pieces": {
+        "general": {
+          "desc": "يتحرك مربعاً واحداً أفقياً أو عمودياً. لا يخرج من القصر.",
+          "action": "→ تدريب الجنرال",
+          "name": "كش مات لجنرال"
+        },
+        "advisor": {
+          "desc": "يتحرك مربعاً واحداً قطرياً. لا يخرج من القصر.",
+          "action": "→ تدريب المستشار",
+          "name": "المستشار"
+        },
+        "elephant": {
+          "desc": "يتحرك مربعين قطرياً. لا يعبر النهر. يتعطل إذا كانت هناك قطعة في منتصف القفزة.",
+          "action": "→ تدريب الفيل",
+          "name": "الفيل"
+        },
+        "horse": {
+          "desc": "حركة على شكل L (واحد مستقيم ثم واحد قطري). يتعطل إذا كانت هناك قطعة في نقطة الانطلاق الأولى.",
+          "action": "→ تدريب الحصان",
+          "name": "الحصان"
+        },
+        "chariot": {
+          "desc": "تتحرك في أي عدد من المربعات أفقياً أو عمودياً.",
+          "action": "→ تدريب العربة",
+          "name": "العربة"
+        },
+        "cannon": {
+          "desc": "يتحرك مثل العربة، لكن للأسر يجب أن يقفز فوق قطعة واحدة (تسمى الركيزة).",
+          "action": "→ تدريب المدفع",
+          "name": "المدفع"
+        },
+        "soldier": {
+          "desc": "قبل عبور النهر: خطوة للأمام. بعد العبور: للأمام أو لليمين/اليسار.",
+          "action": "→ تدريب الجندي",
+          "name": "الجندي"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. الأحمر ضد الأسود",
+      "intro": "رغم تساوي القوة، تختلف الأحرف المكتوبة على القطع لتمييز الفريقين.",
+      "table": {
+        "type": "نوع القطعة",
+        "red": "الأحمر",
+        "black": "الأسود",
+        "meaning": "المعنى"
+      },
+      "meanings": {
+        "general": "أحمر: مارشال / أسود: جنرال",
+        "advisor": "أحمر: باحث / أسود: حارس",
+        "elephant": "أحمر: وزير / أسود: فيل",
+        "horse": "أحمر: حصان حرب / أسود: حصان",
+        "cannon": "أحمر: مدفع نار / أسود: منجنيق",
+        "soldier": "أحمر: جندي / أسود: عسكري",
+        "chariot": "نفس المعنى"
+      },
+      "why": {
+        "title": "لماذا الاختلاف؟",
+        "desc": "يعود ذلك لمحاكاة حرب شو-هان. الأحمر يمثل هان والأسود يمثل شو."
+      },
+      "elephantExample": {
+        "title": "مثال الفيل (相/象)",
+        "desc": "هذا الزوج هو الأكثر إرباكًا. الأحمر هو <0>相 (وزير)</0>، والأسود هو <1>象 (الفيل)</1>. كلاهما لا يستطيعان عبور النهر لأنهما حاميان دفاعيان.",
+        "desc_p1": "هذا الزوج هو الأكثر إرباكًا. الأحمر هو",
+        "desc_p2": "相 (الوزير)",
+        "desc_p3": "والأسود هو",
+        "desc_p4": "象 (الفيل)",
+        "desc_p5": "كلاهما لا يستطيعان عبور النهر لأنهما حاميان دفاعيان."
+      }
+    },
+    "section4": {
+      "title": "4. قيم القطع (للمراجعة)",
+      "table": {
+        "piece": "القطعة",
+        "score": "النقاط",
+        "stage": "أقوى مرحلة"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "العربة",
+          "power": "الأقوى في كل المراحل"
+        },
+        "cannon": {
+          "name": "المدفع",
+          "power": "قوي في الافتتاح والمنتصف"
+        },
+        "horse": {
+          "name": "الحصان",
+          "power": "قوي في نهاية اللعبة"
+        },
+        "soldier": {
+          "name": "الجندي",
+          "power": "تزداد قيمته بعد عبور النهر"
+        },
+        "defense": {
+          "name": "مستشار / فيل",
+          "power": "دفاع لا غنى عنه"
+        },
+        "general": {
+          "name": "كش مات لجنرال"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. القواعد الخاصة والممنوعات",
+      "rules": {
+        "kingFace": {
+          "label": "مواجهة الجنرالات:",
+          "desc": "لا يمكن للجنرالين المواجهة على نفس العمود دون قطعة بينهما."
+        },
+        "check": {
+          "label": "كش (Check):",
+          "desc": "عندما تكون قطعة تهدد الجنرال مباشرة بالأسر."
+        },
+        "mate": {
+          "label": "شطرنج مات (Checkmate):",
+          "desc": "عندما يكون الجنرال تحت الكش ولا يمكنه الهرب."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. الاستراتيجيات الأساسية",
+      "phases": {
+        "opening": {
+          "title": "⚔️ مرحلة الافتتاح",
+          "quote": "\"انشر العربات بسرعة، الأحصنة بانتظام، المدافع بمرونة\"",
+          "desc": "ركز على نشر القطع الكبيرة إلى مواقع استراتيجية للاستعداد للهجوم."
+        },
+        "midgame": {
+          "title": "🛡️ مرحلة المنتصف",
+          "desc": "قتال عنيف. نسق بين القطع للضغط على جنرال الخصم."
+        },
+        "endgame": {
+          "title": "🔚 مرحلة النهاية",
+          "desc": "عند قلة القطع، تصبح مرونة الحصان وقوة الجندي العابر للنهر حاسمة."
+        },
+        "tactics": {
+          "title": "🔥 أنماط المات الشهيرة",
+          "maHauPhao": "مدفع خلف حصان: استخدام الحصان كركيزة للمدفع.",
+          "thienDiaPhao": "مدافع السماء والأرض: استخدام مدفعين للسيطرة على الصفوف والأعمدة.",
+          "daiDamXa": "العربة الشجاعة: هجوم مباشر على القصر."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. القواعد الممنوعة (FAQ)",
+      "faqs": {
+        "f1": {
+          "q": "س: هل الكش المستمر مسموح؟",
+          "a": "ج: لا! يجب تغيير الحركة وإلا تخسر المباراة."
+        },
+        "f2": {
+          "q": "س: هل يمكن للجنرال الخروج من القصر؟",
+          "a": "ج: لا، أبداً. يبقى الجنرال والمستشارون في منطقة الـ 3x3."
+        },
+        "f3": {
+          "q": "س: متى تنتهي المباراة بالتعادل؟",
+          "a": "ج: التعادل يحدث عند:<1 />1. <0>قاعدة 60 نقلة:</0> 60 نقلة بدون أسر.<2 />2. <0>الاتفاق:</0> موافقة الطرفين.<3 />3. <0>تكرار الوضع:</0> تكرار نفس الوضع 3 مرات.<4 />4. <0>تعادل تقني:</0> نقص القطع الكافية للمات.",
+          "a_intro": "يحدث التعادل عند:",
+          "a_item1_title": "قاعدة 60 نقلة:",
+          "a_item1_desc": "60 نقلة بدون أسر.",
+          "a_item2_title": "الاتفاق:",
+          "a_item2_desc": "موافقة الطرفين.",
+          "a_item3_title": "تكرار الوضع:",
+          "a_item3_desc": "تكرار نفس الوضع 3 مرات.",
+          "a_item4_title": "تعادل تقني:",
+          "a_item4_desc": "نقص القطع الكافية للمات."
+        },
+        "f4": {
+          "q": "س: هل أخسر إذا انتهى الوقت؟",
+          "a": "ج: نعم! عندما ينتهي وقتك تعتبر <0>خاسراً</0>.",
+          "a_p1": "ج: نعم. عندما ينتهي إجمالي وقت المباراة (المهلة)، يخسر هذا الجانب على الفور، بغض النظر عن أفضلية اللوحة.",
+          "a_p2": "خاسراً",
+          "a_p3": "على الفور، بغض النظر عن ميزة المجلس."
+        }
+      },
+      "practiceAction": "🔥 اذهب للتدريب الآن"
+    },
+    "history": {
+      "title": "تاريخ الشيانغ تشي",
+      "p1": "نشأت من لعبة <0>تشاتورانجا</0> الهندية القديمة. تحاكي اللوحة الحرب بين <1>شو وهان</1>.",
+      "p2": "كانت روح الثقافة الذكائية في شرق آسيا لآلاف السنين.",
+      "p3": "اليوم يربط <0>cotuong.xyz</0> ملايين الهواة حول العالم."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "العب ضد الذكاء الاصطناعي",
+    "labelWithId": "الغرفة {{id}}",
+    "ready": "جاهز",
+    "finished": "منتهي",
+    "waitingPlayer": "في الانتظار",
+    "join": "العب",
+    "copyLinkSuccess": "تم نسخ رابط الغرفة إلى الحافظة!",
+    "inviteBtn": "دعوة صديق",
+    "role": "دور",
+    "turn": "دور",
+    "spectatorsShort": "المواصفات.",
+    "noSpectators": "لا أحد"
+  },
+  "game": {
+    "sides": {
+      "red": "أحمر",
+      "black": "أسود"
+    },
+    "timeModes": {
+      "blitz": "الغارة",
+      "rapid": "سريع",
+      "standard": "معيار",
+      "slow": "بطيء",
+      "gridLabel": "وضع الوقت"
+    },
+    "timeModeSub": {
+      "blitz": "3 م",
+      "rapid": "10 م",
+      "standard": "20 م",
+      "slow": "45 م"
+    },
+    "status": {
+      "redWin": "فاز الأحمر",
+      "blackWin": "فاز الأسود",
+      "draw": "تحادل",
+      "ongoing": "جاري اللعب",
+      "check": "يفحص!",
+      "startPrompt_red": "دورك - قم بالخطوة الأولى للبدء",
+      "startPrompt_black": "في انتظار الأحمر للقيام بالخطوة الأولى",
+      "waitingForPlayers": "في انتظار اللاعبين.."
+    },
+    "actions": {
+      "draw": "طلب تعادل",
+      "resign": "انسحاب",
+      "swap": "تبديل الجوانب",
+      "leave": "مغادرة",
+      "publish": "نشر",
+      "undo": "تراجع",
+      "newGame": "لعبة جديدة"
+    },
+    "confirm": {
+      "drawTitle": "عرض تعادل",
+      "drawMsg": "هل تريد إرسال طلب تعادل للخصم؟",
+      "resignTitle": "انسحاب",
+      "resignMsg": "هل أنت متأكد من الانسحاب؟",
+      "leaveTitle": "المغادرة والخسارة",
+      "leaveMsg": "المباراة لم تنتهِ بعد. المغادرة تعني الخسارة. هل تود الاستمرار؟",
+      "loginTitle": "تحتاج حساب",
+      "loginMsg": "سجل دخولك لحفظ مبارياتك المفضلة.",
+      "leaveMsg_casual": "هذه مباراة غير رسمية، هل أنت متأكد أنك تريد المغادرة؟",
+      "leaveMsg_spectator": "أنت على وشك مغادرة غرفة المشاهدين.",
+      "undoMsg": "هل تريد إرسال طلب التراجع إلى خصمك؟"
+    },
+    "modals": {
+      "swapTitle": "طلب تبديل",
+      "swapMessage": "يريد الخصم تبديل الأوان معك. هل توافق؟",
+      "drawTitle": "طلب تعادل",
+      "drawMessage": "الخصم يطلب التعادل. هل توافق؟",
+      "accept": "موافقة"
+    },
+    "comments": "التعليقات",
+    "private": "مباراة خاصة",
+    "publishDesc": "انشر مباراتك",
+    "viewDetails": "عرض تفاصيل المباراة",
+    "notFoundTitle": "مساحة فارغة",
+    "notFoundDesc": "المباراة #{{id}} غير موجودة أو تم حذفها.",
+    "redSide": "الجانب الأحمر",
+    "blackSide": "الجانب الأسود",
+    "sideBlack": "العب باللون الأسود",
+    "aiPlayer": "ذكاء اصطناعي",
+    "rankGeneric": "لاعب",
+    "redPlayerDefault": "لاعب أحمر",
+    "blackPlayerDefault": "لاعب أسود",
+    "roomIdLabel": "رقم الغرفة: #{{id}}",
+    "active": "في المباراة",
+    "moves": "{{count}} يتحرك",
+    "seo": {
+      "title": {
+        "prefix": "تحليل مفصل: ",
+        "videoTitle": "فيديو اللعبة: {{title}}"
+      },
+      "intro": "مباراة <0>شيانغ تشي أونلاين</0> بين <1>{{red}}</1> و <2>{{black}}</2>.",
+      "comments": {
+        "title": "💡 قيمة التحليل",
+        "desc": "النظام يدعم <0>سجلات الشيانغ تشي</0> المباشرة."
+      },
+      "ai": {
+        "title": "🤖 تدرب مع الذكاء الاصطناعي",
+        "desc": "استخدم <0>Pikafish</0> لتحليل المواضع الصعبة."
+      },
+      "keywords": "xiangqi، xiangqi عبر الإنترنت، {{red}}، {{black}}، مباراة المراجعة، الساحة عبر الإنترنت، بطولة xiangqi، تكتيكات xiangqi، اللعب بالكمبيوتر، التدريب باستخدام الذكاء الاصطناعي، لعب xiangqi بالآلة",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "وجها لوجه",
+      "analysis": "تحليل",
+      "matchesCount": "{{count}} تطابقات",
+      "recentMatches": "المباريات الأخيرة",
+      "collectingData": "جارٍ جمع بيانات H2H...",
+      "red": "أحمر",
+      "black": "أسود",
+      "youWin": "لقد فزت",
+      "opponentWin": "فوز الخصم"
+    },
+    "panel": {
+      "title": "معلومات المباراة",
+      "matchId": "المعرف: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} الجانب",
+      "winStatus": "منتصر",
+      "drawStatus": "يرسم",
+      "reasons": {
+        "checkmate": "مات",
+        "stalemate": "الجمود",
+        "timeout": "نفذ الوقت",
+        "resign": "استقالة",
+        "perpetual": "القاعدة الدائمة",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "عنوان",
+        "defaultTitle": "المباراة رقم {{id}}",
+        "puzzleOrigin": "تم إنشاؤها من اللغز",
+        "puzzleTitle": "اللغز رقم {{id}}",
+        "drawRules": "قواعد الرسم",
+        "rule60": "ارسم إذا تحرك 60 بدون التقاط.",
+        "ruleRepeat": "الخسارة في حالة الشيك الدائم أو المطاردة 3 مرات.",
+        "ruleTimeout": "خسارة فور انتهاء المهلة.",
+        "rule60Label": "قاعدة 60 نقلة:",
+        "ruleRepeatLabel": "تكرار:",
+        "ruleTimeoutLabel": "نفذ الوقت:",
+        "materialAdvantage": "الميزة المادية",
+        "drawProgress": "رسم التقدم",
+        "redAdvantage": "أحمر +{{count}}",
+        "blackAdvantage": "أسود +{{count}}",
+        "balanced": "متوازن"
+      },
+      "actions": {
+        "save": "يحفظ",
+        "lobby": "ردهة"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "انتصار!",
+      "loss": "هزيمة",
+      "draw": "يرسم!",
+      "finished": "انتهت المباراة",
+      "elo": "تصنيف إيلو",
+      "reward": "جائزة",
+      "review": "مراجعة",
+      "share": "يشارك"
+    },
+    "spectators": {
+      "title": "المتفرجون ({{count}})",
+      "empty": "لا أحد يراقب",
+      "label_short": "المتفرجون",
+      "alt": "المتفرج {{name}}"
+    },
+    "lobbyTitle": "ردهة",
+    "puzzleTag": "لغز",
+    "aiLevels": {
+      "1": "مبتدئ",
+      "2": "أساسي",
+      "3": "متوسط",
+      "4": "ماهر",
+      "5": "متقدم",
+      "6": "بطل",
+      "default": "مستوى {{level}}"
+    },
+    "moveList": {
+      "progress": "مسار اللعب",
+      "first": "البداية",
+      "prev": "السابق",
+      "next": "التالي",
+      "last": "النهاية",
+      "pause": "إيقاف",
+      "play": "تشغيل",
+      "empty": "لا توجد نقلات بعد",
+      "initial": "الوضع الابتدائي",
+      "viewMove": "عرض النقلة {{index}}",
+      "returnToLive": "العودة للمباشر"
+    },
+    "export": {
+      "copyFen": "نسخ FEN",
+      "copyFenSuccess": "تم نسخ FEN!",
+      "copyFenError": "Error copying FEN",
+      "exportFile": "تصدير ملف",
+      "saveImage": "حفظ صورة",
+      "saveImageSuccess": "تم حفظ صورة اللوحة!",
+      "saveImageError": "خطأ في حفظ الصورة",
+      "downloadHd": "تحميل HD",
+      "downloadHdSuccess": "تم حفظ الصورة عالية الدقة بنجاح!",
+      "downloadHdError": "خطأ في تصدير HD: {{message}}",
+      "cancelInfo": "تم إلغاء التصدير",
+      "noMovesError": "لا توجد تحركات، لا يمكن إنشاء الفيديو",
+      "clientVideo": "فيديو (WebM)",
+      "clientVideoSuccess": "تم تصدير الفيديو بنجاح!",
+      "clientVideoError": "خطأ فيديو العميل: {{message}}",
+      "serverVideo": "فيديو (MP4)",
+      "serverVideoSuccess": "تم التنزيل {{format}} بنجاح!",
+      "serverVideoError": "خطأ في تصدير HD: {{message}}",
+      "serverTimeout": "مهلة الخادم. المطابقة طويلة جدًا، يرجى استخدام \"فيديو - العميل\" (جودة HD)",
+      "animatedGif": "صورة GIF",
+      "size": "الحجم",
+      "ratios": {
+        "horizontal": "أفقي",
+        "vertical": "عمودي",
+        "square": "مربع",
+        "board": "اللوحة فقط"
+      }
+    },
+    "move": "نقلة",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "وصل الأحمر!",
+    "blackJoined": "وصل الأسود!",
+    "redLeft": "غادر الأحمر.",
+    "blackLeft": "غادر الأسود.",
+    "opponentDisconnected": "انقطع اتصال الخصم!",
+    "opponentReconnected": "عاد الخصم للاتصال!",
+    "newSpectator": "مشاهد جديد (الإجمالي {{count}})",
+    "started": "بدأت المباراة! بالتوفيق.",
+    "drawDeclined": "رفض الخصم طلب التعادل.",
+    "swapDeclined": "رفض الخصم طلب التبديل.",
+    "swapSuccess": "تم التبديل للجانب {{side}} بنجاح!",
+    "resultDraw": "النتيجة: تعادل",
+    "resultWin": "مبروك! أنت الفائز!",
+    "resultLoss": "انتهت: لقد خسرت.",
+    "resultOtherWin": "انتهت: فاز {{side}}!",
+    "errorViewingReplay": "أنت تشاهد إعادة.",
+    "backToLive": "العودة للبث المباشر",
+    "errorLoginToPlay": "سجل الدخول للعب.",
+    "errorNotYourTurn": "ليس دورك.",
+    "errorSpectator": "أنت مشاهد فقط.",
+    "engineError": "خطأ في المحرك: {{error}}",
+    "config": {
+      "titleChallenge": "تحدَّ لاعباً",
+      "titlePuzzle": "مباراة لغز",
+      "titleNew": "مباراة جديدة",
+      "readyToPlay": "جاهز للعب",
+      "invitedOpponent": "هناك تحدٍّ",
+      "challengeInvite": "{{name}} يتحدّاك!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ رفض {{name}}.",
+        "wait": "⏳ {{name}} مشغول!",
+        "accepted": "🎉 تم قبول التحدي!",
+        "canceled": "تم إلغاء التحدي.",
+        "sent": "تم إرسال التحدي إلى {{name}}.",
+        "busy": "📭 {{name}} مشغول حالياً.",
+        "offline": "غير متصل."
+      },
+      "ready": {
+        "title": "المباراة جاهزة",
+        "desc": "من يدخل أولاً يلعب بالأسود، والثاني بالأحمر.",
+        "action": "ادخل الآن",
+        "hide": "إخفاء"
+      },
+      "gifts": {
+        "received": "استلمت هدية!",
+        "coins": "استلمت ذهباً!",
+        "coinsDesc": "+{{amount}} 🪙",
+        "candy": "🍬 حلوى",
+        "bear": "🧸 دب",
+        "ring": "💍 خاتم"
+      },
+      "defaultConfigDesc": "تم إنشاء المباراة بإعدادات قياسية:",
+      "defaultConfigDetails": "20 دقيقة، عامة، مصنفة Elo.",
+      "advancedConfig": "⚙️ إعدادات متقدمة",
+      "timeMode": "ضبط الوقت",
+      "findOpponent": "البحث عن منافس",
+      "selected": "تم الاختيار",
+      "searchPlaceholder": "الاسم أو UID...",
+      "online": "متصل",
+      "noResults": "لم يتم العثور...",
+      "select": "اختيار",
+      "unselect": "إزالة",
+      "boardOptions": "خيارات اللوحة",
+      "private": "🔒 خاصة",
+      "public": "🌐 عامة (Elo)",
+      "boardType": "نوع اللوحة",
+      "standard": "♟ قياسية",
+      "puzzle": "🧩 لغز",
+      "puzzleSetup": "إعداد اللغز",
+      "selectedPuzzle": "اللغز المختار",
+      "change": "تغيير",
+      "suggestions": "اقتراحات",
+      "searchPuzzlePlaceholder": "اسم اللغز...",
+      "level": "مستوى",
+      "challengeOptions": "خيارات التحدي",
+      "message": "رسالة",
+      "defaultMessage": "لنلعب الشيانغ تشي معاً!",
+      "betGifts": "رهان هدايا",
+      "betActive": "🎁 رهان نشط",
+      "betNone": "🎁 لا يوجد رهان",
+      "giftType": "نوع الهدية",
+      "backToSimple": "« عودة للعادي",
+      "goldWarning": "ℹ️ لعب الألغاز قد لا يمنحك ذهباً",
+      "goldSuccess": "ℹ️ اللعب القياسي يمنحك ذهباً",
+      "creating": "جاري الإنشاء...",
+      "sendChallenge": "⚔️ إرسال التحدي",
+      "openMatch": "🚀 فتح مباراة عامة",
+      "playNow": "🚀 العب الآن",
+      "modes": {
+        "blitz": "⚡ سريع (Blitz)",
+        "rapid": "🏃 متوسط (Rapid)",
+        "standard": "⏱ قياسي",
+        "slow": "TARGET_LINT_ERROR_ID"
+      },
+      "toasts": {
+        "loginRequired": "سجل الدخول لإنشاء مباراة.",
+        "challengeSent": "تم إرسال التحدي لـ {{name}}!",
+        "roomCreated": "تم إنشاء الغرفة بنجاح!",
+        "alreadyInGame": "لديك مباراة لم تنتهِ بعد.",
+        "serverError": "خطأ في اتصال الخادم."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "تدرب على <0>حل الألغاز</0>",
+    "subtitle": "آلاف الألغاز من المجتمع",
+    "listTitle": "قائمة الألغاز",
+    "explore": "استكشف",
+    "saved": "المحفوظة",
+    "searchPlaceholder": "اسم اللغز...",
+    "level": "الصعوبة",
+    "levelValue": "مستوى {{level}}",
+    "unclassified": "غير مصنف",
+    "sort": {
+      "label": "ترتيب حسب",
+      "newest": "الأحدث",
+      "popular": "الأكثر شهرة",
+      "solved": "الأكثر حلاً"
+    },
+    "time": {
+      "label": "الفترة",
+      "all": "الكل",
+      "day": "اليوم",
+      "week": "هذا الأسبوع",
+      "month": "هذا الشهر"
+    },
+    "empty": {
+      "title": "لم يتم العثور على ألغاز",
+      "desc": "حاول تغيير الفلاتر.",
+      "reset": "إعادة ضبط"
+    },
+    "actions": {
+      "solve": "حل الآن",
+      "loadMore": "عرض المزيد ↓",
+      "backToSolve": "عودة للحل"
+    },
+    "loginToSave": "سجل الدخول للحفظ.",
+    "loginToChallenge": "سجل الدخول للتحدي.",
+    "red": "الأحمر",
+    "black": "الأسود",
+    "byUser": "بواسطة {{name}}",
+    "meta": {
+      "title": "حل ألغاز الشيانغ تشي أونلاين - أفضل قاعدة بيانات",
+      "description": "ألغاز افتتاح، نهاية واستراتيجيات. تدرب مجاناً.",
+      "itemListDesc": "قائمة أفضل ألغاز xiangqi",
+      "itemListSchemaDesc": "قاعدة بيانات اللغز، تمارين نهاية لعبة xiangqi على الإنترنت.",
+      "home": "الرئيسية",
+      "puzzles": "الألغاز",
+      "schemaGameTitle": "لغز Xiangqi: {{name}}",
+      "schemaVideoTitle": "فيديو حل اللغز: {{name}}",
+      "schemaVideoDesc": "كيفية حل لغز شيانغكي: {{name}}. شاهد التحركات الصحيحة للفوز.",
+      "schemaVideoSolutionTitle": "فيديو حل اللغز: {{name}} (الحل {{index}})",
+      "schemaVideoSolutionDesc": "كيفية حل لغز شيانغكي: {{name}} - الحل {{index}}.",
+      "authorDefault": "Xiangqi Online"
+    },
+    "seoContent": {
+      "whyTitle": "لماذا تتدرب على <0>الألغاز</0>؟",
+      "intro": "<0>حل الألغاز</0> هو أساس القوة.",
+      "guide": {
+        "title": "دليل المبتدئين",
+        "intro": "لتحسين مهاراتك في <0>حل الألغاز</0>، يلزمك إتقان خطوات التحليل الأساسية:",
+        "item1": "<0>التقييم:</0> انظر للقطع المتبقية.",
+        "item2": "<0>التحليل:</0> ابحث عن نقاط الضعف.",
+        "item3": "<0>الحساب:</0> ابحث عن أسرع طريق للمات."
+      },
+      "ai": {
+        "title": "استخدام الذكاء الاصطناعي",
+        "intro": "Use AI <0>puzzle solving software</0> (Pikafish) right at cotuong.xyz's training center to:",
+        "item1": "البحث عن النقلات الخفية.",
+        "item2": "تحليل الأخطاء.",
+        "item3": "الحساب لـ 10-20 نقلة للأمام."
+      },
+      "benefits": {
+        "title": "فوائد التدريب",
+        "satt": {
+          "title": "أنماط المات",
+          "desc": "إتقان أنماط النهاية الشهيرة."
+        },
+        "tanquoc": {
+          "title": "نهاية اللعبة",
+          "desc": "تعلم الفوز بقطع قليلة."
+        },
+        "tuduy": {
+          "title": "التفكير",
+          "desc": "تمييز الأنماط الفائزة تلقائياً."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "تحليل اللغز:",
+        "defaultName": "التكتيكات الكلاسيكية",
+        "intro": "اللغز <1>{{name}}</1> هو <3>تمرين ألغاز نموذجي عبر الإنترنت</3>، يركز على القدرة على تنسيق القطع للقضاء على الخصم. هذه فرصة رائعة لك للتدرب على <5>كيفية حل ألغاز شيانغكي</5> في مواقف حقيقية.",
+        "tips": {
+          "title": "💡 نصائح صغيرة",
+          "desc": "انتبه للقطع المهاجمة. <0>الكش</0> المفاجئ قد يكون المفتاح."
+        },
+        "advanced": {
+          "title": "📈 تقدم مستواك",
+          "desc": "بعد حلها بنفسك، استخدم أداة <1>برنامج حل الألغاز</1> المدمجة لرؤية المتغيرات الأخرى. يساعدك هذا على فهم بنية اللغز بشكل أعمق وحفظ أنماط كش ملك."
+        }
+      },
+      "seoTitle": "حل لغز: {{name}} - أونلاين",
+      "seoDesc": "حل {{name}} أونلاين. طور مهاراتك التصورية.",
+      "rewardFirst": "🏆 رائع! حصلت على {{count}} 🪙.",
+      "rewardUpdate": "مبروك! تم تحديث نتيجتك.",
+      "viewingSolution": "عرض حل لـ",
+      "loadError": "خطأ في تحميل اللوحة",
+      "loginRequiredTitle": "الدخول مطلوب",
+      "loginRequiredMsg": "سجل دخولك لهذه العملية.",
+      "mission": "المهمة",
+      "missionDesc": "ابحث عن طريقة للفوز.",
+      "aiSolver": "محلل AI",
+      "aiSolverDesc": "فعل \"🤖 مساعدة AI\" للرد التلقائي.",
+      "achievement": "إنجاز",
+      "achievementDesc": "اكسب الذهب لأول حل صحيح.",
+      "aiServer": "خادم AI",
+      "aiServerDesc": "المستويات العالية تستخدم خادم Pikafish.",
+      "title": "معلومات اللغز",
+      "backToList": "العودة للقائمة",
+      "puzzleNameLabel": "لغز رقم {{id}}",
+      "firstPlayer": "البادئ",
+      "redFirst": "🔴 الأحمر أولاً",
+      "blackFirst": "⚫ الأسود أولاً",
+      "creator": "المبتكر",
+      "difficulty": "الصعوبة",
+      "relatedGames": "مباريات ذات صلة",
+      "justHappened": "حدث للتو",
+      "saved": "محفوظ",
+      "savePuzzle": "حفظ اللغز",
+      "solverTitle": "الحل",
+      "solveMode": "النمط",
+      "modeAi": "🤖 آلي (Auto)",
+      "modeManual": "👥 يدوي (بدون مساعد)",
+      "aiLevel": "قوة AI",
+      "sideSelect": "جانبك",
+      "redSide": "أحمر",
+      "blackSide": "أسود",
+      "undo": "تراجع",
+      "restart": "إعادة البدء",
+      "hallOfFame": "قاعة المشاهير",
+      "solvedBy": "تم حله بواسطة",
+      "player": "لاعب",
+      "movesCount": "النقلات: {{count}}",
+      "view": "عرض",
+      "noSolutions": "لم يتم حله من قبل أحد بعد.\nكن الأول!",
+      "similarPuzzles": "ألغاز مشابهة",
+      "relatedMatchReports": "تقارير ذات صلة"
+    }
+  },
+  "notifications": {
+    "title": "التنبيهات",
+    "panelHeader": "الأخبار",
+    "clearAll": "مسح الكل",
+    "empty": "لا توجد رسائل بعد.",
+    "viewNow": "عرض الآن →",
+    "push": {
+      "prompt": "فعل التنبيهات لكي لا تفوت أي تحدٍّ!",
+      "enable": "تفعيل",
+      "saveError": "خطأ في حفظ الإعدادات.",
+      "deniedError": "تم الرفض. فعل التنبيهات من المتصفح.",
+      "genericError": "فشل التفعيل."
+    },
+    "challenges": {
+      "standard": "قياسي",
+      "puzzle": "لغز",
+      "accepted": "🔥 تم القبول",
+      "declined": "❌ تم الرفض",
+      "canceled": "⚪ تم الإلغاء",
+      "waitOpponent": "⏳ انتظار الخصم...",
+      "waitYou": "⏳ بانتظارك...",
+      "acceptAction": "موافقة",
+      "waitAction": "انتظار",
+      "cancelAction": "إلغاء",
+      "deleteAction": "حذف",
+      "inGameTooltip": "أنت تلعب الآن"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "لوحة غير صالحة",
+      "checkAgain": "يرجى التحقق مرة أخرى",
+      "loginRequired": "الرجاء تسجيل الدخول للمتابعة.",
+      "nameRequired": "الرجاء إدخال اسم لهذا الإعداد.",
+      "descRequired": "الرجاء إدخال وصف لهذا الإعداد.",
+      "twoKings": "يجب أن يحتوي الإعداد على ملكين بالضبط.",
+      "faceToFace": "خطأ: لا يمكن للملوك مواجهة بعضهم البعض بشكل مباشر.",
+      "redCheck": "الملك الأحمر قيد الفحص حاليًا.",
+      "blackCheck": "بلاك كينغ قيد الفحص حاليًا.",
+      "pieceLimit": "الحد الأقصى المسموح به للقطع {{limit}} من النوع {{type}}.",
+      "generalPalace": "{{side}} يجب أن يكون الجنرال داخل القصر (3×3).",
+      "advisorPalace": "{{side}} يجب أن يكون المستشار داخل القصر (3×3).",
+      "advisorDiagonal": "{{side}} لا يمكن وضع المستشار إلا على نقاط القصر القطرية.",
+      "elephantRiver": "{{side}} لا يستطيع الفيل عبور النهر.",
+      "elephantPoints": "{{side}} لا يمكن وضع الفيل إلا في مواضع ثابتة بجانب المنزل.",
+      "redSoldierBackward": "لا يمكن للجندي الأحمر التحرك للخلف خلف خط البداية.",
+      "redSoldierColumns": "الجندي الأحمر قبل النهر لا يمكنه الوقوف إلا على أعمدة فردية (1، 3، 5، 7، 9).",
+      "blackSoldierBackward": "لا يستطيع الجندي الأسود التحرك للخلف خلف خط البداية.",
+      "blackSoldierColumns": "الجندي الأسود قبل النهر لا يمكنه الوقوف إلا على أعمدة فردية (1، 3، 5، 7، 9).",
+      "saveError": "حدث خطأ أثناء الحفظ",
+      "unknownError": "حدث خطأ غير معروف.",
+      "connError": "خطأ في الاتصال",
+      "connMsg": "تعذر الاتصال بالخادم.",
+      "fenError": "FEN error.",
+      "red": "أحمر",
+      "black": "أسود",
+      "successLoad": "محملة: {{name}}",
+      "successUpdate": "تم التحديث: {{name}}",
+      "successSave": "تم الحفظ: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "المحرر وإعداد اللوحة",
+    "tryoutTitle": "التجربة مع AI",
+    "tryout": {
+      "modeLabel": "النمط:",
+      "modeAi": "🤖 لعب ضد AI",
+      "modeManual": "👥 يدوي (كلا الجانبين)",
+      "selectBot": "حدد الخصم:",
+      "levelLabel": "مستوى AI:",
+      "levelOption": "المستوى {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "جانبك:",
+      "viewLabel": "الرؤية:",
+      "sideRed": "أحمر",
+      "sideBlack": "أسود",
+      "backLabel": "العودة للإعداد"
+    },
+    "paletteTitle": "قائمة القطع",
+    "palette": {
+      "selecting": "المختار:",
+      "erase": "حذف قطعة",
+      "clear": "مسح الكل",
+      "redPrefix": "الأحمر",
+      "blackPrefix": "الأسود"
+    },
+    "fen": {
+      "label": "استيراد FEN",
+      "placeholder": "أدخل كود FEN...",
+      "apply": "تطبيق"
+    },
+    "historyTitle": "التشكيلات المحفوظة",
+    "history": {
+      "loadAction": "تحميل",
+      "viewAction": "عرض"
+    },
+    "modals": {
+      "duplicateTitle": "التشكيلة موجودة بالفعل",
+      "duplicateMsg": "هذا الوضع مطابق لـ [{{name}}].",
+      "duplicateAction": "عرض التشكيلة",
+      "clearTitle": "مسح اللوحة؟",
+      "clearMsg": "هل تود إزالة جميع القطع؟"
+    },
+    "rules": {
+      "title": "قواعد المحرر",
+      "orientation": {
+        "label": "الاتجاه:",
+        "desc": "الأحمر بالأسفل، الأسود بالأعلى."
+      },
+      "turn": {
+        "label": "البادئ باللعب:",
+        "desc": "حسب المعايير، الأحمر يبدأ أولاً."
+      },
+      "general": {
+        "label": "الجنرال:",
+        "desc": "واحد لكل فريق، داخل القصر."
+      },
+      "check": {
+        "label": "لا كش عند البداية:",
+        "desc": "يجب ألا يكون الوضع الابتدائي شطرنج مات."
+      },
+      "facing": {
+        "label": "مواجهة الجنرالات:",
+        "desc": "لا يمكن للجنرالين رؤية بعضهما بدون عوائق."
+      },
+      "defense": {
+        "label": "مستشار/فيل:",
+        "desc": "المستشار في القصر، الفيل لا يعبر النهر."
+      },
+      "soldier": {
+        "label": "الجندي:",
+        "desc": "خمسة لكل فريق. لا حركة جانبية قبل النهر."
+      }
+    },
+    "seoTitle": "محرر شيانغ تشي أونلاين وإعداد اللوحة",
+    "seoDesc": "أعد لوحة الشيانغ تشي أونلاين، أنشئ الألغاز وحلل مع الذكاء الاصطناعي. أدوات احترافية من cotuong.xyz.",
+    "modeTryout": "نمط التحليل",
+    "modeEditor": "نمط التحرير • انقر لوضع القطع",
+    "actionTry": "تجربة ضد AI",
+    "actionUndo": "تراجع",
+    "actionReset": "إعادة ضبط",
+    "toast": {
+      "loginSave": "سجل الدخول لحفظ التشكيلة.",
+      "loginChallenge": "سجل الدخول للتحدي.",
+      "boardCleared": "تم مسح اللوحة."
+    },
+    "seoContent": {
+      "title": "أداة <0>تحرير الشيانغ تشي</0> الاحترافية",
+      "intro": "المنصة الرائدة لـ <0>إعداد أوضاع الشيانغ تشي</0> و <1>تحرير الألغاز</1>. رتب <2>اللوحة</2> بحرية للتدريب.",
+      "feature1": {
+        "title": "ميزات قوية",
+        "desc": "يدعم السحب والإفلات، استيراد FEN، ودمج <1>AI متقدم</1> (Pikafish)."
+      },
+      "feature2": {
+        "title": "مشاركة المعرفة",
+        "desc": "كل تشكيلة محفوظة تساعدك على التدريب وتساهم في إثراء المجتمع."
+      }
+    },
+    "form": {
+      "guestTitle": "نمط الضيف",
+      "guestDesc": "سجل الدخول للحفظ والمشاركة.",
+      "nameLabel": "اسم التشكيلة:",
+      "namePlaceholder": "أدخل اسماً...",
+      "levelLabel": "الصعوبة:",
+      "levelOption": "اختر",
+      "levelValue": "مستوى {{level}}",
+      "descLabel": "الوصف:",
+      "descPlaceholder": "...",
+      "saveAction": "حفظ الوضع",
+      "loginSaveAction": "🔐 سجل دخولك للحفظ",
+      "importError": "خطأ في استيراد FEN:"
+    }
+  },
+  "tournaments": {
+    "title": "البطولات (Tournaments)",
+    "subtitle": "ساحة كبار اللاعبين",
+    "loading": "جاري تحميل معلومات البطولة...",
+    "empty": "لا توجد بطولات متاحة حالياً.",
+    "listTitle": "قائمة بطولات الشيانغ تشي أونلاين",
+    "listDesc": "الأحداث الجارية والقادمة.",
+    "champion": "البطل: {{name}}",
+    "players": {
+      "pendingTitle": "طلبات الانضمام ({{count}})",
+      "registeredTitle": "اللاعبون المسجلون ({{count}})",
+      "empty": "لم يتم تسجيل أي لاعب حتى الآن.",
+      "approve": "يعتمد"
+    },
+    "rounds": "{{count}} جولات",
+    "minElo": "ELO {{elo}}+",
+    "requireApproval": "يحتاج موافقة",
+    "hasPrizes": "توجد جوائز",
+    "deadline": "نهاية التسجيل:",
+    "createdAt": "تم الإنشاء في:",
+    "noDescription": "لا يوجد وصف.",
+    "status": {
+      "registration": "جاري التسجيل",
+      "active": "جارية الآن",
+      "deadline_closed": "تم إغلاق التسجيل",
+      "finished": "منتهية"
+    },
+    "backToList": "العودة إلى القائمة",
+    "noDescriptionDetail": "لا يوجد وصف تفصيلي متاح لهذه البطولة.",
+    "currentRound": "الجولة: {{current}} {{total}}",
+    "playersCount": "اللاعبون: {{current}}/{{total}}",
+    "registrationInfo": "معلومات التسجيل",
+    "start": "يبدأ",
+    "closed": "مغلق",
+    "joinAction": "سجل الآن",
+    "joining": "الانضمام...",
+    "joined": "مسجل",
+    "pendingApproval": "في انتظار الموافقة",
+    "formats": {
+      "swiss": "النظام السويسري (Swiss)",
+      "roundrobin": "جولة روبن"
+    },
+    "timeline": {
+      "emptyAdmin": "لا توجد مباريات حتى الآن. إنشاء جولة جديدة!",
+      "emptyUser": "جاري تحديث المباريات...",
+      "roundLabel": "الجولة {{round}}",
+      "status": {
+        "active": "نشيط"
+      },
+      "actions": {
+        "review": "مراجعة",
+        "play": "العب الآن",
+        "watch": "يشاهد"
+      },
+      "sides": {
+        "red": "أحمر",
+        "black": "أسود"
+      }
+    },
+    "standings": {
+      "empty": "لا توجد بيانات الترتيب المتاحة.",
+      "stats": {
+        "win": "يفوز",
+        "draw": "يرسم",
+        "loss": "خسارة",
+        "bye": "الوداع"
+      }
+    },
+    "prizes": {
+      "title": "هيكل الجائزة",
+      "goldUnit": "ذهب"
+    },
+    "announcements": {
+      "placeholder": "أدخل محتوى الإعلان...",
+      "postAction": "إعلان آخر",
+      "empty": "لا توجد إعلانات لهذه البطولة."
+    },
+    "detail": {
+      "notFound": "لم يتم العثور على البطولة.",
+      "champion": {
+        "title": "بطل",
+        "points": "نقاط",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "يسجل",
+        "joined": "مسجل",
+        "pending": "قيد الانتظار",
+        "createRound": "إنشاء جولة {{round}}",
+        "finishTournament": "إنهاء البطولة"
+      },
+      "tabs": {
+        "timeline": "الجدول الزمني",
+        "standings": "الترتيب",
+        "players": "اللاعبين",
+        "prizes": "الجوائز",
+        "announcements": "إعلانات"
+      },
+      "meta": {
+        "title": "{{name}} | شيانغكي اون لاين",
+        "description": "التفاصيل والجدول الزمني والترتيب للبطولة {{name}}."
+      },
+      "messages": {
+        "joinSuccess": "✅ التسجيل ناجح!",
+        "joinPending": "✅ تم إرسال الطلب، في انتظار موافقة المشرف.",
+        "roundStarted": "✅ تم إنشاء الجولة {{round}} - مباريات {{count}} {{bye}}",
+        "bye": "({{name}} تلقى وداعًا)",
+        "tournamentFinished": "🏆 انتهت البطولة! البطل: {{name}}",
+        "confirmFinish": "إنهاء البطولة وإعلان البطل؟",
+        "confirm": "تأكيد الانتهاء"
+      },
+      "errors": {
+        "joinClosed": "⏰ انتهت فترة التسجيل.",
+        "joinFull": "❌البطولة كاملة.",
+        "joinNotRegistration": "❌ البطولة لم تعد تقبل التسجيلات.",
+        "joinFailed": "❌ خطأ في الاتصال.",
+        "maxRounds": "تم الوصول إلى الحد الأقصى لعدد {{count}} من الجولات!",
+        "notEnoughPlayers": "مطلوب 2 لاعبين على الأقل.",
+        "alreadyFinished": "انتهت البطولة.",
+        "finishError": "خطأ في إنهاء البطولة."
+      }
+    },
+    "meta": {
+      "title": "بطولات الشيانغ تشي أونلاين - نافس من أجل المجد | Xiangqi Online",
+      "description": "شارك في بطولات الشيانغ تشي أونلاين. تابع الجداول، الترتيب واربح الذهب.",
+      "home": "الرئيسية",
+      "tournaments": "البطولات"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "ساحة <0>الأبطال</0>",
+        "desc": "البطولات هي المكان الذي يلتقي فيه الأفضل. أظهر موهبتك."
+      },
+      "features": {
+        "formats": {
+          "title": "نظام سويسري ودوري",
+          "desc": "معايير دولية تضمن العدالة للجميع."
+        },
+        "prizes": {
+          "title": "جوائز تحفيزية",
+          "desc": "يحصل الأبطال على الذهب 🪙 والكوؤس."
+        },
+        "experience": {
+          "title": "اكتساب الخبرة",
+          "desc": "كل بطولة هي درس قيم."
+        },
+        "honor": {
+          "title": "لوحة الشرف",
+          "desc": "سجل البطولات وقائمة الأبطال محفوظة للأبد."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "العب ضد {{name}} (AI) - تدرب أونلاين",
+    "seoTitleDefault": "العب ضد الحاسوب - Pikafish AI الأقوى",
+    "seoDesc": "تحدَّ {{name}} في المستوى {{level}}.",
+    "seoDescDefault": "تدرب ضد الحاسوب في المستوى {{level}}. محرك Pikafish الأقوى في العالم مع نظام تحليل.",
+    "title": "المباراة مع <0>AI</0>",
+    "settings": "الإعدادات",
+    "undo": "تراجع",
+    "newGame": "مباراة جديدة",
+    "agentsOnline": "{{count}} وكلاء عبر الإنترنت",
+    "personality": {
+      "aggressive": "عنيف",
+      "defensive": "دفاعي",
+      "balanced": "متوازن"
+    },
+    "ranks": {
+      "level1": "مبتدئ",
+      "level4": "احترافي",
+      "level6": "غراند ماستر"
+    },
+    "bot": {
+      "error_not_found": "لم يتم العثور على أي روبوتات. تحقق من المشرف ›الروبوتات."
+    },
+    "seoContent": {
+      "title": "تدريب احترافي مع <0>Pikafish</0>",
+      "intro": "أهلاً بك في قسم اللعب مع <0>AI</0>. نستخدم محرك Pikafish لتوفير أفضل تجربة.",
+      "feature1": {
+        "title": "محرك Pikafish AI",
+        "desc": "تقنية ذكاء اصطناعي تحلل ملايين النقلات في الثانية."
+      },
+      "feature2": {
+        "title": "مستويات متعددة",
+        "desc": "من المستوى 1 للمبتدئين حتى 10 للمحترفين."
+      },
+      "feature3": {
+        "title": "تحليل فوري",
+        "desc": "نظام حفظ السجلات لتحليل أخطائك فوراً."
+      },
+      "whyTitle": "لماذا تدرب مع AI؟",
+      "whyDesc": "اللعب مع الحاسوب يبني الصبر والدقة. هو لا يخطئ أخطاء ساذجة.",
+      "tags": {
+        "online": "شيانغ تشي أونلاين",
+        "withAi": "لعب ضد AI",
+        "engine": "Pikafish",
+        "practice": "تدريب",
+        "hall": "قاعة الذكاء",
+        "ai": "ذكاء اصطناعي"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "الموضوع: الظلام"
+    },
+    "title": "المركز الشخصي",
+    "dashboard": "الردهة",
+    "account": "إعدادات الحساب",
+    "overview": "نظرة عامة",
+    "customize": "تخصيص الحساب",
+    "boardInterface": "واجهة اللوحة",
+    "boardInterfaceDesc": "خصص تجربة اللعب حسب ذوقك.",
+    "autoScroll": "تمرير تلقائي",
+    "autoScrollDesc": "التمرير التلقائي للوحة عند دخول الغرفة",
+    "autoScrollSuccess": "تم تحديث التمرير بنجاح",
+    "cropAvatar": "قص الصورة",
+    "zoom": "تكبير",
+    "saveImage": "حفظ الصورة",
+    "updateNameSuccess": "تم تحديث الاسم بنجاح!",
+    "updateAvatarSuccess": "تم تحديث الصورة بنجاح!",
+    "pieceStyle": "شكل القطع",
+    "pieceStyleDesc": "اختر شكل القطع الذي تفضله.",
+    "pieceStyles": {
+      "traditional": "تقليدي (أحرف صينية)",
+      "international": "دولي (رموز صورية)",
+      "simple": "بسيط (سهل الرؤية)"
+    },
+    "voicePack": "أصوات التعليق",
+    "voicePackDesc": "أصوات تنبيهية عند النقلات.",
+    "voicePacks": {
+      "vi": "الفيتنامية",
+      "en": "الإنجليزية",
+      "zh": "الصينية",
+      "ja": "اليابانية",
+      "none": "بدون صوت (مؤثرات فقط)"
+    },
+    "changePasswordSuccess": "تم تغيير كلمة المرور بنجاح!",
+    "deletePuzzleTitle": "حذف اللغز؟",
+    "deletePuzzleConfirm": "هل أنت متأكد من حذف [{{name}}]؟",
+    "deletePuzzleAction": "حذف الآن",
+    "deletePuzzleSuccess": "تم حذف اللغز!",
+    "notificationsEnabled": "تم تفعيل التنبيهات!",
+    "notificationsError": "خطأ في التفعيل.",
+    "matchHistory": "سجل المباريات",
+    "achievements": "الإنجازات",
+    "inventory": "العناصر",
+    "myContent": "محتواي",
+    "security": "الأمان",
+    "notifications": "التنبيهات",
+    "changePassword": "تغيير كلمة المرور",
+    "oldPassword": "كلمة المرور القديمة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "displayName": "اسم العرض",
+    "updateProfile": "تحديث المعلومات",
+    "notificationsDesc": "تلقي إشعارات حول البطولات والرسائل والتحديات الجديدة.",
+    "pushSuccess": "تم تمكين الإخطارات بنجاح!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - المنصة الرائدة للشيانغ تشي. نجمع الهواة مع تقنيات AI المتطورة.",
+    "missionShort": "منصة شيانغ تشي عالية الجودة",
+    "experience": "تجربة",
+    "knowledge": "معرفة",
+    "services": "خدمات",
+    "contactLegal": "اتصال وقانون",
+    "onlineArena": "الساحة أونلاين",
+    "puzzles": "ألغاز الشيانغ تشي",
+    "playWithAi": "العب ضد AI",
+    "leaderboard": "لوحة المتصدرين",
+    "howToPlay": "كيفية اللعب",
+    "basicTactics": "تاكتيكات أساسية",
+    "practicalEndgame": "نهايات عملية",
+    "news": "أخبار البطولات",
+    "shop": "متجر العناصر",
+    "profile": "الملف الشخصي",
+    "vipUpgrade": "ترقية VIP",
+    "support": "الدعم",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "officialRules": "القوانين الرسمية",
+    "active": "نشط",
+    "globalServer": "خادم عالمي",
+    "facebookPage": "صفحة فيسبوك الرسمية",
+    "facebookGroup": "مجموعة فيسبوك",
+    "allSystemsOperational": "جميع الأنظمة تعمل بشكل طبيعي",
+    "joinPlayers": "انضم إلى أكثر من 50,000 لاعب",
+    "globalPresence": "الحضور العالمي",
+    "infrastructure": "بنية تحتية",
+    "security": "حماية",
+    "versionControl": "التحكم في الإصدار",
+    "release": "يطلق",
+    "deployTime": "نشر الوقت",
+    "staticHub": "المحور الثابت العالمي",
+    "sslVerified": "تم التحقق من طبقة المقابس الآمنة",
+    "build": "إصدار",
+    "time": "وقت",
+    "copyright": "الشيانغ تشي أونلاين - المحتوى والتصميم ملك لـ <0>cotuong.xyz</0>. بدون إعلانات وسهل الاستخدام. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "شروط الاستخدام | Xiangqi Online",
+      "description": "شروط الاستخدام وقوانين المجتمع."
+    },
+    "title": "الشروط & <0>الأحكام</0>",
+    "title_p1": "الشروط &",
+    "title_p2": "الأحكام",
+    "intro": "أهلاً بك في مجتمع الشيانغ تشي أونلاين. لضمان بيئة عادلة، نرجو منك الالتزام بالقواعد التالية.",
+    "cardTitle": "اتفاقية الخدمة",
+    "lastUpdated": "آخر تحديث",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "acceptance": {
+        "title": "قبول الشروط",
+        "content": "باستخدامك لموقع cotuong.xyz، فإنك توافق على الالتزام بهذه الشروط."
+      },
+      "accounts": {
+        "title": "حساب المستخدم",
+        "item1": "أنت مسؤول عن حماية كلمة مرورك.",
+        "item2": "يرجى تقديم معلومات صحيحة عند التسجيل.",
+        "item3": "يسمح بحساب واحد فقط لكل لاعب.",
+        "item4": "نحتفظ بالحق في حذف الحساب عند المخالفة الشديدة."
+      },
+      "fairplay": {
+        "title": "عدالة اللعب",
+        "intro": "يمنع منعاً باتاً ما يلي:",
+        "item1": "استخدام برامج مساعدة (AI) للعب ضد البشر.",
+        "item2": "التلاعب بالنتائج لرفع تصنيف Elo بشكل غير قانوني.",
+        "item3": "استخدام كلمات نابية في الدردشة.",
+        "item4": "إرسال رسائل مزعجة (Spam)."
+      },
+      "copyright": {
+        "title": "حقوق الملكية",
+        "content": "جميع المحتويات، بما فيها التصميم والكود، تخص Xiangqi Online."
+      },
+      "liability": {
+        "title": "المسؤولية",
+        "content": "نحن ليس مسؤولين عن أي أضرار ناتجة عن استخدام الخدمة."
+      },
+      "changes": {
+        "title": "تغيير الشروط",
+        "content": "نحتفظ بالحق في تعديل هذه الشروط في أي وقت."
+      }
+    },
+    "footer": "شكراً لكونك جزءاً من مجتمعنا"
+  },
+  "privacy": {
+    "meta": {
+      "title": "سياسة الخصوصية | Xiangqi Online",
+      "description": "كيف نقوم بحماية بياناتك الشخصية."
+    },
+    "title": "الخصوصية & <0>الأمان</0>",
+    "title_p1": "الخصوصية &",
+    "title_p2": "الأمان",
+    "intro": "حماية بياناتك هي أولويتنا القصوى.",
+    "cardTitle": "سياسة حماية البيانات",
+    "lastUpdated": "آخر تحديث",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "collection": {
+        "title": "المعلومات التي نجمعها",
+        "intro": "نجمع المعلومات اللازمة لتشغيل الخدمة:",
+        "item1": "بيانات الحساب: البريد، الاسم، الصورة.",
+        "item2": "بيانات اللعب: السجل، تصنيف Elo، العناصر.",
+        "item3": "معلومات تقنية: عنوان IP، نوع المتصفح للأمان."
+      },
+      "usage": {
+        "title": "أهداف الاستخدام",
+        "intro": "نستخدم بياناتك لـ:",
+        "item1": "إدارة الحساب وتوفير تجربة مخصصة.",
+        "item2": "حفظ سجلات المباريات ولوحة المتصدرين.",
+        "item3": "إرسال تنبيهات هامة عن النظام.",
+        "item4": "التحليل لتحسين جودة المنصة (عبر Google Analytics)."
+      },
+      "security": {
+        "title": "أمن البيانات",
+        "content": "نستخدم تقنيات التشفير (HTTPS) لحماية معلوماتك. يرجى الحفاظ على كلمة مرورك."
+      },
+      "sharing": {
+        "title": "المشاركة مع طرف ثالث",
+        "content": "نحن <0>لا نبيع أبداً</0> بياناتك الشخصية لأي طرف ثالث.",
+        "content_p1": "نحن",
+        "content_p2": "لا نبيع أبداً",
+        "content_p3": "بياناتك الشخصية لأي طرف ثالث."
+      },
+      "rights": {
+        "title": "حقوق المستخدم",
+        "intro": "لديك الحقوق التالية:",
+        "item1": "تحديث أو تعديل معلوماتك الشخصية.",
+        "item2": "طلب حذف الحساب والبيانات المرتبطة.",
+        "item3": "إيقاف استقبال رسائل التنبيهات."
+      }
+    },
+    "footer": "خصوصيتك تهمنا"
+  },
+  "shop": {
+    "title": "تذكارات",
+    "meta": {
+      "title": "محل هدايا | شيانغكي اون لاين",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "متجر الهدايا على الإنترنت Xiangqi",
+      "listDesc": "الهدايا الروحية للاعبي xiangqi.",
+      "home": "بيت",
+      "shop": "محل",
+      "loading": "جارٍ تحميل المتجر..."
+    },
+    "subtitle": "\"إن إعطاء الورد يترك العطر في اليد\". أرسل الحب لزملائك اللاعبين.",
+    "yourCoins": "عملاتك المعدنية",
+    "messages": {
+      "success": "تم شراء الهدية بنجاح!",
+      "insufficient": "لا توجد عملات كافية!",
+      "error": "حدث خطأ أثناء شراء الهدية.",
+      "networkError": "خطأ في الشبكة أثناء شراء الهدية."
+    },
+    "buy": {
+      "processing": "شراء...",
+      "insufficient": "عملات غير كافية",
+      "now": "اشتري الآن",
+      "defaultDesc": "هدية صغيرة ذات معنى كبير."
+    },
+    "tips": {
+      "title": "نصائح لكسب العملات المعدنية",
+      "desc": "العملات المعدنية هي العملة الأساسية في Xiangqi Online. لا يمكنك شراء العملات المعدنية بأموال حقيقية، ولكن يجب عليك <0>تجميعها من خلال الجهد</0> وتدريب مهاراتك:",
+      "item1": "أكمل التمارين في <0>كيفية اللعب</0>. كل درس جديد يجلب كمية جيدة من العملات المعدنية.",
+      "item2": "شارك في <0>البطولات عبر الإنترنت</0>. سيحصل اللاعبون ذوو الرتب العالية على عملات معدنية وعناصر قيمة.",
+      "item3": "احصل على هدايا من الأصدقاء والمعجبين عندما يكون لديك مباريات ممتازة.",
+      "viewTournaments": "عرض البطولات القادمة →"
+    },
+    "culture": {
+      "title": "ثقافة الإهداء",
+      "desc1": "في عالم الشطرنج، لا يقتصر تقديم الهدايا على الأشياء المادية فحسب، بل يتعلق أيضًا <0>بإظهار الاحترام والتواصل</0> بين اللاعبين.",
+      "desc2": "\"الخصم المستحق\" - الهدايا الصغيرة مثل الورود أو ☕ القهوة هي طريقة رائعة لبدء صداقة جديدة بعد مباراة مرهقة. استخدم عملاتك المعدنية المكتسبة لتجميل مجتمع Xiangqi الخاص بنا."
+    }
+  },
+  "leaderboard": {
+    "title": "السادة والأعضاء",
+    "subtitle": "قاعة المشاهير المجتمعية ({{count}} أعضاء)",
+    "meta": {
+      "title": "المتصدرين - تكريم الماجستير | شيانغكي اون لاين",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Xiangqi المتصدرين لاعب على الانترنت",
+      "listDesc": "قائمة اللاعبين ذوي أعلى Elo في المجتمع.",
+      "home": "بيت"
+    },
+    "hierarchy": {
+      "title": "التسلسل الهرمي للاعب ونظام Elo",
+      "desc": "تم بناء نظام تصنيف Elo بناءً على المعايير الدولية، مما يعكس بدقة مستوى اللاعب وأدائه.",
+      "rank1": {
+        "title": "مبتدئ وعارضة",
+        "desc": "الخطوات الأولى في غزو شيانغكي. ركز على إتقان زملاء الفحص الأساسيين."
+      },
+      "rank2": {
+        "title": "المتوسطة والمتقدمة",
+        "desc": "فهم عميق للافتتاح ووسط اللعبة. تنسيق قطعة مرنة."
+      },
+      "rank3": {
+        "title": "يتقن",
+        "desc": "وصلت إلى مستوى أعلى، قادرة على حساب العشرات من التحركات العميقة."
+      },
+      "rank4": {
+        "title": "غراند ماستر",
+        "desc": "أساطير المجتمع، يتقنون جميع الفنون والفخاخ السرية."
+      }
+    },
+    "search": "بحث عن اللاعبين...",
+    "table": {
+      "rank": "#",
+      "player": "لاعب",
+      "elo": "Elo",
+      "games": "ألعاب",
+      "status": "حالة",
+      "playing": "اللعب",
+      "actions": "الإجراءات"
+    },
+    "statuses": {
+      "searching": "جارٍ البحث..."
+    },
+    "actions": {
+      "view": "📺 عرض",
+      "message": "رسالة"
+    },
+    "empty": "لم يتم العثور على لاعبين",
+    "pagination": {
+      "page": "الصفحة {{current}} / {{total}}",
+      "total": "{{count}} اللاعبين",
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "footer": "يعتمد نظام تصنيف Elo على المباريات العامة. انضم إلى المسابقات لتحتل المرتبة الأولى وتدخل قاعة المشاهير!",
+    "lesson": "درس"
+  },
+  "practice": {
+    "title": "تعلم و<0>تدرب</0>",
+    "subtitle": "تدريب أساسي على مناورات كش ملك المتقدمة ونهاية اللعبة",
+    "loading": "جارٍ تحميل الدرس...",
+    "meta": {
+      "title": "تعلم ومارس Xiangqi عبر الإنترنت - تدريب كش ملك ونهاية اللعبة",
+      "description": "انضم إلى دورات xiangqi من الأساسي إلى المتقدم. تدرب على حركات القطع وحل الألغاز وتدرب مع AI Pikafish لتحسين مهاراتك كل يوم.",
+      "home": "بيت",
+      "practice": "يمارس"
+    },
+    "list": {
+      "title": "اكتشف جوهر Xiangqi",
+      "description": "تعلم من المستوى الأساسي إلى المستوى المتقدم باستخدام خريطة طريق منظمة. يتميز كل درس بلوحة تفاعلية ودعم الذكاء الاصطناعي لكل خطوة.",
+      "coins": "الذهب المتراكم",
+      "all": "الجميع",
+      "lessonCount": "{{count}} الدروس"
+    },
+    "curriculum": {
+      "title": "برنامج تدريب اللاعبين (المنهج الدراسي)",
+      "subtitle": "خريطة طريق مكونة من 4 مراحل من المبتدئ إلى المعلم الكبير",
+      "steps": {
+        "01": {
+          "title": "الأساسية (الأسس)",
+          "desc": "تعرف على اللوحة وأنواع القطع السبعة والقواعد الأساسية مثل التحقق ومواجهة الجنرالات."
+        },
+        "02": {
+          "title": "التكتيكات (التحقق)",
+          "desc": "تعلم التنسيق النهائي: الحصان ثم المدفع، ومدافع السماء والأرض، والمدافع المخنوقة، والمدافع المتدحرجة."
+        },
+        "03": {
+          "title": "نهاية اللعبة (تقنيات)",
+          "desc": "التقنيات التي تستخدم عربة واحدة، مدفع واحد، حصان/جندي للفوز في المرحلة النهائية."
+        },
+        "04": {
+          "title": "الافتتاح (الاستراتيجيات)",
+          "desc": "ادرس التشكيلات الكلاسيكية مثل Central Cannon vs Screen Horse، ومدافع نفس الاتجاه، ومدافع الاتجاه المعاكس."
+        }
+      }
+    },
+    "card": {
+      "reward": "ذهب",
+      "status": {
+        "completed": "مكتمل",
+        "pending": "لم يتعلم"
+      },
+      "start": "ابدأ التعلم الآن",
+      "defaultDesc": "تعلم تكتيكات xiangqi من الدرجة الأولى.",
+      "completedTitle": "مكتمل"
+    },
+    "sidebar": {
+      "back": "جميع الدروس",
+      "difficulty": "صعوبة:",
+      "content": "محتوى الدرس:",
+      "defaultMission": "ابدأ التمرين لاكتشاف معرفة جديدة.",
+      "reward": "جائزة:",
+      "status": "حالة:",
+      "statusDone": "منتهي",
+      "statusPending": "قيد الانتظار",
+      "processing": "يعالج...",
+      "nextLesson": "الدرس القادم",
+      "finishCourse": "دورة كاملة",
+      "completeAndNext": "الدرس الكامل والتالي"
+    },
+    "panel": {
+      "history": "نقل التاريخ",
+      "aiTrain": "تدرب مع الذكاء الاصطناعي",
+      "aiTrainDesc": "اختبار التحركات ضد الجهاز",
+      "engine": "محرك:",
+      "level": "مستوى:",
+      "humanSide": "جانب:",
+      "redSide": "الأحمر (العب باللون الأحمر)",
+      "blackSide": "أسود (تشغيل باللون الأسود)",
+      "guide": {
+        "title": "دليل الدراسة",
+        "step1": "مراقبة الموقف والمهمة.",
+        "step2": "حرك القطع أو تدرب باستخدام الذكاء الاصطناعي.",
+        "step3": "انقر على \"اكتمل\" للحصول على المكافآت."
+      }
+    },
+    "board": {
+      "tab": "اللوحة {{index}}: {{title}}",
+      "defaultTitle": "تقصير",
+      "supplemental": {
+        "title": "المعرفة التكميلية المتعمقة",
+        "p1": "في xiangqi، يعد فهم موضع اللوحة والقطعة هو الأساس الأكثر أهمية. القصر ليس المكان الذي يقيم فيه الجنرال فحسب، بل هو أيضًا الهدف الأساسي للخصم.",
+        "p2": "عند التعرف على {{title}}، انتبه إلى التنسيق بين القطع. لا تنظر فقط إلى قطعة واحدة؛ انظر كيف يحمي أو يدعم الآخرين لتكوين تكوين متين."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> <span className=\"text-blue-600\">دورة Xiangqi</span> عبر الإنترنت من الأساسي إلى المتقدم",
+      "intro": "تم تصميم نظام <strong className=\"text-slate-600 dark:text-white/60\">درس xiangqi</strong> بطريقة علمية لمساعدتك على إتقان القواعد وحركة القطع و<strong className=\"text-slate-600 dark:text-white/60\">التكتيكات</strong> و<strong className=\"text-slate-600 dark:text-white/60\">الألعاب النهائية</strong> الكلاسيكية. مثالية للاعبين من جميع المستويات لصقل مهاراتهم يوميًا.",
+      "whyTitle": "لماذا تدريب كش ملك ونهاية اللعبة؟",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "العقلية القاتلة",
+        "desc": "تعرف بسرعة على أنماط كش ملك الكلاسيكية (مدافع الحصان ثم المدفع، مدافع السماء والأرض...)."
+      },
+      "item2": {
+        "title": "تقنيات نهاية اللعبة",
+        "desc": "نهاية الماجستير مثل الفيل الفائز بمستشار الحصان في عربة واحدة، والفيل الفائز بمستشار المدفع... دروس مميتة لكل سيد."
+      },
+      "item3": {
+        "title": "تدرب مع الذكاء الاصطناعي",
+        "desc": "يدمج كل إعداد للوحة محرك Pikafish حتى تتمكن من تجربة الجهاز على الفور."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "لعبة <0>المعرض</0>",
+    "subtitle": "شاهد وتعلم من آلاف المباريات عبر الإنترنت",
+    "meta": {
+      "title": "معرض ألعاب Xiangqi - المباريات المباشرة والإعادة",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 مباشر",
+      "open": "⏳ في انتظار",
+      "finished": "🏁 انتهى",
+      "all": "🌍 الكل"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ جميع الأوضاع",
+        "blitz": "الغارة",
+        "rapid": "سريع",
+        "standard": "معيار"
+      },
+      "sort": {
+        "newest": "🕒 الأحدث",
+        "popular": "🔥 شعبي",
+        "spectators": "👁 المتفرجين"
+      },
+      "timeRange": {
+        "all": "📅 كل الأوقات",
+        "day": "اليوم",
+        "week": "هذا الاسبوع",
+        "month": "هذا الشهر"
+      },
+      "red": "أحمر",
+      "black": "أسود"
+    },
+    "empty": {
+      "searching": "البحث عن التطابقات...",
+      "noGames": "لم يتم العثور على أي تطابقات",
+      "noResults": "لم يتم العثور على أي تطابقات تطابق عوامل التصفية الخاصة بك. حاول تغيير المرشحات.",
+      "clear": "مسح المرشحات"
+    },
+    "card": {
+      "puzzle": "لغز",
+      "waiting": "منتظر...",
+      "watch": "يشاهد",
+      "participate": "ينضم",
+      "loadMore": "اكتشف المباريات القديمة ↓"
+    },
+    "seoContent": {
+      "title": "نظام معرض <0>Xiangqi</0> عبر الإنترنت",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "سجلات الألعاب المرئية",
+        "desc": "يتم تخزين كل مباراة بعد الانتهاء كسجل <0>لعبة</0> مفصل. يمكنك إعادة تشغيل كل خطوة، وتحليل الأخطاء، والعثور على النقاط البارزة في تفكير الأساتذة."
+      },
+      "item2": {
+        "title": "مجتمع نابض بالحياة عبر الإنترنت",
+        "desc": "انضم إلى المناقشات والتعليقات وأعجب بالألعاب الرائعة. <0>Xiangqi online</0> لا يتعلق فقط بالفوز أو الخسارة، ولكنه أيضًا مكان لتبادل الخبرات والشغف بالفن الذي يمتد على مساحة 64 مربعًا."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "مناقشة اللغز",
+    "titleTournament": "مناقشة البطولة",
+    "titleDefault": "تعليقات",
+    "placeholderPuzzle": "اقترح حلاً أو اطرح سؤالاً...",
+    "placeholderDefault": "أكتب تعليق...",
+    "emptyStateFirst": "لا توجد تعليقات حتى الآن.",
+    "emptyStateSecond": "كن أول من يشارك أفكارك!",
+    "loginPrompt": "تحتاج إلى <0>تسجيل الدخول</0> للانضمام إلى المناقشة.",
+    "sending": "...",
+    "deleteTooltip": "حذف التعليق (الإدارة)",
+    "deleteTitle": "هل تريد حذف التعليق؟",
+    "deleteMsg": "هل أنت متأكد أنك تريد حذف هذا التعليق؟ لا يمكن التراجع عن هذا الإجراء.",
+    "deleteAction": "احذف الآن",
+    "errorTitle": "تعليق غير صالح",
+    "errorNoLinks": "لا يمكن أن تحتوي التعليقات على روابط.",
+    "errorRateLimitTitle": "إرسال سريع جدًا",
+    "errorRateLimit": "أنت ترسل بسرعة كبيرة. حاول مرة أخرى خلال دقيقة واحدة.",
+    "redPlayer": "أحمر",
+    "blackPlayer": "أسود",
+    "reltime": {
+      "justNow": "الآن",
+      "minutes": "{{count}} منذ دقائق",
+      "hours": "{{count}} منذ ساعات"
+    }
+  },
+  "admin": {
+    "title": "لوحة الإدارة (Admin)",
+    "checkingPermissions": "جاري التحقق من الصلاحيات...",
+    "noPermission": "⚠️ ليس لديك صلاحية الإدارة.",
+    "syncingData": "جاري مزامنة البيانات...",
+    "searchPlaceholder": "بحث...",
+    "sidebar": {
+      "dashboard": "نظرة عامة (AI)",
+      "users": "المستخدمون",
+      "matches": "المباريات",
+      "puzzles": "الألغاز",
+      "tournaments": "البطولات الرسمية",
+      "bots": "نظام البوتات",
+      "comments": "التعليقات",
+      "practice": "الدروس",
+      "shop": "المتجر",
+      "analytics": "تحليلات جوجل",
+      "ai": "مولد AI",
+      "push": "التنبيهات",
+      "cache": "التخزين (Redis)",
+      "server": "الخادم (Logs)",
+      "settings": "إعدادات النظام",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "الرجاء إدخال العنوان والمحتوى",
+      "errorUid": "الرجاء إدخال UID للمستلم",
+      "errorSystem": "خطأ في النظام أثناء الإرسال"
+    },
+    "ai": {
+      "enterElo": "أدخل إيلو الجديد:",
+      "invalidNumber": "رقم غير صالح"
+    },
+    "cache": {
+      "cleared": "تم مسح كافة ذاكرة التخزين المؤقت!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

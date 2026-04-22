@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f0f1a"/>
+  <rect x="50" y="50" width="1100" height="530" rx="12" fill="#1a1a2e" stroke="#c9a96e" stroke-width="2"/>
+  <circle cx="600" cy="280" r="160" fill="none" stroke="#c9a96e" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="600" cy="280" r="120" fill="#1a1a2e" stroke="#c9a96e" stroke-width="3"/>
+  <text x="600" y="305" text-anchor="middle" font-family="serif" font-size="80" font-weight="bold" fill="#e74c3c">帥</text>
+  <text x="600" y="450" text-anchor="middle" font-family="sans-serif" font-size="48" font-weight="bold" fill="#c9a96e">Cờ tướng Online</text>
+  <text x="600" y="500" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#888">cotuong.xyz</text>
+</svg>

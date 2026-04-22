@@ -1,0 +1,38 @@
+[Unit]
+Description=Xiangqi Web backend (Node + Socket.io)
+After=network.target
+
+# If you run MongoDB on the same machine and want hard dependency, uncomment:
+# After=mongod.service
+# Wants=mongod.service
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/xiangqi-web
+
+# Load environment variables (secrets live on the server, not in git)
+EnvironmentFile=/etc/xiangqi-web/xiangqi-backend.env
+
+# Use the system node binary
+ExecStart=/usr/bin/node server/index.mjs
+
+# Restart on failure and on reboot
+Restart=on-failure
+RestartSec=2
+
+# Reasonable defaults
+User=www-data
+Group=www-data
+
+# Log to journald
+StandardOutput=journal
+StandardError=journal
+
+# Hardening (safe defaults; loosen if you need filesystem writes)
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

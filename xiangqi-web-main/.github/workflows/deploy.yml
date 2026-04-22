@@ -1,0 +1,126 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment (dev/production)'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - production
+          - dev
+
+# Cancel in-progress runs for the same branch/event
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+jobs:
+  # 🛠️ Môi trường DEV: Chạy cho mọi nhánh (push) hoặc khi chọn manual 'dev'
+  deploy-dev:
+    name: Deploy to Development
+    runs-on: xiangqi-dev
+    if: |
+      github.event_name == 'push' || 
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'dev')
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies (Runner)
+        # Optimized install for the runner to ensure verify-deploy.mjs has node-fetch
+        run: npm install --no-audit --prefer-offline
+      - name: Deploy to dev.cotuong.xyz
+        env:
+          APP_NAME: "xiangqi-web-dev"
+          DEPLOY_ROOT: "/var/www/xiangqi-web-dev"
+          EDGE_HEALTH_HOST: "dev.cotuong.xyz"
+          HEALTH_URL_LOCAL: "http://127.0.0.1:3001/health"
+          NGINX_CONF_FILE: "dev-xiangqi-web.conf"
+        run: |
+          chmod +x ./deploy/scripts/deploy-production.sh
+          ./deploy/scripts/deploy-production.sh
+      - name: Cache Playwright Browsers
+        id: playwright-cache
+        run: |
+          if [ -d "$HOME/.cache/ms-playwright" ] && [ -f "$HOME/.playwright-installed" ]; then
+            echo "Playwright browsers already installed."
+            echo "cache-hit=true" >> $GITHUB_OUTPUT
+          else
+            echo "cache-hit=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Install Playwright Browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: |
+          npx playwright install --with-deps chromium
+          touch $HOME/.playwright-installed
+      - name: 🛡️ Xiangqi Power Gate v3.0 (DEV Check)
+        run: |
+          # Find chromium path from playwright
+          export CHROME_PATH=$(npx playwright wkpath chromium 2>/dev/null || find $HOME/.cache/ms-playwright -name chrome -type f -executable | head -n 1)
+          if [ -z "$CHROME_PATH" ]; then
+             # Fallback to standard locations if playwright wkpath fails
+             export CHROME_PATH=$(which google-chrome || which chromium-browser || which chromium)
+          fi
+          echo "Using CHROME_PATH: $CHROME_PATH"
+          npm run test:deployment -- --url=http://127.0.0.1:3001 --host=dev.cotuong.xyz --mode=full --version=latest
+
+  # 🚀 Môi trường PROD: Chỉ chạy sau khi Dev thành công (push) HOẶC chạy trực tiếp (manual)
+  deploy-prod:
+    name: Deploy to Production
+    runs-on: xiangqi-prod
+    needs: [deploy-dev]
+    if: |
+      always() && 
+      (
+        (github.event_name == 'push' && (github.ref == 'refs/heads/production' || github.ref == 'refs/heads/prod') && needs.deploy-dev.result == 'success') ||
+        (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
+      )
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies (Runner)
+        run: npm install --no-audit --prefer-offline
+      - name: Setup Local Host Entry
+        run: |
+          # Ensure cotuong.xyz resolves to the local IP for audits to bypass public IPv6/CDN issues
+          echo "192.168.80.139 cotuong.xyz" | sudo tee -a /etc/hosts
+      - name: Deploy to cotuong.xyz
+        env:
+          APP_NAME: "xiangqi-web"
+          DEPLOY_ROOT: "/var/www/xiangqi-web"
+          EDGE_HEALTH_HOST: "cotuong.xyz"
+          HEALTH_URL_LOCAL: "http://127.0.0.1:3001/health"
+          NGINX_CONF_FILE: "cotuong.nginx.conf"
+        run: |
+          chmod +x ./deploy/scripts/deploy-production.sh
+          ./deploy/scripts/deploy-production.sh
+      - name: Cache Playwright Browsers
+        id: playwright-cache
+        run: |
+          if [ -d "$HOME/.cache/ms-playwright" ] && [ -f "$HOME/.playwright-installed" ]; then
+            echo "cache-hit=true" >> $GITHUB_OUTPUT
+          else
+            echo "cache-hit=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Install Playwright Browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: |
+          npx playwright install --with-deps chromium
+          touch $HOME/.playwright-installed
+      - name: 🛡️ Xiangqi Power Gate v3.0 (PROD Final)
+        run: |
+          export CHROME_PATH=$(npx playwright wkpath chromium 2>/dev/null || find $HOME/.cache/ms-playwright -name chrome -type f -executable | head -n 1)
+          if [ -z "$CHROME_PATH" ]; then
+             export CHROME_PATH=$(which google-chrome || which chromium-browser || which chromium)
+          fi
+          npm run test:deployment -- --url=https://cotuong.xyz --mode=power

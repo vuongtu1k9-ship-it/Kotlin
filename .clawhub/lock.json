@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "memory-manager": {
+      "version": "1.0.0",
+      "installedAt": 1776410298841
+    },
+    "web-scraper": {
+      "version": "0.1.1",
+      "installedAt": 1776410306239
+    }
+  }
+}

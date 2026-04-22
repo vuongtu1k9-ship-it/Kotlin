@@ -1,0 +1,1989 @@
+{
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "errorBoundaryTitle": "⚠️ Đã xảy ra lỗi giao diện",
+    "errorBoundaryReload": "Tải lại trang",
+    "cellAriaLabel": "Ô {{coord}}",
+    "cellAriaLabelOccupied": "Ô {{coord}} - Có quân",
+    "back": "Quay lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "viewAll": "Xem tất cả →",
+    "backToLobby": "Quay lại sảnh",
+    "search": "Tìm",
+    "reset": "Thiết lập lại",
+    "login": "Đăng nhập",
+    "you": "Bạn",
+    "close": "Đóng",
+    "agree": "Đồng ý",
+    "refresh": "Làm mới",
+    "coins": "Vàng",
+    "gold": "Vàng",
+    "saveSuccess": "Đã lưu thành công!",
+    "sides": {
+      "red": "ĐỎ",
+      "black": "ĐEN"
+    },
+    "and": "và",
+    "send": "Gửi",
+    "challenge": "Mời thi đấu",
+    "reject": "Từ chối",
+    "finished": "Kết thúc",
+    "play": "Thi đấu",
+    "pieces": {
+      "general": "Tướng",
+      "advisor": "Sĩ",
+      "elephant": "Tượng",
+      "horse": "Mã",
+      "chariot": "Xe",
+      "cannon": "Pháo",
+      "soldier": "Tốt"
+    },
+    "offline": "Ngoại tuyến",
+    "draw": "Hòa",
+    "room": "Phòng",
+    "share": "Chia sẻ",
+    "copyLink": "Sao chép liên kết",
+    "linkCopied": "Đã sao chép liên kết!"
+  },
+  "status": {
+    "available": "Rảnh",
+    "waiting": "Đang đợi"
+  },
+  "siteSeo": {
+    "defaultTitle": "Cờ tướng Online - Chơi Cờ Tướng Với Máy, Giải Cờ Thế & Đấu AI",
+    "defaultDescription": "Nền tảng chơi cờ tướng online miễn phí, giao diện đẹp mắt, tĩnh lặng và mượt mà. Đấu trực tuyến hoặc mời thi đấu cùng máy AI.",
+    "siteName": "Cờ tướng Online",
+    "titleSuffix": " | Cờ tướng Online"
+  },
+  "navbar": {
+    "brand": "Cờ tướng",
+    "online": "Online",
+    "home": "Sảnh đấu",
+    "puzzles": "Giải cờ thế",
+    "setup": "Xếp cờ thế",
+    "ai": "Đấu AI",
+    "tournaments": "Giải đấu",
+    "practice": "Học và Tập",
+    "howToPlay": "Cách chơi",
+    "players": "Kiện tướng",
+    "leaderboard": "Bảng xếp hạng",
+    "shop": "Cửa hàng",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ cá nhân",
+    "settings": "Cài đặt",
+    "status": "Trạng thái",
+    "userMenu": "Trình đơn người dùng",
+    "guestName": "Người chơi",
+    "playerType": "NGƯỜI CHƠI CỜ TƯỚNG",
+    "coins": "Vàng",
+    "rank": "Cấp bậc",
+    "welcome": "Chào mừng bạn!",
+    "loginToEarn": "Đăng nhập để nhận thưởng và thi đấu xếp hạng",
+    "googleMaintenance": "Phương thức Google đang bảo trì",
+    "useEmail": "Dùng Email",
+    "playAsGuest": "Chơi thử không cần đăng nhập?",
+    "statuses": {
+      "online": "Trực tuyến",
+      "busy": "Đang bận",
+      "invisible": "Ẩn danh",
+      "free": "Đang rảnh",
+      "offline": "Offline"
+    },
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "menu": "Menu",
+    "navigation": "Điều hướng",
+    "activeGameAlert": "Bạn đang tham gia ván đấu!",
+    "returnToBoard": "Quay lại bàn cờ ngay bây giờ",
+    "back": "QUAY LẠI",
+    "loginWithGoogle": "Đăng nhập với Google"
+  },
+  "site": {
+    "maintenanceModeTitle": "Hệ thống đang bảo trì",
+    "maintenanceMessageDefault": "Chúng tôi đang nâng cấp hệ thống để mang lại trải nghiệm tốt nhất. Vui lòng quay lại sau.",
+    "announcementLabel": "THÔNG BÁO"
+  },
+  "ranks": {
+    "novice": "Tập sự",
+    "amateur": "Phong trào",
+    "intermediate": "Trung cấp",
+    "expert": "Cao thủ",
+    "master": "Kiện Tướng",
+    "internationalMaster": "Quốc Tế Đại Sư",
+    "grandmaster": "Đặc Cấp Đại Sư",
+    "player": "Kỳ Thủ"
+  },
+  "chat": {
+    "title": "Trò chuyện",
+    "new_message": "Tin nhắn mới",
+    "followed_you": "vừa theo dõi bạn!",
+    "view_profile": "XEM HỒ SƠ",
+    "challenge_accepted": "Lời mời đã được chấp nhận!",
+    "go_to_play": "VÀO CHƠI",
+    "is_online": "vừa hoạt động.",
+    "entered_room": "vừa vào",
+    "open_chat": "Mở cửa sổ trò chuyện",
+    "close_chat": "Đóng cửa sổ trò chuyện",
+    "disable_global_notifs": "Tắt thông báo Chung",
+    "enable_global_notifs": "Bật thông báo Chung",
+    "disable_notifs": "Tắt thông báo",
+    "enable_notifs": "Bật thông báo",
+    "disable_autoscroll": "Tắt tự động cuộn",
+    "enable_autoscroll": "Bật tự động cuộn",
+    "tabs": {
+      "global": "Chung",
+      "private": "Tin nhắn"
+    },
+    "to_prefix": "Đến: ",
+    "is_online_label": "Trực tuyến",
+    "onlinePlayersHeader": "Người chơi trực tuyến",
+    "history": "Lịch sử trò chuyện ({{count}})",
+    "labelGlobal": "Chung",
+    "labelRoom": "Phòng {{id}}",
+    "labelPrivate": "Riêng tư: {{name}}",
+    "followed_you_message": "vừa theo dõi bạn!",
+    "noMessages": "(chưa có tin nhắn)",
+    "noMessagesWelcome": "Chưa có tin nhắn nào. Hãy bắt đầu trò chuyện!",
+    "player": "KỲ THỦ",
+    "guestPlaceholder": "Vui lòng đăng nhập để chat",
+    "placeholder": "Gửi tin nhắn...",
+    "followed": "👤 Bạn đã theo dõi đối phương",
+    "wasFollowed": "🎉 Đối phương đã theo dõi bạn"
+  },
+  "auth": {
+    "registerTitle": "Tạo tài khoản",
+    "loginSubtitle": "Đăng nhập để nhận phần thưởng",
+    "registerSubtitle": "Tham gia cộng đồng cờ tướng lớn nhất",
+    "loginWithGoogle": "Đăng nhập bằng Google",
+    "orEmail": "hoặc Email",
+    "emailLabel": "Email",
+    "displayNameLabel": "Tên hiển thị (tuỳ chọn)",
+    "passwordLabel": "Mật khẩu",
+    "termsAgreementPrefix": "Tôi đồng ý với ",
+    "termsLink": "Điều khoản sử dụng",
+    "privacyLink": "Chính sách bảo mật",
+    "termsAgreementSuffix": " của Cờ tướng Online.",
+    "termsError": "Bạn phải đồng ý với Điều khoản và Chính sách bảo mật.",
+    "processing": "Đang xử lý…",
+    "haveAccount": "Đã có tài khoản? Đăng nhập",
+    "noAccount": "Tạo tài khoản",
+    "backToLobby": "Về sảnh",
+    "loginPrompt": "Bạn cần <0>Đăng nhập</0> để tham gia thảo luận",
+    "passwordsNotMatch": "Mật khẩu xác nhận không khớp.",
+    "passwordTooShort": "Mật khẩu phải có ít nhất 6 ký tự.",
+    "invalidOldPassword": "Mật khẩu cũ không chính xác."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> là một kỳ thủ tích cực trong cộng đồng Cờ tướng Online. Với trình độ <1>{{rank}}</1> ({{elo}} Elo), {{name}} đã tham gia tổng cộng <2>{{count}}</2> trận đấu kịch tính. Hiện tại, kỳ thủ này đang sở hữu <3>{{followers}}</3> người theo dõi và là một phần quan trọng của hệ thống xếp hạng quốc gia trên nền tảng.",
+    "meta": {
+      "title": "Kỳ thủ {{name}} - Hồ sơ & Thành tích | Cờ tướng Online",
+      "description": "Xem hồ sơ kỳ thủ {{name}}, điểm Elo, lịch sử đấu và các thế cờ đã tạo. Tham gia cộng đồng cờ tướng online và thách đấu cùng {{name}} tại cotuong.xyz.",
+      "schemaDesc": "Kỳ thủ {{name}} với trình độ {{rank}} ({{elo}} Elo) trên nền tảng Cờ tướng Online."
+    },
+    "message": "Nhắn tin",
+    "follow": "Theo dõi",
+    "unfollow": "Bỏ theo dõi",
+    "challenge": "Thách đấu",
+    "followers": "người theo dõi",
+    "games": "ván đấu",
+    "manage": "Quản lý hồ sơ",
+    "viewFull": "Xem hồ sơ chi tiết",
+    "social": {
+      "followers": "Người theo dõi",
+      "following": "Đang theo dõi",
+      "empty": "Chưa có danh sách"
+    },
+    "sections": {
+      "medals": "Huy chương & Danh hiệu",
+      "noMedals": "Chưa có huy chương nào",
+      "inventory": "Vật phẩm sở hữu",
+      "noItems": "Kho đồ trống",
+      "puzzles": "Thế cờ đã tạo",
+      "noPuzzles": "Chưa tạo thế cờ nào",
+      "solved": "Thế cờ đã giải",
+      "noSolved": "Chưa giải thế cờ nào",
+      "history": "Lịch sử đối kháng",
+      "viewGame": "Xem chi tiết"
+    },
+    "gifts": {
+      "title": "Tặng quà cho Kỳ hữu",
+      "loading": "Đang tải kho quà...",
+      "empty": "Bạn không có quà nào để tặng. Hãy ghé Cửa hàng!",
+      "sending": "Đang gửi...",
+      "confirm": "Gửi tặng ngay",
+      "loginPrivate": "Bạn cần đăng nhập để nhắn tin.",
+      "loginChallenge": "Bạn cần đăng nhập để thách đấu."
+    },
+    "bioTitle": "Tiểu sử & Thành tích",
+    "stats": {
+      "wins": "Thắng",
+      "losses": "Thua",
+      "draws": "Hòa"
+    },
+    "game": {
+      "active": "Đang thi đấu",
+      "redWin": "Đỏ thắng",
+      "blackWin": "Đen thắng",
+      "moves": "nước đi"
+    },
+    "notFound": "Không tìm thấy người dùng"
+  },
+  "lobby": {
+    "createRoom": "Tạo phòng mới",
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Video Hướng Dẫn Nổi Bật",
+      "description": "Nâng cao kỹ năng cờ tướng của bạn qua các ván đấu thực tế và phân tích chuyên sâu.",
+      "watchMore": "Xem tất cả video 📺"
+    },
+    "playWithAi": "Chơi với máy",
+    "findMatch": "Tìm trận đấu",
+    "headerTitle": "Luyện Cờ Tướng <0>Với AI</0> & Chơi Cờ Thế",
+    "headerTitlePrefix": "Cờ Tướng Online",
+    "headerTitleHighlight": "- Luyện Với AI & Giải Cờ Thế",
+    "headerSubtitle": "Nền tảng thi đấu & giải cờ thế hàng đầu",
+    "waiting": "Đang tìm đối thủ...",
+    "noRooms": "Hiện không có phòng nào đang chờ.",
+    "activeGameTitle": "Bạn có ván đấu chưa hoàn tất!",
+    "activeGameSubtitle": "Vui lòng quay lại để tiếp tục thi đấu cùng đối thủ",
+    "returnToGame": "Quay Lại Trận Đấu",
+    "roomList": "Danh sách ván",
+    "roomListSubtitle": "Ván đang diễn ra và lịch sử thi đấu",
+    "noRoomsFiltered": "Chưa có ván đấu nào phù hợp với bộ lọc này.",
+    "onlinePlayers": "Người chơi trực tuyến",
+    "onlinePlayersCount": "{{count}} thành viên trực tuyến",
+    "loginToChat": "Vui lòng đăng nhập để nhắn tin.",
+    "loginToChallenge": "Vui lòng đăng nhập để mời thi đấu.",
+    "chatAction": "Chat",
+    "challengeAction": "Mời",
+    "tabs": {
+      "live": "Đang diễn ra",
+      "open": "Đang mở",
+      "finished": "Đã kết thúc",
+      "all": "Tất cả"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "Thế cờ mới nhất",
+        "subtitle": "Khám phá các thế trận cờ thế từ cộng đồng",
+        "puzzleType": "Thế cờ",
+        "unnamed": "Thế cờ vô danh",
+        "levelPrefix": "Cấp {{level}}",
+        "normalLevel": "Bình thường",
+        "solve": "Giải"
+      },
+      "features": {
+        "title": "Tại sao chọn Cờ tướng Online?",
+        "premium": {
+          "title": "⚡ Trải nghiệm Premium Miễn Phí",
+          "desc": "Nền tảng được tối ưu hóa cho tốc độ và sự tĩnh lặng. Bạn có thể <0>xếp cờ thế online</0> và thi đấu mà không bị làm phiền bởi quảng cáo hay các yếu tố gây xao nhãn."
+        },
+        "ai": {
+          "title": "🤖 Đấu Cờ Với Máy (Pikafish AI)",
+          "desc": "Thử thách bản thân với <0>chơi cờ tướng với máy</0> sử dụng Engine Pikafish mạnh nhất thế giới. Từ cấp độ 1 dành cho người mới đến cấp độ 10 thách thức cả những đại sư quốc tế."
+        },
+        "data": {
+          "title": "🧩 Kho dữ liệu Cờ Thế khổng lồ",
+          "desc": "Hệ thống bài tập <0>giải thế cờ tướng</0> được cập nhật liên tục từ cộng đồng, giúp bạn rèn luyện tư duy sát pháp và kỹ năng tàn cuộc mỗi ngày."
+        }
+      },
+      "guide": {
+        "title": "Hướng dẫn Chơi Cờ Tướng Online",
+        "intro": "Để bắt đầu hành trình chinh phục đỉnh cao tại <0>cotuong.xyz</0>, bạn chỉ cần thực hiện 3 bước đơn giản:",
+        "step1": {
+          "title": "Đăng ký tài khoản:",
+          "desc": "Để lưu lại lịch sử đấu và điểm Elo."
+        },
+        "step2": {
+          "title": "Tìm đối thủ:",
+          "desc": "Mời thi đấu trực tiếp trong danh sách người chơi hoặc tạo phòng mới."
+        },
+        "step3": {
+          "title": "Rèn luyện:",
+          "desc": "Sử dụng mục <0>Học cờ</0> để nắm vững các đòn sát pháp cơ bản."
+        },
+        "note": "* Hệ thống Elo tại đây được tính toán dựa trên độ mạnh của đối thủ, đảm bảo sự công bằng và tính cạnh tranh cao trong cộng đồng kỳ thủ online."
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp (FAQ)",
+        "q1": {
+          "q": "Q: Chơi cờ tướng online tại đây có mất phí không?",
+          "a": "A: Hoàn toàn miễn phí. Tất cả các tính năng từ giải cờ thế, đấu với máy AI đến tham gia giải đấu đều không thu phí người dùng."
+        },
+        "q2": {
+          "q": "Q: Làm sao để mời bạn bè cùng chơi?",
+          "a": "A: Sau khi nhấp \"Thiết lập ván đấu\" và tạo phòng, bạn chỉ cần sao chép liên kết (URL) của trang ván đấu đó và gửi cho bạn bè của mình."
+        },
+        "q3": {
+          "q": "Q: Tôi có thể xem lại các ván đấu đã chơi không?",
+          "a": "A: Có. Tất cả ván đấu của bạn đều được lưu trữ trong lịch sử tại trang Cá nhân, bạn có thể xem lại và phân tích nước đi bất cứ lúc nào."
+        },
+        "q4": {
+          "q": "Q: Tại sao tôi không thể di chuyển quân cờ?",
+          "a": "A: Hãy kiểm tra xem đã đến lượt của bạn chưa (phía dưới bàn cờ có thanh báo lượt) hoặc kết nối internet của bạn có ổn định không."
+        }
+      },
+      "meta": {
+        "title": "Cờ tướng Online - Luyện Cờ Tướng Với AI, Giải Cờ Thế & Đấu Với Máy",
+        "description": "Nền tảng cờ tướng online đỉnh cao: Luyện cờ tướng với AI Pikafish mạnh nhất, giải hàng ngàn thế cờ trí tuệ và chơi cờ tướng với máy miễn phí."
+      },
+      "schema": {
+        "siteName": "Cờ tướng Online",
+        "siteDesc": "Nền tảng giải cờ thế online, xếp cờ tướng và luyện cờ với AI miễn phí.",
+        "q1": {
+          "name": "Làm thế nào để chơi cờ tướng online với bạn bè?",
+          "text": "Nhấp 'Thiết lập ván đấu' và gửi liên kết phòng cho bạn bè."
+        },
+        "q2": {
+          "name": "Cờ tướng với máy AI tại cotuong.xyz có mạnh không?",
+          "text": "Sử dụng Engine Pikafish mạnh nhất hiện nay từ Tập sự đến Đại sư."
+        }
+      }
+    },
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Cộng đồng",
+        "channel": "Kênh YouTube",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "Luật Cờ Tướng Mới Nhất - Hướng Dẫn Cách Chơi Cờ Tướng Cơ Bản",
+      "description": "Luật cờ tướng mới nhất: Hướng dẫn cách chơi cờ tướng cơ bản, cách di chuyển các quân Xe Pháo Mã Tướng Sĩ Tượng Tốt và các luật cấm trong cờ tướng."
+    },
+    "title": "Cách chơi cờ tướng",
+    "subtitle": "Tìm hiểu luật chơi cơ bản và cách di chuyển của các quân cờ",
+    "videoTutorial": {
+      "title": "Video hướng dẫn chơi cờ tướng cơ bản"
+    },
+    "videoHighlight": {
+      "title": "Học cờ tướng qua Video",
+      "description": "Xem những ván đấu đỉnh cao và học hỏi chiến thuật từ các kỳ thủ chuyên nghiệp trên kênh YouTube chính thức của chúng tôi.",
+      "watchMore": "Xem thêm trên YouTube"
+    },
+    "intro": "Cờ Tướng (Xiangqi) là một trò chơi chiến thuật trí tuệ dành cho hai người. Mục tiêu cuối cùng là chiếu bí hoặc bắt được <0>Tướng</0> của đối phương.",
+    "intro_p1": "Cờ Tướng (Xiangqi) là một trò chơi chiến thuật trí tuệ dành cho hai người. Mục tiêu cuối cùng là chiếu bí hoặc bắt được",
+    "intro_p3": "của đối phương.",
+    "section1": {
+      "title": "1. Bàn cờ và các khu vực",
+      "river": {
+        "label": "Sông (Hà):",
+        "desc": "Nằm ở giữa bàn cờ, chia bàn cờ thành hai phần. Một số quân cờ (như Tượng) không thể qua sông."
+      },
+      "palace": {
+        "label": "Cung (Cửu Cung):",
+        "desc": "Hình vuông 3x3 có đường chéo ở mỗi bên. Tướng và Sĩ chỉ được phép di chuyển trong khu vực này."
+      },
+      "boardDesc": "Bàn cờ gồm 10 hàng ngang và 9 hàng dọc, các quân cờ được đặt tại các giao điểm của các đường kẻ.",
+      "openingTitle": "Khai cuộc cơ bản"
+    },
+    "section2": {
+      "title": "2. Cách di chuyển của các quân cờ",
+      "pieces": {
+        "general": {
+          "desc": "Đi từng ô một, theo chiều ngang hoặc dọc. Chỉ được ở trong phạm vi Cung.",
+          "action": "→ Tập đi Tướng",
+          "name": "Tướng"
+        },
+        "advisor": {
+          "desc": "Đi chéo từng ô một. Chỉ được ở trong phạm vi Cung.",
+          "action": "→ Tập đi Sĩ",
+          "name": "Sĩ"
+        },
+        "elephant": {
+          "desc": "Đi chéo 2 ô (hình chữ Điền). Không được qua sông. Mắt Tượng cản thì không đi được.",
+          "action": "→ Tập đi Tượng",
+          "name": "Tượng"
+        },
+        "horse": {
+          "desc": "Đi hình chữ L. Nếu có quân cản chân Mã thì không đi được.",
+          "action": "→ Tập đi Mã",
+          "name": "Mã"
+        },
+        "chariot": {
+          "desc": "Đi ngang dọc bất kỳ ô nào nếu không có quân cản.",
+          "action": "→ Tập đi Xe",
+          "name": "Xe"
+        },
+        "cannon": {
+          "desc": "Đi như Xe. Khi ăn quân phải nhảy qua đúng một \"ngòi\".",
+          "action": "→ Tập đi Pháo",
+          "name": "Pháo"
+        },
+        "soldier": {
+          "desc": "Trước qua sông đi tiến 1 ô. Sau qua sông đi tiến hoặc ngang 1 ô.",
+          "action": "→ Tập đi Tốt",
+          "name": "Tốt"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Sự khác biệt ký hiệu giữa đỏ và đen",
+      "intro": "Dù về mặt giá trị và cách đi thì các quân đối xứng của hai bên là hoàn toàn như nhau, nhưng ký hiệu chữ Hán khắc trên mặt quân thường có sự khác biệt để phân biệt giữa phe \"Ta\" (Đỏ) và phe \"Địch\" (Đen).",
+      "table": {
+        "type": "Loại quân",
+        "red": "Quân đỏ (Hán)",
+        "black": "Quân đen (Sở)",
+        "meaning": "Ý nghĩa"
+      },
+      "meanings": {
+        "general": "Đỏ: Nguyên soái / Đen: Vị tướng",
+        "advisor": "Đỏ: Quan văn / Đen: Binh lính kẻ sĩ",
+        "elephant": "Đỏ: Thừa tướng / Đen: Con voi chiến",
+        "horse": "Đỏ: Mã bộ nhân / Đen: Con ngựa",
+        "cannon": "Đỏ: Hỏa pháo / Đen: Máy bắn đá",
+        "soldier": "Đỏ: Quân chính quy / Đen: Quân địa phương",
+        "chariot": "Giống nhau hoàn toàn"
+      },
+      "why": {
+        "title": "Tại sao lại khác nhau?",
+        "desc": "Sự khác biệt này bắt nguồn từ việc mô phỏng cuộc chiến Hán - Sở tranh hùng. Lưu Bang (Hán - Đỏ) đại diện cho chính nghĩa/triều đình, Hạng Vũ (Sở - Đen) đại diện cho sức mạnh quân sự thực tế. Việc khác chữ cũng giúp kỳ thủ dễ dàng phân biệt quân mình và đối phương khi nhìn vào bàn cờ thế hoặc khi quân cờ bị ăn để lẫn lộn."
+      },
+      "elephantExample": {
+        "title": "Ví dụ cặp Tượng (相/象)",
+        "desc": "Đây là cặp dễ gây nhầm lẫn nhất. Bên Đỏ là <0>相 (thừa tướng)</0>, bên Đen là <1>象 (con voi)</1>. Cả hai đều không được qua sông vì là quan văn bảo vệ vua hoặc voi quá nặng nề không lội sông được.",
+        "desc_p1": "Đây là cặp dễ gây nhầm lẫn nhất. Bên Đỏ là",
+        "desc_p2": "相 (thừa tướng)",
+        "desc_p3": "bên Đen là",
+        "desc_p4": "象 (con voi)",
+        "desc_p5": "Cả hai đều không được qua sông vì là quan văn bảo vệ vua hoặc voi quá nặng nề không lội sông được."
+      }
+    },
+    "section4": {
+      "title": "4. Bảng giá trị quân cờ (tham khảo)",
+      "table": {
+        "piece": "Quân cờ",
+        "score": "Điểm số",
+        "stage": "Giai đoạn mạnh nhất"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "Xe",
+          "power": "Mạnh nhất trong mọi giai đoạn"
+        },
+        "cannon": {
+          "name": "Pháo",
+          "power": "Cực mạnh ở Khai cuộc & Trung cuộc"
+        },
+        "horse": {
+          "name": "Mã",
+          "power": "Phát huy tối đa ở Trung cuộc & Tàn cuộc"
+        },
+        "soldier": {
+          "name": "Tốt",
+          "power": "Tốt qua sông có giá trị tăng vọt ở Tàn cuộc"
+        },
+        "defense": {
+          "name": "Sĩ / Tượng",
+          "power": "Hàng phòng thủ không thể thiếu"
+        },
+        "general": {
+          "name": "Tướng"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Các luật đặc biệt & luật cấm",
+      "rules": {
+        "kingFace": {
+          "label": "Lộ diện Tướng (Lộ mặt tướng):",
+          "desc": "Hai Tướng không được nằm trên cùng một cột dọc mà không có quân nào cản ở giữa."
+        },
+        "check": {
+          "label": "Chiếu (Chiếu tướng):",
+          "desc": "Khi một quân cờ tấn công Tướng đối phương."
+        },
+        "mate": {
+          "label": "Chiếu bí:",
+          "desc": "Khi Tướng bị chiếu mà không còn cách nào để thoát."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Chiến thuật nâng cao cho kỳ thủ",
+      "phases": {
+        "opening": {
+          "title": "⚔️ Giai đoạn khai cuộc (Opening)",
+          "quote": "\"Xe ra sớm, Mã lên sau, Pháo linh hoạt\"",
+          "desc": "Ưu tiên đưa các quân chủ lực (Xe, Pháo, Mã) ra các vị trí thông thoáng ngay từ đầu ván đấu. Các thế trận phổ biến: Pháo Đầu đối Bình Phong Mã, Thuận Pháo, Nghịch Pháo."
+        },
+        "midgame": {
+          "title": "🛡️ Giai đoạn trung cuộc (Midgame)",
+          "desc": "Đây là lúc các cuộc giao tranh nổ ra. Hãy tập trung phối hợp quân để tạo sức ép lên Tướng đối phương hoặc bắt quân. Luôn chú ý bảo vệ các lộ quan trọng (4, 5, 6)."
+        },
+        "endgame": {
+          "title": "🔚 Giai đoạn tàn cuộc (Endgame)",
+          "desc": "Khi số lượng quân còn ít, sự linh hoạt của Mã và sức mạnh của Tốt qua sông là cực kỳ quan trọng. Nắm vững các sát pháp cơ bản giúp bạn dứt điểm ván đấu."
+        },
+        "tactics": {
+          "title": "🔥 Sát pháp (Checkmate Tactics)",
+          "maHauPhao": "Mã hậu pháo: Dùng Mã làm ngòi cho Pháo chiếu bí.",
+          "thienDiaPhao": "Thiên địa pháo: Dùng hai Pháo kiểm soát cả hàng ngang và dọc.",
+          "daiDamXa": "Đại đảm xa: Dùng Xe đâm thẳng vào trung cung."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. Câu hỏi thường gặp: Luật cấm (FAQ)",
+      "faqs": {
+        "f1": {
+          "q": "Q: Có được phép Chiếu mãi không? (Chiếu nhầy)",
+          "a": "A: Không. Theo luật cờ tướng hiện đại, bạn không được phép chiếu liên tục (lặp lại trạng thái) quá 3 lần cùng một kiểu tấn công. Nếu cố tình vi phạm sẽ bị xử thua."
+        },
+        "f2": {
+          "q": "Q: Tướng có được phép đi ra khỏi Cung không?",
+          "a": "A: Tuyệt đối không. Tướng và Sĩ là hai quân duy nhất bị giới hạn vĩnh viễn trong khu vực 3x3 (Cửu Cung)."
+        },
+        "f3": {
+          "q": "Q: Khi nào ván đấu được xử Hòa?",
+          "a": "A: Ván đấu hòa khi:<1 />1. <0>60-move rule:</0> ...",
+          "a_intro": "Ván đấu hòa khi:",
+          "a_item1_title": "Luật 60 nước:",
+          "a_item1_desc": "Trong 60 nước đi liên tiếp của mỗi bên (tổng cộng 120 hiệp đi) mà không có quân nào bị ăn. Lưu ý: Chỉ cần có một quân bị ăn (dù là quân Tốt), đồng hồ này sẽ reset về 0.",
+          "a_item2_title": "Thỏa thuận:",
+          "a_item2_desc": "Cả hai kỳ thủ đồng ý hòa thông qua yêu cầu \"Xin hòa\".",
+          "a_item3_title": "Bất biến hòa:",
+          "a_item3_desc": "Một trạng thái bàn cờ lặp lại đúng 3 lần (không vi phạm chiếu dai).",
+          "a_item4_title": "Hòa kỹ thuật:",
+          "a_item4_desc": "Hai bên không còn đủ lực lượng (Khô tử hòa) để chiếu bí đối phương."
+        },
+        "f4": {
+          "q": "Q: Hết thời gian có bị xử thua không?",
+          "a": "A: Có. Khi một bên dùng hết tổng thời gian thi đấu quy định cho ván đấu (Timeout), họ sẽ bị xử <0>Thua</0> ngay lập tức, bất kể thế trận trên bàn cờ đang ưu hay kém.",
+          "a_p1": "A: Có. Khi một bên dùng hết tổng thời gian thi đấu quy định cho ván đấu (Timeout), họ sẽ bị xử",
+          "a_p2": "Thua",
+          "a_p3": "ngay lập tức, bất kể thế trận trên bàn cờ đang ưu hay kém."
+        }
+      },
+      "practiceAction": "🔥 Chuyển sang Thực hành ngay"
+    },
+    "history": {
+      "title": "Sơ lược lịch sử cờ tướng",
+      "p1": "Cờ tướng có lịch sử lâu đời phát triển từ trò chơi <0>Saturanga</0> của Ấn Độ cổ đại, sau đó du nhập vào Trung Quốc và được cải tiến mạnh mẽ. Hình ảnh bàn cờ với con Sông (Hà) và Cung (Cửu Cung) mô phỏng lại cuộc chiến tranh <1>Hán - Sở tranh hùng</1> nổi tiếng trong lịch sử Trung Hoa giữa Lưu Bang và Hạng Vũ.",
+      "p2": "Trải qua hàng ngàn năm, cờ tướng không chỉ là một môn thể thao trí tuệ mà còn trở thành một nét văn hóa đặc sắc của các nước Á Đông như Việt Nam, Trung Quốc, Đài Loan... Tại Việt Nam, cờ tướng xuất hiện ở khắp nơi từ vỉa hè, công viên cho đến các giải đấu chuyên nghiệp quy mô lớn.",
+      "p3": "Ngày nay, với sự phát triển của công nghệ, việc chơi cờ tướng online tại <0>cotuong.xyz</0> giúp kết nối hàng triệu kỳ thủ, chia sẻ đam mê và cùng nhau rèn luyện tư duy mọi lúc mọi nơi."
+    }
+  },
+  "room": {
+    "vsAi": "Đấu Với Máy",
+    "labelWithId": "Phòng {{id}}",
+    "ready": "Sẵn sàng",
+    "finished": "Ván đã kết thúc",
+    "waitingPlayer": "Đang chờ",
+    "join": "Chơi",
+    "copyLinkSuccess": "Đã copy link phòng!",
+    "inviteBtn": "Mời bạn",
+    "role": "Vai trò",
+    "turn": "Lượt",
+    "spectatorsShort": "K.Giả",
+    "noSpectators": "Chưa có ai"
+  },
+  "game": {
+    "sides": {
+      "red": "Đỏ",
+      "black": "Đen"
+    },
+    "timeModes": {
+      "blitz": "Cờ Chớp",
+      "rapid": "Cờ Nhanh",
+      "standard": "Tiêu Chuẩn",
+      "slow": "Cờ Dài",
+      "gridLabel": "Chế độ thời gian"
+    },
+    "timeModeSub": {
+      "blitz": "3p",
+      "rapid": "10p",
+      "standard": "20p",
+      "slow": "45p"
+    },
+    "status": {
+      "redWin": "BÊN ĐỎ THẮNG",
+      "blackWin": "BÊN ĐEN THẮNG",
+      "draw": "HÒA",
+      "ongoing": "Ván đấu đang diễn ra",
+      "check": "CHIẾU TƯỚNG!",
+      "startPrompt_red": "Đến lượt bạn - Hãy đi nước đầu để bắt đầu",
+      "startPrompt_black": "Chờ bên Đỏ đi nước đầu để bắt đầu",
+      "waitingForPlayers": "Đang đợi đủ người chơi..."
+    },
+    "actions": {
+      "draw": "Xin hòa",
+      "resign": "Xin thua",
+      "swap": "Đổi bên",
+      "leave": "Rời phòng",
+      "publish": "Công khai",
+      "undo": "Hoàn nước",
+      "newGame": "Ván mới"
+    },
+    "confirm": {
+      "drawTitle": "Xin hòa",
+      "drawMsg": "Bạn muốn gửi đề nghị hòa cờ tới đối thủ?",
+      "resignTitle": "Xin thua",
+      "resignMsg": "Bạn có chắc chắn muốn xin thua ván đấu này?",
+      "leaveTitle": "Rời phòng & Xử thua",
+      "leaveMsg": "Bạn đang trong ván đấu. Nếu rời đi lúc này bạn sẽ bị tính là thua cuộc. Bạn có chắc chắn muốn rời phòng?",
+      "loginTitle": "Yêu cầu đăng nhập",
+      "loginMsg": "Vui lòng đăng nhập để lưu ván đấu vào danh sách yêu thích của bạn.",
+      "leaveMsg_casual": "Ván đấu này là giao hữu, bạn có chắc chắn muốn rời đi không?",
+      "leaveMsg_spectator": "Bạn sắp rời khỏi phòng xem trực tiếp.",
+      "undoMsg": "Bạn muốn gửi đề nghị đi lại (Undo) cho đối thủ?"
+    },
+    "modals": {
+      "swapTitle": "Đề nghị đổi bên",
+      "swapMessage": "Đối thủ muốn đổi bên cầm quân với bạn. Bạn có đồng ý không?",
+      "drawTitle": "Lời mời hòa",
+      "drawMessage": "Đối thủ của bạn đang đề nghị một ván hòa. Bạn có chấp nhận kết quả này?",
+      "accept": "Chấp nhận"
+    },
+    "comments": "Bình luận trận đấu",
+    "private": "Ván đấu riêng tư",
+    "publishDesc": "Công khai ván đấu của bạn",
+    "viewDetails": "Xem chi tiết ván đấu",
+    "notFoundTitle": "Khu vực giải giới",
+    "notFoundDesc": "Ván đấu #{{id}} không tồn tại hoặc đã bị xóa khỏi hệ thống.",
+    "redSide": "Bên Đỏ",
+    "blackSide": "Bên Đen",
+    "sideBlack": "Cầm Đen (Hậu)",
+    "aiPlayer": "Đối thủ Máy",
+    "rankGeneric": "Kỳ thủ",
+    "redPlayerDefault": "Người chơi Đỏ",
+    "blackPlayerDefault": "Kỳ thủ Đen",
+    "roomIdLabel": "Mã phòng: #{{id}}",
+    "player": "Kỳ thủ",
+    "active": "Đang đấu",
+    "moves": "{{count}} nước đi",
+    "seo": {
+      "title": {
+        "prefix": "Phân tích chuyên sâu: ",
+        "videoTitle": "Video ván đấu: {{title}}"
+      },
+      "intro": "Ván đấu <1>cờ tướng online</1> kịch tính giữa <3>{{red}}</3> và <5>{{black}}</5> thể hiện sự biến hóa trong chiến thuật và tư duy của các kỳ thủ. Việc <7>xem lại ván đấu</7> là cách tốt nhất để bạn nâng cao trình độ thẩm cờ của mình.",
+      "comments": {
+        "title": "💡 Giá trị của việc bình luận và phân tích",
+        "desc": "Hệ thống hỗ trợ <1>biên bản cờ tướng</1> thời gian thực, cho phép bạn theo dõi từng nước đi và tham gia bình luận cùng cộng đồng. Những ván đấu đỉnh cao thường chứa đựng các <3>chiến thuật cờ tướng</3> sâu sắc mà bạn có thể áp dụng vào ván đấu của chính mình."
+      },
+      "ai": {
+        "title": "🤖 Luyện tập cờ tướng với máy AI",
+        "desc": "Nếu bạn muốn thử sức với những nước đi tương tự, hãy sử dụng tính năng <1>chơi cờ tướng với máy</1> AI (Pikafish) để mô phỏng lại các tình huống khó trong ván đấu này. Đây là phương pháp hiệu quả nhất để <3>luyện cờ tướng với ai</3> siêu giỏi."
+      },
+      "keywords": "cờ tướng, cờ tướng online, {{red}}, {{black}}, xem lại ván đấu, kỳ đài online, giải đấu cờ tướng, chiến thuật cờ tướng, chơi cờ tướng với máy, luyện cờ tướng với ai, đánh cờ tướng với máy siêu khó",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "Đối đầu trực tiếp",
+      "analysis": "Phân tích",
+      "matchesCount": "{{count}} trận",
+      "recentMatches": "Ván đấu gần đây",
+      "collectingData": "Đang thu thập dữ liệu lịch sử đối đầu...",
+      "red": "Đỏ",
+      "black": "Đen",
+      "youWin": "BẠN THẮNG",
+      "opponentWin": "ĐỐI THỦ THẮNG"
+    },
+    "panel": {
+      "title": "Thông tin trận đấu",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "BÊN {{side}}",
+      "resultTitle": "KẾT QUẢ TRẬN ĐẤU",
+      "winStatus": "THẮNG CUỘC",
+      "drawStatus": "HÒA CỜ",
+      "reasons": {
+        "checkmate": "Chiếu bí",
+        "stalemate": "Hết nước đi",
+        "timeout": "Hết giờ",
+        "resign": "Đối thủ xin thua",
+        "perpetual": "Luật chiếu dai/đuổi dai",
+        "agreed": "Thỏa thuận hòa",
+        "draw": "Thỏa thuận hòa",
+        "default": "Không phân thắng bại"
+      },
+      "details": {
+        "title": "Tiêu đề",
+        "defaultTitle": "Ván đấu #{{id}}",
+        "puzzleOrigin": "Tạo từ thế cờ",
+        "puzzleTitle": "Thế cờ #{{id}}",
+        "drawRules": "Luật thi đấu",
+        "rule60": "Hòa nếu 60 nước không có quân bị ăn.",
+        "ruleRepeat": "Xử thua nếu Chiếu dai hoặc Đuổi dai 3 lần.",
+        "ruleTimeout": "Xử thua ngay khi hết tổng thời gian hoặc thời gian một nước đi.",
+        "rule60Label": "60 nước:",
+        "ruleRepeatLabel": "Lặp thế trận:",
+        "ruleTimeoutLabel": "Hết giờ:",
+        "materialAdvantage": "Ưu thế quân",
+        "drawProgress": "Tiến độ hòa",
+        "redAdvantage": "ĐỎ +{{count}}",
+        "blackAdvantage": "ĐEN +{{count}}",
+        "balanced": "CÂN BẰNG"
+      },
+      "actions": {
+        "save": "LƯU",
+        "lobby": "SẢNH"
+      }
+    },
+    "result": {
+      "win": "Chiến thắng!",
+      "loss": "Thất bại",
+      "draw": "Hòa cờ!",
+      "finished": "Ván đấu kết thúc",
+      "elo": "Hệ số ELO",
+      "reward": "Thưởng",
+      "review": "Xem lại",
+      "share": "Chia sẻ"
+    },
+    "spectators": {
+      "title": "Khán giả ({{count}})",
+      "empty": "Chưa có ai đang xem",
+      "label_short": "KHÁN GIẢ",
+      "alt": "Khán giả {{name}}"
+    },
+    "lobbyTitle": "Sảnh Chờ",
+    "puzzleTag": "Thế Cờ",
+    "aiLevels": {
+      "1": "KHỞI ĐẦU",
+      "2": "CƠ BẢN",
+      "3": "TRUNG CẤP",
+      "4": "KHÁ",
+      "5": "CẤP CAO",
+      "6": "VÔ ĐỊCH",
+      "default": "CẤP {{level}}"
+    },
+    "moveList": {
+      "progress": "Tiến trình ván đấu",
+      "first": "Về đầu",
+      "prev": "Lùi",
+      "next": "Tiến",
+      "last": "Tới cuối",
+      "pause": "Tạm dừng",
+      "play": "Phát lại",
+      "empty": "Chưa có nước đi",
+      "initial": "Thế cờ khởi đầu",
+      "viewMove": "Xem lại nước {{index}}",
+      "returnToLive": "Trở về hiện tại"
+    },
+    "export": {
+      "copyFen": "Sao chép FEN",
+      "copyFenSuccess": "Đã sao chép FEN vào bộ nhớ tạm!",
+      "copyFenError": "Lỗi khi sao chép FEN",
+      "exportFile": "Xuất File",
+      "saveImage": "Lưu Ảnh (Client)",
+      "saveImageSuccess": "Đã lưu ảnh kỳ đài!",
+      "saveImageError": "Lỗi khi lưu ảnh",
+      "downloadHd": "Tải Ảnh HD (Server)",
+      "downloadHdSuccess": "Đã lưu ảnh HD thành công!",
+      "downloadHdError": "Lỗi khi xuất ảnh HD: {{message}}",
+      "cancelInfo": "Đã hủy quá trình xuất file",
+      "noMovesError": "Chưa có nước đi, chưa thể tạo video",
+      "clientVideo": "Video - Client (WebM)",
+      "clientVideoSuccess": "Đã xuất video thành công!",
+      "clientVideoError": "Lỗi khi xuất video client: {{message}}",
+      "serverVideo": "Video - Server (MP4)",
+      "serverVideoSuccess": "Đã tải {{format}} thành công!",
+      "serverVideoError": "Lỗi xuất HD: {{message}}",
+      "serverTimeout": "Server Time-out. Ván đấu quá dài, vui lòng sử dụng bản \"Video - Client\" (Chất lượng HD)",
+      "animatedGif": "Ảnh Động (GIF)",
+      "size": "Kích thước",
+      "ratios": {
+        "horizontal": "Ngang",
+        "vertical": "Dọc",
+        "square": "Vuông",
+        "board": "Board"
+      }
+    },
+    "videoNotSupported": "Trình duyệt của bạn không hỗ trợ xem video.",
+    "move": "Nước đi"
+  },
+  "match": {
+    "redJoined": "Người chơi Đỏ đã vào phòng!",
+    "blackJoined": "Người chơi Đen đã vào phòng!",
+    "redLeft": "Người chơi Đỏ đã rời phòng.",
+    "blackLeft": "Người chơi Đen đã rời phòng.",
+    "opponentDisconnected": "Đối thủ đã mất kết nối!",
+    "opponentReconnected": "Đối thủ đã kết nối lại!",
+    "newSpectator": "Có thêm {{count}} khán giả mới vào xem",
+    "started": "Ván đấu bắt đầu! Chúc bạn may mắn.",
+    "drawDeclined": "Đối thủ đã từ chối lời đề nghị hòa.",
+    "swapDeclined": "Đối thủ đã từ chối yêu cầu đổi bên.",
+    "swapSuccess": "Bạn đã đổi sang bên {{side}}",
+    "resultDraw": "Trận đấu kết thúc: HÒA CỜ",
+    "resultWin": "CHÚC MỪNG! Bạn đã giành chiến thắng!",
+    "resultLoss": "KẾT THÚC: Bạn đã thua cuộc.",
+    "resultOtherWin": "KẾT THÚC: Bên {{side}} thắng!",
+    "errorViewingReplay": "Bạn đang xem lại trận đấu.",
+    "backToLive": "Đến hiện tại",
+    "errorLoginToPlay": "Đăng nhập để đấu.",
+    "errorNotYourTurn": "Chưa đến lượt.",
+    "errorSpectator": "Bạn là Khán giả.",
+    "engineError": "Lỗi Engine: {{error}}",
+    "config": {
+      "titleChallenge": "Mời thi đấu kỳ thủ",
+      "titlePuzzle": "Thi đấu thế cờ",
+      "titleNew": "Tạo bàn mới",
+      "readyToPlay": "Sẵn sàng đấu",
+      "invitedOpponent": "Đối thủ mời thi đấu",
+      "challengeInvite": "{{name}} mời thi đấu!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} đã từ chối lời mời thi đấu.",
+        "wait": "⏳ {{name}} đang bận, hẹn bạn lát nữa!",
+        "accepted": "🎉 Lời mời thi đấu đã được chấp nhận! Sẵn sàng vào ván.",
+        "canceled": "Lời mời thi đấu đã bị hủy.",
+        "sent": "Đã gửi lời mời thi đấu tới {{name}}.",
+        "busy": "📭 {{name}} đang đặt trạng thái Bận. Lời mời đã được chuyển vào mục chờ.",
+        "offline": "Người mời thi đấu đã ngoại tuyến. Không thể bắt đầu ván đấu."
+      },
+      "ready": {
+        "title": "Ván Đấu Đã Sẵn Sàng",
+        "desc": "Người vào trước sẽ được cầm quân Đen (đi sau), người vào sau phân quân Đỏ. Hãy nhanh tay!",
+        "action": "VÀO VÁN NGAY",
+        "hide": "Ẩn bảng"
+      },
+      "gifts": {
+        "received": "{{name}} đã tặng bạn quà!",
+        "coins": "{{name}} đã lì xì cho bạn!",
+        "coinsDesc": "Bạn nhận được +{{amount}} xu",
+        "candy": "🍬 Kẹo",
+        "bear": "🧸 Gấu bông",
+        "ring": "💍 Nhẫn"
+      },
+      "defaultConfigDesc": "Trận đấu sẽ được tạo với cấu hình mặc định:",
+      "defaultConfigDetails": "Chuẩn (20p), Công khai, Tính điểm ELO.",
+      "advancedConfig": "⚙️ Cấu hình chi tiết",
+      "timeMode": "Chế độ thời gian",
+      "findOpponent": "Tìm đối thủ",
+      "selected": "Đã chọn",
+      "searchPlaceholder": "Theo tên hoặc UID hồ sơ...",
+      "online": "Đang online",
+      "noResults": "Không tìm thấy ai...",
+      "select": "Chọn",
+      "unselect": "Hủy chọn",
+      "boardOptions": "Tùy chọn bàn",
+      "private": "🔒 Riêng tư (Không ELO)",
+      "public": "🌐 Công khai (Tính ELO)",
+      "boardType": "Loại bàn cờ",
+      "standard": "♟ Tiêu chuẩn",
+      "puzzle": "🧩 Cờ thế",
+      "puzzleSetup": "Thiết lập thế cờ",
+      "selectedPuzzle": "Đã chọn thế cờ",
+      "change": "Đổi",
+      "suggestions": "Gợi ý cho bạn",
+      "searchPuzzlePlaceholder": "Tìm tên thế cờ...",
+      "level": "Cấp",
+      "challengeOptions": "Tùy chọn mời thi đấu",
+      "message": "Lời nhắn",
+      "defaultMessage": "Làm ván nào bạn êi!",
+      "betGifts": "Cược quà tặng",
+      "betActive": "🎁 Đã cược",
+      "betNone": "🎁 Không cược",
+      "giftType": "Loại quà",
+      "backToSimple": "« Quay lại chế độ rút gọn",
+      "goldWarning": "ℹ️ Thế cờ không được thưởng vàng",
+      "goldSuccess": "ℹ️ Thế cờ vẫn được thưởng vàng",
+      "creating": "Đang khởi tạo...",
+      "sendChallenge": "⚔️ Gửi lời mời thi đấu",
+      "openMatch": "🚀 Mở bàn công khai",
+      "playNow": "🚀 Vào ván ngay",
+      "modes": {
+        "blitz": "⚡ Chớp",
+        "rapid": "🏃 Nhanh",
+        "standard": "⏱ Chuẩn",
+        "slow": "🎯 Dài"
+      },
+      "toasts": {
+        "loginRequired": "Bạn cần đăng nhập để tạo phòng thi đấu.",
+        "challengeSent": "Đã gửi lời mời đến {{name}}!",
+        "roomCreated": "Đã tạo phòng thành công!",
+        "alreadyInGame": "Bạn hiện đang có một ván đấu chưa hoàn tất.",
+        "serverError": "Lỗi kết nối máy chủ."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "Giải <0>Cờ Thế Online</0> - Bài Tập Cờ Tướng",
+    "subtitle": "Khám phá & giải quyết kho tàng cờ thế từ cộng đồng",
+    "listTitle": "Danh sách thế cờ tướng",
+    "explore": "Khám phá",
+    "saved": "Đã Lưu",
+    "searchPlaceholder": "Tìm theo tên...",
+    "level": "Cấp độ",
+    "levelValue": "Cấp {{level}}",
+    "unclassified": "Chưa phân loại",
+    "sort": {
+      "label": "Sắp xếp",
+      "newest": "Mới nhất",
+      "popular": "Nhiều tim nhất",
+      "solved": "Giải nhiều nhất"
+    },
+    "time": {
+      "label": "Thời gian",
+      "all": "Mọi lúc",
+      "day": "Hôm nay",
+      "week": "Tuần này",
+      "month": "Tháng này"
+    },
+    "empty": {
+      "title": "Không tìm thấy thế cờ",
+      "desc": "Chúng tôi không tìm thấy bất kỳ thế cờ nào khớp với bộ lọc của bạn.",
+      "reset": "Tiến lập lại bộ lọc"
+    },
+    "actions": {
+      "solve": "Giải ngay",
+      "loadMore": "Khám phá thêm thế cờ ↓",
+      "backToSolve": "Quay lại giải thế cờ"
+    },
+    "loginToSave": "Vui lòng đăng nhập để lưu thế cờ.",
+    "loginToChallenge": "Vui lòng đăng nhập để mời thi đấu thế cờ.",
+    "red": "Đỏ",
+    "black": "Đen",
+    "byUser": "Bởi {{name}}",
+    "meta": {
+      "title": "Giải Cờ Thế & Giải Thế Cờ Tướng Online - Kho Cờ Thế Hay",
+      "description": "Khám phá hàng ngàn thế cờ tướng từ cộng đồng: khai cuộc, tàn cuộc, tuyệt chiêu điều quân. Luyện tập giải cờ thế và cách giải thế cờ tướng online miễn phí.",
+      "itemListDesc": "Danh sách thế cờ tướng hay nhất",
+      "itemListSchemaDesc": "Kho dữ liệu cờ thế, bài tập tàn cuộc cờ tướng online.",
+      "home": "Sảnh đấu",
+      "puzzles": "Thế cờ",
+      "schemaGameTitle": "Thế cờ Tướng: {{name}}",
+      "schemaVideoTitle": "Video giải thế cờ: {{name}}",
+      "schemaVideoDesc": "Hướng dẫn cách giải thế cờ tướng: {{name}}. Xem các nước đi chính xác để giành chiến thắng.",
+      "schemaVideoSolutionTitle": "Video giải thế cờ: {{name}} (Giải pháp {{index}})",
+      "schemaVideoSolutionDesc": "Hướng dẫn cách giải thế cờ tướng: {{name}} - Lời giải thứ {{index}}.",
+      "authorDefault": "Cờ tướng Online"
+    },
+    "seoContent": {
+      "whyTitle": "Tại sao bạn nên luyện tập <0>Giải Cờ Thế</0>?",
+      "intro": "Trong nghệ thuật cờ tướng, <0>Giải Cờ Thế (hay sát chiêu tàn cuộc)</0> là tinh hoa kết tinh của tư duy chiến thuật. Việc <1>xếp cờ thế</1> và giải đố không chỉ là giải trí mà còn là phương pháp huấn luyện bắt buộc để thăng tiến kỳ nghệ.",
+      "guide": {
+        "title": "Hướng dẫn giải thế cờ tướng cho người mới",
+        "intro": "Để nâng cao kỹ năng <0>giải cờ thế</0>, bạn cần nắm vững các bước phân tích cơ bản:",
+        "item1": "<0>Đánh giá lực lượng:</0> Xem xét số lượng quân cờ còn lại của hai bên đỏ và đen.",
+        "item2": "<0>Phân tích vị trí:</0> Tìm ra các điểm yếu của đối thủ, đặc biệt là vị trí của quân Tướng.",
+        "item3": "<0>Tính toán nước đi:</0> Dự tính các nước chiếu bí hoặc nước đi ép buộc đối phương phải đỡ."
+      },
+      "ai": {
+        "title": "Sử dụng phần mềm giải cờ thế AI",
+        "intro": "Sử dụng <0>phần mềm giải cờ thế</0> AI (Pikafish) ngay tại trung tâm huấn luyện của cotuong.xyz để:",
+        "item1": "Tìm ra những nước đi ẩn mà mắt thường khó nhận biết (Deep Analysis).",
+        "item2": "Hiểu rõ tại sao một nước đi lại dẫn đến thất bại thông qua phân tích biến thể.",
+        "item3": "Rèn luyện tư duy tính toán xa từ 10-20 nước đi tiếp theo một cách chính xác."
+      },
+      "benefits": {
+        "title": "Lợi ích của việc giải thế cờ tướng",
+        "satt": {
+          "title": "Sát pháp",
+          "desc": "Nắm vững các đòn dứt điểm như mã hậu pháo, thiên địa pháo, đại đảm xa."
+        },
+        "tanquoc": {
+          "title": "Tàn cuộc",
+          "desc": "Học cách điều quân tinh xảo khi lực lượng mỏng, đặc biệt là nghệ thuật dùng tốt."
+        },
+        "tuduy": {
+          "title": "Tư duy",
+          "desc": "Nhận diện hình cờ nhanh chóng để áp dụng đòn sát chiêu ngay trong ván đấu thực."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "Phân tích thế cờ:",
+        "defaultName": "Chiêu pháp kinh điển",
+        "intro": "Thế cờ <1>{{name}}</1> là một bài tập <3>giải cờ thế online</3> tiêu hình, tập trung vào khả năng phối hợp quân cờ để dứt điểm đối phương. Đây là cơ hội tuyệt vời để bạn rèn luyện <5>cách giải thế cờ tướng</5> trong các tình huống thực tế.",
+        "tips": {
+          "title": "💡 Gợi ý giải đố",
+          "desc": "Hãy chú ý đến các quân cờ chủ lực đang nằm ở vị trí tấn công. Một nước <1>chiếu tướng</1> bất ngờ có thể là chìa khóa để mở ra chiến thắng. Đừng quên kiểm tra các nước phản đòn của đối phương."
+        },
+        "advanced": {
+          "title": "📈 Nâng cao trình độ",
+          "desc": "Sau khi tự giải, hãy sử dụng công cụ <1>phần mềm giải cờ thế</1> tích hợp để xem các biến hóa khác. Điều này giúp bạn hiểu sâu hơn về cấu trúc của thế cờ và ghi nhớ các hình cờ sát cục."
+        }
+      },
+      "seoTitle": "Giải Thế Cờ: {{name}} - Giải Cờ Thế Online",
+      "seoDesc": "Giải thế cờ tướng {{name}} online. Luyện tập cách giải thế cờ tướng, khả năng tính toán và dứt điểm ván đấu.",
+      "rewardFirst": "🏆 Tuyệt vời! Bạn đã nhận được {{count}} 🪙 Vàng cho lần giải đầu tiên.",
+      "rewardUpdate": "Chúc mừng! Nước đi của bạn đã được cập nhật vào Bảng Vàng.",
+      "viewingSolution": "Đang xem cách giải của",
+      "loadError": "Không thể tải dữ liệu bàn cờ",
+      "loginRequiredTitle": "Yêu cầu đăng nhập",
+      "loginRequiredMsg": "Vui lòng đăng nhập để thực hiện tương tác này.",
+      "mission": "Nhiệm vụ",
+      "missionDesc": "Tìm phương án giành chiến thắng hoặc đạt ưu thế theo yêu cầu của thế cờ.",
+      "aiSolver": "Máy giải",
+      "aiSolverDesc": "Bật \"🤖 Máy giải\" để AI tự động đi quân đối trọng với nước đi của bạn.",
+      "achievement": "Thành tích",
+      "achievementDesc": "Bạn sẽ nhận được 🪙 Vàng cho lần giải đầu tiên chính xác.",
+      "aiServer": "AI Server",
+      "aiServerDesc": "Các cấp độ cao sử dụng máy chủ Pikafish để đưa ra nước đi tối ưu.",
+      "title": "Thông tin thế cờ",
+      "backToList": "Quay lại danh sách",
+      "puzzleNameLabel": "Thế cờ {{id}}",
+      "firstPlayer": "Quân đi trước",
+      "redFirst": "🔴 Đỏ đi trước",
+      "blackFirst": "⚫ Đen đi trước",
+      "creator": "Người tạo",
+      "difficulty": "Độ khó",
+      "relatedGames": "Ván đấu liên quan",
+      "justHappened": "Vừa diễn ra",
+      "saved": "Đã lưu",
+      "savePuzzle": "Lưu thế cờ",
+      "solverTitle": "Giải cờ thế",
+      "solveMode": "Chế độ giải",
+      "modeAi": "🤖 MÁY ĐỠ (TỰ ĐỘNG)",
+      "modeManual": "👥 TỰ GIẢI (OFF AI)",
+      "aiLevel": "Độ khó máy",
+      "sideSelect": "Bạn cầm bên",
+      "redSide": "QUÂN ĐỎ",
+      "blackSide": "QUÂN ĐEN",
+      "undo": "HOÀN NƯỚC",
+      "restart": "CHƠI LẠI",
+      "hallOfFame": "Bảng Vàng",
+      "solvedBy": "Những người đã giải được",
+      "player": "Kỳ thủ",
+      "movesCount": "{{count}} nước",
+      "view": "Xem",
+      "noSolutions": "Chưa có ai giải được.\nHãy là người đầu tiên!",
+      "similarPuzzles": "Thế cờ tương tự",
+      "relatedMatchReports": "Chiến báo liên quan"
+    }
+  },
+  "notifications": {
+    "title": "Thông báo",
+    "panelHeader": "THÔNG BÁO",
+    "clearAll": "Xóa tất cả",
+    "empty": "Không có thông báo nào.",
+    "viewNow": "Xem ngay →",
+    "push": {
+      "prompt": "Bật thông báo để không bỏ lỡ các ván đấu!",
+      "enable": "BẬT NGAY",
+      "saveError": "Lưu cài đặt thất bại. Thử lại sau.",
+      "deniedError": "Bạn đã từ chối. Cho phép trong cài đặt trình duyệt.",
+      "genericError": "Có lỗi xảy ra khi bật thông báo."
+    },
+    "challenges": {
+      "standard": "Tiêu chuẩn",
+      "puzzle": "Cờ thế",
+      "accepted": "🔥 Đã chấp nhận",
+      "declined": "❌ Đã từ chối",
+      "canceled": "⚪ Đã hủy",
+      "waitOpponent": "⏳ Đối thủ đang Đợi chút...",
+      "waitYou": "⏳ Bạn đang Đợi chút...",
+      "acceptAction": "Chấp nhận",
+      "waitAction": "Đợi chút",
+      "cancelAction": "Hủy lời mời",
+      "deleteAction": "Xóa",
+      "inGameTooltip": "Bạn đang trong ván đấu"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "Bàn cờ chưa hợp lệ",
+      "checkAgain": "Vui lòng kiểm tra lại",
+      "loginRequired": "Vui lòng đăng nhập.",
+      "nameRequired": "Vui lòng nhập tên thế cờ.",
+      "descRequired": "Vui lòng nhập mô tả thế cờ.",
+      "twoKings": "Thế cờ phải có đúng 2 tướng.",
+      "faceToFace": "Lỗi: Hai tướng không được lộ mặt (nhìn thẳng nhau).",
+      "redCheck": "Tướng Đỏ đang bị chiếu.",
+      "blackCheck": "Tướng Đen đang bị chiếu.",
+      "pieceLimit": "Tối đa {{limit}} quân {{type}}.",
+      "generalPalace": "Tướng {{side}} phải ở trong cung (3x3).",
+      "advisorPalace": "Sĩ {{side}} phải ở trong cung (3x3).",
+      "advisorDiagonal": "Sĩ {{side}} chỉ được đặt trên các điểm chéo của cung.",
+      "elephantRiver": "Tượng {{side}} không được qua sông.",
+      "elephantPoints": "Tượng {{side}} chỉ được đặt tại các vị trí cố định trên sân nhà.",
+      "redSoldierBackward": "Tốt Đỏ không được lùi sau hàng chốt.",
+      "redSoldierColumns": "Tốt Đỏ chưa qua sông chỉ được đứng ở các cột lẻ (1, 3, 5, 7, 9).",
+      "blackSoldierBackward": "Tốt Đen không được lùi sau hàng chốt.",
+      "blackSoldierColumns": "Tốt Đen chưa qua sông chỉ được đứng ở các cột lẻ (1, 3, 5, 7, 9).",
+      "saveError": "Lỗi khi lưu",
+      "unknownError": "Lỗi không xác định.",
+      "connError": "Lỗi kết nối",
+      "connMsg": "Không thể kết nối máy chủ.",
+      "fenError": "FEN lỗi.",
+      "red": "Đỏ",
+      "black": "Đen",
+      "successLoad": "Đã tải: {{name}}",
+      "successUpdate": "Đã cập nhật: {{name}}",
+      "successSave": "Đã lưu: {{name}}",
+      "successImportFen": "Đã nhập thế cờ từ FEN"
+    },
+    "title": "Xếp thế cờ",
+    "tryoutTitle": "Chơi thử với AI",
+    "tryout": {
+      "modeLabel": "Chế độ:",
+      "modeAi": "🤖 CHƠI VỚI MÁY",
+      "modeManual": "👥 TỰ ĐI HAI BÊN",
+      "selectBot": "Chọn đối thủ:",
+      "levelLabel": "Độ khó AI:",
+      "levelOption": "🟢 CẤP {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "BẠN CẦM BÊN:",
+      "viewLabel": "GÓC NHÌN:",
+      "sideRed": "QUÂN ĐỎ",
+      "sideBlack": "QUÂN ĐEN",
+      "backLabel": "Quay lại xếp cờ"
+    },
+    "paletteTitle": "Kho quân cờ",
+    "palette": {
+      "selecting": "Đang chọn:",
+      "erase": "XÓA QUÂN",
+      "clear": "XÓA SẠCH",
+      "redPrefix": "ĐỎ",
+      "blackPrefix": "ĐEN"
+    },
+    "fen": {
+      "label": "Import từ FEN",
+      "placeholder": "Nhập chuỗi FEN...",
+      "apply": "Áp dụng FEN"
+    },
+    "historyTitle": "Kho thế cờ",
+    "history": {
+      "loadAction": "Tải",
+      "viewAction": "Xem"
+    },
+    "modals": {
+      "duplicateTitle": "Thế cờ đã tồn tại",
+      "duplicateMsg": "Bạn đã xếp một thế cờ hoàn toàn giống với thế cờ [{{name}}].",
+      "duplicateAction": "XEM THẾ CỜ",
+      "clearTitle": "Xóa bàn cờ?",
+      "clearMsg": "Gỡ bỏ tất cả quân cờ?"
+    },
+    "rules": {
+      "title": "QUY TẮC XẾP CỜ THẾ",
+      "orientation": {
+        "label": "Hướng:",
+        "desc": "Đỏ ở dưới, Đen ở trên."
+      },
+      "turn": {
+        "label": "Lượt đi:",
+        "desc": "Mặc định Đỏ luôn là bên đi trước."
+      },
+      "general": {
+        "label": "Tướng:",
+        "desc": "1 quân mỗi bên, phải ở trong cung (3x3)."
+      },
+      "check": {
+        "label": "Chiếu tướng:",
+        "desc": "Tại thời điểm ban đầu, hai tướng không được đang bị chiếu."
+      },
+      "facing": {
+        "label": "Lộ mặt tướng:",
+        "desc": "Hai tướng không được nhìn thẳng nhau trên cùng một cột mà không có quân cản."
+      },
+      "defense": {
+        "label": "Sĩ/Tượng:",
+        "desc": "Tối đa 2 quân mỗi loại. Sĩ ở trong cung, Tượng không qua sông."
+      },
+      "soldier": {
+        "label": "Chốt:",
+        "desc": "Tối đa 5 quân. Khi chưa qua sông chỉ được đứng ở các cột lẻ."
+      }
+    },
+    "seoTitle": "Xếp Cờ Thế Online Miễn Phí - Công Cụ Bày Cờ Thế & Tạo Thế Cờ",
+    "seoDesc": "Công cụ xếp cờ thế online, bày cờ thế và tạo thế cờ chuyên nghiệp trên cotuong.xyz. Nhập FEN, thẩm cờ với máy AI Pikafish siêu mạnh để giải các thế cờ tướng hay nhất.",
+    "modeTryout": "CHẾ ĐỘ CHƠI THỬ",
+    "modeEditor": "CHẾ ĐỘ XẾP CỜ • CLICK ĐỂ ĐẶT QUÂN",
+    "actionTry": "CHƠI THỬ VỚI AI",
+    "actionUndo": "Hoàn nước",
+    "actionReset": "Làm lại",
+    "toast": {
+      "loginSave": "Vui lòng đăng nhập để lưu thế cờ.",
+      "loginChallenge": "Vui lòng đăng nhập để thiết lập ván đấu.",
+      "boardCleared": "Bàn cờ sạch."
+    },
+    "seoContent": {
+      "title": "<0>🎨</0> Công cụ <1>Xếp Cờ Thế Online</1> & Bày Cờ Thế chuyên nghiệp",
+      "intro": "Chào mừng bạn đến với công cụ <0>xếp cờ thế</0> và <0>xếp cờ tướng</0> hàng đầu. Tại đây, bạn có thể tự do <0>bày cờ thế</0>, tạo ra những bài tập sát cục kinh điển hoặc những hình cờ tàn thực dụng để chia sẻ với cộng đồng. Việc <1>tạo thế cờ</1> chưa bao giờ dễ dàng hơn thế.",
+      "feature1": {
+        "title": "Thẩm cờ và Tạo thế cờ nhanh",
+        "desc": "Hệ thống hỗ trợ <0>tạo thế cờ</0> bằng thao tác kéo thả mượt mà, nhập chuỗi FEN nhanh chóng và tích hợp sẵn <1>phần mềm thẩm cờ tướng</1> (AI Pikafish) để bạn kiểm tra tính chính xác của phương án giải ngay lập tức."
+      },
+      "feature2": {
+        "title": "Chia sẻ Thế cờ tướng hay",
+        "desc": "Mọi <0>thế cờ tướng hay</0> sau khi được tạo sẽ được lưu trữ trong kho dữ liệu cá nhân hoặc công khai để người chơi khác cùng giải đố. Đây là cách tuyệt vời để rèn luyện tư duy và đóng góp cho cộng đồng yêu cờ Việt Nam."
+      }
+    },
+    "form": {
+      "guestTitle": "Chưa đăng nhập",
+      "guestDesc": "Đăng nhập để lưu và chia sẻ thế cờ của bạn.",
+      "nameLabel": "Tên thế cờ:",
+      "namePlaceholder": "Nhập tên...",
+      "levelLabel": "Cấp độ:",
+      "levelOption": "CHỌN",
+      "levelValue": "Cấp độ {{level}}",
+      "descLabel": "Mô tả:",
+      "descPlaceholder": "...",
+      "saveAction": "LƯU THẾ CỜ",
+      "loginSaveAction": "🔐 ĐĂNG NHẬP ĐỂ LƯU",
+      "importError": "Lỗi import FEN:"
+    }
+  },
+  "tournaments": {
+    "title": "Giải Đấu Cờ Tướng Online",
+    "subtitle": "Nơi tranh tài của những kỳ thủ xuất sắc nhất",
+    "loading": "Đang tải danh sách giải đấu...",
+    "empty": "Hiện chưa có giải đấu nào.",
+    "listTitle": "Danh sách Giải đấu Cờ Tướng Online",
+    "listDesc": "Các giải đấu cờ tướng đang diễn ra và sắp tới.",
+    "champion": "Vô Địch: {{name}}",
+    "players": {
+      "pendingTitle": "⏳ Chờ duyệt ({{count}})",
+      "registeredTitle": "Đã ghi danh ({{count}})",
+      "empty": "Chưa có kỳ thủ nào đăng ký.",
+      "approve": "Duyệt"
+    },
+    "rounds": "{{count}} vòng",
+    "minElo": "ELO {{elo}}+",
+    "requireApproval": "Cần duyệt",
+    "hasPrizes": "Giải thưởng",
+    "deadline": "Đóng GD:",
+    "createdAt": "Tạo:",
+    "noDescription": "Không có mô tả.",
+    "status": {
+      "registration": "Đang ghi danh",
+      "active": "Đang thi đấu",
+      "deadline_closed": "Đã đóng GD",
+      "finished": "Đã kết thúc"
+    },
+    "backToList": "← Trở lại danh sách",
+    "noDescriptionDetail": "<i>Không có mô tả chi tiết.</i>",
+    "currentRound": "Vòng {{current}}{{total}}",
+    "playersCount": "{{current}}/{{total}} Kỳ thủ",
+    "registrationInfo": "Thông tin đăng ký",
+    "start": "Bắt đầu",
+    "closed": "Đã đóng",
+    "joinAction": "GHI DANH THAM GIA",
+    "joining": "Đang thực hiện...",
+    "joined": "✅ Đã ghi danh",
+    "pendingApproval": "⌛ Chờ admin duyệt",
+    "formats": {
+      "swiss": "Thụy Sĩ",
+      "roundrobin": "Vòng tròn"
+    },
+    "timeline": {
+      "emptyAdmin": "Chưa có vòng đấu. Bấm \"Tạo Vòng 1\" để bắt đầu.",
+      "emptyUser": "Chưa có lịch thi đấu. Chờ admin khởi động giải.",
+      "roundLabel": "Vòng {{round}}",
+      "status": {
+        "active": "Đang đấu"
+      },
+      "actions": {
+        "review": "Xem lại",
+        "play": "Vào đấu",
+        "watch": "Theo dõi"
+      },
+      "sides": {
+        "red": "Đỏ",
+        "black": "Đen"
+      }
+    },
+    "standings": {
+      "empty": "Chưa có bảng xếp hạng.",
+      "stats": {
+        "win": "T",
+        "draw": "H",
+        "loss": "B",
+        "bye": "BYE"
+      }
+    },
+    "prizes": {
+      "title": "Cơ cấu giải thưởng",
+      "goldUnit": "Vàng"
+    },
+    "announcements": {
+      "placeholder": "Nhập thông báo cho kỳ thủ...",
+      "postAction": "📢 Đăng",
+      "empty": "Chưa có thông báo nào."
+    },
+    "detail": {
+      "notFound": "Không tìm thấy giải đấu.",
+      "champion": {
+        "title": "Vô Địch Giải Đấu",
+        "points": "Điểm",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "🎯 Ghi Danh Tham Gia",
+        "joined": "✅ Đã ghi danh",
+        "pending": "⏳ Chờ admin duyệt",
+        "createRound": "⚔️ Tạo Vòng {{round}}",
+        "finishTournament": "🏁 Kết Thúc & Công Bố VĐ"
+      },
+      "tabs": {
+        "timeline": "📅 Lịch Thi Đấu",
+        "standings": "📊 Bảng Xếp Hạng",
+        "players": "👥 Kỳ Thủ",
+        "prizes": "🎁 Giải Thưởng",
+        "announcements": "📢 Thông Báo"
+      },
+      "meta": {
+        "title": "{{name}} - Giải Đấu Cờ Tướng",
+        "description": "Chi tiết giải đấu {{name}}. Xem lịch trình, kỳ thủ tham gia, bảng xếp hạng và cơ cấu giải thưởng."
+      },
+      "messages": {
+        "joinSuccess": "✅ Đăng ký thành công!",
+        "joinPending": "✅ Đơn ghi danh đã được gửi, chờ admin duyệt.",
+        "roundStarted": "✅ Vòng {{round}} đã tạo — {{count}} cặp đấu{{bye}}",
+        "bye": " ({{name}} được BYE)",
+        "tournamentFinished": "🏆 Giải kết thúc! Vô địch: {{name}}",
+        "confirmFinish": "Kết thúc giải và công bố vô địch?",
+        "confirm": "Xác nhận Kết thúc"
+      },
+      "errors": {
+        "joinClosed": "⏰ Đã hết thời hạn ghi danh.",
+        "joinFull": "❌ Giải đã đủ người.",
+        "joinNotRegistration": "❌ Giải không còn nhận đăng ký.",
+        "joinFailed": "❌ Lỗi kết nối.",
+        "maxRounds": "Đã đạt tối đa {{count}} vòng!",
+        "notEnoughPlayers": "Cần ít nhất 2 kỳ thủ.",
+        "alreadyFinished": "Giải đã kết thúc.",
+        "finishError": "Lỗi khi kết thúc giải"
+      }
+    },
+    "meta": {
+      "title": "Giải Đấu Cờ Tướng Online - Tranh Hùng Đoạt Cúp | Cờ tướng Online",
+      "description": "Tham gia các giải đấu cờ tướng online hấp dẫn từ cờ chớp đến tiêu chuẩn tại cotuong.xyz. Xem lịch thi đấu, bảng xếp hạng và nhận thưởng Vàng, vật phẩm giá trị.",
+      "home": "Sảnh đấu",
+      "tournaments": "Giải đấu"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "Đấu trường <0>Tranh Hùng</0>",
+        "desc": "Giải đấu tại cotuong.xyz là nơi vinh danh những kỳ thủ có bản lĩnh và tư duy chiến thuật sắc bén nhất. Đây không chỉ là cuộc chơi, mà là nơi khẳng định đẳng cấp."
+      },
+      "features": {
+        "formats": {
+          "title": "Hệ thống Thụy Sĩ & Vòng tròn",
+          "desc": "Áp dụng các thể thức thi đấu chuẩn quốc tế, đảm bảo tính công bằng và chính xác trong việc tìm ra nhà vô địch xứng đáng nhất."
+        },
+        "prizes": {
+          "title": "Giải thưởng giá trị",
+          "desc": "Vinh danh người thắng cuộc bằng những phần quà 🪙 Vàng và vật phẩm độc quyền. Tích lũy Vàng để mua sắm trong Cửa hàng quà tặng."
+        },
+        "experience": {
+          "title": "Tích lũy kinh nghiệm",
+          "desc": "Mỗi ván đấu giải là một bài học quý giá. Việc đối đầu với các cao thủ giúp bạn nhận ra điểm yếu và hoàn thiện phong cách chơi của mình."
+        },
+        "honor": {
+          "title": "Vinh danh bảng vàng",
+          "desc": "Lịch sử giải đấu và tên các nhà vô địch sẽ được lưu trữ vĩnh viễn trên hệ thống, ghi dấu ấn đậm nét trong cộng đồng Cờ tướng Online."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Chơi Cờ Tướng Với Máy Miễn Phí - Đấu AI Pikafish Đỉnh Cao",
+    "seoTitleDefault": "Chơi Cờ Tướng Với Máy - Đấu AI Pikafish Cực Mạnh",
+    "seoDesc": "Đánh cờ tướng với máy (AI) miễn phí trên cotuong.xyz. Thử thách bản thân với Engine Pikafish mạnh nhất thế giới ở cấp độ {{level}}. Hỗ trợ phân tích ván đấu.",
+    "seoDescDefault": "Luyện tập cờ tướng với máy ở cấp độ {{level}}. Nền tảng cờ tướng online với AI Pikafish mạnh nhất thế giới, hỗ trợ phân tích nước đi.",
+    "title": "Chơi <0>Cờ Tướng Với Máy</0> - AI Pikafish",
+    "settings": "Thiết lập trận đấu",
+    "undo": "Đi lại",
+    "newGame": "Ván mới",
+    "manualMode": "Tự đi hai bên",
+    "manualModeDesc": "Chế độ tự chơi: Bạn có thể tự đi quân cho cả hai bên (Đỏ/Đen) để nghiên cứu các phương án thế trận.",
+    "agentsOnline": "{{count}} đối thủ online",
+    "personality": {
+      "aggressive": "Hung hăng",
+      "defensive": "Cẩn trọng",
+      "balanced": "Cân bằng"
+    },
+    "ranks": {
+      "level1": "Nhập môn",
+      "level4": "Chuyên nghiệp",
+      "level6": "Đại kiện tướng"
+    },
+    "bot": {
+      "error_not_found": "Không tìm thấy bot. Kiểm tra Admin › Bots."
+    },
+    "seoContent": {
+      "title": "Chơi Cờ Tướng với Máy – Luyện tập cùng AI <0>Pikafish</0>",
+      "intro": "Chào mừng bạn đến với chuyên trang <strong>chơi cờ tướng với máy</strong> tại cotuong.xyz. Tại đây, chúng tôi cung cấp trải nghiệm luyện tập cờ tướng chuyên nghiệp với trí tuệ nhân tạo Pikafish – một trong những engine cờ tướng mạnh nhất thế giới hiện nay. Dù bạn là người mới bắt đầu hay một cao thủ, hệ thống AI của chúng tôi luôn có mức độ khó phù hợp để bạn thử thách bản thân.",
+      "feature1": {
+        "title": "Trí tuệ nhân tạo đỉnh cao",
+        "desc": "Sử dụng Engine Pikafish (phiên bản tối ưu của Stockfish cho Cờ tướng) với khả năng tính toán hàng triệu nước đi mỗi giây."
+      },
+      "feature2": {
+        "title": "Đa dạng cấp độ",
+        "desc": "Từ cấp độ 1 (Tập sự) đến cấp độ 10 (Đại sư), giúp bạn tiến bộ từng bước trong hành trình chinh phục kỳ nghệ."
+      },
+      "feature3": {
+        "title": "Phân tích tức thì",
+        "desc": "Hệ thống lưu lại biên bản và cho phép bạn xem lại, phân tích những sai lầm ngay sau ván đấu để rút kinh nghiệm."
+      },
+      "whyTitle": "Tại sao nên luyện cờ tướng with máy?",
+      "whyDesc": "Luyện tập với máy giúp bạn rèn luyện tính kiên nhẫn và khả năng tính toán chính xác. Khác với đối thủ là người, AI không bao giờ mắc sai lầm ngớ ngẩn, buộc bạn phải chơi với sự tập trung cao nhất.",
+      "tags": {
+        "online": "cotuongonline",
+        "withAi": "danhcotuongvoimay",
+        "engine": "pikafish",
+        "practice": "luyentapcotuong",
+        "hall": "kydai",
+        "ai": "trituenhantao"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "Giao diện: Tối"
+    },
+    "title": "Hội quán cá nhân",
+    "dashboard": "Hội quán",
+    "account": "Thiết lập",
+    "overview": "Tổng quan hoạt động",
+    "customize": "Tùy chỉnh tài khoản",
+    "boardInterface": "Giao diện bàn cờ",
+    "boardInterfaceDesc": "Tùy chỉnh trải nghiệm xem bàn cờ.",
+    "autoScroll": "Tự động cuộn",
+    "autoScrollDesc": "Cuộn đến bàn cờ khi vào ván đấu",
+    "autoScrollSuccess": "Đã cập nhật thiết lập cuộn bàn cờ",
+    "cropAvatar": "Cắt ảnh đại diện",
+    "zoom": "Thu phóng",
+    "saveImage": "Lưu ảnh",
+    "updateNameSuccess": "Cập nhật tên hiển thị thành công!",
+    "updateAvatarSuccess": "Cập nhật ảnh đại diện thành công!",
+    "pieceStyle": "Phong cách quân cờ",
+    "pieceStyleDesc": "Chọn bộ quân cờ hiển thị phù hợp với bạn.",
+    "pieceStyles": {
+      "traditional": "Mặc định (Chữ Hán)",
+      "international": "Quốc tế (Ký hiệu)",
+      "simple": "Tối giản"
+    },
+    "voicePack": "Gói âm thanh",
+    "voicePackDesc": "Lồng tiếng chỉ dẫn ván đấu.",
+    "voicePacks": {
+      "vi": "Tiếng Việt",
+      "en": "Tiếng Anh",
+      "zh": "Tiếng Trung",
+      "ja": "Tiếng Nhật",
+      "none": "Không lồng tiếng (Chỉ tiếng gõ)"
+    },
+    "changePasswordSuccess": "Đổi mật khẩu thành công!",
+    "deletePuzzleTitle": "Xóa thế cờ?",
+    "deletePuzzleConfirm": "Bạn có chắc chắn muốn xóa thế cờ [{{name}}] không? Hành động này không thể hoàn tác.",
+    "deletePuzzleAction": "XÓA NGAY",
+    "deletePuzzleSuccess": "Đã xóa thế cờ!",
+    "notificationsEnabled": "Đã bật thông báo thành công!",
+    "notificationsError": "Không thể bật thông báo.",
+    "matchHistory": "Lịch sử ván đấu",
+    "achievements": "Thành tích",
+    "inventory": "Kho đồ",
+    "myContent": "Nội dung của tôi",
+    "security": "Bảo mật",
+    "notifications": "Thông báo",
+    "changePassword": "Đổi mật khẩu",
+    "oldPassword": "Mật khẩu cũ",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "displayName": "Tên hiển thị",
+    "updateProfile": "Cập nhật hồ sơ",
+    "notificationsDesc": "Nhận thông báo về các giải đấu, tin nhắn và thách đấu mới.",
+    "pushSuccess": "Đã kích hoạt thông báo thành công!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - Nền tảng kỳ đài trí tuệ hàng đầu Việt Nam. Nơi hội tụ các kỳ hữu đam mê, luyện tập cùng trí tuệ nhân tạo Pikafish và chinh phục bảng vàng Elo.",
+    "missionShort": "Nền tảng Cờ Tướng Cao Cấp",
+    "experience": "Trải nghiệm",
+    "knowledge": "Kiến thức",
+    "services": "Dịch vụ",
+    "contactLegal": "Liên hệ & Pháp lý",
+    "onlineArena": "Kỳ đài Online",
+    "puzzles": "Thế cờ hiểm",
+    "playWithAi": "Đấu với Máy",
+    "leaderboard": "Bảng Xếp Hạng",
+    "howToPlay": "Hướng dẫn chơi",
+    "basicTactics": "Sát pháp cơ bản",
+    "practicalEndgame": "Tàn cuộc thực dụng",
+    "news": "Tin tức giải đấu",
+    "shop": "Vật phẩm & Shop",
+    "profile": "Hồ sơ cá nhân",
+    "vipUpgrade": "Nâng cấp VIP",
+    "support": "Hỗ trợ kỳ hữu",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "officialRules": "Luật chơi chuẩn",
+    "active": "Phiên bản",
+    "globalServer": "Máy chủ Toàn cầu",
+    "facebookPage": "Trang Facebook",
+    "facebookGroup": "Nhóm thảo luận",
+    "allSystemsOperational": "Hệ thống hoạt động ổn định",
+    "joinPlayers": "Tham gia cùng 50.000+ Kỳ thủ",
+    "globalPresence": "Hiện diện Toàn cầu",
+    "infrastructure": "Hạ tầng",
+    "security": "Bảo mật",
+    "versionControl": "Quản lý Phiên bản",
+    "release": "Bản phát hành",
+    "deployTime": "Thời gian Triển khai",
+    "staticHub": "Trung tâm Tĩnh Toàn cầu",
+    "sslVerified": "Đã xác minh SSL",
+    "build": "Bản dựng",
+    "time": "Thời gian",
+    "copyright": "Xiangqi Online - Bản quyền nội dung và thiết kế thuộc về <0>cotuong.xyz</0>. Chúng tôi cam kết mang đến trải nghiệm không quảng cáo, tối ưu cho mọi thiết bị di động và máy tính. Được phát triển với ❤️ bởi đội ngũ kỹ sư yêu cờ. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "Điều khoản sử dụng | Cờ Tướng XYZ",
+      "description": "Điều khoản sử dụng dịch vụ Cờ Tướng XYZ. Quy định về tài khoản, luật chơi công bằng, sở hữu trí tuệ và trách nhiệm người dùng."
+    },
+    "title": "Điều khoản & <0>quy định</0>",
+    "title_p1": "Điều khoản &",
+    "title_p2": "quy định",
+    "intro": "Chào mừng bạn đến với Cờ Tướng XYZ. Để xây dựng một môi trường chơi cờ văn minh, công bằng và kịch tính, mỗi kỳ thủ cần tuân thủ các quy định dưới đây.",
+    "cardTitle": "Điều khoản dịch vụ",
+    "lastUpdated": "Cập nhật lần cuối",
+    "lastUpdatedDate": "20/04/2026",
+    "sections": {
+      "acceptance": {
+        "title": "1. Chấp nhận điều khoản",
+        "content": "Bằng việc truy cập và sử dụng website cotuong.xyz, bạn đồng ý tuân thủ các điều khoản và điều kiện này. Nếu bạn không đồng ý với bất kỳ phần nào, vui lòng ngừng sử dụng dịch vụ."
+      },
+      "accounts": {
+        "title": "2. Tài khoản người dùng",
+        "item1": "Bạn chịu trách nhiệm bảo mật thông tin đăng nhập. Chúng tôi không chịu trách nhiệm cho các mất mát do sơ suất của bạn.",
+        "item2": "Thông tin đăng ký phải chính xác. Chúng tôi khuyến khích sử dụng Google Login để tăng tính an toàn.",
+        "item3": "Nghiêm cấm việc tạo nhiều tài khoản ảo để dàn xếp kết quả hoặc phá hoại hệ thống xếp hạng.",
+        "item4": "Chúng tôi có quyền tạm dừng hoặc xóa tài khoản vĩnh viễn nếu phát hiện vi phạm nghiêm trọng."
+      },
+      "fairplay": {
+        "title": "3. Quy tắc Fair Play & Chống gian lận",
+        "intro": "Cờ Tướng XYZ đề cao tinh thần thể thao. Các hành vi sau sẽ dẫn đến việc khóa tài khoản ngay lập tức:",
+        "item1": "Sử dụng Engine, phần mềm AI hỗ trợ tính toán nước đi khi thi đấu với người chơi khác.",
+        "item2": "Sandbagging (cố tình thua) để hạ điểm Elo hoặc cày điểm cho tài khoản khác.",
+        "item3": "Sử dụng ngôn từ lăng mạ, phân biệt chủng tộc, chính trị hoặc tôn giáo trong phòng chat.",
+        "item4": "Cố tình kéo dài thời gian ván đấu một cách bất thường để gây ức chế cho đối thủ."
+      },
+      "copyright": {
+        "title": "4. Sở hữu trí tuệ",
+        "content": "Toàn bộ giao diện, mã nguồn, bộ quân cờ, âm thanh và thương hiệu 'Cờ Tướng XYZ' thuộc quyền sở hữu của chúng tôi. Việc sao chép cho mục đích thương mại mà không có sự đồng ý là vi phạm pháp luật."
+      },
+      "liability": {
+        "title": "5. Giới hạn trách nhiệm",
+        "content": "Dịch vụ được cung cấp 'như hiện tại'. Chúng tôi nỗ lực tối đa để hệ thống ổn định nhưng không đảm bảo không có lỗi kỹ thuật hoặc gián đoạn do sự cố mạng/máy chủ."
+      },
+      "changes": {
+        "title": "6. Thay đổi & Điều chỉnh",
+        "content": "Chúng tôi có quyền chỉnh sửa các điều khoản này bất cứ lúc nào để phù hợp với sự phát triển của cộng đồng. Các thay đổi sẽ có hiệu lực ngay khi đăng tải."
+      }
+    },
+    "footer": "Chúc bạn có những ván đấu kịch tính và ý nghĩa tại Cờ Tướng XYZ!"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Chính sách bảo mật | Cờ Tướng XYZ",
+      "description": "Chính sách bảo mật của Cờ Tướng XYZ. Minh bạch trong thu thập dữ liệu, bảo vệ quyền lợi người dùng và cam kết an toàn thông tin."
+    },
+    "title": "Quyền riêng tư & <0>bảo mật</0>",
+    "title_p1": "Quyền riêng tư &",
+    "title_p2": "bảo mật",
+    "intro": "Dữ liệu cá nhân và sự an toàn của bạn là ưu tiên hàng đầu tại Cờ Tướng XYZ. Chúng tôi cam kết bảo vệ thông tin của kỳ thủ một cách tuyệt đối.",
+    "cardTitle": "Chính sách bảo mật",
+    "lastUpdated": "Cập nhật lần cuối",
+    "lastUpdatedDate": "20/04/2026",
+    "sections": {
+      "collection": {
+        "title": "1. Thông tin thu thập",
+        "intro": "Để vận hành hệ thống chơi cờ, chúng tôi thu thập một số dữ liệu cần thiết:",
+        "item1": "Hồ sơ công khai: Tên hiển thị, ảnh đại diện, địa chỉ email (từ Google/Facebook).",
+        "item2": "Dữ liệu kỳ nghệ: Lịch sử ván đấu, điểm Elo, ván đấu yêu thích và tiến trình học tập.",
+        "item3": "Dữ liệu kỹ thuật: IP, User-Agent để tối ưu hóa trải nghiệm và ngăn chặn tấn công mạng."
+      },
+      "usage": {
+        "title": "2. Sử dụng thông tin",
+        "intro": "Thông tin của bạn được dùng để:",
+        "item1": "Xác thực người dùng và đồng bộ hóa dữ liệu trên nhiều thiết bị.",
+        "item2": "Tính toán bảng xếp hạng và các thống kê kỳ nghệ cá nhân.",
+        "item3": "Thông báo về các giải đấu, sự kiện mới (nếu bạn đăng ký).",
+        "item4": "Cải thiện tính năng dựa trên hành vi sử dụng tổng quát."
+      },
+      "security": {
+        "title": "3. Cam kết bảo mật",
+        "content": "Chúng tôi sử dụng giao thức HTTPS/SSL để mã hóa mọi dữ liệu truyền tải. Mật khẩu (nếu có) được băm (hash) bằng thuật toán an toàn nhất. Chúng tôi cam kết KHÔNG bao giờ bán thông tin của bạn cho bất kỳ bên thứ ba nào."
+      },
+      "sharing": {
+        "title": "4. Đối tác dữ liệu",
+        "content": "Chúng tôi sử dụng một số dịch vụ bên thứ ba uy tín như Google Analytics (phân tích truy cập) và Cloudflare (bảo mật). Các đối tác này chỉ được tiếp cận dữ liệu ẩn danh cần thiết để duy trì dịch vụ.",
+        "content_p1": "Chúng tôi",
+        "content_p2": "cam kết",
+        "content_p3": "bảo vệ dữ liệu của bạn và chỉ chia sẻ thông tin cần thiết với các đối tác kỹ thuật tin cậy."
+      },
+      "rights": {
+        "title": "5. Quyền kiểm soát của bạn",
+        "intro": "Bạn luôn có toàn quyền kiểm soát dữ liệu của mình:",
+        "item1": "Yêu cầu xuất dữ liệu lịch sử ván đấu cá nhân.",
+        "item2": "Yêu cầu xóa vĩnh viễn tài khoản và toàn bộ thông tin liên quan.",
+        "item3": "Liên hệ hỗ trợ qua email cho mọi thắc mắc về quyền riêng tư."
+      }
+    },
+    "footer": "Cờ Tướng XYZ - Chơi sạch, bảo mật và văn minh."
+  },
+  "shop": {
+    "title": "Cửa Hàng Quà Tặng",
+    "meta": {
+      "title": "Cửa Hàng Quà Tặng | Cờ tướng Online",
+      "description": "Trao gửi yêu thương với những món quà độc đáo. Sử dụng Vàng tích lũy được từ các bài học và giải đấu để mua những món quà ý nghĩa tại cotuong.xyz.",
+      "listTitle": "Cửa Hàng Quà Tặng Cờ tướng Online",
+      "listDesc": "Các món quà tặng tinh thần dành cho kỳ thủ cờ tướng.",
+      "home": "Sảnh đấu",
+      "shop": "Cửa hàng",
+      "loading": "Đang tải cửa hàng..."
+    },
+    "subtitle": "\"Tặng hoa hồng thì tay vẫn còn mùi thơm\". Trao gửi yêu thương đến những người bạn đồng môn.",
+    "yourCoins": "Vàng của bạn",
+    "messages": {
+      "success": "Mua quà thành công!",
+      "insufficient": "Bạn không đủ vàng!",
+      "error": "Lỗi khi mua quà.",
+      "networkError": "Lỗi mạng khi mua quà."
+    },
+    "buy": {
+      "processing": "Đang mua...",
+      "insufficient": "Không đủ vàng",
+      "now": "Mua ngay",
+      "defaultDesc": "Một món quà nhỏ mang ý nghĩa lớn lao."
+    },
+    "tips": {
+      "title": "Mẹo kiếm Vàng",
+      "desc": "Vàng (Coins) là đơn vị tiền tệ chính trong Cờ tướng Online. Bạn không thể mua Vàng bằng tiền thật, mà phải <0>tích lũy thông qua sự nỗ lực</0> rèn luyện kỳ nghệ của chính mình:",
+      "item1": "Hoàn thành các bài tập tại <0>Học chơi cờ</0>. Mỗi bài học mới đều mang lại một lượng Vàng xứng đáng.",
+      "item2": "Tham gia các <0>Giải đấu Online</0>. Những kỳ thủ đạt thứ hạng cao sẽ nhận được phần thưởng Vàng và vật phẩm giá trị.",
+      "item3": "Nhận quà tặng từ bạn bè và người hâm mộ khi bạn có những ván đấu xuất sắc.",
+      "viewTournaments": "Xem các giải đấu sắp tới →"
+    },
+    "culture": {
+      "title": "Văn hóa tặng quà",
+      "desc1": "Trong giới cờ, việc tặng quà không chỉ là trao đi vật chất mà là <0>thể hiện sự tôn trọng và kết nối</0> giữa các kỳ hữu.",
+      "desc2": "\"Kỳ phùng địch thủ\" - Những món quà nhỏ như 🌹 Hoa hồng hay ☕ Ly cà phê là cách tuyệt vời để bắt đầu một tình bạn mới sau một ván đấu căng thẳng. Hãy sử dụng Vàng bạn kiếm được để làm đẹp thêm cộng đồng Cờ tướng của chúng ta."
+    }
+  },
+  "leaderboard": {
+    "title": "Bảng Xếp Hạng Kỳ Thủ <0>Cờ Tướng Online</0>",
+    "subtitle": "Bảng vinh danh cộng đồng ({{count}} thành viên)",
+    "meta": {
+      "title": "Bảng Xếp Hạng Kỳ Thủ - Vinh Danh Cao Thủ | Cờ tướng Online",
+      "description": "Theo dõi thứ hạng Elo, vinh danh các cao thủ và kiện tướng trong cộng đồng cờ tướng. Tìm kiếm và mời thi đấu những người chơi xuất sắc nhất tại cotuong.xyz.",
+      "listTitle": "Bảng Xếp Hạng Kỳ Thủ Cờ tướng Online",
+      "listDesc": "Danh sách các kỳ thủ có điểm Elo cao nhất trong cộng đồng.",
+      "home": "Sảnh đấu"
+    },
+    "hierarchy": {
+      "title": "Hệ thống phân cấp Kỳ thủ & Điểm Elo",
+      "desc": "Hệ thống tính điểm Elo của Cờ tướng Online được xây dựng dựa trên tiêu chuẩn quốc tế, phản ánh chính xác trình độ và phong độ của kỳ thủ qua từng ván đấu.",
+      "rank1": {
+        "title": "Tập sự & Phong trào",
+        "desc": "Bước đầu chinh phục nghệ thuật cờ tướng. Tập trung vào việc nắm vững các sát pháp cơ bản."
+      },
+      "rank2": {
+        "title": "Trung cấp & Cao thủ",
+        "desc": "Am hiểu sâu sắc về khai cục và trung cục. Có khả năng điều binh khiển tướng linh hoạt."
+      },
+      "rank3": {
+        "title": "Kiện Tướng (Master)",
+        "desc": "Đạt đến trình độ thượng thừa, có khả năng tính toán sâu hàng chục nước đi."
+      },
+      "rank4": {
+        "title": "Đại Sư (Grandmaster)",
+        "desc": "Những huyền thoại của cộng đồng, tinh thông mọi bí thuật và cạm bẫy trên bàn cờ."
+      }
+    },
+    "search": "Tìm kiếm kỳ thủ...",
+    "table": {
+      "rank": "#",
+      "player": "Kỳ thủ",
+      "elo": "Elo",
+      "games": "Số ván",
+      "status": "Trạng thái",
+      "playing": "Đang chơi",
+      "actions": "Hành động"
+    },
+    "statuses": {
+      "searching": "Đang tìm kiếm..."
+    },
+    "actions": {
+      "view": "📺 Xem",
+      "message": "Nhắn tin"
+    },
+    "empty": "Không tìm thấy kỳ thủ nào",
+    "pagination": {
+      "page": "Trang {{current}} / {{total}}",
+      "total": "{{count}} Kỳ thủ",
+      "prev": "Trước",
+      "next": "Sau"
+    },
+    "footer": "Hệ thống xếp hạng Elo dựa trên các ván đấu công khai. Hãy tham gia thi đấu để thăng hạng và lưu danh vào bảng bảng vinh danh của Cờ tướng Online!",
+    "lesson": "Bài học"
+  },
+  "practice": {
+    "title": "Học <0>Cờ Tướng Online</0> - Tập Sát Pháp",
+    "subtitle": "Luyện sát pháp & tàn cuộc cơ bản đến nâng cao",
+    "loading": "Đang tải bài học...",
+    "meta": {
+      "title": "Học và Tập Cờ Tướng Online - Luyện Sát Pháp và Tàn Cuộc",
+      "description": "Tham gia khóa học cờ tướng từ cơ bản đến nâng cao. Luyện tập cách đi quân, giải thế cờ và thực hành với AI Pikafish để nâng cao kỳ nghệ mỗi ngày.",
+      "home": "Sảnh đấu",
+      "practice": "Học tập"
+    },
+    "list": {
+      "title": "Khám phá tinh hoa cờ tướng",
+      "description": "Học từ cơ bản đến nâng cao với lộ trình bài bản. Mỗi bài giảng đều có bàn cờ tương tác và AI hỗ trợ giải đáp mọi nước đi.",
+      "coins": "Vàng tích lũy",
+      "all": "Tất cả",
+      "lessonCount": "{{count}} bài học"
+    },
+    "curriculum": {
+      "title": "Chương trình Đào tạo Kỳ thủ (Curriculum)",
+      "subtitle": "Lộ trình 4 giai đoạn từ Nhập môn đến Đại sư",
+      "steps": {
+        "01": {
+          "title": "Nhập môn (Basic)",
+          "desc": "Làm quen bàn cờ, cách đi 7 loại quân cờ và các luật cơ bản như Chiếu tướng, Lộ mặt tướng."
+        },
+        "02": {
+          "title": "Sát Pháp (Tactics)",
+          "desc": "Học các đòn phối hợp quân dứt điểm: Mã hậu pháo, Thiết địa pháo, Muộn cung, Pháo lăn."
+        },
+        "03": {
+          "title": "Tàn Cuộc (Endgame)",
+          "desc": "Kỹ thuật dùng Đơn Xe, Đơn Pháo, Mã Tốt để giành chiến thắng trong giai đoạn cuối ván đấu."
+        },
+        "04": {
+          "title": "Khai Cuộc (Opening)",
+          "desc": "Nghiên cứu các thế trận kinh điển như Pháo Đầu đối Bình Phong Mã, Thuận Pháo, Nghịch Pháo."
+        }
+      }
+    },
+    "card": {
+      "reward": "Vàng",
+      "status": {
+        "completed": "Hoàn thành",
+        "pending": "Chưa học"
+      },
+      "start": "Bắt đầu học ngay",
+      "defaultDesc": "Học các chiến thuật cờ tướng đỉnh cao.",
+      "completedTitle": "Đã hoàn thành"
+    },
+    "sidebar": {
+      "back": "Tất cả bài học",
+      "difficulty": "Độ khó:",
+      "content": "Nội dung bài học:",
+      "defaultMission": "Bắt đầu bài tập để khám phá kiến thức mới.",
+      "reward": "Thưởng:",
+      "status": "Trạng thái:",
+      "statusDone": "Đã xong",
+      "statusPending": "Chờ học",
+      "processing": "Đang xử lý...",
+      "nextLesson": "Bài tiếp theo",
+      "finishCourse": "Hoàn thành khóa học",
+      "completeAndNext": "Hoàn thành & Bài tiếp theo"
+    },
+    "panel": {
+      "history": "Lịch sử nước đi",
+      "aiTrain": "Tập với AI",
+      "aiTrainDesc": "Thử nghiệm nước đi với máy",
+      "engine": "Cỗ máy:",
+      "level": "Cấp độ:",
+      "humanSide": "Phe cầm quân:",
+      "redSide": "Đỏ (Cầm Đỏ)",
+      "blackSide": "Đen (Cầm Đen)",
+      "guide": {
+        "title": "Hướng dẫn học",
+        "step1": "Quan sát thế trận & nhiệm vụ.",
+        "step2": "Di chuyển quân hoặc tập với AI.",
+        "step3": "Bấm \"Hoàn thành\" để nhận thưởng."
+      }
+    },
+    "board": {
+      "tab": "Bàn cờ {{index}}: {{title}}",
+      "defaultTitle": "Mặc định",
+      "supplemental": {
+        "title": "Kiến thức bổ trợ chuyên sâu",
+        "p1": "Trong cờ tướng, việc hiểu rõ bàn cờ và vị trí quân là nền móng quan trọng nhất. Cửu cung không chỉ là nơi Tướng trú ngụ mà còn là mục tiêu tấn công hàng đầu của đối phương.",
+        "p2": "Khi bạn học về {{title}}, hãy chú ý đến sự phối hợp giữa các quân cờ. Đừng chỉ nhìn vào một quân đơn lẻ, hãy xem làm thế nào quân này bảo vệ hoặc hỗ trợ quân kia tạo nên thế trận vững chắc."
+      }
+    },
+    "seoContent": {
+      "title": "<0>📚</0> Khóa học <1>Cờ Tướng Online</1> từ cơ bản đến nâng cao",
+      "intro": "Hệ thống bài giảng <2>học cờ tướng</2> được thiết kế khoa học, giúp bạn nắm vững từ luật chơi, cách đi quân đến các kỹ thuật <2>sát pháp</2> và <2>tàn cuộc</2> kinh điển. Đây là nơi lý tưởng để kỳ thủ mọi trình độ rèn luyện kỳ nghệ mỗi ngày.",
+      "whyTitle": "Tại sao cần luyện tập sát chiêu & tàn cuộc?",
+      "whyIntro": "Trong cờ tướng, khả năng phối hợp quân dứt điểm (sát chiêu) và kỹ thuật xử lý hình cờ tàn là hai yếu tố quyết định thắng bại. Hệ thống bài tập tại <0>cotuong.xyz</0> được biên soạn khoa học giúp bạn:",
+      "item1": {
+        "title": "Tư duy sát thủ",
+        "desc": "Nhận diện nhanh các hình cờ sát cục kinh điển (Mã hậu pháo, Thiên địa pháo...)."
+      },
+      "item2": {
+        "title": "Kỹ thuật tàn cuộc",
+        "desc": "Làm chủ các đòn đơn xe thắng mã sĩ tượng, pháo sĩ thắng tượng... Những bài học xương máu của mọi danh thủ."
+      },
+      "item3": {
+        "title": "Thực hành với AI",
+        "desc": "Mọi thế cờ đều tích hợp Engine Pikafish để bạn có thể thử sức với máy ngay lập tức."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "Đánh <1>Cờ Tướng Online</1> - Kỳ Đài Giao Lưu",
+    "subtitle": "Theo dõi và học hỏi từ hàng ngàn ván đấu trực tuyến",
+    "meta": {
+      "title": "Chơi Cờ Tướng Online Miễn Phí - Kỳ Đài Giao Lưu & Xem Ván Đấu",
+      "description": "Chơi cờ tướng online miễn phí tại cotuong.xyz. Tham gia kỳ đài giao lưu sôi động, xem trực tiếp các ván đấu đỉnh cao, giải cờ thế và luyện cờ tướng với máy AI Pikafish mạnh nhất."
+    },
+    "tabs": {
+      "live": "🔥 Đang diễn ra",
+      "open": "⏳ Đang chờ",
+      "finished": "🏁 Đã kết thúc",
+      "all": "🌍 Tất cả"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ Tất cả chế độ",
+        "blitz": "Blitz",
+        "rapid": "Rapid",
+        "standard": "Standard"
+      },
+      "sort": {
+        "newest": "🕒 Mới nhất",
+        "popular": "🔥 Thích nhiều",
+        "spectators": "👁 Xem nhiều"
+      },
+      "timeRange": {
+        "all": "📅 Mọi lúc",
+        "day": "Hôm nay",
+        "week": "Tuần này",
+        "month": "Tháng này"
+      },
+      "red": "Đỏ",
+      "black": "Đen"
+    },
+    "empty": {
+      "searching": "Đang tìm kiếm trận đấu...",
+      "noGames": "Không có ván đấu nào",
+      "noResults": "Không tìm thấy ván đấu nào khớp với yêu cầu của bạn. Hãy thử đổi bộ lọc.",
+      "clear": "Xóa bộ lọc"
+    },
+    "card": {
+      "puzzle": "Cờ Thế",
+      "waiting": "Đang chờ",
+      "watch": "Dõi theo",
+      "participate": "Tham dự",
+      "loadMore": "Khám phá ván cũ hơn ↓"
+    },
+    "seoContent": {
+      "title": "Hệ thống kỳ đài <0>cờ tướng online</0> lớn nhất",
+      "intro": "Chào mừng bạn đến với chuyên mục <0>Kỳ Đài Giao Lưu</0> tại cotuong.xyz. Đây là nơi tập trung hàng ngàn ván <1>đánh cờ tướng online</1> kịch tính giữa các kỳ thủ từ khắp mọi nơi. Bạn có thể <2>xem cờ tướng trực tuyến</2> và học hỏi các <3>bố cục cờ tướng</3> hiện đại nhất trên <4>bàn cờ tướng</4> tiêu chuẩn quốc tế.",
+      "item1": {
+        "title": "Biên bản cờ tướng trực quan",
+        "desc": "Mọi ván đấu sau khi kết thúc đều được lưu trữ dưới dạng <0>biên bản cờ tướng</0> chi tiết. Bạn có thể xem lại từng nước đi, phân tích sai lầm và tìm ra các điểm sáng trong tư duy của các cao thủ khi <1>chơi cờ tướng online</1> tại đây."
+      },
+      "item2": {
+        "title": "Cộng đồng kỳ đài online sôi động",
+        "desc": "Hãy tham gia thảo luận, bình luận và thả tim cho những ván đấu hay. <0>Cờ tướng online</0> không chỉ là thắng thua, mà còn là nơi giao lưu, chia sẻ kinh nghiệm và niềm đam mê với nghệ thuật 64 ô cờ. Đây là môi trường lý tưởng để <1>đánh cờ tướng</1> và nâng cao kỳ nghệ mỗi ngày."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "Thảo luận thế cờ",
+    "titleTournament": "Thảo luận giải đấu",
+    "titleDefault": "Bình luận",
+    "placeholderPuzzle": "Gợi ý cách giải hoặc đặt câu hỏi...",
+    "placeholderDefault": "Viết bình luận...",
+    "emptyStateFirst": "Chưa có bình luận nào.",
+    "emptyStateSecond": "Hãy là người đầu tiên chia sẻ cảm nghĩ của bạn!",
+    "loginPrompt": "Bạn cần <0>Đăng nhập</0> để tham gia thảo luận.",
+    "sending": "...",
+    "deleteTooltip": "Xoá bình luận (Admin)",
+    "deleteTitle": "Xoá bình luận?",
+    "deleteMsg": "Bạn có chắc chắn muốn xóa bình luận này không? Hành động này không thể hoàn tác.",
+    "deleteAction": "XOÁ NGAY",
+    "errorTitle": "Bình luận không hợp lệ",
+    "errorNoLinks": "Bình luận không được chứa liên kết.",
+    "errorRateLimitTitle": "Gửi quá nhanh",
+    "errorRateLimit": "Bạn đang gửi quá nhanh. Thử lại sau 1 phút.",
+    "redPlayer": "🔴 ĐỎ",
+    "blackPlayer": "⚫ ĐEN",
+    "reltime": {
+      "justNow": "vừa xong",
+      "minutes": "{{count}} phút trước",
+      "hours": "{{count}} giờ trước"
+    }
+  },
+  "admin": {
+    "title": "Bảng Quản Trị",
+    "checkingPermissions": "Đang kiểm tra quyền...",
+    "noPermission": "⚠️ Bạn không có quyền quản trị.",
+    "syncingData": "Đang đồng bộ dữ liệu hệ thống...",
+    "searchPlaceholder": "Tìm kiếm thông tin...",
+    "sidebar": {
+      "dashboard": "Tổng Quan (AI)",
+      "users": "Người Dùng",
+      "matches": "Phòng Chơi",
+      "puzzles": "Thế Cờ",
+      "tournaments": "Giải Đấu",
+      "bots": "Quản Lý Bot",
+      "comments": "Bình Luận",
+      "practice": "Bài Học",
+      "shop": "Cửa Hàng",
+      "analytics": "Phân Tích (Google)",
+      "ai": "Trình Tạo AI",
+      "push": "Thông Báo Push",
+      "social": "Mạng Xã Hội",
+      "cache": "Cache (Redis)",
+      "server": "Hệ Thống (Logs)",
+      "settings": "Cấu Hình"
+    },
+    "push": {
+      "errorInput": "Vui lòng nhập tiêu đề và nội dung",
+      "errorUid": "Vui lòng nhập UID người nhận",
+      "errorSystem": "Lỗi hệ thống khi gửi"
+    },
+    "ai": {
+      "enterElo": "Nhập ELO mới:",
+      "invalidNumber": "Số không hợp lệ"
+    },
+    "cache": {
+      "cleared": "Đã xóa toàn bộ cache!"
+    },
+    "social": {
+      "title": "Quản Lý Mạng Xã Hội",
+      "postTitle": "Tạo bài đăng mới",
+      "platforms": "Nền tảng mục tiêu",
+      "placeholder": "Nhập nội dung bài đăng tại đây...",
+      "aiHelp": "Tối ưu bằng AI ✨",
+      "preview": "Xem trước bài đăng",
+      "schedule": "Hẹn giờ đăng",
+      "postNow": "🚀 Đăng ngay",
+      "history": "Lịch sử bài đăng",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Đã đăng",
+        "scheduled": "Đã lên lịch",
+        "failed": "Thất bại",
+        "processing": "Đang xử lý"
+      }
+    }
+  }
+}

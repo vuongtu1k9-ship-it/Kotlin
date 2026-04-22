@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "errorBoundaryTitle": "⚠️ 界面發生錯誤",
+    "errorBoundaryReload": "重新載入頁面",
+    "cellAriaLabel": "格子 {{coord}}",
+    "cellAriaLabelOccupied": "格子 {{coord}} - 有棋子",
+    "back": "返回",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "viewAll": "查看全部 →",
+    "backToLobby": "回到大廳",
+    "search": "搜尋",
+    "reset": "重置",
+    "login": "登入",
+    "you": "你",
+    "close": "關閉",
+    "agree": "同意",
+    "refresh": "重新整理",
+    "coins": "金幣",
+    "gold": "金幣",
+    "saveSuccess": "儲存成功！",
+    "sides": {
+      "red": "紅方",
+      "black": "黑方"
+    },
+    "challenge": "發起挑戰",
+    "send": "發送",
+    "reject": "拒絕",
+    "finished": "結束",
+    "play": "對弈中",
+    "pieces": {
+      "general": "將（帥）",
+      "advisor": "士 (仕)",
+      "elephant": "象 (相)",
+      "horse": "馬",
+      "chariot": "車",
+      "cannon": "炮",
+      "soldier": "卒 (兵)"
+    },
+    "offline": "離線",
+    "draw": "和",
+    "room": "房間",
+    "and": "和",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "線上",
+    "waiting": "等待中"
+  },
+  "siteSeo": {
+    "defaultTitle": "象棋在線 - 免費暢玩高水平對局",
+    "defaultDescription": "免費在線象棋平台，界面精美、寧靜、流暢。在線對戰或挑戰 AI 引擎。",
+    "siteName": "象棋在線",
+    "titleSuffix": " | 象棋在線"
+  },
+  "navbar": {
+    "brand": "中國象棋",
+    "online": "線上",
+    "home": "首頁",
+    "puzzles": "殘局",
+    "setup": "打譜",
+    "ai": "人機訓練",
+    "tournaments": "比賽",
+    "practice": "練習",
+    "howToPlay": "玩法",
+    "players": "棋手",
+    "leaderboard": "排行榜",
+    "shop": "商店",
+    "logout": "登出",
+    "profile": "個人資料",
+    "settings": "設定",
+    "status": "狀態",
+    "userMenu": "使用者選單",
+    "guestName": "遊客",
+    "playerType": "象棋玩家",
+    "coins": "金幣",
+    "rank": "段位",
+    "welcome": "歡迎！",
+    "loginToEarn": "登入以賺取獎勵並參與排名",
+    "googleMaintenance": "Google 登入維護中",
+    "useEmail": "使用信箱",
+    "playAsGuest": "以遊客身分進入？",
+    "statuses": {
+      "online": "線上",
+      "busy": "忙碌",
+      "invisible": "隱身",
+      "free": "空閒",
+      "offline": "離線"
+    },
+    "openMenu": "打開選單",
+    "closeMenu": "關閉選單",
+    "menu": "選單",
+    "navigation": "導航",
+    "activeGameAlert": "您在對局中!",
+    "returnToBoard": "立即返回棋盤",
+    "back": "返回",
+    "loginWithGoogle": "使用 Google 登入"
+  },
+  "site": {
+    "maintenanceModeTitle": "系統維護中",
+    "maintenanceMessageDefault": "我們正在升級系統以提供最佳體驗。請稍後再回來。",
+    "announcementLabel": "公告"
+  },
+  "ranks": {
+    "novice": "入門",
+    "amateur": "業餘",
+    "intermediate": "中級",
+    "expert": "高級",
+    "master": "大師",
+    "internationalMaster": "國際大師",
+    "grandmaster": "特級大師",
+    "player": "棋手"
+  },
+  "chat": {
+    "title": "聊天",
+    "new_message": "新消息",
+    "followed_you": "關注了你！",
+    "view_profile": "查看資料",
+    "challenge_accepted": "挑戰已接受！",
+    "go_to_play": "進入對局",
+    "is_online": "已上線。",
+    "entered_room": "進入了",
+    "open_chat": "打開聊天",
+    "close_chat": "關閉聊天",
+    "disable_global_notifs": "關閉公共通知",
+    "enable_global_notifs": "開啟公共通知",
+    "disable_notifs": "關閉通知",
+    "enable_notifs": "開啟通知",
+    "disable_autoscroll": "關閉自動滾動",
+    "enable_autoscroll": "開啟自動滾動",
+    "tabs": {
+      "global": "公共",
+      "private": "私聊"
+    },
+    "to_prefix": "致: ",
+    "is_online_label": "在線",
+    "onlinePlayersHeader": "在線玩家",
+    "history": "聊天記錄 ({{count}})",
+    "labelGlobal": "全服",
+    "labelRoom": "房間 {{id}}",
+    "labelPrivate": "私聊: {{name}}",
+    "followed_you_message": "關注了你！",
+    "noMessages": "(暫無訊息)",
+    "noMessagesWelcome": "暫無訊息。快來開始聊天吧！",
+    "player": "棋手",
+    "guestPlaceholder": "請登入後聊天",
+    "placeholder": "發送訊息...",
+    "followed": "👤 您已關注對手",
+    "wasFollowed": "🎉 對手關注了您"
+  },
+  "auth": {
+    "registerTitle": "創建賬號",
+    "loginSubtitle": "登錄領取獎勵",
+    "registerSubtitle": "加入最大的象棋社區",
+    "loginWithGoogle": "使用 Google 登錄",
+    "orEmail": "或使用郵箱",
+    "emailLabel": "郵箱",
+    "displayNameLabel": "暱稱 (可選)",
+    "passwordLabel": "密碼",
+    "termsAgreementPrefix": "我已閱讀並同意 ",
+    "termsLink": "使用協議",
+    "privacyLink": "隱私政策",
+    "termsAgreementSuffix": "。",
+    "termsError": "您必須同意用戶協議和隱私政策。",
+    "processing": "正在處理…",
+    "haveAccount": "已有賬號？立即登錄",
+    "noAccount": "註冊賬號",
+    "backToLobby": "返回大廳",
+    "loginPrompt": "您需要 <0>登錄</0> 後才能參與討論",
+    "passwordsNotMatch": "確認密碼不匹配",
+    "passwordTooShort": "密碼至少需要 6 個字元",
+    "invalidOldPassword": "舊密碼不正確"
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> 是象棋在線社區的活躍棋手。憑藉 <1>{{rank}}</1> ({{elo}} Elo) 的實力，{{name}} 參與了 <2>{{count}}</2> 場激烈的對局。目前該棋手擁有 <3>{{followers}}</3> 名關注者，是平台排位系統的重要組成部分。",
+    "social": {
+      "followers": "粉絲",
+      "following": "關注",
+      "empty": "列表為空"
+    },
+    "sections": {
+      "medals": "榮譽獎項",
+      "noMedals": "尚無榮譽",
+      "inventory": "個人資產",
+      "noItems": "尚無道具",
+      "puzzles": "原創殘局",
+      "noPuzzles": "尚無原創殘局",
+      "solved": "已解開的殘局",
+      "noSolved": "尚未解開任何殘局",
+      "history": "對局歷史",
+      "viewGame": "查看對局 📺"
+    },
+    "gifts": {
+      "title": "贈送禮物給大師",
+      "loading": "加載禮物中...",
+      "empty": "行囊空空",
+      "sending": "贈送中...",
+      "confirm": "確認贈送",
+      "loginPrivate": "登入後發消息。",
+      "loginChallenge": "登入後發起挑戰。"
+    },
+    "bioTitle": "棋手簡介",
+    "game": {
+      "active": "進行中",
+      "redWin": "紅方勝",
+      "blackWin": "黑方勝",
+      "moves": "{{count}} 步"
+    },
+    "notFound": "未找到棋手",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "創建對局",
+    "playWithAi": "人機對戰",
+    "findMatch": "尋找對手",
+    "headerTitle": "人機<0>實戰</0> & 破解殘局",
+    "headerSubtitle": "領先的象棋競技與排局平台",
+    "waiting": "尋找對手中...",
+    "noRooms": "當前沒有等待中的房間。",
+    "activeGameTitle": "你有一場未完成的對局!",
+    "activeGameSubtitle": "請返回繼續與對手對局",
+    "returnToGame": "返回對局",
+    "roomList": "對局列表",
+    "roomListSubtitle": "進行中與歷史對局",
+    "noRoomsFiltered": "沒有符合過濾條件的對局。",
+    "onlinePlayers": "線上棋手",
+    "onlinePlayersCount": "{{count}} 人線上",
+    "loginToChat": "請登入後聊天。",
+    "loginToChallenge": "請登入後發起挑戰。",
+    "chatAction": "聊天",
+    "challengeAction": "邀請",
+    "tabs": {
+      "live": "進行中",
+      "open": "等待中",
+      "finished": "已結束",
+      "all": "全部"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "最新殘局",
+        "subtitle": "探索社區發佈的戰術殘局",
+        "puzzleType": "殘局",
+        "unnamed": "未命名的殘局",
+        "levelPrefix": "{{level}} 級",
+        "normalLevel": "普通",
+        "solve": "破解"
+      },
+      "features": {
+        "title": "為什麼選擇象棋線上?",
+        "premium": {
+          "title": "⚡ 免費的高級體驗",
+          "desc": "平台針對速度和寧靜進行了優化。您可以<0>線上打譜</0>並進行遊戲，不受廣告或干擾。"
+        },
+        "ai": {
+          "title": "🤖 挑戰 AI (皮卡魚 AI)",
+          "desc": "挑戰使用世界最強皮卡魚引擎的<0>人機對戰</0>。從初學者 1 級到挑戰國際大師的 10 級。"
+        },
+        "data": {
+          "title": "🧩 海量殘局庫",
+          "desc": "<0>破解象棋殘局</0>練習系統持續更新，幫助您每天訓練戰術思維和殘局技巧。"
+        }
+      },
+      "guide": {
+        "title": "象棋線上遊戲指南",
+        "intro": "在 <0>cotuong.xyz</0> 開始您的旅程，只需 3 個簡單步驟:",
+        "step1": {
+          "title": "註冊帳號:",
+          "desc": "保存對局歷史和 Elo 評分。"
+        },
+        "step2": {
+          "title": "尋找對手:",
+          "desc": "直接從棋手列表邀請或創建新房間。"
+        },
+        "step3": {
+          "title": "練習:",
+          "desc": "使用<0>學習</0>板塊掌握基礎殺法。"
+        },
+        "note": "* 此處的 Elo 系統根據對手實力計算，確保線上社區的公平性和高競爭性。"
+      },
+      "faq": {
+        "title": "常見問題 (FAQ)",
+        "q1": {
+          "q": "Q: 在這裡線上玩象棋是免費的嗎?",
+          "a": "A: 完全免費。從殘局、人機到賽事的所有功能均不收費。"
+        },
+        "q2": {
+          "q": "Q: 如何邀請朋友一起玩?",
+          "a": "A: 點擊“設置對局”並創建房間後，只需複製該對局頁面的 URL 並發送給您的朋友。"
+        },
+        "q3": {
+          "q": "Q: 我可以回看我玩過的對局嗎?",
+          "a": "A: 可以。您所有的對局都保存在個人資料頁面的“歷史”中，您可以隨時回看和分析棋譜。"
+        },
+        "q4": {
+          "q": "Q: 為什麼我不能移動棋子?",
+          "a": "A: 請檢查是否輪到您走棋（棋盤下方有走棋指示器）或者您的互聯網連接是否穩定。"
+        }
+      },
+      "meta": {
+        "title": "象棋線上 - 人機實戰、破解殘局、線上對弈",
+        "description": "高級象棋線上平台：與最強皮卡魚 AI 實戰，破解數千個戰術殘局，免費線上對弈。"
+      },
+      "schema": {
+        "siteName": "象棋線上",
+        "siteDesc": "免費的象棋殘局破解、打譜和 AI 訓練平台。",
+        "q1": {
+          "name": "如何與朋友線上玩象棋?",
+          "text": "點擊“設置對局”並將房間鏈接發送給您的朋友。"
+        },
+        "q2": {
+          "name": "cotuong.xyz 的象棋 AI 強嗎?",
+          "text": "使用從初學者到大師級最強的皮卡魚引擎。"
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "最新象棋規則 - 象棋基礎教程",
+      "description": "最新象棋規則：象棋基礎教程，車馬炮將士象卒的走法及禁規。"
+    },
+    "title": "象棋玩法",
+    "subtitle": "學習基礎規則和棋子走法",
+    "intro": "象棋是中國的一種戰術性二人博弈。最終目標是殺（Checkmate）或者擒獲對方的<0>將（帥）</0>。",
+    "intro_p1": "象棋是中國的一種戰術性二人博弈。最終目標是殺或者擒獲對方的",
+    "intro_p3": "。",
+    "section1": {
+      "title": "1. 棋盤與區域",
+      "river": {
+        "label": "河界 (河):",
+        "desc": "位於棋盤中間，將棋盤分為兩部分。某些棋子（如象）不能過河。"
+      },
+      "palace": {
+        "label": "九宮 (宮):",
+        "desc": "兩端各有 3x3 帶有對角線的正方形。將（帥）和士（仕）只允許在此區域內移動。"
+      },
+      "boardDesc": "棋盤由 10 條橫線和 9 條縱線組成，棋子置於交叉點上。",
+      "openingTitle": "基礎開局"
+    },
+    "section2": {
+      "title": "2. 棋子走法",
+      "pieces": {
+        "general": {
+          "desc": "每步橫走或豎走一格。不能走出九宮。",
+          "action": "→ 練習步法",
+          "name": "將（帥）"
+        },
+        "advisor": {
+          "desc": "每步沿對角線走一格。不能走出九宮。",
+          "action": "→ 練習步法",
+          "name": "士 (仕)"
+        },
+        "elephant": {
+          "desc": "每步沿對角線走兩格（田字格）。不能過河。若正中有棋子（塞象眼）則不能走。",
+          "action": "→ 練習步法",
+          "name": "象 (相)"
+        },
+        "horse": {
+          "desc": "走“日”字。若行進方向被棋子擋住（憋馬腿）則不能走。",
+          "action": "→ 練習步法",
+          "name": "馬"
+        },
+        "chariot": {
+          "desc": "橫走或豎走，格數不限，只要沒有中間障礙。",
+          "action": "→ 練習步法",
+          "name": "車"
+        },
+        "cannon": {
+          "desc": "走法同車。吃子時中間必須隔正好一個棋子（炮架）。",
+          "action": "→ 練習步法",
+          "name": "炮"
+        },
+        "soldier": {
+          "desc": "過河前每步向前走一格。過河後可前移或橫移一格。",
+          "action": "→ 練習步法",
+          "name": "卒 (兵)"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. 紅黑雙方的標記差異",
+      "intro": "雖然對稱的棋子在價值和走法上完全相同，但表面刻著的漢字通常不同，以區分“我方”（紅）和“敵方”（黑）。",
+      "table": {
+        "type": "棋子類型",
+        "red": "紅方棋子 (漢)",
+        "black": "黑方棋子 (楚)",
+        "meaning": "含義"
+      },
+      "meanings": {
+        "general": "紅: 帥 (元帥) / 黑: 將 (將軍)",
+        "advisor": "紅: 仕 (謀士) / 黑: 士 (衛士)",
+        "elephant": "紅: 相 (宰相) / 黑: 象 (大象)",
+        "horse": "紅: 傌 (戰馬) / 黑: 馬 (馬)",
+        "cannon": "紅: 炮 (火炮) / 黑: 砲 (投石機)",
+        "soldier": "紅: 兵 (正規軍) / 黑: 卒 (地方軍)",
+        "chariot": "紅黑相同: 車"
+      },
+      "why": {
+        "title": "為什麼不同?",
+        "desc": "這源於模擬楚漢戰爭。劉邦（漢 - 紅）代表朝廷，項羽（楚 - 黑）代表實際軍力。不同的字符也有助於棋手在擺陣時輕鬆區分棋子。"
+      },
+      "elephantExample": {
+        "title": "相/象 示例",
+        "desc": "這一對最容易混淆。紅方是 <0>相 (宰相)</0>，黑方是 <1>象 (大象)</1>。兩者都不能過河，因為它們是防禦性的保護者。",
+        "desc_p1": "這一對最容易混淆。紅方是",
+        "desc_p2": "相 (宰相)",
+        "desc_p3": "，黑方是",
+        "desc_p4": "象 (大象)",
+        "desc_p5": "。兩者都不能過河，因為它們是防禦性的保護者。"
+      }
+    },
+    "section4": {
+      "title": "4. 棋子價值 (參考)",
+      "table": {
+        "piece": "棋子",
+        "score": "分值",
+        "stage": "最強階段"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "車",
+          "power": "所有階段最強"
+        },
+        "cannon": {
+          "name": "炮",
+          "power": "開局和中局極強"
+        },
+        "horse": {
+          "name": "馬",
+          "power": "中殘局發揮最大潛力"
+        },
+        "soldier": {
+          "name": "卒 (兵)",
+          "power": "過河卒價值在殘局倍增"
+        },
+        "defense": {
+          "name": "士 / 相",
+          "power": "不可或缺的防守牆"
+        },
+        "general": {
+          "name": "將（帥）"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. 特殊規則與禁例",
+      "rules": {
+        "kingFace": {
+          "label": "王見王 (明將):",
+          "desc": "將帥不能在同一縱線上直接對面，中間必須有棋子。"
+        },
+        "check": {
+          "label": "將軍:",
+          "desc": "一方棋子攻擊對方的將帥。"
+        },
+        "mate": {
+          "label": "殺 (殺局):",
+          "desc": "將帥被將軍且無法逃脫。"
+        }
+      }
+    },
+    "section6": {
+      "title": "6. 高級戰術",
+      "phases": {
+        "opening": {
+          "title": "⚔️ 開局階段",
+          "quote": "“車路要通，馬路要活，炮要靈活”",
+          "desc": "優先將主力棋子（車、炮、馬）部署到開闊位置。常用開局：當頭炮對屏風馬、順炮、列炮。"
+        },
+        "midgame": {
+          "title": "🛡️ 中局階段",
+          "desc": "戰鬥爆發的時間。重點是協調棋子向對方將領施壓或吃子。注意防守關鍵縱線 (4, 5, 6)。"
+        },
+        "endgame": {
+          "title": "🔚 殘局階段",
+          "desc": "棋子變少後，馬的靈活性和過河卒的力量至關重要。掌握基礎殺法以終結比賽。"
+        },
+        "tactics": {
+          "title": "🔥 殺法戰術",
+          "maHauPhao": "馬後炮：以馬為炮架將軍。",
+          "thienDiaPhao": "天地炮：使用兩尊大炮控制橫線和縱線。",
+          "daiDamXa": "大膽穿心：車直插九宮正中。"
+        }
+      }
+    },
+    "section7": {
+      "title": "7. 常見問題：禁規 (FAQ)",
+      "faqs": {
+        "f1": {
+          "q": "Q: 允許長將嗎?",
+          "a": "A: 不允許。現代規則中，不能連續將軍（重複狀態）超過 3 次。違規將被判負。"
+        },
+        "f2": {
+          "q": "Q: 將帥可以走出九宮嗎?",
+          "a": "A: 絕對不行。將帥和士受九宮限制。"
+        },
+        "f3": {
+          "q": "Q: 何時判和?",
+          "a": "A: 以下情況判和：<1 />1. <0>60步規則：</0> 雙方連續 60 步沒有吃子。吃子後重置。<2 />2. <0>提和：</0> 雙方同意和棋。<3 />3. <0>長搬 (非長將)：</0> 三次重複狀態。<4 />4. <0>技術性和：</0> 雙方都沒有足夠力量殺局。",
+          "a_intro": "以下情況判和：",
+          "a_item1_title": "60步規則：",
+          "a_item1_desc": "雙方連續 60 步沒有吃子。吃子後重置。",
+          "a_item2_title": "提和：",
+          "a_item2_desc": "雙方同意和棋。",
+          "a_item3_title": "長搬 (非長將)：",
+          "a_item3_desc": "三次重複狀態。",
+          "a_item4_title": "技術性和：",
+          "a_item4_desc": "雙方都沒有足夠力量殺局。"
+        },
+        "f4": {
+          "q": "Q: 超時會被判負嗎?",
+          "a": "A: 會。當限定時間用盡，該方立即判負，不論局面優勢。",
+          "a_p1": "A: 會。當限定時間用盡，該方立即",
+          "a_p2": "判負",
+          "a_p3": "，不論局面優勢。"
+        }
+      },
+      "practiceAction": "🔥 立即進入練習"
+    },
+    "history": {
+      "title": "象棋簡史",
+      "p1": "象棋演變自古印度的 <0>Saturanga</0>，傳入中國後得到重大改進。帶河界和九宮的棋盤模擬了劉邦與項羽之間的 <1>楚漢相爭</1>。",
+      "p2": "數千年來，它已成為東亞的文化基石。在中國、越南等地隨處可見。",
+      "p3": "今天，在 <0>cotuong.xyz</0> 線上玩，連接了數百萬棋迷，隨時隨地分享激情並訓練思維。"
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "人機對戰",
+    "labelWithId": "房間 {{id}}",
+    "ready": "就緒",
+    "finished": "對局結束",
+    "waitingPlayer": "等待中",
+    "join": "下棋",
+    "copyLinkSuccess": "房間連結已複製！",
+    "inviteBtn": "邀請好友",
+    "role": "角色",
+    "turn": "回合",
+    "spectatorsShort": "觀戰",
+    "noSpectators": "暫無"
+  },
+  "game": {
+    "sides": {
+      "red": "紅",
+      "black": "黑"
+    },
+    "timeModes": {
+      "blitz": "超快棋 (Blitz)",
+      "rapid": "快棋 (Rapid)",
+      "standard": "標準 (Standard)",
+      "slow": "慢棋 (Slow)",
+      "gridLabel": "時間模式"
+    },
+    "timeModeSub": {
+      "blitz": "3分",
+      "rapid": "10分",
+      "standard": "20分",
+      "slow": "45分"
+    },
+    "status": {
+      "redWin": "紅方勝",
+      "blackWin": "黑方勝",
+      "draw": "和棋",
+      "ongoing": "對局進行中",
+      "check": "將軍!",
+      "startPrompt_red": "輪到你了 - 請走第一步以開始",
+      "startPrompt_black": "等待紅方走第一步...",
+      "waitingForPlayers": "等待對局開始..."
+    },
+    "actions": {
+      "draw": "提和",
+      "resign": "認輸",
+      "swap": "換位",
+      "leave": "離開",
+      "publish": "發佈",
+      "undo": "悔棋",
+      "newGame": "新對局"
+    },
+    "confirm": {
+      "drawTitle": "提和",
+      "drawMsg": "向對手發送和棋請求?",
+      "resignTitle": "認輸",
+      "resignMsg": "確定要認輸嗎?",
+      "leaveTitle": "離開並認輸",
+      "leaveMsg": "對局進行中。現在離開將被判負。繼續?",
+      "loginTitle": "需要登入",
+      "loginMsg": "請登入後保存對局到收藏夾。",
+      "leaveMsg_casual": "您確定要離開嗎？",
+      "leaveMsg_spectator": "您確定要停止觀戰嗎？",
+      "undoMsg": "對手請求悔棋。同意嗎？"
+    },
+    "modals": {
+      "swapTitle": "換位提議",
+      "swapMessage": "對手想和你換位。你同意嗎?",
+      "drawTitle": "和棋提議",
+      "drawMessage": "對手提議和棋。你接受嗎?",
+      "accept": "接受"
+    },
+    "comments": "對局評論",
+    "private": "私人對局",
+    "publishDesc": "發佈您的對局",
+    "viewDetails": "查看對局詳情",
+    "notFoundTitle": "遺蹟區",
+    "notFoundDesc": "對局 #{{id}} 不存在或已被刪除。",
+    "redSide": "紅方",
+    "blackSide": "黑方",
+    "sideBlack": "執黑",
+    "aiPlayer": "AI",
+    "rankGeneric": "棋手",
+    "redPlayerDefault": "紅方棋手",
+    "blackPlayerDefault": "黑方棋手",
+    "roomIdLabel": "房間號: #{{id}}",
+    "active": "對弈中",
+    "moves": "{{count}} 回合",
+    "seo": {
+      "title": {
+        "prefix": "深度分析: ",
+        "videoTitle": "對局視頻: {{title}}"
+      },
+      "intro": "在 <1>線上象棋</1> 對局中，<3>{{red}}</3> 與 <5>{{black}}</5> 之間的激烈博弈展現了雙方戰術的靈活性與深度思考。<7>回看對局</7> 是提升棋藝的絕佳方式。",
+      "comments": {
+        "title": "💡 評論與分析的價值",
+        "desc": "系統支持實時 <1>象棋棋譜</1>，允許您關注每一著走法並參與社區討論。頂尖對局通常包含深刻的 <3>象棋戰術</3>，您可以應用到自己的實戰中。"
+      },
+      "ai": {
+        "title": "🤖 使用 AI 練習",
+        "desc": "如果您想嘗試類似的著法，請使用 <1>人機對戰</1> AI (皮卡魚) 功能來模擬此對局中的困難局面。這是 <3>使用超級 AI 進行訓練</3> 的最有效方法。"
+      },
+      "keywords": "象棋, 線上象棋, {{red}}, {{black}}, 復盤, 線上棋室, 象棋比賽, 象棋戰術, 人機對弈, 象棋AI訓練",
+      "hashtags": [
+        "#中國象棋線上",
+        "#復盤回放",
+        "#人機對弈"
+      ]
+    },
+    "h2h": {
+      "title": "直接交鋒",
+      "analysis": "分析",
+      "matchesCount": "{{count}} 局",
+      "recentMatches": "近期對局",
+      "collectingData": "正在搜集交鋒歷史...",
+      "red": "紅",
+      "black": "黑",
+      "youWin": "你勝",
+      "opponentWin": "對手勝"
+    },
+    "panel": {
+      "title": "對局信息",
+      "matchId": "編號: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}}方",
+      "winStatus": "獲得勝利",
+      "drawStatus": "握手言和",
+      "reasons": {
+        "checkmate": "將死",
+        "stalemate": "困斃",
+        "timeout": "超時",
+        "resign": "對手投降",
+        "perpetual": "長打規則",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "標題",
+        "defaultTitle": "對局 #{{id}}",
+        "puzzleOrigin": "創建自殘局",
+        "puzzleTitle": "殘局 #{{id}}",
+        "drawRules": "規則說明",
+        "rule60": "若連續 60 回合雙方均未扣子，判和。",
+        "ruleRepeat": "禁止單一招法連續將軍或追逐對方同一棋子超過 3 次。",
+        "ruleTimeout": "總時間或單步時間耗盡即判負。",
+        "rule60Label": "60回合規則:",
+        "ruleRepeatLabel": "禁例規則:",
+        "ruleTimeoutLabel": "限時規則:",
+        "materialAdvantage": "子力優勢",
+        "drawProgress": "和棋進度",
+        "redAdvantage": "紅方 +{{count}}",
+        "blackAdvantage": "黑方 +{{count}}",
+        "balanced": "子力平衡"
+      },
+      "actions": {
+        "save": "保存",
+        "lobby": "大廳"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "戰勝對方!",
+      "loss": "敗下陣來",
+      "draw": "握手言和!",
+      "finished": "對局結束",
+      "elo": "ELO積分",
+      "reward": "獎勵",
+      "review": "回顧",
+      "share": "分享"
+    },
+    "spectators": {
+      "title": "觀戰者 ({{count}})",
+      "empty": "當前無人觀戰",
+      "label_short": "觀眾",
+      "alt": "觀戰者 {{name}}"
+    },
+    "lobbyTitle": "待戰大廳",
+    "puzzleTag": "殘局",
+    "aiLevels": {
+      "1": "入門",
+      "2": "基礎",
+      "3": "中級",
+      "4": "熟練",
+      "5": "高級",
+      "6": "冠軍",
+      "default": "第 {{level}} 級"
+    },
+    "moveList": {
+      "progress": "對局進度",
+      "first": "首步",
+      "prev": "上一步",
+      "next": "下一步",
+      "last": "末步",
+      "pause": "暫停",
+      "play": "重放",
+      "empty": "尚無著法",
+      "initial": "初始局面",
+      "viewMove": "回顧第 {{index}} 步",
+      "returnToLive": "返回實況"
+    },
+    "export": {
+      "copyFen": "複製 FEN",
+      "copyFenSuccess": "FEN 已複製到剪貼板!",
+      "copyFenError": "複製 FEN 出錯",
+      "exportFile": "導出文件",
+      "saveImage": "保存圖片",
+      "saveImageSuccess": "圖片已保存!",
+      "saveImageError": "保存圖片出錯",
+      "downloadHd": "下載高清圖",
+      "downloadHdSuccess": "高清圖保存成功!",
+      "downloadHdError": "導出高清圖出錯: {{message}}",
+      "cancelInfo": "導出已取消",
+      "noMovesError": "無著法，無法創建視頻",
+      "clientVideo": "視頻 - 網頁版 (WebM)",
+      "clientVideoSuccess": "視頻導出成功!",
+      "clientVideoError": "網頁視頻導出出錯: {{message}}",
+      "serverVideo": "視頻 - 伺服器 (MP4)",
+      "serverVideoSuccess": "下載 {{format}} 成功!",
+      "serverVideoError": "高清導出出錯: {{message}}",
+      "serverTimeout": "伺服器超時。對局過長，請使用“網頁版”",
+      "animatedGif": "GIF 動圖",
+      "size": "尺寸",
+      "ratios": {
+        "horizontal": "橫向",
+        "vertical": "縱向",
+        "square": "正方形",
+        "board": "棋盤"
+      }
+    },
+    "move": "著法",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "紅方已進入房間！",
+    "blackJoined": "黑方已進入房間！",
+    "redLeft": "紅方已離開房間。",
+    "blackLeft": "黑方已離開房間。",
+    "opponentDisconnected": "對手已斷開連接！",
+    "opponentReconnected": "對手已重新連接！",
+    "newSpectator": "有 {{count}} 位新觀眾進入房間",
+    "started": "對局開始！祝你好運。",
+    "drawDeclined": "對手拒絕了和棋請求。",
+    "swapDeclined": "對手拒絕了換位請求。",
+    "swapSuccess": "你已更換到 {{side}}",
+    "resultDraw": "對局結束：和棋",
+    "resultWin": "恭喜你！你贏了！",
+    "resultLoss": "對局結束：你輸了。",
+    "resultOtherWin": "對局結束：{{side}}獲勝！",
+    "errorViewingReplay": "你正在觀看回放。",
+    "backToLive": "返回直播",
+    "errorLoginToPlay": "請登入後對局。",
+    "errorNotYourTurn": "尚未到你的回合。",
+    "errorSpectator": "你是觀戰者。",
+    "engineError": "引擎錯誤: {{error}}",
+    "config": {
+      "titleChallenge": "邀請棋手",
+      "titlePuzzle": "殘局挑戰",
+      "titleNew": "創建新對局",
+      "readyToPlay": "準備下棋",
+      "invitedOpponent": "收到挑戰",
+      "challengeInvite": "{{name}} 向您發起挑戰!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} 拒絕了挑戰。",
+        "wait": "⏳ {{name}} 忙碌中，請稍候!",
+        "accepted": "🎉 挑戰已接受! 準備進入對局。",
+        "canceled": "挑戰已取消。",
+        "sent": "已向 {{name}} 發送挑戰。",
+        "busy": "📭 {{name}} 處於忙碌狀態。挑戰已加入隊列。",
+        "offline": "挑戰者已離線。無法開始對局。"
+      },
+      "ready": {
+        "title": "對局已準備就緒",
+        "desc": "先進入房間的玩家執黑（後走），後進入的玩家執紅。請儘快!",
+        "action": "立即進入",
+        "hide": "隱藏"
+      },
+      "gifts": {
+        "received": "{{name}} 送了您一份禮物!",
+        "coins": "{{name}} 送了您金幣!",
+        "coinsDesc": "您收到了 +{{amount}} 金幣",
+        "candy": "🍬 糖果",
+        "bear": "🧸 泰迪熊",
+        "ring": "💍 鑽石戒指"
+      },
+      "defaultConfigDesc": "對局將以默認配置創建:",
+      "defaultConfigDetails": "標準 (20分), 公開, ELO 計分。",
+      "advancedConfig": "⚙️ 高級配置",
+      "timeMode": "用時模式",
+      "findOpponent": "尋找對手",
+      "selected": "已選擇",
+      "searchPlaceholder": "輸入姓名或 UID...",
+      "online": "線上",
+      "noResults": "未找到...",
+      "select": "選擇",
+      "unselect": "取消選擇",
+      "boardOptions": "棋盤選項",
+      "private": "🔒 私人 (休閒)",
+      "public": "🌐 公開 (ELO 計分)",
+      "boardType": "棋盤類型",
+      "standard": "♟ 標準",
+      "puzzle": "🧩 殘局",
+      "puzzleSetup": "殘局設置",
+      "selectedPuzzle": "已選殘局",
+      "change": "更改",
+      "suggestions": "為您推薦",
+      "searchPuzzlePlaceholder": "搜索殘局名稱...",
+      "level": "級別",
+      "challengeOptions": "挑戰選項",
+      "message": "留言",
+      "defaultMessage": "來局象棋吧!",
+      "betGifts": "禮物賭注",
+      "betActive": "🎁 已投注",
+      "betNone": "🎁 無投注",
+      "giftType": "禮物類型",
+      "backToSimple": "« 返回簡單模式",
+      "goldWarning": "ℹ️ 殘局可能不獎勵金幣",
+      "goldSuccess": "ℹ️ 標準殘局獎勵金幣",
+      "creating": "創建中...",
+      "sendChallenge": "⚔️ 發送挑戰",
+      "openMatch": "🚀 開始公開局",
+      "playNow": "🚀 立即開始",
+      "modes": {
+        "blitz": "⚡ 超快棋",
+        "rapid": "🏃 快棋",
+        "standard": "⏱ 標準",
+        "slow": "🎯 入門"
+      },
+      "toasts": {
+        "loginRequired": "您需要登入才能創建對局。",
+        "challengeSent": "挑戰已發送給 {{name}}!",
+        "roomCreated": "房間創建成功!",
+        "alreadyInGame": "你有一場未完成的對局。",
+        "serverError": "伺服器連接錯誤。"
+      }
+    }
+  },
+  "puzzles": {
+    "title": "殘局<0>破解</0>",
+    "subtitle": "探索並解決海量社區殘局寶庫",
+    "listTitle": "象棋殘局列表",
+    "explore": "探索",
+    "saved": "已收藏",
+    "searchPlaceholder": "按名稱搜索...",
+    "level": "等級",
+    "levelValue": "{{level}} 級",
+    "unclassified": "未分類",
+    "sort": {
+      "label": "排序",
+      "newest": "最新",
+      "popular": "熱門",
+      "solved": "解決最多"
+    },
+    "time": {
+      "label": "時間",
+      "all": "所有時間",
+      "day": "今天",
+      "week": "本周",
+      "month": "本月"
+    },
+    "empty": {
+      "title": "未找到殘局",
+      "desc": "我們找不到符合過濾條件的殘局。",
+      "reset": "重置過濾器"
+    },
+    "actions": {
+      "solve": "立即破解",
+      "loadMore": "探索更多殘局 ↓",
+      "backToSolve": "返回解題"
+    },
+    "loginToSave": "請登入後收藏殘局。",
+    "loginToChallenge": "請登入後發起殘局挑戰。",
+    "red": "紅方",
+    "black": "黑方",
+    "byUser": "由 {{name}} 創建",
+    "meta": {
+      "title": "線上破解象棋殘局 - 最佳殘局寶庫",
+      "description": "探索數千個象棋殘局：開局、殘局、戰術。免費練習殘局破解。",
+      "itemListDesc": "最佳象棋殘局列表",
+      "itemListSchemaDesc": "殘局資料庫，線上高級練習。",
+      "home": "首頁",
+      "puzzles": "殘局",
+      "schemaGameTitle": "象棋殘局: {{name}}",
+      "schemaVideoTitle": "視頻解析: {{name}}",
+      "schemaVideoDesc": "如何破解殘局: {{name}}。查看正確走法。",
+      "schemaVideoSolutionTitle": "視頻解析: {{name}} (解析 {{index}})",
+      "schemaVideoSolutionDesc": "如何破解殘局: {{name}} - 解析 #{{index}}。",
+      "authorDefault": "象棋線上"
+    },
+    "seoContent": {
+      "whyTitle": "為什麼要練習<0>破解殘局</0>?",
+      "intro": "<0>破解殘局（戰術練習）</0>是戰術思維的本質。擺法和練習不僅是娛樂，也是技能提升的必修課。",
+      "guide": {
+        "title": "初學者殘局技巧",
+        "intro": "為了提高<0>殘局破解</0>技巧，請分析以下步驟:",
+        "item1": "<0>評估實力:</0> 檢查剩餘的紅黑棋子。",
+        "item2": "<0>局面分析:</0> 尋找對手弱點，特別是將領位置。",
+        "item3": "<0>著法計算:</0> 預見到殺局或強制著法。"
+      },
+      "ai": {
+        "title": "使用 AI 輔助練習",
+        "intro": "在 <0>cotuong.xyz</0> 使用 AI 輔助:",
+        "item1": "發現肉眼難以察覺的隱蔽走法（深度分析）。",
+        "item2": "通過變著分析理解為什麼某步棋會失敗。",
+        "item3": "訓練準確預見 10-20 步後的能力。"
+      },
+      "benefits": {
+        "title": "下功夫練習殘局的好處",
+        "satt": {
+          "title": "殺法",
+          "desc": "掌握馬後炮、天地炮、大膽穿心等終結技。"
+        },
+        "tanquoc": {
+          "title": "殘局",
+          "desc": "學習在殘局微弱優勢下的微妙配合，特別是兵/卒。"
+        },
+        "tuduy": {
+          "title": "思維",
+          "desc": "在實戰中快速識別模式。"
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "殘局分析:",
+        "defaultName": "經典招法",
+        "intro": "殘局 <1>{{name}}</1> 是典型的 <3>線上殘局訓練</3> 對局。非常有助於學習 <5>如何破解象棋殘局</5>。",
+        "tips": {
+          "title": "💡 小貼士",
+          "desc": "注意進攻棋子。突然的<1>將軍</1>可能是關鍵。"
+        },
+        "advanced": {
+          "title": "📈 提高水平",
+          "desc": "破解後，使用 <1>AI 軟件</1> 查看變著。理解結構並記憶模式。"
+        }
+      },
+      "seoTitle": "破解殘局: {{name}} - 線上象棋殘局",
+      "seoDesc": "線上解決殘局: {{name}}。練習計算和終結技巧。",
+      "rewardFirst": "🏆 太棒了! 您首次破解獲得了 {{count}} 🪙 金幣獎勵。",
+      "rewardUpdate": "恭喜! 著法已更新到排行榜。",
+      "viewingSolution": "正在查看解析",
+      "loadError": "無法加載棋盤數據",
+      "loginRequiredTitle": "需要登入",
+      "loginRequiredMsg": "請登入後執行此操作。",
+      "mission": "任務",
+      "missionDesc": "根據要求尋找獲勝或獲得優勢的方法。",
+      "aiSolver": "AI 解析器",
+      "aiSolverDesc": "開開啟“🤖 AI 解析器”進行自動應答。",
+      "achievement": "成就",
+      "achievementDesc": "首次解出正確得 🪙 金幣獎勵。",
+      "aiServer": "AI 伺服器",
+      "aiServerDesc": "高級別使用皮卡魚伺服器。",
+      "title": "殘局資訊",
+      "backToList": "返回列表",
+      "puzzleNameLabel": "殘局 {{id}}",
+      "firstPlayer": "先手",
+      "redFirst": "🔴 紅先",
+      "blackFirst": "⚫ 黑先",
+      "creator": "創建者",
+      "difficulty": "難度",
+      "relatedGames": "相關對局",
+      "justHappened": "剛剛發生",
+      "saved": "已收藏",
+      "savePuzzle": "收藏殘局",
+      "solverTitle": "殘局解析",
+      "solveMode": "解題模式",
+      "modeAi": "🤖 AI 解析器 (自動)",
+      "modeManual": "👥 自行破解 (關 AI)",
+      "aiLevel": "AI 難度",
+      "sideSelect": "您的陣營",
+      "redSide": "紅方",
+      "blackSide": "黑方",
+      "undo": "撤銷",
+      "restart": "從頭開始",
+      "hallOfFame": "名人堂",
+      "solvedBy": "解出此題的人",
+      "player": "棋手",
+      "movesCount": "{{count}} 著",
+      "view": "查看",
+      "noSolutions": "尚無人解出。\n成為第一人!",
+      "similarPuzzles": "類似殘局",
+      "relatedMatchReports": "相關對局報告"
+    }
+  },
+  "notifications": {
+    "title": "通知",
+    "panelHeader": "消息通知",
+    "clearAll": "清除全部",
+    "empty": "尚無消息。",
+    "viewNow": "立即查看 →",
+    "push": {
+      "prompt": "開啟通知，不錯過任何對局!",
+      "enable": "立即開啟",
+      "saveError": "保存失敗。請稍後再試。",
+      "deniedError": "權限被拒絕。請在流覽器設置中開啟。",
+      "genericError": "開啟通知時出錯。"
+    },
+    "challenges": {
+      "standard": "標準",
+      "puzzle": "殘局",
+      "accepted": "🔥 已接受",
+      "declined": "❌ 已拒絕",
+      "canceled": "⚪ 已取消",
+      "waitOpponent": "⏳ 等待對方...",
+      "waitYou": "⏳ 您正在等待...",
+      "acceptAction": "接受",
+      "waitAction": "等待",
+      "cancelAction": "取消邀請",
+      "deleteAction": "刪除",
+      "inGameTooltip": "你正在對局中"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "無效的殘局",
+      "checkAgain": "請重新檢查",
+      "loginRequired": "請登入後繼續。",
+      "nameRequired": "請輸入殘局名稱。",
+      "descRequired": "請輸入殘局描述。",
+      "twoKings": "殘局必須且只能包含兩名將（帥）。",
+      "faceToFace": "錯誤：將帥不能直接照面（明將）。",
+      "redCheck": "紅帥正被將軍。",
+      "blackCheck": "黑將正被將軍。",
+      "pieceLimit": "{{type}} 數量超過限制（最多 {{limit}} 個）。",
+      "generalPalace": "{{side}}將（帥）必須在九宮內。",
+      "advisorPalace": "{{side}}士（仕）必須在九宮內。",
+      "advisorDiagonal": "{{side}}士（仕）只能放置在九宮的對角線上。",
+      "elephantRiver": "{{side}}象（相）不能過河。",
+      "elephantPoints": "{{side}}象（相）只能放置在固定的本方相/象位。",
+      "redSoldierBackward": "紅兵不能後退。",
+      "redSoldierColumns": "過河前，紅兵只能站在單數線（1, 3, 5, 7, 9）上。",
+      "blackSoldierBackward": "黑卒不能後退。",
+      "blackSoldierColumns": "過河前，黑卒只能站在單數線（1, 3, 5, 7, 9）上。",
+      "saveError": "儲存時出錯",
+      "unknownError": "發生未知錯誤。",
+      "connError": "連線錯誤",
+      "connMsg": "無法連線到伺服器。",
+      "fenError": "FEN 格式錯誤。",
+      "red": "紅方",
+      "black": "黑方",
+      "successLoad": "已載入: {{name}}",
+      "successUpdate": "已更新: {{name}}",
+      "successSave": "已儲存: {{name}}",
+      "successImportFen": "已從 FEN 匯入"
+    },
+    "title": "打譜擺陣",
+    "tryoutTitle": "與 AI 試棋",
+    "tryout": {
+      "modeLabel": "模式:",
+      "modeAi": "🤖 與 AI 對弈",
+      "modeManual": "👥 手動演示 (雙方)",
+      "selectBot": "選擇對手：",
+      "levelLabel": "AI 難度:",
+      "levelOption": "第 {{level}} 級: {{name}} [{{type}}]",
+      "sideLabel": "你的陣營:",
+      "viewLabel": "視角:",
+      "sideRed": "紅方",
+      "sideBlack": "黑方",
+      "backLabel": "返回設置"
+    },
+    "paletteTitle": "棋子調色盤",
+    "palette": {
+      "selecting": "已選:",
+      "erase": "擦除棋子",
+      "clear": "清除全部",
+      "redPrefix": "紅方",
+      "blackPrefix": "黑方"
+    },
+    "fen": {
+      "label": "從 FEN 導入",
+      "placeholder": "輸入 FEN 字符串...",
+      "apply": "應用 FEN"
+    },
+    "historyTitle": "保存的佈局",
+    "history": {
+      "loadAction": "加載",
+      "viewAction": "查看"
+    },
+    "modals": {
+      "duplicateTitle": "佈局已存在",
+      "duplicateMsg": "與 [{{name}}] 相同。",
+      "duplicateAction": "查看佈局",
+      "clearTitle": "清除棋盤?",
+      "clearMsg": "移除所有棋子?"
+    },
+    "rules": {
+      "title": "打譜擺陣規則",
+      "orientation": {
+        "label": "方向:",
+        "desc": "紅方在下，黑方在下。"
+      },
+      "turn": {
+        "label": "走子先後:",
+        "desc": "默認紅先。"
+      },
+      "general": {
+        "label": "將帥:",
+        "desc": "每方 1 枚，必須在九宮內。"
+      },
+      "check": {
+        "label": "禁將軍:",
+        "desc": "起始狀態雙方不能被將軍。"
+      },
+      "facing": {
+        "label": "王見王:",
+        "desc": "將帥不能面對面。"
+      },
+      "defense": {
+        "label": "士/相:",
+        "desc": "各 2 枚。士在九宮，相不過河。"
+      },
+      "soldier": {
+        "label": "兵卒:",
+        "desc": "各 5 枚。不過河兵卒不跨格。"
+      }
+    },
+    "seoTitle": "線上象棋打譜與編輯器",
+    "seoDesc": "線上擺陣、創建殘局並使用 AI 探索。cotuong.xyz 提供的專業工具。",
+    "modeTryout": "試棋模式",
+    "modeEditor": "編輯模式 • 點擊放置",
+    "actionTry": "與 AI 對戰",
+    "actionUndo": "撤銷",
+    "actionReset": "重置",
+    "toast": {
+      "loginSave": "請登入後保存佈局。",
+      "loginChallenge": "請登入後發起挑戰。",
+      "boardCleared": "棋盤已清除。"
+    },
+    "seoContent": {
+      "title": "專業 <0>線上象棋打譜</0> 工具",
+      "intro": "領先的 <0>象棋打譜</0> 和 <1>殘局編輯器</1>。自由 <2>擺設棋盤</2>，創建殺法練習或殘局局面。",
+      "feature1": {
+        "title": "功能強大",
+        "desc": "支持拖放、FEN 輸入、集成 <1>AI 軟體</1> (皮卡魚) 瞬時檢測。"
+      },
+      "feature2": {
+        "title": "分享 passion",
+        "desc": "殘局存儲於資料庫。磨煉思維並貢獻力量。"
+      }
+    },
+    "form": {
+      "guestTitle": "遊客模式",
+      "guestDesc": "登入後可保存和分享。",
+      "nameLabel": "局面名稱:",
+      "namePlaceholder": "輸入名稱...",
+      "levelLabel": "難度級別:",
+      "levelOption": "選擇",
+      "levelValue": "{{level}} 級",
+      "descLabel": "描述:",
+      "descPlaceholder": "...",
+      "saveAction": "保存佈局",
+      "loginSaveAction": "🔐 登入後保存",
+      "importError": "FEN 匯入錯誤:"
+    }
+  },
+  "tournaments": {
+    "title": "在線賽事",
+    "subtitle": "與來自各地的數千名棋手一較高下",
+    "loading": "正在加載賽事列表...",
+    "empty": "目前沒有正在進行的賽事。",
+    "listTitle": "在線象棋賽事列表",
+    "listDesc": "平台上的進行中及即將開始的賽事。",
+    "champion": "冠軍：{{name}}",
+    "players": {
+      "pendingTitle": "申請加入的棋手 ({{count}})",
+      "registeredTitle": "已註冊的棋手 ({{count}})",
+      "empty": "目前無人註冊。",
+      "approve": "批准"
+    },
+    "rounds": "{{count}} 輪",
+    "minElo": "最低 Elo：{{elo}}",
+    "requireApproval": "需要審核",
+    "hasPrizes": "有獎金",
+    "deadline": "報名截止：",
+    "createdAt": "創建日期：",
+    "noDescription": "暫無描述。",
+    "status": {
+      "registration": "報名中",
+      "active": "進行中",
+      "deadline_closed": "報名截止",
+      "finished": "已結束"
+    },
+    "backToList": "返回列表",
+    "noDescriptionDetail": "此賽事暫無詳細描述。",
+    "currentRound": "輪次: {{current}}/{{total}}",
+    "playersCount": "參賽者: {{current}}/{{total}}",
+    "registrationInfo": "註冊資訊",
+    "start": "開始",
+    "closed": "已關閉",
+    "joinAction": "立即註冊",
+    "joining": "正在註冊...",
+    "joined": "已註冊",
+    "pendingApproval": "等待批准中",
+    "formats": {
+      "swiss": "瑞士輪 (Swiss)",
+      "roundrobin": "循環赛"
+    },
+    "timeline": {
+      "emptyAdmin": "尚無對局資料。請創建第一輪！",
+      "emptyUser": "對局資料正在更新中...",
+      "roundLabel": "第 {{round}} 輪",
+      "status": {
+        "active": "進行中"
+      },
+      "actions": {
+        "review": "回顧",
+        "play": "立即對局",
+        "watch": "觀戰"
+      },
+      "sides": {
+        "red": "紅方",
+        "black": "黑方"
+      }
+    },
+    "standings": {
+      "empty": "目前尚無排名數據。",
+      "stats": {
+        "win": " 勝",
+        "draw": " 和",
+        "loss": " 負",
+        "bye": " 輪空"
+      }
+    },
+    "prizes": {
+      "title": "獎勵結構",
+      "goldUnit": "黃金"
+    },
+    "announcements": {
+      "placeholder": "輸入公告內容...",
+      "postAction": "發佈公告",
+      "empty": "此賽事目前無新公告。"
+    },
+    "detail": {
+      "notFound": "找不到該賽事。",
+      "champion": {
+        "title": "總冠軍",
+        "points": "分",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "註冊報名",
+        "joined": "已報名",
+        "pending": "審核中",
+        "createRound": "創建第 {{round}} 輪",
+        "finishTournament": "結束賽事"
+      },
+      "tabs": {
+        "timeline": "賽程",
+        "standings": "積分榜",
+        "players": "參賽棋手",
+        "prizes": "獎勵",
+        "announcements": "賽事公告"
+      },
+      "meta": {
+        "title": "{{name}} | 象棋在線",
+        "description": "{{name}} 賽事的詳細資訊、賽程進度及排名。"
+      },
+      "messages": {
+        "joinSuccess": "✅ 報名成功！",
+        "joinPending": "✅ 申請已發送，請等待管理員審核。",
+        "roundStarted": "✅ 第 {{round}} 輪已創建 — 包含 {{count}} 場對局{{bye}}",
+        "bye": " ({{name}} 輪空直接晉級)",
+        "tournamentFinished": "🏆 賽事圓滿結束！總冠軍: {{name}}",
+        "confirmFinish": "確定要結束比賽並公佈總冠軍嗎？",
+        "confirm": "確認結束"
+      },
+      "errors": {
+        "joinClosed": "⏰ 報名時間已截止。",
+        "joinFull": "❌ 報名人數已滿。",
+        "joinNotRegistration": "❌ 賽事已不再接受報名。",
+        "joinFailed": "❌ 網路連線錯誤。",
+        "maxRounds": "已達到最大輪次限制（{{count}} 輪）！",
+        "notEnoughPlayers": "至少需要 2 名棋手參與。",
+        "alreadyFinished": "此賽事已經結束。",
+        "finishError": "結束賽事時發生錯誤。"
+      }
+    },
+    "meta": {
+      "title": "在線象棋賽事 - 爭霸賽場 | 象棋在線",
+      "description": "參加在線象棋賽事，與高手對戰並贏取豐厚獎勵。公平專業的賽事系統盡在 cotuong.xyz。",
+      "home": "首頁",
+      "tournaments": "賽事"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "<0>爭霸</0>賽場",
+        "desc": "cotuong.xyz 的賽事系統匯聚了最敏銳的戰術頭腦。我們為各級棋手提供專業、透明且激烈的對戰舞台。"
+      },
+      "features": {
+        "formats": {
+          "title": "多樣化賽制",
+          "desc": "從瑞士輪到循環赛，確保公平性並選拔出最實至名歸的冠軍。"
+        },
+        "prizes": {
+          "title": "豐厚獎勵",
+          "desc": "獎勵包括金幣 (XQG) 和獨特的裝飾物品，彰顯您的身份地位。"
+        },
+        "experience": {
+          "title": "流暢體驗",
+          "desc": "自動匹配、計分及實時排名更新系統。"
+        },
+        "honor": {
+          "title": "至高榮譽",
+          "desc": "冠軍的名字將被載入社區的歷史名人堂。"
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "與 {{name}} (AI) 對弈 - 線上象棋訓練",
+    "seoTitleDefault": "與電腦對弈 - 極強皮卡魚 AI",
+    "seoDesc": "在 {{level}} 級挑戰與 {{name}} 對弈。採用最頂尖皮卡魚 AI 技術幫助您提升棋藝。",
+    "seoDescDefault": "在 {{level}} 級與電腦練習。全球最強皮卡魚 AI 平台，支援招法分析。",
+    "title": "人機 <0>實戰</0>",
+    "settings": "對局設置",
+    "undo": "悔棋",
+    "newGame": "新對局",
+    "agentsOnline": "{{count}} 位 AI 機器人線上",
+    "personality": {
+      "aggressive": "好戰進攻",
+      "defensive": "穩健防守",
+      "balanced": "攻守兼備"
+    },
+    "ranks": {
+      "level1": "入門新手",
+      "level4": "職業棋手",
+      "level6": "特級大師"
+    },
+    "bot": {
+      "error_not_found": "未找到機器人。請檢查管理員後台› AI 機器人。"
+    },
+    "seoContent": {
+      "title": "人機實戰 – 與 AI <0>皮卡魚</0> 練習",
+      "intro": "歡迎來到 cotuong.xyz 的 <0>人機對戰</0>。我們利用目前最強 AI 發動機之一的皮卡魚為您提供專業訓練體驗。無論初學者還是老將，我們的 AI 系統總有適合您的等級。",
+      "feature1": {
+        "title": "皮卡魚 AI 引擎",
+        "desc": "採用皮卡魚引擎 (Stockfish 象棋優化版)，具備每秒計算數百萬步的能力。"
+      },
+      "feature2": {
+        "title": "多樣等級",
+        "desc": "從 1 級 (入門) 到 10 級 (特級大師)，伴隨您的進階之路。"
+      },
+      "feature3": {
+        "title": "即時分析",
+        "desc": "系統保存棋譜，允許您在賽後立即查看並分析失誤。"
+      },
+      "whyTitle": "為什麼要和 AI 練習?",
+      "whyDesc": "與機器練習有助於培養耐心和精確計算。AI 不會犯低級失誤，迫使您保持高度專注。",
+      "tags": {
+        "online": "象棋線上",
+        "withAi": "人機對戰",
+        "engine": "皮卡魚",
+        "practice": "象棋訓練",
+        "hall": "智慧殿堂",
+        "ai": "人工智慧"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "佈景主題：深色"
+    },
+    "title": "個人中心",
+    "dashboard": "大廳",
+    "account": "設置",
+    "overview": "活動概覽",
+    "customize": "帳號定制",
+    "boardInterface": "棋盤介面",
+    "boardInterfaceDesc": "定制您的對局體驗。",
+    "autoScroll": "自動滾動",
+    "autoScrollDesc": "進入房間時自動滾到棋盤位置",
+    "autoScrollSuccess": "自動滾動設置已更新",
+    "cropAvatar": "裁剪頭像",
+    "zoom": "縮放",
+    "saveImage": "保存圖片",
+    "updateNameSuccess": "顯示名稱更新成功!",
+    "updateAvatarSuccess": "頭像更新成功!",
+    "pieceStyle": "棋子風格",
+    "pieceStyleDesc": "選擇您喜歡的棋子樣式。",
+    "pieceStyles": {
+      "traditional": "經典 (漢字)",
+      "international": "國際 (符號)",
+      "simple": "極簡"
+    },
+    "voicePack": "語音包",
+    "voicePackDesc": "對局播報員語音。",
+    "voicePacks": {
+      "vi": "越南語",
+      "en": "英語",
+      "zh": "中文",
+      "ja": "日語",
+      "none": "無語音 (僅音效)"
+    },
+    "changePasswordSuccess": "密碼修改成功!",
+    "deletePuzzleTitle": "刪除殘局?",
+    "deletePuzzleConfirm": "確定要刪除 [{{name}}] 嗎? 此操作無法撤銷。",
+    "deletePuzzleAction": "立即刪除",
+    "deletePuzzleSuccess": "殘局已刪除!",
+    "notificationsEnabled": "消息通知已開啟!",
+    "notificationsError": "開啟通知請求失敗。",
+    "matchHistory": "對局歷史",
+    "achievements": "成就",
+    "inventory": "倉庫資產",
+    "myContent": "我的內容",
+    "security": "安全",
+    "notifications": "通知",
+    "changePassword": "修改密碼",
+    "oldPassword": "舊密碼",
+    "newPassword": "新密碼",
+    "confirmPassword": "確認密碼",
+    "displayName": "顯示名稱",
+    "updateProfile": "更新資料",
+    "notificationsDesc": "接收好友請求和比賽邀請",
+    "pushSuccess": "通知已成功啟用！"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - 領先的象棋智力平台。匯聚熱情棋友，皮卡魚 AI 助陣，共同征戰 Elo 排行榜。",
+    "missionShort": "優質象棋平台",
+    "experience": "體驗",
+    "knowledge": "知識",
+    "services": "服務",
+    "contactLegal": "聯繫與法律",
+    "onlineArena": "線上競技場",
+    "puzzles": "象棋殘局",
+    "playWithAi": "人機對弈",
+    "leaderboard": "排行榜",
+    "howToPlay": "玩法規則",
+    "basicTactics": "基礎戰術",
+    "practicalEndgame": "實用殘局",
+    "news": "賽事新聞",
+    "shop": "道具商店",
+    "profile": "使用者主頁",
+    "vipUpgrade": "VIP 升級",
+    "support": "使用者支持",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "officialRules": "官方規則",
+    "active": "正在執行",
+    "globalServer": "全球伺服器",
+    "facebookPage": "Facebook 頁面",
+    "facebookGroup": "Facebook 小組",
+    "allSystemsOperational": "所有系統正常執行",
+    "joinPlayers": "加入 50,000+ 棋友",
+    "globalPresence": "全球服務",
+    "infrastructure": "基礎設施",
+    "security": "安全防護",
+    "versionControl": "版本控制",
+    "release": "發布版本",
+    "deployTime": "部署時間",
+    "staticHub": "全球靜態中心",
+    "sslVerified": "SSL 已驗證",
+    "build": "構建版本",
+    "time": "時間",
+    "copyright": "象棋線上 (Xiangqi Online) - 内容與設計版权歸 <0>cotuong.xyz</0> 所有。我們致力於提供無廣告體驗，並為所有移動和桌面設備進行優化。由一群熱愛象棋的工程師傾情打造 ❤️。&copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "使用條款 | 象棋線上",
+      "description": "象棋線上服務條款。關於帳號、公平競賽和使用者責任的規定。"
+    },
+    "title": "條款與 <0>規定</0>",
+    "title_p1": "條款與",
+    "title_p2": "規定",
+    "intro": "歡迎加入線上象棋社區。為了建立一個文明、公平且充滿激情的象棋環境，我們制定了每位棋手都需要遵守的通用規則。",
+    "cardTitle": "服務協議",
+    "lastUpdated": "最後更新",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "acceptance": {
+        "title": "接受條款",
+        "content": "通過訪問和使用象棋線上網站 (cotuong.xyz)，即表示您同意遵守此處所述的條款和條件。如果您不同意這些條款的任何部分，請不要使用我們的服務。"
+      },
+      "accounts": {
+        "title": "使用者帳號",
+        "item1": "您有責任確保帳號資訊和密碼的安全。",
+        "item2": "您同意在註冊時提供準確且最新的資訊。",
+        "item3": "每位使用者最多只能擁有一個帳號，以確保排名的公平性。",
+        "item4": "如果發現違規行為，我們保留暫停或刪除帳號的權利。"
+      },
+      "fairplay": {
+        "title": "公平競賽準則",
+        "intro": "象棋線上提倡體育精神和智慧。嚴禁以下行為：",
+        "item1": "在與其他玩家的線上比賽中使用引擎、AI 或任何作弊工具。",
+        "item2": "故意輸棋（掉分）或操縱比賽結果以異常增加/減少 ELO 積分。",
+        "item3": "在聊天室使用侮辱性、冒犯性或歧視性語言。",
+        "item4": "垃圾郵件或騷擾其他玩家。"
+      },
+      "copyright": {
+        "title": "内容與版權",
+        "content": "網站上的所有内容，包括介面、原始碼、棋子圖像和教程，均歸象棋線上所有或經授權使用。未經書面同意，您不得將其用於商業目的的複製或再利用。"
+      },
+      "liability": {
+        "title": "責任限制",
+        "content": "服務按“原樣”提供。我們不保證網站始終執行無誤或不中斷。我們對因使用或無法使用服務而產生的任何損失不承擔責任。"
+      },
+      "changes": {
+        "title": "條款變更",
+        "content": "我們保留隨時更改這些條款的權利。更改自發佈在網站上之日起立即生效。您在更改後繼續使用即表示您接受新條款。"
+      }
+    },
+    "footer": "感謝您成為線上象棋社區的一員"
+  },
+  "privacy": {
+    "meta": {
+      "title": "隱私政策 | 象棋線上",
+      "description": "象棋線上隱私政策。關於數據收集、使用者權利保護和帳號安全的信息。"
+    },
+    "title": "隱私與 <0>安全</0>",
+    "title_p1": "隱私與",
+    "title_p2": "安全",
+    "intro": "棋手的個人數據和隱私是 cotuong.xyz 的首要任務。我們致力於在收集和保護您的資訊方面保持透明。",
+    "cardTitle": "隱私政策",
+    "lastUpdated": "最後更新",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "collection": {
+        "title": "我們收集的信息",
+        "intro": "為了提供最佳的象棋服務，我們收集以下信息：",
+        "item1": "帳號資訊：電子郵件、顯示名稱、個人資料圖片（如果使用 Google 登入）。",
+        "item2": "遊戲數據：對局歷史、ELO 積分、完成的教程和累計的金幣。",
+        "item3": "技術資訊：IP 地址、瀏覽器類型，用於系統安全和防止欺詐。"
+      },
+      "usage": {
+        "title": "資訊使用目的",
+        "intro": "我們將收集的資訊用於以下目的：",
+        "item1": "帳號管理、個性化玩家體驗。",
+        "item2": "存儲對局歷史、更新排名和學習進度。",
+        "item3": "發送重要的系統通知（如有必要）。",
+        "item4": "數據分析 (Google Analytics) 以優化介面和功能。"
+      },
+      "security": {
+        "title": "數據安全",
+        "content": "我們致力於通過現代技術措施（如密碼加密和 HTTPS 傳輸）保護您的數據。然而，沒有任何互聯網傳輸是 100% 安全的，您應保護好自己的密碼。"
+      },
+      "sharing": {
+        "title": "第三方資訊共享",
+        "content": "我們<0>從不</0>將您的個人數據出售或出租給第三方。我們僅與 Google 等服務合作夥伴共享必要的最小資訊。",
+        "content_p1": "我們",
+        "content_p2": "從不",
+        "content_p3": "將您的個人數據出售或出租給第三方。我們僅與 Google 等服務合作夥伴共享必要的最小資訊。"
+      },
+      "rights": {
+        "title": "使用者權利",
+        "intro": "您對自己的個人數據擁有全部權利：",
+        "item1": "在設置中更新個人資訊。",
+        "item2": "請求刪除帳號和所有對局數據。",
+        "item3": "選擇退出系統通知。"
+      }
+    },
+    "footer": "您的隱私是 cotuong.xyz 的首要任務"
+  },
+  "shop": {
+    "title": "禮物商店",
+    "meta": {
+      "title": "禮物商店 | 象棋在線",
+      "description": "用獨特的禮物傳遞愛心。使用從練習和比賽中累積的金幣，在 cotuong.xyz 購買有意義的禮物。",
+      "listTitle": "象棋在線禮物商店",
+      "listDesc": "給棋手的精神禮物。",
+      "home": "首頁",
+      "shop": "商店",
+      "loading": "正在加載商城..."
+    },
+    "subtitle": "「贈人玫瑰，手有餘香」。向棋友傳遞關愛。",
+    "yourCoins": "你的金幣",
+    "messages": {
+      "success": "購買成功！",
+      "insufficient": "金幣不足！",
+      "error": "購買禮物時出錯。",
+      "networkError": "網絡錯誤。"
+    },
+    "buy": {
+      "processing": "購買中...",
+      "insufficient": "金幣不足",
+      "now": "立即購買",
+      "defaultDesc": "禮輕情意重。"
+    },
+    "tips": {
+      "title": "金幣累積攻略",
+      "desc": "金幣是象棋在線的主要貨幣。你不能用真錢購買金幣，必須通過<0>努力訓練</0>來累積：",
+      "item1": "在<0>學下象棋</0>完成練習。每一份新課程都會帶來豐厚的金幣獎勵。",
+      "item2": "參加<0>線上比​​賽</0>。排名前列的棋手將獲得金幣和珍貴道具。",
+      "item3": "當你有出色的表現時，會收到朋友和粉絲送出的禮物。",
+      "viewTournaments": "查看即將舉行的比賽 →"
+    },
+    "culture": {
+      "title": "送禮文化",
+      "desc1": "在棋界，送禮不僅僅是物質的交換，更是棋友之間<0>尊重與連接的體現</0>。",
+      "desc2": "「棋逢對手」——如🌹玫瑰或☕咖啡這樣的小禮物，是緊張對局後建立友誼的絕佳方式。用你賺到的金幣來美化我們的象棋社區吧。"
+    }
+  },
+  "leaderboard": {
+    "title": "大師與群英",
+    "subtitle": "社區榮譽榜 (共 {{count}} 名棋手)",
+    "meta": {
+      "title": "排行榜 - 榮耀大師榜 | 象棋在線",
+      "description": "關注 Elo 排名，致敬象棋界的頂尖大師。在 cotuong.xyz 尋找並邀請最強的棋手。",
+      "listTitle": "線上象棋玩家排名",
+      "listDesc": "社群內擁有最高 Elo 評分的棋手名單。",
+      "home": "首頁"
+    },
+    "hierarchy": {
+      "title": "棋手階級與 Elo 系統",
+      "desc": "Elo 評分系統基於國際標準建立，準確反映出棋手的實力與表現。",
+      "rank1": {
+        "title": "入門與業餘",
+        "desc": "征服象棋的第一步。專注於掌握基礎的殺法與戰術。"
+      },
+      "rank2": {
+        "title": "中級與高級",
+        "desc": "深入理解開局與中局。擁有更靈活的子力協調能力。"
+      },
+      "rank3": {
+        "title": "大師",
+        "desc": "達到登峰造極的境界，能夠運算數十步深度的複雜棋局。"
+      },
+      "rank4": {
+        "title": "特級大師",
+        "desc": "社區內的傳奇人物，熟練掌握所有秘訣和陷阱。"
+      }
+    },
+    "search": "搜尋棋手...",
+    "table": {
+      "rank": "#",
+      "player": "棋手",
+      "elo": "Elo",
+      "games": "對局數",
+      "status": "狀態",
+      "playing": "對弈中",
+      "actions": "操作"
+    },
+    "statuses": {
+      "searching": "正在搜尋..."
+    },
+    "actions": {
+      "view": "📺 觀戰",
+      "message": "發送訊息"
+    },
+    "empty": "找不到符合條件的棋手",
+    "pagination": {
+      "page": "第 {{current}} / {{total}} 頁",
+      "total": "共 {{count}} 位棋手",
+      "prev": "上一頁",
+      "next": "下一頁"
+    },
+    "footer": "Elo 積分系統基於公開對局數據。參與比賽提升段位並進入名人堂！",
+    "lesson": "課程"
+  },
+  "practice": {
+    "title": "學習與<0>練習</0>",
+    "subtitle": "從基礎到高階的殺棋與殘局技巧訓練",
+    "loading": "載入課程中...",
+    "meta": {
+      "title": "學習與練習線上象棋 - 殺法與殘局訓練",
+      "description": "參加從入門到高階的象棋課程。每天練習走法、破解殘局並與 AI (Pikafish) 對戰以提升棋藝。",
+      "home": "首頁",
+      "practice": "練習"
+    },
+    "list": {
+      "title": "探索象棋的奧秘",
+      "description": "按部就班從基礎學習到高級戰術。每節課都附帶互動棋盤和 AI 輔助。",
+      "coins": "累積黃金",
+      "all": "全部",
+      "lessonCount": "{{count}} 節課"
+    },
+    "curriculum": {
+      "title": "棋手晉升計畫 (訓練大綱)",
+      "subtitle": "從入門到特級大師的 4 階段路線圖",
+      "steps": {
+        "01": {
+          "title": "基礎 (奠定地基)",
+          "desc": "熟悉棋盤、7 種棋子及將軍、明將等基本規則。"
+        },
+        "02": {
+          "title": "戰術 (經典殺法)",
+          "desc": "學習致命的協同攻擊：馬後炮、天地炮、悶殺、借車助攻等。"
+        },
+        "03": {
+          "title": "殘局 (致勝技巧)",
+          "desc": "掌握單車、單炮、馬兵等殘局制勝訣竅，在最後階段鎖定勝局。"
+        },
+        "04": {
+          "title": "開局 (宏觀戰略)",
+          "desc": "研究經典開局陣型：中炮對屏風馬、順炮、列炮等。"
+        }
+      }
+    },
+    "card": {
+      "reward": "黃金",
+      "status": {
+        "completed": "已完成",
+        "pending": "尚未學習"
+      },
+      "start": "立即開始學習",
+      "defaultDesc": "學習最高層次的象棋戰術。",
+      "completedTitle": "太棒了！已完成"
+    },
+    "sidebar": {
+      "back": "返回所有課程",
+      "difficulty": "難度指數:",
+      "content": "課程內容:",
+      "defaultMission": "開始練習以發掘新知識。",
+      "reward": "獎勵金幣:",
+      "status": "學習狀態:",
+      "statusDone": "已達標",
+      "statusPending": "進行中",
+      "processing": "處理中...",
+      "nextLesson": "下一節課",
+      "finishCourse": "完成所有課程",
+      "completeAndNext": "完成並進入下一節"
+    },
+    "panel": {
+      "history": "對局紀錄",
+      "aiTrain": "與 AI 切磋",
+      "aiTrainDesc": "在機器人身上測試你的戰術",
+      "engine": "引擎:",
+      "level": "等級:",
+      "humanSide": "我方執:",
+      "redSide": "紅方 (先手)",
+      "blackSide": "黑方 (後手)",
+      "guide": {
+        "title": "實戰指南",
+        "step1": "觀察目前的局勢與任務目標。",
+        "step2": "自行走棋或與 AI 進行陪練。",
+        "step3": "點擊 \"完成\" 以領取豐厚獎勵。"
+      }
+    },
+    "board": {
+      "tab": "棋盤 {{index}}: {{title}}",
+      "defaultTitle": "預設配置",
+      "supplemental": {
+        "title": "深入探討與補充",
+        "p1": "在象棋中，了解棋盤結構與棋子占位是最關鍵的基礎。九宮不僅是將帥的居所，也是對手猛攻的首要目標。",
+        "p2": "學習 {{title}} 時，請特別留意棋子間的相互呼應。不要只關注一顆棋子，而要觀察它如何保護或支援其他棋子，從而構建堅不可摧的陣型。"
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> 中文字幕 <span className=\"text-blue-600\">線上象棋課程</span> (初段至高段)",
+      "intro": "<strong className=\"text-slate-600 dark:text-white/60\">象棋訓練系統</strong> 經過精心科學設計，幫助您全面掌握規則、棋子性質、<strong className=\"text-slate-600 dark:text-white/60\">戰略戰術</strong> 以及無敵的 <strong className=\"text-slate-600 dark:text-white/60\">殘局技巧</strong>。適合所有級別的玩家每天磨練棋藝。",
+      "whyTitle": "為什麼要訓練殺法與殘局？",
+      "whyIntro": "在象棋對決中，協同攻殺（將軍抽車等）和殘局算度是決定勝負的兩大要素。<0>cotuong.xyz</0> 的訓練模組能夠幫助您:",
+      "item1": {
+        "title": "鑄就殺手直覺",
+        "desc": "讓您在實戰中能瞬間識別出經典殺盤（如馬後炮、雙車錯、天地炮等）。"
+      },
+      "item2": {
+        "title": "殘局無敵兵法",
+        "desc": "徹底掌握單車破士象全、炮兵勝單缺士等殘局。這是每位大師必修的絕命一擊。"
+      },
+      "item3": {
+        "title": "搭載 AI 的即時訓練",
+        "desc": "每一個殘局挑戰都內建最強的 皮卡魚 (Pikafish) 引擎，您可以立刻驗證自己的想法是否能戰勝機器！"
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "棋局<0>展示廳</0>",
+    "subtitle": "觀摩並學習成千上萬場線上對決",
+    "meta": {
+      "title": "象棋對局大廳 - 實時觀戰與棋譜回放",
+      "description": "在 cotuong.xyz 遊戲大廳觀摩並學習成千上萬場正在進行的線上象棋對決。"
+    },
+    "tabs": {
+      "live": "🔥 正在進行",
+      "open": "⏳ 正在等待",
+      "finished": "🏁 已結束",
+      "all": "🌍 全部"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ 全部模式",
+        "blitz": "超快棋 (Blitz)",
+        "rapid": "快棋 (Rapid)",
+        "standard": "標準 (Standard)"
+      },
+      "sort": {
+        "newest": "🕒 最新",
+        "popular": "🔥 最受歡迎",
+        "spectators": "👁 最多觀戰"
+      },
+      "timeRange": {
+        "all": "📅 所有時間",
+        "day": "今天",
+        "week": "本周",
+        "month": "本月"
+      },
+      "red": "紅方",
+      "black": "黑方"
+    },
+    "empty": {
+      "searching": "正在尋找對局...",
+      "noGames": "未找到對局",
+      "noResults": "未找到符合過濾條件的對局。請嘗試更改過濾器。",
+      "clear": "清除過濾器"
+    },
+    "card": {
+      "puzzle": "殘局",
+      "waiting": "等待中...",
+      "watch": "觀戰",
+      "participate": "參與",
+      "loadMore": "探索更多棋譜 ↓"
+    },
+    "seoContent": {
+      "title": "線上<0>象棋</0>展示廳系統",
+      "intro": "歡迎來到 cotuong.xyz 的<0>棋局展示廳</0>。這裡匯集了來自世界各地棋手之間的數千場精彩精彩對決。您可以<1>線上觀看象棋比賽</1>並學習最現代的<2>象棋佈局</2>。",
+      "item1": {
+        "title": "直觀的棋譜記錄",
+        "desc": "每一場比賽結束後都會以詳細的<0>象棋棋譜</0>形式保存。您可以回放每一步走法，分析錯誤，並從大師的思維中發現閃光點。"
+      },
+      "item2": {
+        "title": "活躍的線上社區",
+        "desc": "加入討論、發表評論並為您喜歡的對局點讚。<0>線上象棋</0>不僅是輸贏，更是交流經驗、分享對 64 格藝術熱情的場所。"
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "殘局討論",
+    "titleTournament": "賽事討論",
+    "titleDefault": "評論",
+    "placeholderPuzzle": "提示解法或提出問題...",
+    "placeholderDefault": "撰寫評論...",
+    "emptyStateFirst": "暫無評論。",
+    "emptyStateSecond": "成為第一個分享你想法的人吧！",
+    "loginPrompt": "你需要 <0>登錄</0> 才能參與討論。",
+    "sending": "...",
+    "deleteTooltip": "刪除評論 (管理員)",
+    "deleteTitle": "刪除評論？",
+    "deleteMsg": "你確定要刪除這條評論嗎？此操作無法撤銷。",
+    "deleteAction": "立即刪除",
+    "errorTitle": "評論無效",
+    "errorNoLinks": "評論中不能包含鏈接。",
+    "errorRateLimitTitle": "發送太快",
+    "errorRateLimit": "你的發送速度太快，請 1 分鐘後再試。",
+    "redPlayer": "🔴 紅方",
+    "blackPlayer": "⚫ 黑方",
+    "reltime": {
+      "justNow": "剛剛",
+      "minutes": "{{count}} 分鐘前",
+      "hours": "{{count}} 小時前"
+    }
+  },
+  "admin": {
+    "title": "管理後台",
+    "checkingPermissions": "正在檢查權限...",
+    "noPermission": "⚠️ 您沒有管理員權限。",
+    "syncingData": "正在同步系統數據...",
+    "searchPlaceholder": "搜尋資訊...",
+    "sidebar": {
+      "dashboard": "概覽 (AI)",
+      "users": "使用者管理",
+      "matches": "對局大廳",
+      "puzzles": "殘局管理",
+      "tournaments": "賽事管理",
+      "bots": "機器人管理",
+      "comments": "評論管理",
+      "practice": "教程管理",
+      "shop": "商店管理",
+      "analytics": "數據分析 (Google)",
+      "ai": "AI 生成器",
+      "push": "推送通知",
+      "cache": "快取管理 (Redis)",
+      "server": "系統管理 (日誌)",
+      "settings": "系統配置",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "請輸入標題和內容",
+      "errorUid": "請輸入收件人 UID",
+      "errorSystem": "發送時系統出錯"
+    },
+    "ai": {
+      "enterElo": "輸入新 Elo：",
+      "invalidNumber": "無效數字"
+    },
+    "cache": {
+      "cleared": "所有快取已清除！"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

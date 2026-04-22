@@ -1,0 +1,37 @@
+name: "🤖 Agent Task"
+description: "A task template specifically designed for GitHub Copilot Cloud Agent or other AI agents."
+title: "[AGENT] "
+labels: ["agent-task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hi Agent! Please use this issue as your primary context for the task.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objective
+      description: What is the primary goal of this task?
+    validations:
+      required: true
+  - type: textarea
+    id: technical-context
+    attributes:
+      label: Technical Context
+      description: List the primary files, entry points, and architectural constraints (e.g., Use Vanilla CSS, follow [TAG] logging).
+    validations:
+      required: true
+  - type: textarea
+    id: implementation-steps
+    attributes:
+      label: Proposed Implementation Steps
+      description: Outline the logical steps to achieve the goal.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification Plan
+      description: How should this task be verified? (e.g., 'Check logs for [TAG]', 'Verify UI on mobile').
+    validations:
+      required: true

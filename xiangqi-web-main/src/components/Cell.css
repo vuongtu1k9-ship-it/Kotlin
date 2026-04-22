@@ -1,0 +1,129 @@
+.xq-cell {
+  position: relative;
+  width: 11.11111%;
+  height: 10%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hover effect: subtle dimming for desktop */
+@media (hover: hover) {
+  .xq-cell:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 50%;
+    /* circular hover */
+  }
+}
+
+/* Selected State: Clean ring around the piece/cell */
+.xq-cell.selected::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* or slightly rounded square */
+  border: 3px solid #0EA5E9;
+  /* xq-accent (Sky-500) */
+  box-sizing: border-box;
+  z-index: 5;
+  animation: none;
+  /* No pulse, just clean selection */
+}
+
+/* Valid Move Dot: Simple circle */
+.xq-move-dot {
+  position: absolute;
+  width: 24%;
+  /* Responsive based on cell size */
+  height: 24%;
+  border-radius: 50%;
+  background-color: rgba(14, 165, 233, 0.4);
+  /* xq-accent with opacity */
+  z-index: 20;
+  /* Above pieces? Usually valid moves are on empty cells */
+}
+
+/* If a move is a capture (valid move on top of a piece), we show a red highlight instead of blue */
+.xq-cell.capture::before {
+  background-color: rgba(220, 38, 38, 0.25);
+  /* Professional red highlight */
+  border: 2px solid rgba(220, 38, 38, 0.5);
+  width: 30%;
+  height: 30%;
+}
+
+/* Last Move Highlights */
+.xq-cell.last-move-from::before,
+.xq-cell.last-move-to::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.xq-cell.last-move-from::before {
+  /* Light mode: Deep Indigo/Cobalt from Premium Luxe */
+  background-color: rgba(67, 56, 202, 0.1);
+  border: 1px dashed rgba(67, 56, 202, 0.4);
+}
+
+:root.dark .xq-cell.last-move-from::before {
+  /* Dark mode: Revert to Gold */
+  background-color: rgba(253, 224, 71, 0.15);
+  border: 1px dashed rgba(253, 224, 71, 0.5);
+}
+
+.xq-cell.last-move-to::before {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67, 56, 202, 0.2);
+  border: 3px solid rgba(67, 56, 202, 0.8);
+  box-shadow: 0 0 12px rgba(67, 56, 202, 0.6), inset 0 0 8px rgba(67, 56, 202, 0.4);
+  z-index: 5;
+  /* Over the piece */
+}
+
+:root.dark .xq-cell.last-move-to::before {
+  background-color: rgba(253, 224, 71, 0.2);
+  border: 3px solid rgba(253, 224, 71, 0.8);
+  box-shadow: 0 0 12px rgba(253, 224, 71, 0.6), inset 0 0 8px rgba(253, 224, 71, 0.4);
+}
+
+/* Valid Position in Setup Mode */
+.xq-cell.valid-setup-pos {
+  transition: all 0.2s ease;
+}
+
+.xq-cell.valid-setup-pos:hover {
+  /* Only subtly scale the ring on hover, no square background */
+  transform: scale(1.05);
+}
+
+.xq-cell.valid-setup-pos::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: rgba(14, 165, 233, 0.15);
+  /* Subtle highlight background */
+  border: 2px solid rgba(14, 165, 233, 0.4);
+  /* Border remains */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 5;
+  /* Over the piece */
+}
+
+/* On hover, make the highlight more intense */
+.xq-cell.valid-setup-pos:hover::before {
+  background-color: rgba(14, 165, 233, 0.25);
+  border-color: rgba(14, 165, 233, 0.6);
+}

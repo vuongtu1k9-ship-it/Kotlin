@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "errorBoundaryTitle": "⚠️ Er is een interfacefout opgetreden",
+    "errorBoundaryReload": "Pagina opnieuw laden",
+    "cellAriaLabel": "Vierkant {{coord}}",
+    "cellAriaLabelOccupied": "Vierkant {{coord}} - Bezet",
+    "back": "Terug",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "viewAll": "Bekijk alles →",
+    "backToLobby": "Terug naar Lobby",
+    "search": "Zoeken",
+    "reset": "Opnieuw instellen",
+    "login": "Inloggen",
+    "you": "Jij",
+    "close": "Sluiten",
+    "agree": "Akkoord",
+    "refresh": "Vernieuwen",
+    "coins": "Goud",
+    "gold": "Goud",
+    "saveSuccess": "Succesvol opgeslagen!",
+    "sides": {
+      "red": "Rood",
+      "black": "Zwart"
+    },
+    "challenge": "Uitdagen",
+    "send": "Versturen",
+    "reject": "Nee",
+    "finished": "Klaar",
+    "play": "Spelen",
+    "pieces": {
+      "general": "Generaal",
+      "advisor": "Adviseur",
+      "elephant": "Olifant",
+      "horse": "Paard",
+      "chariot": "Kar",
+      "cannon": "Kanon",
+      "soldier": "Soldaat"
+    },
+    "offline": "Offline",
+    "draw": "Tekenen",
+    "room": "Kamer",
+    "and": "En",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "Online",
+    "waiting": "Wachten"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - Speel gratis professioneel schaak",
+    "defaultDescription": "Gratis online xiangqi-platform met een mooie, stille en soepele interface. Speel online of daag de AI-engine uit.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| Xiangqi Online"
+  },
+  "navbar": {
+    "brand": "Xiangqi",
+    "online": "Online",
+    "home": "Thuis",
+    "puzzles": "Puzzels",
+    "setup": "Editor",
+    "ai": "Tegen AI",
+    "tournaments": "Toernooien",
+    "practice": "Oefenen",
+    "howToPlay": "Regels",
+    "players": "Meesters",
+    "leaderboard": "Ranglijst",
+    "shop": "Winkel",
+    "logout": "Uitloggen",
+    "profile": "Profiel",
+    "settings": "Instellingen",
+    "status": "Status",
+    "userMenu": "Gebruikersmenu",
+    "guestName": "Speler",
+    "playerType": "XIANGQI SPELER",
+    "coins": "Goud",
+    "rank": "Rang",
+    "welcome": "Welkom!",
+    "loginToEarn": "Log in om beloningen te verdienen en te stijgen op de ranglijst",
+    "googleMaintenance": "Google Login in onderhoud",
+    "useEmail": "Gebruik E-mail",
+    "playAsGuest": "Spelen als gast?",
+    "statuses": {
+      "online": "Online",
+      "busy": "Bezig",
+      "invisible": "Onzichtbaar",
+      "free": "Beschikbaar",
+      "offline": "Offline"
+    },
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "menu": "Menu",
+    "navigation": "Navigatie",
+    "activeGameAlert": "Je hebt een actieve partij!",
+    "returnToBoard": "Keer nu terug naar het bord",
+    "back": "TERUG",
+    "loginWithGoogle": "Log in met Google"
+  },
+  "site": {
+    "maintenanceModeTitle": "Systeemonderhoud",
+    "maintenanceMessageDefault": "We verbeteren ons systeem. Kom later terug.",
+    "announcementLabel": "AANKONDIGING"
+  },
+  "ranks": {
+    "novice": "Beginner",
+    "amateur": "Amateur",
+    "intermediate": "Gevorderd",
+    "expert": "Deskundige",
+    "master": "Meester",
+    "internationalMaster": "Internationaal Meester",
+    "grandmaster": "Grootmeester",
+    "player": "Speler"
+  },
+  "chat": {
+    "title": "Chatten",
+    "new_message": "Nieuw bericht",
+    "followed_you": "volgt je nu!",
+    "view_profile": "PROFIEL",
+    "challenge_accepted": "Uitdaging geaccepteerd!",
+    "go_to_play": "GA SPELEN",
+    "is_online": "is nu online.",
+    "entered_room": "kwam de kamer binnen",
+    "open_chat": "Chat openen",
+    "close_chat": "Chat sluiten",
+    "disable_global_notifs": "Meldingen uit",
+    "enable_global_notifs": "Meldingen aan",
+    "disable_notifs": "Mute",
+    "enable_notifs": "Geluid aan",
+    "disable_autoscroll": "Geen autoscroll",
+    "enable_autoscroll": "Autoscroll aan",
+    "tabs": {
+      "global": "Globaal",
+      "private": "Privé"
+    },
+    "to_prefix": "Aan: ",
+    "is_online_label": "Online",
+    "onlinePlayersHeader": "Online spelers",
+    "history": "Chatgeschiedenis ({{count}})",
+    "labelGlobal": "Globaal",
+    "labelRoom": "Kamer {{id}}",
+    "labelPrivate": "Privé: {{name}}",
+    "followed_you_message": "volgt je nu!",
+    "noMessages": "(geen berichten)",
+    "noMessagesWelcome": "Nog geen berichten. Begin met chatten!",
+    "player": "SPELER",
+    "guestPlaceholder": "Log in om te chatten",
+    "placeholder": "Stuur een bericht...",
+    "followed": "👤 Je volgde de tegenstander",
+    "wasFollowed": "🎉De tegenstander volgde je"
+  },
+  "auth": {
+    "registerTitle": "Account aanmaken",
+    "loginSubtitle": "Log in om beloningen te verdienen",
+    "registerSubtitle": "Sluit u aan bij de grootste Xiangqi-gemeenschap",
+    "loginWithGoogle": "Log in met Google",
+    "orEmail": "of e-mail",
+    "emailLabel": "E-mail",
+    "displayNameLabel": "Weergavenaam (optioneel)",
+    "passwordLabel": "Wachtwoord",
+    "termsAgreementPrefix": "Ik ga akkoord met de",
+    "termsLink": "Servicevoorwaarden",
+    "privacyLink": "Privacybeleid",
+    "termsAgreementSuffix": "van Xiangqi Online.",
+    "termsError": "U moet akkoord gaan met de Voorwaarden en het Privacybeleid.",
+    "processing": "Verwerken…",
+    "haveAccount": "Heeft u al een account? Inloggen",
+    "noAccount": "Account aanmaken",
+    "backToLobby": "Terug naar lobby",
+    "loginPrompt": "U moet <0>Inloggen</0> om deel te nemen aan discussies",
+    "passwordsNotMatch": "Wachtwoorden komen niet overeen.",
+    "passwordTooShort": "Wachtwoord moet minimaal 6 tekens lang zijn.",
+    "invalidOldPassword": "Verkeerd oud wachtwoord."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> is een actieve speler in de Xiangqi Online-gemeenschap. Met een rang van <1>{{rank}}</1> ({{elo}} Elo) heeft {{name}} deelgenomen aan in totaal <2>{{count}}</2> intense wedstrijden. Momenteel heeft deze speler <3>{{followers}}</3> volgers en is hij een belangrijk onderdeel van het nationale beoordelingssysteem op het platform.",
+    "social": {
+      "followers": "Volgers",
+      "following": "Volgende",
+      "empty": "Lijst is leeg"
+    },
+    "sections": {
+      "medals": "Medailles",
+      "noMedals": "Nog geen medailles",
+      "inventory": "Uitrusting",
+      "noItems": "Nog geen artikelen",
+      "puzzles": "Eigen Puzzels",
+      "noPuzzles": "Nog geen creatieve puzzels",
+      "solved": "Opgeloste Puzzels",
+      "noSolved": "Er zijn nog geen puzzels opgelost",
+      "history": "Partijoverzicht",
+      "viewGame": "Bekijk 📺"
+    },
+    "gifts": {
+      "title": "Cadeau voor de Meester",
+      "loading": "Laden...",
+      "empty": "Geen items in bezit",
+      "sending": "Versturen...",
+      "confirm": "Bevestigen",
+      "loginPrivate": "Log in op bericht.",
+      "loginChallenge": "Log in om uit te dagen."
+    },
+    "bioTitle": "Bio en prestaties",
+    "game": {
+      "active": "Actief",
+      "redWin": "Rode overwinningen",
+      "blackWin": "Zwart wint",
+      "moves": "beweegt"
+    },
+    "notFound": "Gebruiker niet gevonden",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "Kamer maken",
+    "playWithAi": "Tegen AI",
+    "findMatch": "Tegenstander zoeken",
+    "headerTitle": "Oefen Xiangqi <0>met AI</0> & los puzzels op",
+    "headerSubtitle": "Het leidende platform voor competitie & tactiek",
+    "waiting": "Zoeken naar tegenstander...",
+    "noRooms": "Geen kamers beschikbaar.",
+    "activeGameTitle": "Je hebt een onafgewerkte partij!",
+    "activeGameSubtitle": "Kom terug om verder te spelen",
+    "returnToGame": "Terug naar match",
+    "roomList": "Kamers",
+    "roomListSubtitle": "Actieve partijen & historie",
+    "noRoomsFiltered": "Geen matches gevonden.",
+    "onlinePlayers": "Spelers Online",
+    "onlinePlayersCount": "{{count}} leden online",
+    "loginToChat": "Log in om te chatten.",
+    "loginToChallenge": "Log in om uit te dagen.",
+    "chatAction": "Chatten",
+    "challengeAction": "Uitnodigen",
+    "tabs": {
+      "live": "Live",
+      "open": "Open",
+      "finished": "Klaar",
+      "all": "Alles"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "Recente Puzzels",
+        "subtitle": "Ontdek tactieken van de community",
+        "puzzleType": "Puzzel",
+        "unnamed": "Naamloos",
+        "levelPrefix": "Niveau {{level}}",
+        "normalLevel": "Normaal",
+        "solve": "Oplossen"
+      },
+      "features": {
+        "title": "Waarom Xiangqi Online?",
+        "premium": {
+          "title": "⚡ Gratis Premium Ervaring",
+          "desc": "Snel en rustig platform. Maak <0>puzzels online</0> zonder advertenties."
+        },
+        "ai": {
+          "title": "🤖 Tegen AI (Pikafish)",
+          "desc": "Speel <0>xiangqi tegen de computer</0> met de Pikafish engine. Niveaus 1 t/m 10."
+        },
+        "data": {
+          "title": "🧩 Grote Puzzel Database",
+          "desc": "Duizenden <0>xiangqi puzzels</0> om dagelijks je tactiek te trainen."
+        }
+      },
+      "guide": {
+        "title": "Gids voor Xiangqi Online",
+        "intro": "Begin in 3 simpele stappen op <0>cotuong.xyz</0>:",
+        "step1": {
+          "title": "Registreer:",
+          "desc": "Sla je historie en Elo op."
+        },
+        "step2": {
+          "title": "Zoek rivaal:",
+          "desc": "Nodig uit via de lijst of maak een kamer."
+        },
+        "step3": {
+          "title": "Oefen:",
+          "desc": "Leer matpatronen bij <0>Leren</0>."
+        },
+        "note": "* Elo-systeem voor eerlijke matches."
+      },
+      "faq": {
+        "title": "FAQ",
+        "q1": {
+          "q": "V: Is het gratis?",
+          "a": "A: Ja, volledig. Alle functies zijn kosteloos."
+        },
+        "q2": {
+          "q": "V: Hoe nodig ik een vriend uit?",
+          "a": "A: Maak een kamer en stuur de URL naar je vriend."
+        },
+        "q3": {
+          "q": "V: Kan ik partijen terugkijken?",
+          "a": "A: Ja, ze staan in de Historie op je profiel."
+        },
+        "q4": {
+          "q": "V: Waarom kan ik niet zetten?",
+          "a": "A: Check of je aan zet bent of check je internet."
+        }
+      },
+      "meta": {
+        "title": "Xiangqi Online - AI Training, Puzzels & Tegen Computer",
+        "description": "Premium platform: train met Pikafish AI, los puzzels op en speel gratis tegen de computer."
+      },
+      "schema": {
+        "siteName": "Xiangqi Online",
+        "siteDesc": "Los puzzels op, gebruik de editor en train met AI.",
+        "q1": {
+          "name": "Hoe speel je xiangqi online met vrienden?",
+          "text": "Maak een kamer en stuur de link naar je vriend."
+        },
+        "q2": {
+          "name": "Is de AI op cotuong.xyz sterk?",
+          "text": "Gebruikt Pikafish, van beginner tot grootmeester niveau."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "Xiangqi Regels - Basisgids",
+      "description": "Complete uitleg van de regels: stukken, zetten en verboden acties."
+    },
+    "title": "Hoe speel je Xiangqi",
+    "subtitle": "Leer de basis en de zetten",
+    "intro": "Xiangqi (Chinees Schaken) is een strategisch spel. Het doel is de <0>Generaal</0> schaakmat te zetten.",
+    "intro_p1": "Xiangqi is een strategisch spel. Het doel is de",
+    "intro_p3": "schaakmat te zetten.",
+    "section1": {
+      "title": "1. Het Bord en de Zones",
+      "river": {
+        "label": "De Rivier (He):",
+        "desc": "Splits het bord. Stukken zoals de Olifant kunnen hier niet overheen."
+      },
+      "palace": {
+        "label": "Het Paleis (Jiu Gong):",
+        "desc": "3x3 zone met kruislijnen. De Generaal en Adviseurs blijven hierbinnen."
+      },
+      "boardDesc": "Het bord heeft 10 rijen en 9 lijnen. Stukken staan op kruispunten.",
+      "openingTitle": "Beginopstelling"
+    },
+    "section2": {
+      "title": "2. De Stukken & Zetten",
+      "pieces": {
+        "general": {
+          "desc": "1 stap recht (horizontaal/verticaal). Alleen in het Paleis.",
+          "action": "→ Oefen Generaal",
+          "name": "Generaal"
+        },
+        "advisor": {
+          "desc": "1 stap diagonaal. Alleen in het Paleis.",
+          "action": "→ Oefen Adviseur",
+          "name": "Adviseur"
+        },
+        "elephant": {
+          "desc": "2 stappen diagonaal. Mag de rivier niet over. Geblokkeerd bij tussenstuk.",
+          "action": "→ Oefen Olifant",
+          "name": "Olifant"
+        },
+        "horse": {
+          "desc": "L-vormige zet. Geblokkeerd bij stuk op aangrenzend punt.",
+          "action": "→ Oefen Paard",
+          "name": "Paard"
+        },
+        "chariot": {
+          "desc": "Onbeperkt recht (overal op het bord, horizontaal/verticaal).",
+          "action": "→ Oefen Kar",
+          "name": "Kar"
+        },
+        "cannon": {
+          "desc": "Beweegt als een strijdwagen. Om te vangen moet hij over precies één stuk springen (de 'berg').",
+          "action": "→ Oefen Kanon",
+          "name": "Kanon"
+        },
+        "soldier": {
+          "desc": "Voordat u de rivier oversteekt, gaat u 1 vakje vooruit. Na het oversteken mag hij 1 veld vooruit of zijwaarts gaan.",
+          "action": "→ Oefen Soldaat",
+          "name": "Soldaat"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Rood versus Zwart",
+      "intro": "Stukken zijn gelijk in kracht maar hebben vaak verschillende tekens.",
+      "table": {
+        "type": "Type",
+        "red": "Rood",
+        "black": "Zwart",
+        "meaning": "Betekenis"
+      },
+      "meanings": {
+        "general": "Rood: Maarschalk / Zwart: Generaal",
+        "advisor": "Rood: Ambtenaar / Zwart: Wachter",
+        "elephant": "Rood: Minister / Zwart: Olifant",
+        "horse": "Rood: Strijdpaard / Zwart: Paard",
+        "cannon": "Rood: Vuurkanon / Zwart: Catapult",
+        "soldier": "Rood: Soldaat / Zwart: Krijger",
+        "chariot": "Hetzelfde"
+      },
+      "why": {
+        "title": "Waarom verschillend?",
+        "desc": "Gebaseerd op de Chu-Han oorlog. Helpt spelers eigen stukken te herkennen."
+      },
+      "elephantExample": {
+        "title": "Olifantvoorbeeld (相/象)",
+        "desc": "Dit paar is zeer verwarrend. Rood is <0>相 (minister)</0>, zwart is <1>象 (olifant)</1>. Beiden kunnen de rivier niet oversteken omdat ze verdedigende beschermers zijn.",
+        "desc_p1": "Dit paar is zeer verwarrend. Rood wel",
+        "desc_p2": "相(minister)",
+        "desc_p3": "en zwart is",
+        "desc_p4": "象(Olifant)",
+        "desc_p5": "Beiden kunnen de rivier niet oversteken omdat ze verdedigende beschermers zijn."
+      }
+    },
+    "section4": {
+      "title": "4. Waarde van Stukken",
+      "table": {
+        "piece": "Stuk",
+        "score": "Punten",
+        "stage": "Sterkste fase"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "Kar",
+          "power": "Sterkste in alle fasen"
+        },
+        "cannon": {
+          "name": "Kanon",
+          "power": "Sterk in Opening & Middenspel"
+        },
+        "horse": {
+          "name": "Paard",
+          "power": "Groot potentieel in Eindspel"
+        },
+        "soldier": {
+          "name": "Soldaat",
+          "power": "Waarde stijgt over de rivier"
+        },
+        "defense": {
+          "name": "Adviseur / Olifant",
+          "power": "Onmisbare verdediging"
+        },
+        "general": {
+          "name": "Generaal"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Speciale Regels",
+      "rules": {
+        "kingFace": {
+          "label": "Generaals tegenover elkaar:",
+          "desc": "Mogen niet op dezelfde lijn staan zonder andere stukken ertussen."
+        },
+        "check": {
+          "label": "Schaak:",
+          "desc": "Aanval op de Generaal."
+        },
+        "mate": {
+          "label": "Schaakmat:",
+          "desc": "Generaal is aangevallen en kan niet ontsnappen."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Basis Tactieken",
+      "phases": {
+        "opening": {
+          "title": "⚔️ Opening",
+          "quote": "\"Karren snel, Paarden bedachtzaam, Kanonnen flexibel\"",
+          "desc": "Ontwikkel je zware stukken (Kars, Kanonnen, Paarden) naar actieve plekken."
+        },
+        "midgame": {
+          "title": "🛡️ Middenspel",
+          "desc": "De strijd barst los. Coördineer je stukken om druk uit te oefenen."
+        },
+        "endgame": {
+          "title": "🔚 Eindspel",
+          "desc": "Met weinig stukken zijn het Paard en de Soldaat doorslaggevend."
+        },
+        "tactics": {
+          "title": "🔥 Matpatronen",
+          "maHauPhao": "Paard met Kanon: Paard fungeert als 'montagne' voor het Kanon.",
+          "thienDiaPhao": "Hemel en Aarde Kanonnen: Twee Kanonnen die rijen of lijnen controleren.",
+          "daiDamXa": "Dappere Kar: Directe aanval op het Paleis."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. FAQ: Verboden Acties",
+      "faqs": {
+        "f1": {
+          "q": "V: Is eeuwig schaak toegestaan?",
+          "a": "A: Nee. Je mag niet vaker dan 3x achter elkaar schaak geven met hetzelfde stuk. Overtreding = verlies."
+        },
+        "f2": {
+          "q": "V: Mag de Generaal het Paleis verlaten?",
+          "a": "A: Nee. Generaal en Adviseurs leven in de 3x3 zone."
+        },
+        "f3": {
+          "q": "V: Wanneer is het remise?",
+          "a": "A: Remise bij:<1 />1. <0>60-zet regel:</0> 60 zetten zonder slaan.<2 />2. <0>Vredesoverleg:</0> Beide spelers gaan akkoord.<3 />3. <0>Herhaling:</0> 3x dezelfde stelling.<4 />4. <0>Technisch:</0> Te weinig materiaal om mat te zetten.",
+          "a_intro": "Remise bij:",
+          "a_item1_title": "60-zet regel:",
+          "a_item1_desc": "60 zetten zonder slaan.",
+          "a_item2_title": "Vredesoverleg:",
+          "a_item2_desc": "Beide spelers gaan akkoord.",
+          "a_item3_title": "Herhaling:",
+          "a_item3_desc": "3x dezelfde stelling.",
+          "a_item4_title": "Technisch:",
+          "a_item4_desc": "Te weinig materiaal om mat te zetten."
+        },
+        "f4": {
+          "q": "V: Verlies ik bij tijdnood?",
+          "a": "A: Ja. Als je tijd op is, heb je verloren ongeacht je overwicht.",
+          "a_p1": "EEN: Ja. Wanneer de totale wedstrijdtijd verstrijkt (Time-out), verliest die partij onmiddellijk, ongeacht het bordvoordeel.",
+          "a_p2": "verloren",
+          "a_p3": "onmiddellijk, ongeacht het bordvoordeel."
+        }
+      },
+      "practiceAction": "🔥 Ga nu oefenen"
+    },
+    "history": {
+      "title": "Historie van Xiangqi",
+      "p1": "Geëvolueerd uit <0>Chaturanga</0>. Simuleert de oorlog tussen <1>Chu en Han</1>.",
+      "p2": "Al duizenden jaren het hart van de Oost-Aziatische cultuur.",
+      "p3": "Vandaag verbindt <0>cotuong.xyz</0> miljoenen fans wereldwijd."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "Speel versus AI",
+    "labelWithId": "Kamer {{id}}",
+    "ready": "Klaar",
+    "finished": "Afgelopen",
+    "waitingPlayer": "Wachten",
+    "join": "Spelen",
+    "copyLinkSuccess": "Kamerlink gekopieerd naar klembord!",
+    "inviteBtn": "Vriend uitnodigen",
+    "role": "Rol",
+    "turn": "Draai",
+    "spectatorsShort": "Spec.",
+    "noSpectators": "Geen"
+  },
+  "game": {
+    "sides": {
+      "red": "Rood",
+      "black": "Zwart"
+    },
+    "timeModes": {
+      "blitz": "Bliksem",
+      "rapid": "Snel",
+      "standard": "Standaard",
+      "slow": "Langzaam",
+      "gridLabel": "Tijdmodus"
+    },
+    "timeModeSub": {
+      "blitz": "3m",
+      "rapid": "10m",
+      "standard": "20m",
+      "slow": "45m"
+    },
+    "status": {
+      "redWin": "Rood Wint",
+      "blackWin": "Zwart Wint",
+      "draw": "Remise",
+      "ongoing": "Bezig",
+      "check": "REKENING!",
+      "startPrompt_red": "Jouw beurt - Maak de eerste zet om te starten",
+      "startPrompt_black": "Wachten tot Rood de eerste zet doet",
+      "waitingForPlayers": "Wachten op spelers..."
+    },
+    "actions": {
+      "draw": "Remise aanbieden",
+      "resign": "Opgeven",
+      "swap": "Wissel kant",
+      "leave": "Verlaat kamer",
+      "publish": "Publiceren",
+      "undo": "Ongedaan maken",
+      "newGame": "Nieuw spel"
+    },
+    "confirm": {
+      "drawTitle": "Remise aanbieden",
+      "drawMsg": "Remiseverzoek sturen naar tegenstander?",
+      "resignTitle": "Opgeven",
+      "resignMsg": "Weet je zeker dat je wilt opgeven?",
+      "leaveTitle": "Verlaten & Verliezen",
+      "leaveMsg": "Partij is nog bezig. Verlaten telt als verlies. Doorgaan?",
+      "loginTitle": "Inloggen nodig",
+      "loginMsg": "Log in om partijen op te slaan als favoriet.",
+      "leaveMsg_casual": "Dit is een informele wedstrijd. Weet je zeker dat je weg wilt?",
+      "leaveMsg_spectator": "Je staat op het punt de toeschouwersruimte te verlaten.",
+      "undoMsg": "Wilt u een verzoek tot ongedaan maken naar uw tegenstander sturen?"
+    },
+    "modals": {
+      "swapTitle": "Wissel kant",
+      "swapMessage": "Tegenstander wil van kleur wisselen. Akkoord?",
+      "drawTitle": "Remiseverzoek",
+      "drawMessage": "Tegenstander stelt remise voor. Akkoord?",
+      "accept": "Ja"
+    },
+    "comments": "Commentaren",
+    "private": "Privé wedstrijd",
+    "publishDesc": "Publiceer je partij",
+    "viewDetails": "Bekijk wedstrijddetails",
+    "notFoundTitle": "Leeg",
+    "notFoundDesc": "Partij #{{id}} niet gevonden.",
+    "redSide": "Rode Kant",
+    "blackSide": "Zwarte Kant",
+    "sideBlack": "Speel zwart",
+    "aiPlayer": "AI",
+    "rankGeneric": "Speler",
+    "redPlayerDefault": "Rode Speler",
+    "blackPlayerDefault": "Zwarte Speler",
+    "roomIdLabel": "Kamer: #{{id}}",
+    "active": "In wedstrijd",
+    "moves": "{{count}} beweegt",
+    "seo": {
+      "title": {
+        "prefix": "Analyse: ",
+        "videoTitle": "Gamevideo: {{title}}"
+      },
+      "intro": "Spannende <0>xiangqi online</0> partij tussen <1>{{red}}</1> en <2>{{black}}</2>. <3>Partijen terugkijken</3> is de beste manier om te leren.",
+      "comments": {
+        "title": "💡 Waarde van Analyse",
+        "desc": "Het systeem ondersteunt <0>xiangqi notaties</0>. Leer van <1>pro tactieken</1>."
+      },
+      "ai": {
+        "title": "🤖 Trainen met AI",
+        "desc": "Gebruik <0>Pikafish</0> om lastige situaties te analyseren."
+      },
+      "keywords": "xiangqi, online xiangqi, {{red}}, {{black}}, recensiewedstrijd, online arena, xiangqi-toernooi, xiangqi-tactieken, spelen met computer, trainen met ai, spelen xiangqi met machine",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "Hoofd-aan-hoofd",
+      "analysis": "Analyse",
+      "matchesCount": "{{count}}-overeenkomsten",
+      "recentMatches": "Recente wedstrijden",
+      "collectingData": "H2H-gegevens verzamelen...",
+      "red": "Rood",
+      "black": "Zwart",
+      "youWin": "JIJ WINT",
+      "opponentWin": "TEGENSTANDER WINT"
+    },
+    "panel": {
+      "title": "Wedstrijdinformatie",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} ZIJKANT",
+      "winStatus": "OVERWEGEND",
+      "drawStatus": "TEKENEN",
+      "reasons": {
+        "checkmate": "Schaakmat",
+        "stalemate": "Patstelling",
+        "timeout": "Time-out",
+        "resign": "Ontslag",
+        "perpetual": "Eeuwige heerschappij",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "Titel",
+        "defaultTitle": "Overeenkomen met #{{id}}",
+        "puzzleOrigin": "Gemaakt van puzzel",
+        "puzzleTitle": "Puzzel #{{id}}",
+        "drawRules": "Teken regels",
+        "rule60": "Gelijkspel als 60 zetten zonder slag zijn.",
+        "ruleRepeat": "Verlies bij 3 keer eeuwigdurende cheque of achtervolging.",
+        "ruleTimeout": "Verlies onmiddellijk na time-out.",
+        "rule60Label": "Regel van 60 zetten:",
+        "ruleRepeatLabel": "Herhaling:",
+        "ruleTimeoutLabel": "Time-out:",
+        "materialAdvantage": "Materiaalvoordeel",
+        "drawProgress": "Teken vooruitgang",
+        "redAdvantage": "ROOD +{{count}}",
+        "blackAdvantage": "ZWART +{{count}}",
+        "balanced": "GEBALANCEERD"
+      },
+      "actions": {
+        "save": "REDDEN",
+        "lobby": "Lobby"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "Overwinning!",
+      "loss": "Verlies",
+      "draw": "Tekenen!",
+      "finished": "Wedstrijd afgelopen",
+      "elo": "ELO-beoordeling",
+      "reward": "Beloning",
+      "review": "Beoordeling",
+      "share": "Deel"
+    },
+    "spectators": {
+      "title": "Toeschouwers ({{count}})",
+      "empty": "Niemand kijkt",
+      "label_short": "TOESCHOUWERS",
+      "alt": "Toeschouwer {{name}}"
+    },
+    "lobbyTitle": "Lobby",
+    "puzzleTag": "Puzzel",
+    "aiLevels": {
+      "1": "Beginner",
+      "2": "Basis",
+      "3": "Midden",
+      "4": "Vaardig",
+      "5": "Gevorderd",
+      "6": "Kampioen",
+      "default": "Niveau {{level}}"
+    },
+    "moveList": {
+      "progress": "Voortgang",
+      "first": "Begin",
+      "prev": "Vorige",
+      "next": "Volgende",
+      "last": "Einde",
+      "pause": "Pauze",
+      "play": "Play",
+      "empty": "Nog geen zetten",
+      "initial": "Beginstelling",
+      "viewMove": "Bekijk zet {{index}}",
+      "returnToLive": "Terug naar Live"
+    },
+    "export": {
+      "copyFen": "Kopieer FEN",
+      "copyFenSuccess": "FEN gekopieerd!",
+      "copyFenError": "Fout bij kopiëren FEN",
+      "exportFile": "Bestand exporteren",
+      "saveImage": "Sla afbeelding op (Client)",
+      "saveImageSuccess": "Opgeslagen!",
+      "saveImageError": "Fout bij opslaan",
+      "downloadHd": "HD downloaden (server)",
+      "downloadHdSuccess": "HD Afbeelding opgeslagen!",
+      "downloadHdError": "Fout: {{message}}",
+      "cancelInfo": "Geannuleerd",
+      "noMovesError": "Geen zetten voor video",
+      "clientVideo": "Video (WebM)",
+      "clientVideoSuccess": "Video geëxporteerd!",
+      "clientVideoError": "Fout: {{message}}",
+      "serverVideo": "Video (MP4)",
+      "serverVideoSuccess": "Download {{format}} gereed!",
+      "serverVideoError": "Fout: {{message}}",
+      "serverTimeout": "Server is druk. Gebruik de client export.",
+      "animatedGif": "GIF Animatie",
+      "size": "Grootte",
+      "ratios": {
+        "horizontal": "Horizontaal",
+        "vertical": "Verticaal",
+        "square": "Vierkant",
+        "board": "Alleen bord"
+      }
+    },
+    "move": "Zet",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "Rood is gearriveerd!",
+    "blackJoined": "Zwart is gearriveerd!",
+    "redLeft": "Rood is vertrokken.",
+    "blackLeft": "Zwart is vertrokken.",
+    "opponentDisconnected": "Verbinding verbroken!",
+    "opponentReconnected": "Tegenstander weer verbonden!",
+    "newSpectator": "Nieuwe toeschouwer (Totaal {{count}})",
+    "started": "Partij gestart! Succes.",
+    "drawDeclined": "Tegenstander wijst remise af.",
+    "swapDeclined": "Tegenstander wijst wissel af.",
+    "swapSuccess": "Je bent gewisseld naar de {{side}} kant.",
+    "resultDraw": "Einde: Remise",
+    "resultWin": "Gefeliciteerd! Je hebt gewonnen!",
+    "resultLoss": "Einde: Je hebt verloren.",
+    "resultOtherWin": "Einde: {{side}} Wint!",
+    "errorViewingReplay": "Je bekijkt een replay.",
+    "backToLive": "Terug naar Live",
+    "errorLoginToPlay": "Log in om te spelen.",
+    "errorNotYourTurn": "Niet jouw beurt.",
+    "errorSpectator": "Je bent een toeschouwer.",
+    "engineError": "Engine Fout: {{error}}",
+    "config": {
+      "titleChallenge": "Uitnodigen",
+      "titlePuzzle": "Puzzel Match",
+      "titleNew": "Nieuwe Partij",
+      "readyToPlay": "Klaar om te spelen",
+      "invitedOpponent": "Je bent uitgedaagd",
+      "challengeInvite": "{{name}} daagt je uit!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} wijst af.",
+        "wait": "⏳ {{name}} is druk.",
+        "accepted": "🎉 Geaccepteerd. Zet je schrap!",
+        "canceled": "Uitdaging geannuleerd.",
+        "sent": "Uitdaging verstuurd naar {{name}}.",
+        "busy": "📭 {{name}} is druk. Je staat in de rij.",
+        "offline": "Offline."
+      },
+      "ready": {
+        "title": "Match Klaar",
+        "desc": "De eerste die ingaat is Zwart, de tweede is Rood. Opschieten!",
+        "action": "NU GAAN SPELEN",
+        "hide": "Verbergen"
+      },
+      "gifts": {
+        "received": "{{name}} stuurde een cadeau!",
+        "coins": "{{name}} stuurde goud!",
+        "coinsDesc": "+{{amount}} 🪙",
+        "candy": "🍬 Snoep",
+        "bear": "🧸 Beer",
+        "ring": "💍 Ring"
+      },
+      "defaultConfigDesc": "Standaard instellingen:",
+      "defaultConfigDetails": "20 min, Publiek, Elo-geclassificeerd.",
+      "advancedConfig": "⚙️ Geavanceerd",
+      "timeMode": "Tijdmode",
+      "findOpponent": "Tegenstander zoeken",
+      "selected": "Geselecteerd",
+      "searchPlaceholder": "Naam of UID...",
+      "online": "Online",
+      "noResults": "Niet gevonden...",
+      "select": "Kiezen",
+      "unselect": "Verwijderen",
+      "boardOptions": "Bord opties",
+      "private": "🔒 Privé (casual)",
+      "public": "🌐 Publiek (Elo Ranking)",
+      "boardType": "Type",
+      "standard": "♟ Standaard",
+      "puzzle": "🧩 Puzzel",
+      "puzzleSetup": "Puzzel instellen",
+      "selectedPuzzle": "Gekozen",
+      "change": "Wijzigen",
+      "suggestions": "Suggesties",
+      "searchPuzzlePlaceholder": "Naam puzzel...",
+      "level": "Niveau",
+      "challengeOptions": "Uitdaging opties",
+      "message": "Bericht",
+      "defaultMessage": "Zullen we xiangqi spelen?",
+      "betGifts": "Cadeau weddenschap",
+      "betActive": "🎁 Weddenschap Actief",
+      "betNone": "🎁 Geen weddenschap",
+      "giftType": "Type cadeau",
+      "backToSimple": "« Terug naar Simpel",
+      "goldWarning": "ℹ️ Puzzels geven mogelijk geen goud",
+      "goldSuccess": "ℹ️ Standaard puzzels geven goud",
+      "creating": "Maken...",
+      "sendChallenge": "⚔️ Uitdagen",
+      "openMatch": "🚀 Publieke Partij Openen",
+      "playNow": "🚀 Nu Spelen",
+      "modes": {
+        "blitz": "⚡ Blitz",
+        "rapid": "🏃 Snel",
+        "standard": "⏱ Standaard",
+        "slow": "🎯 Langzaam"
+      },
+      "toasts": {
+        "loginRequired": "Inloggen nodig om partij te maken.",
+        "challengeSent": "Uitdaging naar {{name}} verstuurd!",
+        "roomCreated": "Kamer succesvol gemaakt!",
+        "alreadyInGame": "Je hebt nog een actieve partij.",
+        "serverError": "Server verbindingsfout."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "Los <0>Puzzels</0> op",
+    "subtitle": "Duizenden puzzels van de community",
+    "listTitle": "Xiangqi Puzzellijst",
+    "explore": "Ontdek",
+    "saved": "Opgeslagen",
+    "searchPlaceholder": "Zoeken...",
+    "level": "Moeilijkheid",
+    "levelValue": "Niveau {{level}}",
+    "unclassified": "Ongecategoriseerd",
+    "sort": {
+      "label": "Sorteren",
+      "newest": "Nieuwste",
+      "popular": "Populair",
+      "solved": "Meest opgelost"
+    },
+    "time": {
+      "label": "Periode",
+      "all": "Altijd",
+      "day": "Vandaag",
+      "week": "Deze week",
+      "month": "Deze maand"
+    },
+    "empty": {
+      "title": "Geen puzzels gevonden",
+      "desc": "Verander de filters.",
+      "reset": "Filters resetten"
+    },
+    "actions": {
+      "solve": "Nu oplossen",
+      "loadMore": "Meer ↓",
+      "backToSolve": "Terug"
+    },
+    "loginToSave": "Log in om te bewaren.",
+    "loginToChallenge": "Log in om uit te dagen.",
+    "red": "Rood",
+    "black": "Zwart",
+    "byUser": "Door {{name}}",
+    "meta": {
+      "title": "Los Xiangqi Puzzels Online op - Beste Database",
+      "description": "Openingen, eindspelen, tactieken. Gratis oefenen.",
+      "itemListDesc": "Beste xiangqi puzzels",
+      "itemListSchemaDesc": "Xiangqi puzzel database online.",
+      "home": "Thuis",
+      "puzzles": "Puzzels",
+      "schemaGameTitle": "Puzzel : {{name}}",
+      "schemaVideoTitle": "Video : {{name}}",
+      "schemaVideoDesc": "Hoe los je op : {{name}}.",
+      "schemaVideoSolutionTitle": "Video over puzzeloplossingen: {{name}} (Oplossing {{index}})",
+      "schemaVideoSolutionDesc": "Hoe de xiangqi-puzzel op te lossen: {{name}} - Oplossing {{index}}.",
+      "authorDefault": "Xiangqi Online"
+    },
+    "seoContent": {
+      "whyTitle": "Waarom <0>Puzzels</0> oefenen?",
+      "intro": "Puzzels zijn de kern van tactiek. Verplicht om beter te worden.",
+      "guide": {
+        "title": "Gids voor beginners",
+        "intro": "Om beter te worden:",
+        "item1": "<0>Evaluatie:</0> Kijk naar de overgebleven stukken.",
+        "item2": "<0>Analyse:</0> Zoek zwaktes bij de tegenstander.",
+        "item3": "<0>Berekening:</0> Zoek naar snelle matmogelijkheden."
+      },
+      "ai": {
+        "title": "AI Hulp",
+        "intro": "Gebruik <0>Pikafish</0> voor:",
+        "item1": "Het vinden van verborgen zetten.",
+        "item2": "Foutenanalyse.",
+        "item3": "10-20 zetten vooruit rekenen."
+      },
+      "benefits": {
+        "title": "Voordelen",
+        "satt": {
+          "title": "Mat",
+          "desc": "Beheers bekende matvormen."
+        },
+        "tanquoc": {
+          "title": "Eindspel",
+          "desc": "Leer winnen met weinig materiaal."
+        },
+        "tuduy": {
+          "title": "Denken",
+          "desc": "Herken winnende patronen automatisch."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "Analyse:",
+        "defaultName": "Klassiek",
+        "intro": "De puzzel <0>{{name}}</0> is een goede <1>tactische oefening</1>.",
+        "tips": {
+          "title": "💡 Tip",
+          "desc": "Kijk naar de aanvallers. Een plotselinge <0>schaak</0> is vaak de sleutel."
+        },
+        "advanced": {
+          "title": "📈 Progressie",
+          "desc": "Na succes AI gebruiken om varianten te zien."
+        }
+      },
+      "seoTitle": "Puzzel oplossen: {{name}} - Xiangqi Online",
+      "seoDesc": "Los {{name}} online op. Train je berekening.",
+      "rewardFirst": "🏆 Top! Je verdiende {{count}} 🪙.",
+      "rewardUpdate": "Gefeliciteerd! Resultaat bijgewerkt.",
+      "viewingSolution": "Bekijk oplossing van",
+      "loadError": "Bord laden mislukt",
+      "loginRequiredTitle": "Inloggen!",
+      "loginRequiredMsg": "Log in voor deze actie.",
+      "mission": "Missie",
+      "missionDesc": "Vind een manier om te winnen.",
+      "aiSolver": "AI Oplosser",
+      "aiSolverDesc": "Zet \"🤖 AI Hulp\" aan voor auto-antwoord.",
+      "achievement": "Prestatie",
+      "achievementDesc": "Verdien goud voor eerste juiste oplossing.",
+      "aiServer": "AI-server",
+      "aiServerDesc": "Hoge niveaus gebruiken de Pikafish server.",
+      "title": "Info",
+      "backToList": "Lijst",
+      "puzzleNameLabel": "Puzzel {{id}}",
+      "firstPlayer": "Bando",
+      "redFirst": "🔴 Rood eerst",
+      "blackFirst": "⚫ Zwart eerst",
+      "creator": "Maker",
+      "difficulty": "Niveau",
+      "relatedGames": "Gerelateerd",
+      "justHappened": "Zojuist",
+      "saved": "Bewaard",
+      "savePuzzle": "Puzzel bewaren",
+      "solverTitle": "Oplossing",
+      "solveMode": "Modus",
+      "modeAi": "🤖 AI (Auto)",
+      "modeManual": "👥 Zelf (AI uit)",
+      "aiLevel": "AI Kracht",
+      "sideSelect": "Jouw kleur",
+      "redSide": "Rood",
+      "blackSide": "Zwart",
+      "undo": "Stap terug",
+      "restart": "Opnieuw",
+      "hallOfFame": "Eregalerij",
+      "solvedBy": "Opgelost door",
+      "player": "Speler",
+      "movesCount": "Zetten: {{count}}",
+      "view": "Bekijk",
+      "noSolutions": "Nog niet opgelost door meesters.\nWees de eerste!",
+      "similarPuzzles": "Vergelijkbare puzzels",
+      "relatedMatchReports": "Gerelateerde rapporten"
+    }
+  },
+  "notifications": {
+    "title": "Meldingen",
+    "panelHeader": "Berichten",
+    "clearAll": "Alles wissen",
+    "empty": "Geen berichten.",
+    "viewNow": "Bekijk nu →",
+    "push": {
+      "prompt": "Zet meldingen aan om geen uitdaging te missen!",
+      "enable": "Inschakelen",
+      "saveError": "Instelling opslaan mislukt.",
+      "deniedError": "Toegang geweigerd. Zet meldingen aan in de browser.",
+      "genericError": "Inschakelen mislukt."
+    },
+    "challenges": {
+      "standard": "Standaard",
+      "puzzle": "Puzzel",
+      "accepted": "🔥 Geaccepteerd",
+      "declined": "❌ Geweigerd",
+      "canceled": "⚪ Geannuleerd",
+      "waitOpponent": "⏳ Wachten op rivaal...",
+      "waitYou": "⏳ We wachten op jou...",
+      "acceptAction": "Ja",
+      "waitAction": "Wachten",
+      "cancelAction": "Annuleer",
+      "deleteAction": "Wis",
+      "inGameTooltip": "Je bent aan het spelen"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "Ongeldig bord",
+      "checkAgain": "Controleer het nogmaals",
+      "loginRequired": "Log in om door te gaan.",
+      "nameRequired": "Voer een naam in voor deze installatie.",
+      "descRequired": "Voer een beschrijving in voor deze installatie.",
+      "twoKings": "De opstelling moet exact 2 Koningen bevatten.",
+      "faceToFace": "Fout: Koningen kunnen niet rechtstreeks tegenover elkaar staan.",
+      "redCheck": "Rode Koning staat momenteel onder controle.",
+      "blackCheck": "Zwarte Koning staat momenteel onder controle.",
+      "pieceLimit": "Maximaal {{limit}}-stukken van het type {{type}} toegestaan.",
+      "generalPalace": "{{side}} Generaal moet zich in het paleis bevinden (3x3).",
+      "advisorPalace": "{{side}} Advisor moet zich in het paleis bevinden (3x3).",
+      "advisorDiagonal": "{{side}} Advisor kan alleen op diagonale paleispunten worden geplaatst.",
+      "elephantRiver": "{{side}} Olifant kan de rivier niet oversteken.",
+      "elephantPoints": "{{side}} Elephant kan alleen op vaste thuisposities worden geplaatst.",
+      "redSoldierBackward": "Rode Soldaat kan niet achteruit achter de startlijn bewegen.",
+      "redSoldierColumns": "Rode Soldaat vóór de rivier kan alleen op oneven kolommen staan ​​(1, 3, 5, 7, 9).",
+      "blackSoldierBackward": "Black Soldier kan niet achteruit achter de startlijn komen.",
+      "blackSoldierColumns": "Zwarte Soldaat vóór de rivier kan alleen op oneven kolommen staan ​​(1, 3, 5, 7, 9).",
+      "saveError": "Fout tijdens het opslaan",
+      "unknownError": "Er is een onbekende fout opgetreden.",
+      "connError": "Verbindingsfout",
+      "connMsg": "Kan geen verbinding maken met de server.",
+      "fenError": "FEN error.",
+      "red": "Rood",
+      "black": "Zwart",
+      "successLoad": "Geladen: {{name}}",
+      "successUpdate": "Bijgewerkt: {{name}}",
+      "successSave": "Opgeslagen: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "Editor & Bordopstelling",
+    "tryoutTitle": "Testen met AI",
+    "tryout": {
+      "modeLabel": "Modus:",
+      "modeAi": "🤖 Tegen AI spelen",
+      "modeManual": "👥 Handmatig (beide kanten)",
+      "selectBot": "Selecteer tegenstander:",
+      "levelLabel": "AI Niveau:",
+      "levelOption": "Niveau {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "Jouw kleur:",
+      "viewLabel": "Weergave:",
+      "sideRed": "Rood",
+      "sideBlack": "Zwart",
+      "backLabel": "Terug naar Setup"
+    },
+    "paletteTitle": "Stukken-Palette",
+    "palette": {
+      "selecting": "Gekozen:",
+      "erase": "Stuk verwijderen",
+      "clear": "Bord legen",
+      "redPrefix": "Rood",
+      "blackPrefix": "Zwart"
+    },
+    "fen": {
+      "label": "Uit FEN importeren",
+      "placeholder": "FEN string invoeren...",
+      "apply": "FEN toepassen"
+    },
+    "historyTitle": "Bewaarde Opstellingen",
+    "history": {
+      "loadAction": "Laden",
+      "viewAction": "Bekijken"
+    },
+    "modals": {
+      "duplicateTitle": "Stelling bestaat al",
+      "duplicateMsg": "Identiek aan [{{name}}].",
+      "duplicateAction": "Bekijk stelling",
+      "clearTitle": "Bord legen?",
+      "clearMsg": "Alle stukken verwijderen?"
+    },
+    "rules": {
+      "title": "Editor Regels",
+      "orientation": {
+        "label": "Oriëntatie:",
+        "desc": "Rood onder, Zwart boven."
+      },
+      "turn": {
+        "label": "Aan zet:",
+        "desc": "Standaard begint Rood."
+      },
+      "general": {
+        "label": "Generaal:",
+        "desc": "1 per team, in het Paleis."
+      },
+      "check": {
+        "label": "Geen schaak bij start:",
+        "desc": "Beginstand mag niet schaak zijn."
+      },
+      "facing": {
+        "label": "Geen zichtlijn generaals:",
+        "desc": "Generaals mogen elkaar niet direct aankijken."
+      },
+      "defense": {
+        "label": "Adviseur/Olifant:",
+        "desc": "Adviseurs in Paleis, Olifanten steken rivier niet over."
+      },
+      "soldier": {
+        "label": "Soldaten:",
+        "desc": "5 per kant. Geen zijwaartse zet voor de rivier."
+      }
+    },
+    "seoTitle": "Online Xiangqi Editor & Opstelling",
+    "seoDesc": "Stel online het bord op, maak puzzels en analyseer met AI. Pro tools van cotuong.xyz.",
+    "modeTryout": "Analyse-Modus",
+    "modeEditor": "Edit-Modus • Klik om te plaatsen",
+    "actionTry": "Tegen AI testen",
+    "actionUndo": "Stap terug",
+    "actionReset": "Opnieuw instellen",
+    "toast": {
+      "loginSave": "Log in om opstellingen te bewaren.",
+      "loginChallenge": "Log in om anderen uit te dagen.",
+      "boardCleared": "Bord is leeggemaakt."
+    },
+    "seoContent": {
+      "title": "Professionele <0>Online Xiangqi Editor</0>",
+      "intro": "Toonaangevende <0>xiangqi-installatie</0> en <1>puzzeleditor</1>. Vrij <2>borden opzetten</2>, schaakmatoefeningen of eindspelposities maken.",
+      "feature1": {
+        "title": "Sterke Functies",
+        "desc": "Ondersteunt drag & drop, FEN-import en <1>Pikafish AI</1> integratie."
+      },
+      "feature2": {
+        "title": "Passie delen",
+        "desc": "Alle puzzels worden bewaard in de database. Draag bij aan de community."
+      }
+    },
+    "form": {
+      "guestTitle": "Gast-Modus",
+      "guestDesc": "Log in om op te slaan en te delen.",
+      "nameLabel": "Naam opstelling:",
+      "namePlaceholder": "Voer naam in...",
+      "levelLabel": "Moeilijkheid:",
+      "levelOption": "Kies",
+      "levelValue": "Niveau {{level}}",
+      "descLabel": "Omschrijving:",
+      "descPlaceholder": "...",
+      "saveAction": "Opstelling opslaan",
+      "loginSaveAction": "🔐 Inloggen om op te slaan",
+      "importError": "FEN-importfout:"
+    }
+  },
+  "tournaments": {
+    "title": "Toernooien",
+    "subtitle": "Arena voor de sterkste meesters",
+    "loading": "Toernooi-info laden...",
+    "empty": "Momenteel geen toernooien beschikbaar.",
+    "listTitle": "Lijst Online Toernooien",
+    "listDesc": "Actuele en aankomende xiangqi evenementen.",
+    "champion": "Kampioen: {{name}}",
+    "players": {
+      "pendingTitle": "Deelnameverzoeken ({{count}})",
+      "registeredTitle": "Geregistreerde spelers ({{count}})",
+      "empty": "Er zijn nog geen spelers geregistreerd.",
+      "approve": "Goedkeuren"
+    },
+    "rounds": "{{count}} Ronden",
+    "minElo": "Elo {{elo}}+",
+    "requireApproval": "Goedkeuring nodig",
+    "hasPrizes": "Met prijzen",
+    "deadline": "Sluiting inschrijving:",
+    "createdAt": "Gemaakt op:",
+    "noDescription": "Geen omschrijving.",
+    "status": {
+      "registration": "Inschrijving",
+      "active": "Bezig",
+      "deadline_closed": "Inschrijving gesloten",
+      "finished": "Klaar"
+    },
+    "backToList": "Terug naar lijst",
+    "noDescriptionDetail": "Er is geen gedetailleerde beschrijving beschikbaar voor dit toernooi.",
+    "currentRound": "Rond: {{current}}{{total}}",
+    "playersCount": "Spelers: {{current}}/{{total}}",
+    "registrationInfo": "Registratie-informatie",
+    "start": "Begin",
+    "closed": "Gesloten",
+    "joinAction": "Registreer nu",
+    "joining": "Deelnemen...",
+    "joined": "Geregistreerd",
+    "pendingApproval": "In afwachting van goedkeuring",
+    "formats": {
+      "swiss": "Zwitsers Systeem",
+      "roundrobin": "Ronde Robin"
+    },
+    "timeline": {
+      "emptyAdmin": "Nog geen wedstrijden. Creëer een nieuwe ronde!",
+      "emptyUser": "Wedstrijden worden bijgewerkt...",
+      "roundLabel": "Rond {{round}}",
+      "status": {
+        "active": "Actief"
+      },
+      "actions": {
+        "review": "Beoordeling",
+        "play": "Speel nu",
+        "watch": "Horloge"
+      },
+      "sides": {
+        "red": "Rood",
+        "black": "Zwart"
+      }
+    },
+    "standings": {
+      "empty": "Er zijn geen klassementgegevens beschikbaar.",
+      "stats": {
+        "win": "Winnen",
+        "draw": "Tekenen",
+        "loss": "Verlies",
+        "bye": "Doei"
+      }
+    },
+    "prizes": {
+      "title": "Prijsstructuur",
+      "goldUnit": "Goud"
+    },
+    "announcements": {
+      "placeholder": "Voer aankondigingsinhoud in...",
+      "postAction": "Aankondiging plaatsen",
+      "empty": "Geen mededelingen voor dit toernooi."
+    },
+    "detail": {
+      "notFound": "Toernooi niet gevonden.",
+      "champion": {
+        "title": "Kampioen",
+        "points": "punten",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "Registreer",
+        "joined": "Geregistreerd",
+        "pending": "In behandeling",
+        "createRound": "Maak ronde {{round}}",
+        "finishTournament": "Voltooi het toernooi"
+      },
+      "tabs": {
+        "timeline": "Tijdlijn",
+        "standings": "Standen",
+        "players": "Spelers",
+        "prizes": "Prijzen",
+        "announcements": "Aankondigingen"
+      },
+      "meta": {
+        "title": "{{name}} | Xiangqi Online",
+        "description": "Details, schema en klassement voor het {{name}}-toernooi."
+      },
+      "messages": {
+        "joinSuccess": "✅ Registratie succesvol!",
+        "joinPending": "✅ Aanvraag verzonden, wacht op goedkeuring door de beheerder.",
+        "roundStarted": "✅ Ronde {{round}} gemaakt — {{count}} komt overeen met {{bye}}",
+        "bye": "({{name}} heeft een BYE ontvangen)",
+        "tournamentFinished": "🏆 Toernooi afgelopen! Kampioen: {{name}}",
+        "confirmFinish": "Toernooi beëindigen en de kampioen bekendmaken?",
+        "confirm": "Bevestig Voltooien"
+      },
+      "errors": {
+        "joinClosed": "⏰ Inschrijfperiode is afgelopen.",
+        "joinFull": "❌Het toernooi is vol.",
+        "joinNotRegistration": "❌ Het toernooi accepteert geen inschrijvingen meer.",
+        "joinFailed": "❌ Verbindingsfout.",
+        "maxRounds": "Maximaal aantal {{count}}-rondes bereikt!",
+        "notEnoughPlayers": "Er zijn minimaal 2 spelers vereist.",
+        "alreadyFinished": "Het toernooi is afgelopen.",
+        "finishError": "Fout bij het beëindigen van het toernooi."
+      }
+    },
+    "meta": {
+      "title": "Online Xiangqi Toernooien - Strijd om de eer",
+      "description": "Doe mee aan spannende toernooien: Blitz, Rapid en Standaard.",
+      "home": "Thuis",
+      "tournaments": "Toernooien"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "De plek voor <0>Kampioenen</0>",
+        "desc": "Toernooien zijn de plek voor de besten."
+      },
+      "features": {
+        "formats": {
+          "title": "Zwitsers & Round Robin",
+          "desc": "Internationale standaarden voor eerlijkheid."
+        },
+        "prizes": {
+          "title": "Mooie prijzen",
+          "desc": "Winnaars krijgen goud 🪙 en trofeeën."
+        },
+        "experience": {
+          "title": "Ervaring opdoen",
+          "desc": "Elk toernooi is een waardevolle les."
+        },
+        "honor": {
+          "title": "Eregelalerij",
+          "desc": "Ranglijsten en kampioenen blijven voor altijd zichtbaar."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Tegen {{name}} (AI) spelen - Oefen online",
+    "seoTitleDefault": "Tegen de Computer - Pikafish AI",
+    "seoDesc": "Daag {{name}} uit op niveau {{level}}.",
+    "seoDescDefault": "Train tegen de machine op niveau {{level}}.",
+    "title": "Borden met <0>AI</0>",
+    "settings": "Instellen",
+    "undo": "Stap terug",
+    "newGame": "Nieuwe Partij",
+    "agentsOnline": "{{count}}-agenten online",
+    "personality": {
+      "aggressive": "Agressief",
+      "defensive": "Defensief",
+      "balanced": "Evenwichtig"
+    },
+    "ranks": {
+      "level1": "Beginner",
+      "level4": "Professioneel",
+      "level6": "Grootmeester"
+    },
+    "bot": {
+      "error_not_found": "Geen bots gevonden. Controleer Beheerder › Bots."
+    },
+    "seoContent": {
+      "title": "Trainen met <0>Pikafish</0>",
+      "intro": "Gebruik Pikafish (Stockfish voor xiangqi) voor een pro training.",
+      "feature1": {
+        "title": "Pikafish AI-motor",
+        "desc": "Miljoenen berekeningen per seconde."
+      },
+      "feature2": {
+        "title": "Verschillende niveaus",
+        "desc": "Van niveau 1 tot 10."
+      },
+      "feature3": {
+        "title": "Directe Analyse",
+        "desc": "Leer van je fouten direct na de partij."
+      },
+      "whyTitle": "Waarom tegen AI?",
+      "whyDesc": "Het bouwt geduld en precisie op. De AI maakt geen domme zetsels.",
+      "tags": {
+        "online": "Online",
+        "withAi": "Tegen AI",
+        "engine": "Pikafish",
+        "practice": "treinxiangqi",
+        "hall": "geesteszaal",
+        "ai": "kunstmatige intelligentie"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "Thema: Donker"
+    },
+    "title": "Mijn Account",
+    "dashboard": "Lobby",
+    "account": "Instellingen",
+    "overview": "Overzicht",
+    "customize": "Aanpassen",
+    "boardInterface": "Bordinterface",
+    "boardInterfaceDesc": "Pas de kijkervaring op het bord aan.",
+    "autoScroll": "Autoscroll",
+    "autoScrollDesc": "Scroll naar het bord als je aan een wedstrijd deelneemt",
+    "autoScrollSuccess": "Board scroll-instelling bijgewerkt",
+    "cropAvatar": "Avatar bijsnijden",
+    "zoom": "Zoom",
+    "saveImage": "Opslaan",
+    "updateNameSuccess": "Naam bijgewerkt!",
+    "updateAvatarSuccess": "Avatar bijgewerkt!",
+    "pieceStyle": "Stijl Stukken",
+    "pieceStyleDesc": "Kies de visualisatie van de stukset van uw voorkeur.",
+    "pieceStyles": {
+      "traditional": "Klassiek (Chinees)",
+      "international": "Internationaal",
+      "simple": "Modern"
+    },
+    "voicePack": "Stemmenpakket",
+    "voicePackDesc": "Voice-overs voor spelaankondigingen.",
+    "voicePacks": {
+      "vi": "Vietnamees",
+      "en": "Engels",
+      "zh": "Chinees",
+      "ja": "Japans",
+      "none": "Geen (enkel effecten)"
+    },
+    "changePasswordSuccess": "Wachtwoord gewijzigd!",
+    "deletePuzzleTitle": "Verwijderen?",
+    "deletePuzzleConfirm": "Weet u zeker dat u puzzel [{{name}}] wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "deletePuzzleAction": "VERWIJDER NU",
+    "deletePuzzleSuccess": "Gelukt!",
+    "notificationsEnabled": "Aan!",
+    "notificationsError": "Kan meldingen niet inschakelen.",
+    "matchHistory": "Wedstrijdgeschiedenis",
+    "achievements": "Prestaties",
+    "inventory": "Inventaris",
+    "myContent": "Mijn inhoud",
+    "security": "Beveiliging",
+    "notifications": "Meldingen",
+    "changePassword": "Wachtwoord",
+    "oldPassword": "Oud wachtwoord",
+    "newPassword": "Nieuw wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "displayName": "Toon naam",
+    "updateProfile": "Profiel bijwerken",
+    "notificationsDesc": "Ontvang meldingen over toernooien, berichten en nieuwe uitdagingen.",
+    "pushSuccess": "Meldingen succesvol ingeschakeld!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - Leading intellectual xiangqi platform. Where passionate players meet, practice with Pikafish AI, and conquer the Elo leaderboard.",
+    "missionShort": "Kwaliteitsplatform",
+    "experience": "Ervaring",
+    "knowledge": "Kennis",
+    "services": "Diensten",
+    "contactLegal": "Contact & Recht",
+    "onlineArena": "Online Arena",
+    "puzzles": "Puzzels",
+    "playWithAi": "Tegen AI",
+    "leaderboard": "Rankings",
+    "howToPlay": "Regels",
+    "basicTactics": "Basis tactieken",
+    "practicalEndgame": "Praktisch eindspel",
+    "news": "Toernooinieuws",
+    "shop": "Artikelen & Winkel",
+    "profile": "Mijn Profiel",
+    "vipUpgrade": "VIP-upgrade",
+    "support": "Gebruikersondersteuning",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "officialRules": "Regelgeving",
+    "active": "In de lucht",
+    "globalServer": "Wereldwijde Server",
+    "facebookPage": "Facebook Pagina",
+    "facebookGroup": "Facebook-groep",
+    "allSystemsOperational": "Alles werkt naar behoren",
+    "joinPlayers": "Sluit je aan bij meer dan 50.000 spelers",
+    "globalPresence": "Mondiale aanwezigheid",
+    "infrastructure": "Infrastructuur",
+    "security": "Beveiliging",
+    "versionControl": "Versiebeheer",
+    "release": "Uitgave",
+    "deployTime": "Tijd implementeren",
+    "staticHub": "Mondiale statische hub",
+    "sslVerified": "SSL-geverifieerd",
+    "build": "Versie",
+    "time": "Tijd",
+    "copyright": "Xiangqi Online - Gemaakt door <0>cotuong.xyz</0>. Reclamevrij. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "Voorwaarden | Xiangqi Online",
+      "description": "Nutzungsvoorwaarden."
+    },
+    "title": "Voorwaarden & <0>Regels</0>",
+    "title_p1": "Voorwaarden &",
+    "title_p2": "Regels",
+    "intro": "Een eerlijke omgeving voor iedereen.",
+    "cardTitle": "Overeenkomst",
+    "lastUpdated": "Bijgewerkt",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptatie",
+        "content": "Gebruik betekent akkoord."
+      },
+      "accounts": {
+        "title": "Accounts",
+        "item1": "Pas op je wachtwoord.",
+        "item2": "Correcte gegevens graag.",
+        "item3": "1 account per persoon.",
+        "item4": "Ban bij misbruik."
+      },
+      "fairplay": {
+        "title": "Fair-play",
+        "intro": "Verboden :",
+        "item1": "IA gebruiken tegen mensen.",
+        "item2": "Rating manipulatie.",
+        "item3": "Beledigingen.",
+        "item4": "Spam."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "content": "Alles van Xiangqi Online."
+      },
+      "liability": {
+        "title": "Aansprakelijkheid",
+        "content": "Dienst 'zoals hij is'."
+      },
+      "changes": {
+        "title": "Wijzigingen",
+        "content": "Wij mogen de regels aanpassen."
+      }
+    },
+    "footer": "Bedankt voor je deelname!"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy | Xiangqi Online",
+      "description": "Exploitatie van data."
+    },
+    "title": "Privacy & <0>Veiligheid</0>",
+    "title_p1": "Privacy &",
+    "title_p2": "Veiligheid",
+    "intro": "Dataveiligheid is onze prio.",
+    "cardTitle": "Privacybeleid",
+    "lastUpdated": "Bijgewerkt",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "collection": {
+        "title": "Collectie",
+        "intro": "Wij verzamelen:",
+        "item1": "Account: E-mail, Naam.",
+        "item2": "Spel: Historie, Elo.",
+        "item3": "Techniek: IP."
+      },
+      "usage": {
+        "title": "Gebruik",
+        "intro": "Voor:",
+        "item1": "Beheer van account.",
+        "item2": "Ranglijsten.",
+        "item3": "Systeemmeldingen.",
+        "item4": "Optimalisatie (Google Analytics)."
+      },
+      "security": {
+        "title": "Beveiliging",
+        "content": "HTTPS & Versleuteling."
+      },
+      "sharing": {
+        "title": "Delen",
+        "content": "Wij verkopen <0>nooit</0> je data aan derden.",
+        "content_p1": "Wij",
+        "content_p2": "nooit",
+        "content_p3": "uw persoonlijke gegevens verkopen of verhuren aan derden. We delen alleen essentiële informatie met servicepartners zoals Google."
+      },
+      "rights": {
+        "title": "Je Rechten",
+        "intro": "Je kunt:",
+        "item1": "Aanpassen.",
+        "item2": "Verwijderen.",
+        "item3": "Opt-out."
+      }
+    },
+    "footer": "Privacy by cotuong.xyz"
+  },
+  "shop": {
+    "title": "Cadeauwinkel",
+    "meta": {
+      "title": "Cadeauwinkel | Xiangqi Online",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Xiangqi online cadeauwinkel",
+      "listDesc": "Spirituele geschenken voor xiangqi-spelers.",
+      "home": "Thuis",
+      "shop": "Winkel",
+      "loading": "Winkel laden..."
+    },
+    "subtitle": "\"Het geven van een roos laat de geur in de hand\". Stuur liefde naar je medespelers.",
+    "yourCoins": "Jouw munten",
+    "messages": {
+      "success": "Cadeau succesvol gekocht!",
+      "insufficient": "Niet genoeg munten!",
+      "error": "Fout bij het kopen van een cadeau.",
+      "networkError": "Netwerkfout tijdens het kopen van een cadeau."
+    },
+    "buy": {
+      "processing": "Kopen...",
+      "insufficient": "Onvoldoende munten",
+      "now": "Koop nu",
+      "defaultDesc": "Een klein geschenk met een grote betekenis."
+    },
+    "tips": {
+      "title": "Tips om munten te verdienen",
+      "desc": "Munten zijn de belangrijkste valuta in Xiangqi Online. Je kunt geen munten kopen met echt geld, maar je moet <0>de munten verzamelen door inspanning</0> en het trainen van je vaardigheden:",
+      "item1": "Voltooi de oefeningen op <0>Spelen</0>. Elke nieuwe les levert een waardige hoeveelheid munten op.",
+      "item2": "Neem deel aan <0>onlinetoernooien</0>. Spelers met een hoge rangorde ontvangen munten en waardevolle items.",
+      "item3": "Ontvang cadeaus van vrienden en fans als je uitstekende matches hebt.",
+      "viewTournaments": "Bekijk aankomende toernooien →"
+    },
+    "culture": {
+      "title": "Geschenkcultuur",
+      "desc1": "In de schaakwereld gaat het bij het geven van cadeaus niet alleen om materiële zaken, maar om <0>het tonen van respect en verbondenheid</0> tussen spelers.",
+      "desc2": "\"Waardevolle tegenstander\" - Kleine cadeautjes zoals 🌹 Rozen of ☕ Koffie zijn een geweldige manier om een ​​nieuwe vriendschap te beginnen na een stressvolle wedstrijd. Gebruik je verdiende munten om onze Xiangqi-gemeenschap te verfraaien."
+    }
+  },
+  "leaderboard": {
+    "title": "Meesters en leden",
+    "subtitle": "Community Hall of Fame ({{count}}-leden)",
+    "meta": {
+      "title": "Leaderboard - Meesters eren | Xiangqi Online",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Leiderbord voor online spelers van Xiangqi",
+      "listDesc": "Lijst met spelers met de hoogste Elo in de community.",
+      "home": "Thuis"
+    },
+    "hierarchy": {
+      "title": "Spelerhiërarchie en Elo-systeem",
+      "desc": "Het Elo-beoordelingssysteem is gebaseerd op internationale normen en geeft het niveau en de prestaties van de speler nauwkeurig weer.",
+      "rank1": {
+        "title": "Beginner en casual",
+        "desc": "Eerste stappen in het veroveren van Xiangqi. Focus op het beheersen van elementaire schaakmatten."
+      },
+      "rank2": {
+        "title": "Gemiddeld & Gevorderd",
+        "desc": "Diep begrip van opening en middenspel. Flexibele stukcoördinatie."
+      },
+      "rank3": {
+        "title": "Meester",
+        "desc": "Een allerhoogste niveau bereikt, in staat om tientallen zetten diep te berekenen."
+      },
+      "rank4": {
+        "title": "Grootmeester",
+        "desc": "Legenden van de gemeenschap, die alle geheime kunsten en valstrikken beheersen."
+      }
+    },
+    "search": "Spelers zoeken...",
+    "table": {
+      "rank": "#",
+      "player": "Speler",
+      "elo": "Elo",
+      "games": "Spellen",
+      "status": "Status",
+      "playing": "Spelen",
+      "actions": "Acties"
+    },
+    "statuses": {
+      "searching": "Zoeken..."
+    },
+    "actions": {
+      "view": "📺 Bekijken",
+      "message": "Bericht"
+    },
+    "empty": "Geen spelers gevonden",
+    "pagination": {
+      "page": "Pagina {{current}} / {{total}}",
+      "total": "{{count}}-spelers",
+      "prev": "Vorige",
+      "next": "Volgende"
+    },
+    "footer": "Het Elo-ranglijstsysteem is gebaseerd op openbare wedstrijden. Doe mee aan wedstrijden om hogerop te komen en de Hall of Fame te betreden!",
+    "lesson": "Les"
+  },
+  "practice": {
+    "title": "Leer en <0>oefenen</0>",
+    "subtitle": "Train basis- tot geavanceerde schaakmat- en eindspelmanoeuvres",
+    "loading": "Les laden...",
+    "meta": {
+      "title": "Leer en oefen Xiangqi online - schaakmat- en eindspeltraining",
+      "description": "Neem deel aan xiangqi-cursussen van basis tot gevorderd. Oefen stukbewegingen, los puzzels op en train met AI Pikafish om je vaardigheden elke dag te verbeteren.",
+      "home": "Thuis",
+      "practice": "Oefening"
+    },
+    "list": {
+      "title": "Ontdek de essentie van Xiangqi",
+      "description": "Leer van basis tot gevorderd met een gestructureerd stappenplan. Elke les beschikt over een interactief bord en AI-ondersteuning voor elke beweging.",
+      "coins": "Geaccumuleerd goud",
+      "all": "Alle",
+      "lessonCount": "{{count}}-lessen"
+    },
+    "curriculum": {
+      "title": "Spelertrainingsprogramma (curriculum)",
+      "subtitle": "Routekaart in 4 fasen van beginner tot grootmeester",
+      "steps": {
+        "01": {
+          "title": "Basis (funderingen)",
+          "desc": "Maak kennis met het bord, de 7 soorten stukken en basisregels zoals Cheque en Facing Generals."
+        },
+        "02": {
+          "title": "Tactiek (schaakmat)",
+          "desc": "Leer afwerkingscoördinatie: paard-dan-kanon, hemel-en-aarde kanonnen, gesmoorde partner, rollende kanonnen."
+        },
+        "03": {
+          "title": "Eindspel (technieken)",
+          "desc": "Technieken waarbij gebruik wordt gemaakt van een enkele strijdwagen, een enkel kanon en een paard/soldaat om te winnen in de laatste fase."
+        },
+        "04": {
+          "title": "Opening (strategieën)",
+          "desc": "Bestudeer klassieke formaties zoals Central Cannon vs Screen Horse, Same Direction Cannons, Opposite Direction Cannons."
+        }
+      }
+    },
+    "card": {
+      "reward": "Goud",
+      "status": {
+        "completed": "Voltooid",
+        "pending": "Niet geleerd"
+      },
+      "start": "Begin nu met leren",
+      "defaultDesc": "Leer xiangqi-tactieken van het hoogste niveau.",
+      "completedTitle": "Voltooid"
+    },
+    "sidebar": {
+      "back": "Alle lessen",
+      "difficulty": "Moeilijkheidsgraad:",
+      "content": "Lesinhoud:",
+      "defaultMission": "Start de oefening om nieuwe kennis te ontdekken.",
+      "reward": "Beloning:",
+      "status": "Status:",
+      "statusDone": "Klaar",
+      "statusPending": "In behandeling",
+      "processing": "Verwerken...",
+      "nextLesson": "Volgende les",
+      "finishCourse": "Volledige cursus",
+      "completeAndNext": "Voltooide en volgende les"
+    },
+    "panel": {
+      "history": "Geschiedenis verplaatsen",
+      "aiTrain": "Oefen met AI",
+      "aiTrainDesc": "Testbewegingen tegen de machine",
+      "engine": "Motor:",
+      "level": "Niveau:",
+      "humanSide": "Kant:",
+      "redSide": "Rood (Speel rood af)",
+      "blackSide": "Zwart (speel zwart)",
+      "guide": {
+        "title": "Studiegids",
+        "step1": "Observeer de positie en missie.",
+        "step2": "Verplaats stukken of oefen met AI.",
+        "step3": "Klik op \"Voltooien\" om beloningen te ontvangen."
+      }
+    },
+    "board": {
+      "tab": "Bord {{index}}: {{title}}",
+      "defaultTitle": "Standaard",
+      "supplemental": {
+        "title": "Diepgaande aanvullende kennis",
+        "p1": "In xiangqi is het begrijpen van de positionering van het bord en de stukken de belangrijkste basis. Het paleis is niet alleen de verblijfplaats van de generaal, maar ook het voornaamste doelwit van de tegenstander.",
+        "p2": "Let bij het leren over {{title}} op de coördinatie tussen de stukken. Kijk niet alleen naar een enkel stuk; kijk hoe het anderen beschermt of ondersteunt om een ​​solide formatie te creëren."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> Online <span className=\"text-blue-600\">Xiangqi-cursus</span> van basis tot gevorderd",
+      "intro": "Het <strong className=\"text-slate-600 dark:text-white/60\">xiangqi les</strong> systeem is wetenschappelijk ontworpen om je te helpen de regels, stukbewegingen, <strong className=\"text-slate-600 dark:text-white/60\">tactieken</strong> en klassieke <strong className=\"text-slate-600 dark:text-white/60\">eindspelen</strong> onder de knie te krijgen. Ideaal voor spelers van alle niveaus om hun vaardigheden dagelijks aan te scherpen.",
+      "whyTitle": "Waarom schaakmat en eindspel trainen?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "Moordenaarsmentaliteit",
+        "desc": "Herken snel klassieke schaakmatpatronen (paard-dan-kanon, hemel-en-aarde kanonnen...)."
+      },
+      "item2": {
+        "title": "Eindspeltechnieken",
+        "desc": "Meesterlijk eindigend als een winnende paard-adviseur-olifant met een enkele wagen, een winnende olifant van kanon-adviseur... Dodelijke lessen voor elke meester."
+      },
+      "item3": {
+        "title": "Oefen met AI",
+        "desc": "Elke boardopstelling integreert Pikafish Engine, zodat je het meteen tegen de machine kunt proberen."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "Spel <0>Galerij</0>",
+    "subtitle": "Bekijk en leer van duizenden online wedstrijden",
+    "meta": {
+      "title": "Xiangqi Game Gallery - Live- en herhalingswedstrijden",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 Leef",
+      "open": "⏳ Wachten",
+      "finished": "🏁 Klaar",
+      "all": "🌍 Allemaal"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ Alle modi",
+        "blitz": "Bliksem",
+        "rapid": "Snel",
+        "standard": "Standaard"
+      },
+      "sort": {
+        "newest": "🕒 Nieuwste",
+        "popular": "🔥 Populair",
+        "spectators": "👁 Toeschouwers"
+      },
+      "timeRange": {
+        "all": "📅 Altijd",
+        "day": "Vandaag",
+        "week": "Deze week",
+        "month": "Deze maand"
+      },
+      "red": "Rood",
+      "black": "Zwart"
+    },
+    "empty": {
+      "searching": "Zoeken naar overeenkomsten...",
+      "noGames": "Geen overeenkomsten gevonden",
+      "noResults": "Er zijn geen overeenkomsten gevonden die overeenkomen met uw filters. Probeer de filters te veranderen.",
+      "clear": "Filters wissen"
+    },
+    "card": {
+      "puzzle": "Puzzel",
+      "waiting": "Wachten...",
+      "watch": "Horloge",
+      "participate": "Meedoen",
+      "loadMore": "Ontdek oudere wedstrijden ↓"
+    },
+    "seoContent": {
+      "title": "Online <0>Xiangqi</0> galerijsysteem",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "Visuele spelrecords",
+        "desc": "Elke wedstrijd na afloop wordt opgeslagen als een gedetailleerd <0>spelverslag</0>. Je kunt elke zet opnieuw spelen, fouten analyseren en hoogtepunten vinden in het denken van de meesters."
+      },
+      "item2": {
+        "title": "Levendige online gemeenschap",
+        "desc": "Neem deel aan discussies, geef commentaar en vind geweldige games leuk. <0>Xiangqi online</0> gaat niet alleen over winnen of verliezen, maar ook een plek om ervaringen en passie voor de 64-vierkantskunst uit te wisselen."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "Puzzelbespreking",
+    "titleTournament": "Toernooi discussie",
+    "titleDefault": "Opmerkingen",
+    "placeholderPuzzle": "Stel een oplossing voor of stel een vraag...",
+    "placeholderDefault": "Schrijf een reactie...",
+    "emptyStateFirst": "Nog geen opmerkingen.",
+    "emptyStateSecond": "Wees de eerste om uw mening te delen!",
+    "loginPrompt": "U moet <0>Inloggen</0> om deel te nemen aan de discussie.",
+    "sending": "...",
+    "deleteTooltip": "Reactie verwijderen (beheerder)",
+    "deleteTitle": "Reactie verwijderen?",
+    "deleteMsg": "Weet je zeker dat je deze reactie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "deleteAction": "VERWIJDER NU",
+    "errorTitle": "Ongeldige reactie",
+    "errorNoLinks": "Reacties mogen geen links bevatten.",
+    "errorRateLimitTitle": "Te snel verzenden",
+    "errorRateLimit": "Je verzendt te snel. Probeer het over 1 minuut opnieuw.",
+    "redPlayer": "ROOD",
+    "blackPlayer": "ZWART",
+    "reltime": {
+      "justNow": "zojuist",
+      "minutes": "{{count}} minuten geleden",
+      "hours": "{{count}} uur geleden"
+    }
+  },
+  "admin": {
+    "title": "Admin Paneel",
+    "checkingPermissions": "Rechten controleren...",
+    "noPermission": "⚠️ U heeft geen beheerdersrechten.",
+    "syncingData": "Systeemgegevens synchroniseren...",
+    "searchPlaceholder": "Informatie zoeken...",
+    "sidebar": {
+      "dashboard": "Overzicht (IA)",
+      "users": "Gebruikers",
+      "matches": "Kamers",
+      "puzzles": "Puzzels",
+      "tournaments": "Toernooien",
+      "bots": "Botbeheer",
+      "comments": "Opmerkingen",
+      "practice": "Lessen",
+      "shop": "Winkel",
+      "analytics": "Analyse (Google)",
+      "ai": "IA Generator",
+      "push": "Meldingen",
+      "cache": "Buffer (Redis)",
+      "server": "Logs",
+      "settings": "Systeem Config",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "Voer titel en inhoud in",
+      "errorUid": "Voer de UID van de ontvanger in",
+      "errorSystem": "Systeemfout tijdens het verzenden"
+    },
+    "ai": {
+      "enterElo": "Nieuwe ELO invoeren:",
+      "invalidNumber": "Ongeldig nummer"
+    },
+    "cache": {
+      "cleared": "Alle cache gewist!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

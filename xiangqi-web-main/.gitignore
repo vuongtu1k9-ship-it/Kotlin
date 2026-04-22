@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and Assets
+dist/
+build/
+.next/
+out/
+/assets/
+next/
+secrets/
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+
+# Misc
+.DS_Store
+*.log
+logs/
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2-*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env
+.env
+.env.*
+config/.env
+config/.env.*
+config/secrets/
+config/config.json
+
+# Temporary and dump files
+dump/
+tuyensinh.txt
+uploads/
+data/
+*.tmp
+tmp/
+*.report.html
+lighthouse*.json

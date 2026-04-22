@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "errorBoundaryTitle": "⚠️ 인터페이스 오류가 발생했습니다",
+    "errorBoundaryReload": "페이지 새로고침",
+    "cellAriaLabel": "정사각형 {{coord}}",
+    "cellAriaLabelOccupied": "광장 {{coord}} - 점유됨",
+    "back": "뒤로",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "viewAll": "모두 보기 →",
+    "backToLobby": "로비로 돌아가기",
+    "search": "검색",
+    "reset": "초기화",
+    "login": "로그인",
+    "you": "당신",
+    "close": "닫기",
+    "agree": "동의",
+    "refresh": "새로 고치다",
+    "coins": "금화",
+    "gold": "금화",
+    "saveSuccess": "성공적으로 저장되었습니다!",
+    "sides": {
+      "red": "홍색",
+      "black": "흑색"
+    },
+    "challenge": "도전 신청",
+    "send": "보내다",
+    "reject": "거절",
+    "finished": "종료",
+    "play": "재생",
+    "pieces": {
+      "general": "장(궁)",
+      "advisor": "사 (仕/士)",
+      "elephant": "상 (相/象)",
+      "horse": "마 (馬)",
+      "chariot": "차 (車)",
+      "cannon": "포 (砲)",
+      "soldier": "졸 / 병 (卒/兵)"
+    },
+    "offline": "오프라인",
+    "draw": "그리다",
+    "room": "방",
+    "and": "그리고",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "온라인",
+    "waiting": "대기 중"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - 무료로 전문 체스를 플레이하세요",
+    "defaultDescription": "아름답고 조용하며 부드러운 인터페이스를 갖춘 무료 온라인 xiangqi 플랫폼입니다. 온라인으로 플레이하거나 AI 엔진에 도전해보세요.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| 샹치 온라인"
+  },
+  "navbar": {
+    "brand": "샹치 Online",
+    "online": "온라인",
+    "home": "홈",
+    "puzzles": "묘수풀이",
+    "setup": "기보편집",
+    "ai": "AI 대전",
+    "tournaments": "대회",
+    "practice": "연습",
+    "howToPlay": "게임 규칙",
+    "players": "마스터",
+    "leaderboard": "순위표",
+    "shop": "상점",
+    "logout": "로그아웃",
+    "profile": "프로필",
+    "settings": "설정",
+    "status": "상태",
+    "userMenu": "사용자 메뉴",
+    "guestName": "플레이어",
+    "playerType": "샹치 플레이어",
+    "coins": "금화",
+    "rank": "등급",
+    "welcome": "환영합니다!",
+    "loginToEarn": "로그인하여 보상을 받고 랭킹 전 참여",
+    "googleMaintenance": "구글 로그인이 점검 중입니다",
+    "useEmail": "이메일 사용",
+    "playAsGuest": "게스트로 플레이하시겠습니까?",
+    "statuses": {
+      "online": "접속 중",
+      "busy": "바쁨",
+      "invisible": "오프라인 표시",
+      "free": "대화 가능",
+      "offline": "접속 종료"
+    },
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "menu": "메뉴",
+    "navigation": "네비게이션",
+    "activeGameAlert": "현재 게임이 진행 중입니다!",
+    "returnToBoard": "지금 게임으로 돌아가기",
+    "back": "뒤로",
+    "loginWithGoogle": "Google로 로그인"
+  },
+  "site": {
+    "maintenanceModeTitle": "시스템 점검",
+    "maintenanceMessageDefault": "더 나은 서비스를 위해 시스템을 개선 중입니다. 나중에 다시 방문해 주세요.",
+    "announcementLabel": "공지사항"
+  },
+  "ranks": {
+    "novice": "초보자",
+    "amateur": "아마추어",
+    "intermediate": "중급",
+    "expert": "전문가",
+    "master": "마스터",
+    "internationalMaster": "국제 마스터",
+    "grandmaster": "그랜드마스터",
+    "player": "플레이어"
+  },
+  "chat": {
+    "title": "채팅",
+    "new_message": "새 메시지",
+    "followed_you": "님이 당신을 팔로우했습니다!",
+    "view_profile": "프로필 보기",
+    "challenge_accepted": "도전을 수락했습니다!",
+    "go_to_play": "게임으로 이동",
+    "is_online": "님이 접속했습니다.",
+    "entered_room": "님이 입장했습니다",
+    "open_chat": "채팅 열기",
+    "close_chat": "채팅 닫기",
+    "disable_global_notifs": "전체 알림 끄기",
+    "enable_global_notifs": "전체 알림 켜기",
+    "disable_notifs": "알림 끄기",
+    "enable_notifs": "알림 켜기",
+    "disable_autoscroll": "자동 스크롤 비활성화",
+    "enable_autoscroll": "자동 스크롤 활성화",
+    "tabs": {
+      "global": "글로벌",
+      "private": "귓속말"
+    },
+    "to_prefix": "받는 사람: ",
+    "is_online_label": "접속 중",
+    "onlinePlayersHeader": "온라인 플레이어",
+    "history": "채팅 기록({{count}})",
+    "labelGlobal": "글로벌",
+    "labelRoom": "방 {{id}}",
+    "labelPrivate": "비공개: {{name}}",
+    "followed_you_message": "지금 당신을 팔로우하고 있습니다!",
+    "noMessages": "(메시지 없음)",
+    "noMessagesWelcome": "아직 메시지가 없습니다. 채팅을 시작하세요!",
+    "player": "플레이어",
+    "guestPlaceholder": "채팅하려면 로그인하세요.",
+    "placeholder": "메시지 보내기...",
+    "followed": "👤 상대방을 따라갔습니다.",
+    "wasFollowed": "🎉 상대방이 당신을 따라왔습니다."
+  },
+  "auth": {
+    "registerTitle": "계정 만들기",
+    "loginSubtitle": "보상을 받으려면 로그인하세요.",
+    "registerSubtitle": "가장 큰 Xiangqi 커뮤니티에 가입하세요",
+    "loginWithGoogle": "Google로 로그인",
+    "orEmail": "또는 이메일",
+    "emailLabel": "이메일",
+    "displayNameLabel": "표시 이름(선택사항)",
+    "passwordLabel": "비밀번호",
+    "termsAgreementPrefix": "나는 다음에 동의한다.",
+    "termsLink": "서비스 약관",
+    "privacyLink": "개인 정보 보호 정책",
+    "termsAgreementSuffix": "Xiangqi 온라인의.",
+    "termsError": "이용약관 및 개인정보 보호정책에 동의해야 합니다.",
+    "processing": "처리 중…",
+    "haveAccount": "이미 계정이 있나요? 로그인",
+    "noAccount": "계정 만들기",
+    "backToLobby": "로비로 돌아가기",
+    "loginPrompt": "토론에 참여하려면 <0>로그인</0>해야 합니다.",
+    "passwordsNotMatch": "비밀번호가 일치하지 않습니다.",
+    "passwordTooShort": "비밀번호는 6자 이상이어야 합니다.",
+    "invalidOldPassword": "이전 비밀번호가 잘못되었습니다."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0>은 Xiangqi 온라인 커뮤니티에서 활동적인 플레이어입니다. <1>{{rank}}</1>({{elo}} Elo) 등급인 {{name}}는 총 <2>{{count}}</2>번의 치열한 경기에 참가했습니다. 현재 이 플레이어는 <3>{{followers}}</3> 팔로어를 보유하고 있으며 플랫폼의 국가 등급 시스템에서 중요한 부분을 차지합니다.",
+    "social": {
+      "followers": "팔로워",
+      "following": "팔로잉",
+      "empty": "목록이 비어 있습니다"
+    },
+    "sections": {
+      "medals": "획득한 훈장",
+      "noMedals": "아직 훈장이 없습니다",
+      "inventory": "내 소장품",
+      "noItems": "아이템이 없습니다",
+      "puzzles": "제작한 묘수풀이",
+      "noPuzzles": "제작한 묘수풀이가 없습니다",
+      "solved": "해결한 묘수풀이",
+      "noSolved": "아직 해결한 문제가 없습니다",
+      "history": "대전 히스토리",
+      "viewGame": "대국 시청 📺"
+    },
+    "gifts": {
+      "title": "마스터에게 선물하기",
+      "loading": "선물을 불러오는 중...",
+      "empty": "선물이 없습니다",
+      "sending": "보내는 중...",
+      "confirm": "선물 보내기 확인",
+      "loginPrivate": "메시지를 보내려면 로그인하세요.",
+      "loginChallenge": "도전 신청을 하려면 로그인하세요."
+    },
+    "bioTitle": "약력 및 업적",
+    "game": {
+      "active": "활동적인",
+      "redWin": "레드윈즈",
+      "blackWin": "블랙윈즈",
+      "moves": "움직임"
+    },
+    "notFound": "사용자를 찾을 수 없습니다",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "방 만들기",
+    "playWithAi": "AI와 대국",
+    "findMatch": "대전 찾기",
+    "headerTitle": "AI와 함께 <0>샹치 실력을</0> 키우고 묘수풀이를 즐기세요",
+    "headerSubtitle": "최고의 샹치 경쟁 및 퍼즐 플랫폼",
+    "waiting": "상대 품는 중...",
+    "noRooms": "현재 대기 중인 방이 없습니다.",
+    "activeGameTitle": "아직 종료되지 않은 대전이 있습니다!",
+    "activeGameSubtitle": "상대방과 게임을 계속하려면 돌아가세요",
+    "returnToGame": "게임으로 복귀",
+    "roomList": "대기실 목록",
+    "roomListSubtitle": "진행 중인 대전 및 히스토리",
+    "noRoomsFiltered": "필터에 맞는 대전이 없습니다.",
+    "onlinePlayers": "접속 중인 플레이어",
+    "onlinePlayersCount": "{{count}}명의 회원이 접속 중입니다",
+    "loginToChat": "채팅을 하려면 로그인하세요.",
+    "loginToChallenge": "대전을 신청하려면 로그인하세요.",
+    "chatAction": "채팅",
+    "challengeAction": "초대",
+    "tabs": {
+      "live": "라이브",
+      "open": "오픈",
+      "finished": "종료됨",
+      "all": "전체"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "최신 묘수풀이",
+        "subtitle": "커뮤니티의 전술 묘수풀이를 확인하세요",
+        "puzzleType": "묘수풀이",
+        "unnamed": "이름 없는 묘수풀이",
+        "levelPrefix": "{{level}} 단계",
+        "normalLevel": "보통",
+        "solve": "풀기"
+      },
+      "features": {
+        "title": "왜 샹치 Online을 선택해야 할까요?",
+        "premium": {
+          "title": "⚡ 무료 프리미엄 경험",
+          "desc": "속도와 평온함을 위해 최적화된 플랫폼입니다. 광고나 방해 없이 <0>온라인으로 기보를 편집</0>하고 게임을 즐길 수 있습니다."
+        },
+        "ai": {
+          "title": "🤖 AI 대전 (피카피쉬 AI)",
+          "desc": "세계 최강의 피카피쉬 엔진을 사용하여 <0>컴퓨터와 샹치 한판</0> 대결해 보세요. 초보자를 위한 1단계부터 마스터를 위한 10단계까지 준비되어 있습니다."
+        },
+        "data": {
+          "title": "🧩 방대한 묘수풀이 데이터베이스",
+          "desc": "커뮤니티에서 지속적으로 업데이트되는 <0>샹치 묘수풀이</0> 시스템을 통해 매일 전술적 사고와 종반전 기술을 훈련하세요."
+        }
+      },
+      "guide": {
+        "title": "샹치 온라인 플레이 가이드",
+        "intro": "<0>cotuong.xyz</0>에서 여정을 시작하려면 간단한 3단계를 따르면 됩니다:",
+        "step1": {
+          "title": "계정 등록:",
+          "desc": "대전 기록과 Elo 점수를 저장합니다."
+        },
+        "step2": {
+          "title": "상대 찾기:",
+          "desc": "플레이어 목록에서 직접 초대하거나 새 방을 만듭니다."
+        },
+        "step3": {
+          "title": "훈련:",
+          "desc": "<0>학습</0> 섹션을 사용하여 기본적인 외통수 패턴을 익히세요."
+        },
+        "note": "* 본 플랫폼의 Elo 시스템은 상대방의 실력을 바탕으로 계산되어 공정성과 경쟁력을 보장합니다."
+      },
+      "faq": {
+        "title": "자주 묻는 질문 (FAQ)",
+        "q1": {
+          "q": "질문: 온라인 샹치 게임은 무료인가요?",
+          "a": "답변: 완전히 무료입니다. 묘수풀이, AI 대전부터 대회까지 모든 기능을 무료로 이용할 수 있습니다."
+        },
+        "q2": {
+          "q": "질문: 친구를 어떻게 초대하나요?",
+          "a": "답변: \"대전 설정\"을 클릭하고 방을 만든 후, 해당 페이지의 URL을 복사하여 친구에게 보내면 됩니다."
+        },
+        "q3": {
+          "q": "질문: 내가 둔 기보를 다시 볼 수 있나요?",
+          "a": "답변: 네. 모든 대전은 프로필 페이지의 히스토리에 저장되며 언제든지 다시 보고 분석할 수 있습니다."
+        },
+        "q4": {
+          "q": "질문: 왜 기물을 움직일 수 없나요?",
+          "a": "답변: 자신의 차례인지 확인해 보세요(보드 아래에 표시됨). 또는 인터넷 연결 상태가 안정적인지 확인해 주세요."
+        }
+      },
+      "meta": {
+        "title": "샹치 Online - AI 대전, 묘수풀이 및 컴퓨터 대전",
+        "description": "프리미엄 온라인 샹치 플랫폼: 최강의 피카피쉬 AI와 대전하고, 수천 개의 전술 묘수풀이를 무료로 즐기세요."
+      },
+      "schema": {
+        "siteName": "샹치 Online",
+        "siteDesc": "무료 온라인 샹치 퍼즐, 기보 편집 및 AI 훈련 플랫폼.",
+        "q1": {
+          "name": "친구와 온라인으로 샹치를 두는 방법은?",
+          "text": "'대전 설정'을 클릭하고 방 링크를 친구에게 보냅니다."
+        },
+        "q2": {
+          "name": "cotuong.xyz의 AI는 강력한가요?",
+          "text": "초보자부터 그랜드마스터까지 세계 최강의 피카피쉬 엔진을 사용합니다."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "최신 샹치 규칙 - 기초 플레이 가이드",
+      "description": "최신 샹치 규칙: 차, 포, 마, 장, 사, 상, 졸의 움직임과 금기 사항 가이드."
+    },
+    "title": "샹치 두는 법",
+    "subtitle": "기초 규칙과 기물 이동 법 배우기",
+    "intro": "샹치(중국 장기)는 두 명의 플레이어가 즐기는 전술 마인드 게임입니다. 최종 목표는 상대방의 <0>장(궁)</0>을 외통수로 잡는 것입니다.",
+    "intro_p1": "샹치는 두 명의 플레이어가 즐기는 전술 마인드 게임입니다. 최종 목표는 상대방의",
+    "intro_p3": "을 외통수로 잡는 것입니다.",
+    "section1": {
+      "title": "1. 보드와 구역",
+      "river": {
+        "label": "강(河):",
+        "desc": "보드 중앙에 위치하여 양쪽을 나눕니다. 상(象)과 같은 기물은 강을 건너갈 수 없습니다."
+      },
+      "palace": {
+        "label": "궁성(九宮):",
+        "desc": "양쪽 끝에 있는 3x3 정사각형 구역입니다. 장(궁)과 사(士)는 이 구역 내에서만 움직일 수 있습니다."
+      },
+      "boardDesc": "보드는 10개의 가로줄과 9개의 세로줄로 구성되며, 기물은 선의 교차점에 놓입니다.",
+      "openingTitle": "기초 포석"
+    },
+    "section2": {
+      "title": "2. 기물 이동 방법",
+      "pieces": {
+        "general": {
+          "desc": "가로 또는 세로로 한 칸씩 이동하며, 궁성을 벗어날 수 없습니다.",
+          "action": "→ 장 연습하기",
+          "name": "장(궁)"
+        },
+        "advisor": {
+          "desc": "대각선으로 한 칸씩 이동하며, 궁성을 벗어날 수 없습니다.",
+          "action": "→ 사 연습하기",
+          "name": "사 (仕/士)"
+        },
+        "elephant": {
+          "desc": "대각선으로 두 칸씩 이동(田자형)합니다. 강을 건널 수 없으며, 행마 경로 중간에 기물이 있으면 가로막힙니다.",
+          "action": "→ 상 연습하기",
+          "name": "상 (相/象)"
+        },
+        "horse": {
+          "desc": "L자 모양으로 이동합니다. 행마 경로의 꺾이는 지점에 기물이 있으면 가로막힙니다(멱이 막힘).",
+          "action": "→ 마 연습하기",
+          "name": "마 (馬)"
+        },
+        "chariot": {
+          "desc": "가로 또는 세로로 원하는 만큼 장애물이 없을 때까지 이동합니다.",
+          "action": "→ 차 연습하기",
+          "name": "차 (車)"
+        },
+        "cannon": {
+          "desc": "이동 방식은 차와 같지만, 다른 기물을 잡을 때는 반드시 중간에 기물을 하나 넘어야 합니다(포다리).",
+          "action": "→ 포 연습하기",
+          "name": "포 (砲)"
+        },
+        "soldier": {
+          "desc": "강을 건너기 전에는 앞으로만 한 칸 갑니다. 강을 건넌 후에는 앞으로 가거나 옆으로 한 칸씩 갈 수 있습니다.",
+          "action": "→ 졸 연습하기",
+          "name": "졸 / 병 (卒/兵)"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. 홍색과 흑색 기물의 표기 차이",
+      "intro": "서로 대칭되는 기물은 가치와 움직임이 동일하지만, 홍색(先)과 흑색(後)을 구분하기 위해 새겨진 글자가 다른 경우가 많습니다.",
+      "table": {
+        "type": "기물 종류",
+        "red": "홍색 기물",
+        "black": "흑색 기물",
+        "meaning": "의미"
+      },
+      "meanings": {
+        "general": "홍: 수(帥 - 원수) / 흑: 장(將 - 장군)",
+        "advisor": "홍: 사(仕 - 선비) / 흑: 사(士 - 군사)",
+        "elephant": "홍: 상(相 - 정승) / 흑: 상(象 - 코끼리)",
+        "horse": "홍: 마(馬) / 흑: 마(馬)",
+        "cannon": "홍: 포(炮 - 화포) / 흑: 포(砲 - 투석기)",
+        "soldier": "홍: 병(兵 - 정규군) / 흑: 졸(卒 - 병사)",
+        "chariot": "둘 다 차(車)로 동일"
+      },
+      "why": {
+        "title": "글자가 왜 다른가요?",
+        "desc": "이것은 초한지의 역사를 배경으로 합니다. 유방(한 - 홍색)은 조정과 정통성을, 항우(초 - 흑색)는 실질적인 무력을 상징합니다. 또한 다른 글자를 통해 플레이어가 자신의 기물을 쉽게 알아볼 수 있게 합니다."
+      },
+      "elephantExample": {
+        "title": "상(相/象)의 예시",
+        "desc": "이 한 쌍이 가장 헷갈리기 쉽습니다. 홍색은 <0>상(相 - 정승)</0>, 흑색은 <1>상(象 - 코끼리)</1>입니다. 둘 다 방어적인 기물로 강을 건널 수 없습니다.",
+        "desc_p1": "이 한 쌍이 가장 헷갈리기 쉽습니다. 홍색은",
+        "desc_p2": "상(相)",
+        "desc_p3": "이고 흑색은",
+        "desc_p4": "상(象)",
+        "desc_p5": "입니다. 둘 다 방어적인 기물로 강을 건널 수 없습니다."
+      }
+    },
+    "section4": {
+      "title": "4. 기물 가치 (참조용)",
+      "table": {
+        "piece": "기물",
+        "score": "점수",
+        "stage": "가장 강력한 단계"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "차 (車)",
+          "power": "모든 단계에서 최강"
+        },
+        "cannon": {
+          "name": "포 (砲)",
+          "power": "초반 및 중반에 매우 강력"
+        },
+        "horse": {
+          "name": "마 (馬)",
+          "power": "중반 및 종반에 큰 잠재력"
+        },
+        "soldier": {
+          "name": "졸 / 병 (卒/兵)",
+          "power": "강을 건넌 후 종반전에 가치 급상승"
+        },
+        "defense": {
+          "name": "사 / 상",
+          "power": "없어서는 안 될 수비의 벽"
+        },
+        "general": {
+          "name": "장(궁)"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. 특수 규칙 및 금수",
+      "rules": {
+        "kingFace": {
+          "label": "왕마주보기(빅장):",
+          "desc": "장끼리 같은 세로선에서 중간에 기물이 없이 마주 보는 것을 금지합니다."
+        },
+        "check": {
+          "label": "장군:",
+          "desc": "기물이 상대방의 장을 공격하는 상태입니다."
+        },
+        "mate": {
+          "label": "외통수:",
+          "desc": "장이 공격받고 있으며 피할 방법이 없는 상태입니다."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. 고급 전술",
+      "phases": {
+        "opening": {
+          "title": "⚔️ 포석 단계",
+          "quote": "\"차는 빨리 나가고, 마는 나중에, 포는 유연하게\"",
+          "desc": "주요 기물(차, 포, 마)을 열린 위치로 배치하는 것을 우선순위로 합니다. 일반적인 포석: 귀마 대 귀마, 원앙마 포진 등."
+        },
+        "midgame": {
+          "title": "🛡️ 중반 단계",
+          "desc": "전투가 본격적으로 일어나는 시기입니다. 기물 간의 협공을 통해 기물을 취하거나 압박을 가하는 데 집중하세요."
+        },
+        "endgame": {
+          "title": "🔚 종반 단계",
+          "desc": "기물이 얼마 남지 않았을 때 마의 유연성과 졸의 힘이 결정적입니다. 기초 외통수 패턴을 익히세요."
+        },
+        "tactics": {
+          "title": "🔥 외통수 전술",
+          "maHauPhao": "마후포: 마를 포다리로 사용하여 장군을 부르는 수.",
+          "thienDiaPhao": "천지포: 두 개의 포를 사용하여 줄과 행을 제어하는 수.",
+          "daiDamXa": "대담사: 차를 궁성 한가운데로 돌진시켜 외통을 만드는 수."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. 자주 묻는 질문: 금지 규칙 (FAQ)",
+      "faqs": {
+        "f1": {
+          "q": "질문: 연속 장군이 허용되나요?",
+          "a": "답변: 아니요. 현대 규칙에서는 같은 방식으로 3번 이상 장군을 부르는 것을 금지합니다. 위반 시 패배 처리됩니다."
+        },
+        "f2": {
+          "q": "질문: 장이 궁성 밖으로 나갈 수 있나요?",
+          "a": "답변: 절대로 안 됩니다. 장과 사는 3x3 궁성 내에서만 움직일 수 있습니다."
+        },
+        "f3": {
+          "q": "질문: 언제 무승부가 되나요?",
+          "a": "답변: 다음의 경우 무승부(빅)가 됩니다: <1 />1. <0>60수 규칙:</0> 기물을 잡지 않고 60수가 지났을 때.<2 />2. <0>합의:</0> 양쪽 플레이어가 합의했을 때.<3 />3. <0>반복수:</0> 같은 상태가 3번 반복될 때.<4 />4. <0>기술적 무승부:</0> 양쪽 모두 상대방을 이길 기물이 남지 않았을 때.",
+          "a_intro": "다음의 경우 무승부가 됩니다:",
+          "a_item1_title": "60수 규칙:",
+          "a_item1_desc": "기물을 잡지 않고 60수가 지났을 때.",
+          "a_item2_title": "합의:",
+          "a_item2_desc": "양쪽 플레이어가 합의했을 때.",
+          "a_item3_title": "반복수:",
+          "a_item3_desc": "같은 상태가 3번 반복될 때.",
+          "a_item4_title": "기술적 무승부:",
+          "a_item4_desc": "양쪽 모두 상대방을 이길 기물이 남지 않았을 때."
+        },
+        "f4": {
+          "q": "질문: 시간이 종료되면 패배하나요?",
+          "a": "답변: 네. 총 대국 시간이 만료되면 기물 우세와 상관없이 즉시 패배합니다.",
+          "a_p1": "답변: 네. 총 대국 시간이 만료되면 기물 우세와 상관없이 즉시 패배합니다.",
+          "a_p2": "패배",
+          "a_p3": "즉시 패배합니다."
+        }
+      },
+      "practiceAction": "🔥 지금 바로 연습하기"
+    },
+    "history": {
+      "title": "샹치의 간략한 역사",
+      "p1": "샹치는 고대 인도의 <0>사투랑가</0>에서 유래하여 중국으로 전해진 뒤 크게 발전했습니다. 강과 궁성이 있는 보드는 유방과 항우의 <1>초한지</1> 전쟁을 모방한 것입니다.",
+      "p2": "수천 년 동안 동아시아의 문화적 상징이 되었으며, 온라인을 통해 전 세계 수백만 명의 팬들과 만나고 있습니다.",
+      "p3": "오늘날 <0>cotuong.xyz</0>에서는 언제 어디서나 전술적 사고를 훈련하고 열정을 공유할 수 있습니다."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "플레이 대 AI",
+    "labelWithId": "방 {{id}}",
+    "ready": "준비",
+    "finished": "대국 종료",
+    "waitingPlayer": "대기 중",
+    "join": "참가",
+    "copyLinkSuccess": "룸 링크가 클립보드에 복사되었습니다!",
+    "inviteBtn": "친구 초대",
+    "role": "역할",
+    "turn": "회전하다",
+    "spectatorsShort": "투기.",
+    "noSpectators": "없음"
+  },
+  "game": {
+    "sides": {
+      "red": "빨간색",
+      "black": "검은색"
+    },
+    "timeModes": {
+      "blitz": "블리츠",
+      "rapid": "빠른",
+      "standard": "기준",
+      "slow": "느린",
+      "gridLabel": "시간 모드"
+    },
+    "timeModeSub": {
+      "blitz": "3m",
+      "rapid": "10m",
+      "standard": "20m",
+      "slow": "45m"
+    },
+    "status": {
+      "redWin": "홍승",
+      "blackWin": "흑승",
+      "draw": "무승부",
+      "ongoing": "진행 중",
+      "check": "확인하다!",
+      "startPrompt_red": "여러분의 차례 - 시작하려면 먼저 움직여 보세요.",
+      "startPrompt_black": "레드가 먼저 움직일 때까지 기다리는 중",
+      "waitingForPlayers": "선수들을 기다리고 있습니다.."
+    },
+    "actions": {
+      "draw": "무승부 제안",
+      "resign": "기권",
+      "swap": "진영 변경",
+      "leave": "방 나가기",
+      "publish": "공개하기",
+      "undo": "끄르다",
+      "newGame": "새로운 게임"
+    },
+    "confirm": {
+      "drawTitle": "무승부 신청",
+      "drawMsg": "상대방에게 무승부를 제안하시겠습니까?",
+      "resignTitle": "기권",
+      "resignMsg": "정말로 기권하시겠습니까?",
+      "leaveTitle": "나가기 및 기권",
+      "leaveMsg": "대전 중에 나가면 패배로 기록됩니다. 계속하시겠습니까?",
+      "loginTitle": "로그인 필요",
+      "loginMsg": "즐겨찾기에 저장하려면 로그인하세요.",
+      "leaveMsg_casual": "이것은 캐주얼 경기입니다. 떠나시겠습니까?",
+      "leaveMsg_spectator": "이제 관중석에서 나가려고 합니다.",
+      "undoMsg": "상대방에게 실행 취소 요청을 보내시겠습니까?"
+    },
+    "modals": {
+      "swapTitle": "진영 변경 요청",
+      "swapMessage": "상대방이 진영을 바꾸고 싶어 합니다. 수락하시겠습니까?",
+      "drawTitle": "무승부 요청",
+      "drawMessage": "상대방이 무승부를 제안했습니다. 수락하시겠습니까?",
+      "accept": "수락"
+    },
+    "comments": "대전 댓글",
+    "private": "비공개 대전",
+    "publishDesc": "대전을 공개로 전환",
+    "viewDetails": "경기 세부정보 보기",
+    "notFoundTitle": "존재하지 않는 구역",
+    "notFoundDesc": "대전 #{{id}}번은 존재하지 않거나 삭제되었습니다.",
+    "redSide": "홍색 진영",
+    "blackSide": "흑색 진영",
+    "sideBlack": "블랙 플레이",
+    "aiPlayer": "AI",
+    "rankGeneric": "플레이어",
+    "redPlayerDefault": "홍색 플레이어",
+    "blackPlayerDefault": "흑색 플레이어",
+    "roomIdLabel": "방 ID: #{{id}}",
+    "active": "경기 중",
+    "moves": "{{count}} 이동",
+    "seo": {
+      "title": {
+        "prefix": "심층 분석: ",
+        "videoTitle": "게임 비디오: {{title}}"
+      },
+      "intro": "<1>{{red}}</1>님과 <2>{{black}}</2>님의 치열한 <0>온라인 샹치</0> 대전은 전술적 유연성과 깊은 사고를 보여줍니다. <3>복기</3>는 실력을 키우는 가장 좋은 방법입니다.",
+      "comments": {
+        "title": "💡 해설과 분석의 가치",
+        "desc": "실시간 <0>샹치 기보</0> 시스템을 통해 모든 수를 따라가고 커뮤니티 토론에 참여하세요. 수준 높은 게임에는 배울 점이 많은 <1>샹치 전술</1>이 포함되어 있습니다."
+      },
+      "ai": {
+        "title": "🤖 AI와 함께 훈련하기",
+        "desc": "대전 중의 까다로운 상황을 <0>컴퓨터와 샹치 한판</0> AI(피카피쉬) 기능을 통해 시뮬레이션해 보세요. 이것은 <1>슈퍼 AI와 함께 훈련</1>하는 가장 효과적인 방법입니다."
+      },
+      "keywords": "xiangqi, 온라인 xiangqi, {{red}}, {{black}}, 리뷰 매치, 온라인 경기장, xiangqi 토너먼트, xiangqi 전술, 컴퓨터로 플레이, AI로 훈련, 기계로 xiangqi 플레이",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "일대일",
+      "analysis": "분석",
+      "matchesCount": "{{count}} 일치",
+      "recentMatches": "최근 경기",
+      "collectingData": "H2H 데이터를 수집하는 중...",
+      "red": "빨간색",
+      "black": "검은색",
+      "youWin": "당신이 승리",
+      "opponentWin": "상대 승리"
+    },
+    "panel": {
+      "title": "경기 정보",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} 사이드",
+      "winStatus": "승리하다",
+      "drawStatus": "그리다",
+      "reasons": {
+        "checkmate": "장군",
+        "stalemate": "수가 막히게 하다",
+        "timeout": "시간 초과",
+        "resign": "사직",
+        "perpetual": "영원한 통치",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "제목",
+        "defaultTitle": "경기 #{{id}}",
+        "puzzleOrigin": "퍼즐에서 생성됨",
+        "puzzleTitle": "퍼즐 #{{id}}",
+        "drawRules": "그리기 규칙",
+        "rule60": "캡처하지 않고 60 이동하면 무승부.",
+        "ruleRepeat": "영구 확인 또는 추적을 3회 수행하면 손실이 발생합니다.",
+        "ruleTimeout": "시간 초과 시 즉시 손실됩니다.",
+        "rule60Label": "60-이동 규칙:",
+        "ruleRepeatLabel": "되풀이:",
+        "ruleTimeoutLabel": "시간 초과:",
+        "materialAdvantage": "물질적 이점",
+        "drawProgress": "그리기 진행 상황",
+        "redAdvantage": "빨간색 +{{count}}",
+        "blackAdvantage": "검정색 +{{count}}",
+        "balanced": "균형 잡힌"
+      },
+      "actions": {
+        "save": "구하다",
+        "lobby": "로비"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "승리!",
+      "loss": "패배시키다",
+      "draw": "그리다!",
+      "finished": "경기 종료",
+      "elo": "ELO 등급",
+      "reward": "보상",
+      "review": "검토",
+      "share": "공유하다"
+    },
+    "spectators": {
+      "title": "관중 ({{count}})",
+      "empty": "아무도 보고 있지 않아",
+      "label_short": "관중",
+      "alt": "관중 {{name}}"
+    },
+    "lobbyTitle": "로비",
+    "puzzleTag": "묘수풀이",
+    "aiLevels": {
+      "1": "입문",
+      "2": "기초",
+      "3": "중급",
+      "4": "숙련",
+      "5": "고급",
+      "6": "챔피언",
+      "default": "{{level}} 단계"
+    },
+    "moveList": {
+      "progress": "대전 진행 상황",
+      "first": "처음",
+      "prev": "이전",
+      "next": "다음",
+      "last": "마지막",
+      "pause": "일시중지",
+      "play": "다시보기",
+      "empty": "아직 기록된 수가 없습니다",
+      "initial": "초기 배치",
+      "viewMove": "{{index}}번째 수 확인",
+      "returnToLive": "라이브로 복귀"
+    },
+    "export": {
+      "copyFen": "FEN 복사",
+      "copyFenSuccess": "FEN이 클립보드에 복사되었습니다!",
+      "copyFenError": "FEN 복사 중 오류 발생",
+      "exportFile": "파일 내보내기",
+      "saveImage": "이미지 저장 (클라이언트)",
+      "saveImageSuccess": "이미지가 저장되었습니다!",
+      "saveImageError": "이미지 저장 중 오류 발생",
+      "downloadHd": "HD 이미지 (서버)",
+      "downloadHdSuccess": "HD 이미지가 성공적으로 저장되었습니다!",
+      "downloadHdError": "HD 내보내기 오류: {{message}}",
+      "cancelInfo": "내보내기가 취소되었습니다",
+      "noMovesError": "기록된 수가 없어 비디오를 만들 수 없습니다",
+      "clientVideo": "비디오 - 클라이언트 (WebM)",
+      "clientVideoSuccess": "비디오가 성공적으로 내보내졌습니다!",
+      "clientVideoError": "클라이언트 비디오 오류: {{message}}",
+      "serverVideo": "비디오 - 서버 (MP4)",
+      "serverVideoSuccess": "{{format}} 다운로드 성공!",
+      "serverVideoError": "HD 비디오 내보내기 오류: {{message}}",
+      "serverTimeout": "서버 시간 초과. 대전이 너무 깁니다. 클라이언트 전용 비디오를 이용해 주세요.",
+      "animatedGif": "움직이는 GIF",
+      "size": "크기",
+      "ratios": {
+        "horizontal": "가로",
+        "vertical": "세로",
+        "square": "정사각형",
+        "board": "보드"
+      }
+    },
+    "move": "수",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "홍색 플레이어가 입장했습니다!",
+    "blackJoined": "흑색 플레이어가 입장했습니다!",
+    "redLeft": "홍색 플레이어가 퇴장했습니다.",
+    "blackLeft": "흑색 플레이어가 퇴장했습니다.",
+    "opponentDisconnected": "상대방의 연결이 끊겼습니다!",
+    "opponentReconnected": "상대방이 다시 연결되었습니다!",
+    "newSpectator": "새로운 관전자가 입장했습니다 (총 {{count}}명)",
+    "started": "대국이 시작되었습니다! 행운을 빕니다.",
+    "drawDeclined": "상대방이 무승부 제안을 거절했습니다.",
+    "swapDeclined": "상대방이 진영 변경 요청을 거절했습니다.",
+    "swapSuccess": "당신은 {{side}} 진영으로 바꿨습니다.",
+    "resultDraw": "대국 종료: 무승부",
+    "resultWin": "축하합니다! 승리하셨습니다!",
+    "resultLoss": "종료됨: 당신이 패배했습니다.",
+    "resultOtherWin": "종료됨: {{side}} 진영이 승리했습니다!",
+    "errorViewingReplay": "다시보기를 시청 중입니다.",
+    "backToLive": "실황으로 가기",
+    "errorLoginToPlay": "로그인 후 플레이해 주세요.",
+    "errorNotYourTurn": "당신의 차례가 아닙니다.",
+    "errorSpectator": "당신은 관전자 모드입니다.",
+    "engineError": "엔진 오류: {{error}}",
+    "config": {
+      "titleChallenge": "플레이어 초대",
+      "titlePuzzle": "묘수풀이 대전",
+      "titleNew": "새 대전 만들기",
+      "readyToPlay": "대전 준비 완료",
+      "invitedOpponent": "도전장이 도착했습니다",
+      "challengeInvite": "{{name}}님이 대전을 신청했습니다!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}}님이 신청을 거절했습니다.",
+        "wait": "⏳ {{name}}님이 바쁩니다. 잠시만 기다려 주세요!",
+        "accepted": "🎉 도전을 수락했습니다! 대전을 시작합니다.",
+        "canceled": "도전이 취소되었습니다.",
+        "sent": "{{name}}님에게 도전장을 보냈습니다.",
+        "busy": "📭 {{name}}님이 바쁨 상태입니다. 대기 열에 추가되었습니다.",
+        "offline": "도전자가 오프라인입니다. 대전을 시작할 수 없습니다."
+      },
+      "ready": {
+        "title": "대전 준비 완료",
+        "desc": "먼저 입장하는 플레이어가 흑색(후수), 나중에 입장하는 플레이어가 홍색(선수)입니다. 서두르세요!",
+        "action": "지금 참여하기",
+        "hide": "숨기기"
+      },
+      "gifts": {
+        "received": "{{name}}님이 선물을 보냈습니다!",
+        "coins": "{{name}}님이 골드를 보냈습니다!",
+        "coinsDesc": "+{{amount}} 골드를 받았습니다.",
+        "candy": "🍬 캔디",
+        "bear": "🧸 테디베어",
+        "ring": "💍 다이아몬드 반지"
+      },
+      "defaultConfigDesc": "다음 기본 설정으로 대전이 생성됩니다:",
+      "defaultConfigDetails": "표준형 (20분), 공개, ELO 랭킹 반영.",
+      "advancedConfig": "⚙️ 고급 설정",
+      "timeMode": "시간 모드",
+      "findOpponent": "상대 찾기",
+      "selected": "선택됨",
+      "searchPlaceholder": "이름 또는 UID로 검색...",
+      "online": "접속 중",
+      "noResults": "검색 결과가 없습니다...",
+      "select": "선택",
+      "unselect": "선택 해제",
+      "boardOptions": "보드 옵션",
+      "private": "🔒 비공개 (친선전)",
+      "public": "🌐 공개 (ELO 랭킹전)",
+      "boardType": "보드 타입",
+      "standard": "♟ 표준형",
+      "puzzle": "🧩 묘수풀이",
+      "puzzleSetup": "묘수풀이 선택",
+      "selectedPuzzle": "선택된 묘수풀이",
+      "change": "변경",
+      "suggestions": "추천 묘수풀이",
+      "searchPuzzlePlaceholder": "묘수풀이 이름 검색...",
+      "level": "단계",
+      "challengeOptions": "대전 옵션",
+      "message": "메시지",
+      "defaultMessage": "샹치 한판 하실래요?",
+      "betGifts": "선물 내기",
+      "betActive": "🎁 내기 중",
+      "betNone": "🎁 내기 없음",
+      "giftType": "선물 종류",
+      "backToSimple": "« 간단 모드",
+      "goldWarning": "ℹ️ 묘수풀이는 골드가 지급되지 않을 수 있습니다",
+      "goldSuccess": "ℹ️ 표준 묘수풀이는 골드를 지급합니다",
+      "creating": "생성 중...",
+      "sendChallenge": "⚔️ 도전장 보내기",
+      "openMatch": "🚀 공개 대전 열기",
+      "playNow": "🚀 바로 시작",
+      "modes": {
+        "blitz": "⚡ 번개",
+        "rapid": "🏃 래피드",
+        "standard": "⏱ 표준",
+        "slow": "🎯 슬로우"
+      },
+      "toasts": {
+        "loginRequired": "대전을 만들려면 로그인이 필요합니다.",
+        "challengeSent": "{{name}}님에게 도전장을 보냈습니다!",
+        "roomCreated": "방이 성공적으로 생성되었습니다!",
+        "alreadyInGame": "아직 종료되지 않은 게임이 있습니다.",
+        "serverError": "서버 연결 오류가 발생했습니다."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "<0>묘수풀이</0> 풀기",
+    "subtitle": "커뮤니티의 방대한 묘수풀이 보물을 탐험하세요",
+    "listTitle": "샹치 묘수풀이 리스트",
+    "explore": "탐색",
+    "saved": "저장됨",
+    "searchPlaceholder": "이름으로 검색...",
+    "level": "난이도",
+    "levelValue": "{{level}} 단계",
+    "unclassified": "미분류",
+    "sort": {
+      "label": "정렬",
+      "newest": "최신순",
+      "popular": "인기순",
+      "solved": "많이 풀린 순"
+    },
+    "time": {
+      "label": "기간",
+      "all": "전체",
+      "day": "오늘",
+      "week": "이번 주",
+      "month": "이번 달"
+    },
+    "empty": {
+      "title": "묘수풀이를 찾을 수 없습니다",
+      "desc": "필터에 맞는 묘수풀이가 없습니다.",
+      "reset": "필터 초기화"
+    },
+    "actions": {
+      "solve": "지금 풀기",
+      "loadMore": "묘수풀이 더 보기 ↓",
+      "backToSolve": "풀기로 돌아가기"
+    },
+    "loginToSave": "묘수풀이를 저장하려면 로그인하세요.",
+    "loginToChallenge": "대전을 신청하려면 로그인하세요.",
+    "red": "홍색",
+    "black": "흑색",
+    "byUser": "{{name}}님 제작",
+    "meta": {
+      "title": "온라인 샹치 묘수풀이 - 최고의 보물창고",
+      "description": "수천 개의 샹치 묘수풀이: 포석, 종반전, 전술 연습을 무료로 즐기세요.",
+      "itemListDesc": "최고의 샹치 묘수풀이 리스트",
+      "itemListSchemaDesc": "온라인 묘수풀이 데이터베이스 및 종반전 훈련.",
+      "home": "홈",
+      "puzzles": "묘수풀이",
+      "schemaGameTitle": "샹치 묘수풀이: {{name}}",
+      "schemaVideoTitle": "비디오 해설: {{name}}",
+      "schemaVideoDesc": "{{name}} 묘수풀이 풀이 방법. 승리하는 수 확인.",
+      "schemaVideoSolutionTitle": "비디오 해설: {{name}} (해설 {{index}})",
+      "schemaVideoSolutionDesc": "{{name}} 묘수풀이 - 해설 #{{index}}.",
+      "authorDefault": "샹치 Online"
+    },
+    "seoContent": {
+      "whyTitle": "왜 <0>묘수풀이</0>를 연습해야 할까요?",
+      "intro": "<0>묘수풀이(또는 종반전 전술)</0>는 전술적 사고의 핵심입니다. 기보 편집과 풀이는 단순한 재미가 아니라 실력 향상을 위한 필수 관문입니다.",
+      "guide": {
+        "title": "초보자를 위한 묘수풀이 가이드",
+        "intro": "<0>묘수풀이</0> 실력을 키우려면 기본 단계를 분석하세요:",
+        "item1": "<0>기물 평가:</0> 남은 기물의 상성을 확인합니다.",
+        "item2": "<0>형세 분석:</0> 상대방의 약점, 특히 장의 위치를 찾습니다.",
+        "item3": "<0>수 읽기:</0> 외통수나 강제 수를 계산합니다."
+      },
+      "ai": {
+        "title": "AI 묘수풀이 프로그램 활용",
+        "intro": "cotuong.xyz 훈련 센터에서 AI(피카피쉬)를 활용해 보세요:",
+        "item1": "육안으로 보기 힘든 숨겨진 수를 찾습니다 (심층 분석).",
+        "item2": "수가 왜 안 되는지 변화도 분석을 통해 이해합니다.",
+        "item3": "10-20수 앞을 정확하게 내다보는 법을 배웁니다."
+      },
+      "benefits": {
+        "title": "샹치 묘수풀이의 장점",
+        "satt": {
+          "title": "외통수 마스터",
+          "desc": "마후포, 천지포, 대담사 등 결정적인 승리 수들을 익힙니다."
+        },
+        "tanquoc": {
+          "title": "종반전 실력",
+          "desc": "부족한 기물로도 승리하는 섬세한 협공 기술을 배웁니다."
+        },
+        "tuduy": {
+          "title": "전술 사고",
+          "desc": "실전 대국에서 승리 패턴을 빠르게 인식하게 됩니다."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "묘수풀이 분석:",
+        "defaultName": "클래식 실전 기보",
+        "intro": "<0>{{name}}</0> 묘수풀이는 전형적인 <1>온라인 퍼즐</1> 연습 문제입니다. <2>샹치 묘수풀이 풀이 방법</2>을 익히기에 아주 좋습니다.",
+        "tips": {
+          "title": "💡 묘수풀이 팁",
+          "desc": "공격 기물에 집중하세요. 갑작스러운 <0>장군</0>이 열쇠일 수 있습니다."
+        },
+        "advanced": {
+          "title": "📈 레벨 향상시키기",
+          "desc": "문제를 푼 뒤 AI를 통해 다른 변화도를 확인하세요. 구조를 이해하고 패턴을 기억하는 것이 중요합니다."
+        }
+      },
+      "seoTitle": "묘수풀이 풀기: {{name}} - 온라인 샹치 묘수풀이",
+      "seoDesc": "{{name}} 묘수풀이를 온라인으로 풀어보세요. 수 읽기와 마무리 능력을 키우세요.",
+      "rewardFirst": "🏆 대단합니다! 첫 풀이 보상으로 {{count}} 🪙 골드를 획득하셨습니다.",
+      "rewardUpdate": "축하합니다! 명예의 전당 기록이 업데이트되었습니다.",
+      "viewingSolution": "풀이 보기:",
+      "loadError": "보드 데이터를 불러올 수 없습니다",
+      "loginRequiredTitle": "로그인 필요",
+      "loginRequiredMsg": "이 작업을 수행하려면 로그인이 필요합니다.",
+      "mission": "임무",
+      "missionDesc": "주어진 조건대로 이기거나 우세를 점하는 수를 찾으세요.",
+      "aiSolver": "AI 자동 응수",
+      "aiSolverDesc": "\"🤖 AI 자동 응수\"를 활성화하여 컴퓨터와 대결하세요.",
+      "achievement": "업적",
+      "achievementDesc": "처음으로 정답을 맞히면 🪙 골드 보상을 받습니다.",
+      "aiServer": "AI 서버",
+      "aiServerDesc": "높은 단계는 피카피쉬 서버를 사용합니다.",
+      "title": "묘수풀이 정보",
+      "backToList": "목록으로 돌아가기",
+      "puzzleNameLabel": "묘수풀이 {{id}}",
+      "firstPlayer": "첫 번째 플레이어",
+      "redFirst": "🔴 홍색 먼저",
+      "blackFirst": "⚫ 흑색 먼저",
+      "creator": "제작자",
+      "difficulty": "난이도",
+      "relatedGames": "연관된 대국",
+      "justHappened": "방금 발생",
+      "saved": "저장됨",
+      "savePuzzle": "묘수풀이 저장",
+      "solverTitle": "묘수풀이 해결사",
+      "solveMode": "풀기 모드",
+      "modeAi": "🤖 AI 자동 응수 (자동)",
+      "modeManual": "👥 직접 풀기 (AI 끄기)",
+      "aiLevel": "AI 난이도",
+      "sideSelect": "당신의 진영",
+      "redSide": "홍색 진영",
+      "blackSide": "흑색 진영",
+      "undo": "한 수 무르기",
+      "restart": "다시 시작",
+      "hallOfFame": "명예의 전당",
+      "solvedBy": "문제를 푼 사람들",
+      "player": "플레이어",
+      "movesCount": "{{count}}수",
+      "view": "보기",
+      "noSolutions": "아직 정답자가 없습니다.\n첫 번째 주인공이 되어보세요!",
+      "similarPuzzles": "유사한 묘수풀이",
+      "relatedMatchReports": "관련된 대전 보고서"
+    }
+  },
+  "notifications": {
+    "title": "알림",
+    "panelHeader": "알림 내역",
+    "clearAll": "모두 지우기",
+    "empty": "새 알림이 없습니다.",
+    "viewNow": "지금 보기 →",
+    "push": {
+      "prompt": "대전 소식을 놓치지 않으려면 알림을 켜세요!",
+      "enable": "지금 활성화",
+      "saveError": "설정을 저장하지 못했습니다. 나중에 다시 시도하세요.",
+      "deniedError": "권한이 거부되었습니다. 브라우저 설정에서 활성화해 주세요.",
+      "genericError": "알림 활성화 중 오류가 발생했습니다."
+    },
+    "challenges": {
+      "standard": "표준형",
+      "puzzle": "묘수풀이",
+      "accepted": "🔥 수락됨",
+      "declined": "❌ 거절됨",
+      "canceled": "⚪ 취소됨",
+      "waitOpponent": "⏳ 상대방을 기다리는 중...",
+      "waitYou": "⏳ 당신을 기다리는 중...",
+      "acceptAction": "수락",
+      "waitAction": "대기",
+      "cancelAction": "초대 취소",
+      "deleteAction": "삭제",
+      "inGameTooltip": "진행 중인 대전이 있습니다"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "잘못된 보드",
+      "checkAgain": "다시 확인해 주세요",
+      "loginRequired": "계속하려면 로그인하세요.",
+      "nameRequired": "이 설정의 이름을 입력하세요.",
+      "descRequired": "이 설정에 대한 설명을 입력하세요.",
+      "twoKings": "설정에는 정확히 2개의 킹이 있어야 합니다.",
+      "faceToFace": "오류: 왕들은 서로 직접 마주할 수 없습니다.",
+      "redCheck": "레드 킹은 현재 체크 중입니다.",
+      "blackCheck": "블랙 킹은 현재 체크 중입니다.",
+      "pieceLimit": "{{type}} 유형의 최대 {{limit}}개 조각이 허용됩니다.",
+      "generalPalace": "{{side}} 장군은 궁궐 안에 있어야 합니다(3x3).",
+      "advisorPalace": "{{side}} 조언자는 궁전 내부(3x3)에 있어야 합니다.",
+      "advisorDiagonal": "{{side}} 조언자는 대각선 궁전 지점에만 배치할 수 있습니다.",
+      "elephantRiver": "{{side}} 코끼리는 강을 건널 수 없습니다.",
+      "elephantPoints": "{{side}} 코끼리는 고정된 홈사이드 위치에만 배치할 수 있습니다.",
+      "redSoldierBackward": "레드 솔저는 출발선 뒤로 뒤로 이동할 수 없습니다.",
+      "redSoldierColumns": "강 앞의 레드 솔저는 홀수 열(1, 3, 5, 7, 9)에만 설 수 있습니다.",
+      "blackSoldierBackward": "검은 병사는 출발선 뒤로 뒤로 이동할 수 없습니다.",
+      "blackSoldierColumns": "강 앞의 블랙 솔저는 홀수 열(1, 3, 5, 7, 9)에만 설 수 있습니다.",
+      "saveError": "저장하는 중 오류가 발생했습니다.",
+      "unknownError": "알 수 없는 오류가 발생했습니다.",
+      "connError": "연결 오류",
+      "connMsg": "서버에 연결할 수 없습니다.",
+      "fenError": "FEN error.",
+      "red": "빨간색",
+      "black": "검은색",
+      "successLoad": "로드됨: {{name}}",
+      "successUpdate": "업데이트됨: {{name}}",
+      "successSave": "저장됨: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "기보 편집",
+    "tryoutTitle": "AI와 수 읽기",
+    "tryout": {
+      "modeLabel": "모드:",
+      "modeAi": "🤖 AI와 대국",
+      "modeManual": "👥 양쪽 직접 조작",
+      "selectBot": "상대 선택:",
+      "levelLabel": "AI 난이도:",
+      "levelOption": "{{level}} 단계: {{name}} [{{type}}]",
+      "sideLabel": "당신의 진영:",
+      "viewLabel": "시점:",
+      "sideRed": "홍색",
+      "sideBlack": "흑색",
+      "backLabel": "설정으로 돌아가기"
+    },
+    "paletteTitle": "기물 팔레트",
+    "palette": {
+      "selecting": "선택됨:",
+      "erase": "기물 지우기",
+      "clear": "전체 삭제",
+      "redPrefix": "홍",
+      "blackPrefix": "흑"
+    },
+    "fen": {
+      "label": "FEN에서 가져오기",
+      "placeholder": "FEN 문자열 입력...",
+      "apply": "FEN 적용"
+    },
+    "historyTitle": "저장된 배치",
+    "history": {
+      "loadAction": "불러오기",
+      "viewAction": "보기"
+    },
+    "modals": {
+      "duplicateTitle": "해당 배치가 이미 존재합니다",
+      "duplicateMsg": "[{{name}}]와 동일합니다.",
+      "duplicateAction": "배치 보기",
+      "clearTitle": "보드를 비울까요?",
+      "clearMsg": "모든 기물을 제거하시겠습니까?"
+    },
+    "rules": {
+      "title": "기보 편집 규칙",
+      "orientation": {
+        "label": "방향:",
+        "desc": "홍색이 아래, 흑색이 위입니다."
+      },
+      "turn": {
+        "label": "순서:",
+        "desc": "기본적으로 홍색이 선수입니다."
+      },
+      "general": {
+        "label": "장:",
+        "desc": "양팀 1명씩, 반드시 궁성 안에 있어야 합니다."
+      },
+      "check": {
+        "label": "장군 방지:",
+        "desc": "시작 상태에서 양쪽 장이 공격받고 있으면 안 됩니다."
+      },
+      "facing": {
+        "label": "왕마주보기:",
+        "desc": "장이 마주 보는 배치는 안 됩니다."
+      },
+      "defense": {
+        "label": "사/상:",
+        "desc": "각각 2명씩. 사는 궁성 내, 상은 내 진영 내에 있어야 합니다."
+      },
+      "soldier": {
+        "label": "졸/병:",
+        "desc": "각각 5명씩. 강을 넘지 않은 상태에서 옆으로 갈 수 없습니다."
+      }
+    },
+    "seoTitle": "온라인 샹치 기보 편집 프로그램",
+    "seoDesc": "온라인으로 기물을 배치하고, 묘수풀이를 만들고 AI와 분석하세요.",
+    "modeTryout": "분석 모드",
+    "modeEditor": "편집 모드 • 클릭하여 배치",
+    "actionTry": "AI와 대국",
+    "actionUndo": "무르기",
+    "actionReset": "초기화",
+    "toast": {
+      "loginSave": "배치를 저장하려면 로그인하세요.",
+      "loginChallenge": "대전을 신청하려면 로그인하세요.",
+      "boardCleared": "보드가 비워졌습니다."
+    },
+    "seoContent": {
+      "title": "전문가용 <0>온라인 샹치 기보 편집</0> 도구",
+      "intro": "최고의 <0>기보 편집</0> 및 <1>묘수풀이 제작</1> 플랫폼입니다. 자유롭게 <2>기물을 배치</2>하고 자신만의 전술 문제를 만들어 보세요.",
+      "feature1": {
+        "title": "강력한 기능",
+        "desc": "드래그 앤 드롭, FEN 입력, <1>AI 엔진</1> (피카피쉬) 연동을 통한 즉각적인 수 읽기를 지원합니다."
+      },
+      "feature2": {
+        "title": "열정 공유",
+        "desc": "제작한 묘수풀이를 데이터베이스에 저장하고 커뮤니티와 공유하여 전술적 영감을 나누세요."
+      }
+    },
+    "form": {
+      "guestTitle": "게스트 모드",
+      "guestDesc": "저장 및 공유를 하려면 로그인하세요.",
+      "nameLabel": "배치 이름:",
+      "namePlaceholder": "이름 입력...",
+      "levelLabel": "난이도 설정:",
+      "levelOption": "선택",
+      "levelValue": "{{level}} 단계",
+      "descLabel": "설명:",
+      "descPlaceholder": "...",
+      "saveAction": "배치 저장",
+      "loginSaveAction": "🔐 로그인하여 저장",
+      "importError": "FEN 가져오기 오류:"
+    }
+  },
+  "tournaments": {
+    "title": "대회",
+    "subtitle": "최강 마스터들의 전장",
+    "loading": "대회 정보를 불러오는 중...",
+    "empty": "현재 진행 중인 대회가 없습니다.",
+    "listTitle": "온라인 샹치 대회 리스트",
+    "listDesc": "최근 및 진행 중인 샹치 대회 소식입니다.",
+    "champion": "우승자: {{name}}",
+    "players": {
+      "pendingTitle": "가입 요청({{count}})",
+      "registeredTitle": "등록된 플레이어({{count}})",
+      "empty": "아직 등록된 플레이어가 없습니다.",
+      "approve": "승인하다"
+    },
+    "rounds": "{{count}} 라운드",
+    "minElo": "ELO {{elo}}+",
+    "requireApproval": "승인 필요",
+    "hasPrizes": "보상 있음",
+    "deadline": "신청 마감:",
+    "createdAt": "게시일:",
+    "noDescription": "설명이 없습니다.",
+    "status": {
+      "registration": "참가 신청 중",
+      "active": "진행 중",
+      "deadline_closed": "신청 마감",
+      "finished": "종료됨"
+    },
+    "backToList": "목록으로 돌아가기",
+    "noDescriptionDetail": "이 토너먼트에 대한 자세한 설명이 없습니다.",
+    "currentRound": "라운드: {{current}}{{total}}",
+    "playersCount": "플레이어: {{current}}/{{total}}",
+    "registrationInfo": "등록정보",
+    "start": "시작",
+    "closed": "닫은",
+    "joinAction": "지금 등록하세요",
+    "joining": "합류...",
+    "joined": "등기",
+    "pendingApproval": "승인 보류 중",
+    "formats": {
+      "swiss": "스위스 리그",
+      "roundrobin": "라운드 로빈"
+    },
+    "timeline": {
+      "emptyAdmin": "아직 일치하는 항목이 없습니다. 새로운 라운드를 만들어보세요!",
+      "emptyUser": "경기가 업데이트되고 있습니다...",
+      "roundLabel": "라운드 {{round}}",
+      "status": {
+        "active": "활동적인"
+      },
+      "actions": {
+        "review": "검토",
+        "play": "지금 플레이",
+        "watch": "보다"
+      },
+      "sides": {
+        "red": "빨간색",
+        "black": "검은색"
+      }
+    },
+    "standings": {
+      "empty": "순위 데이터가 없습니다.",
+      "stats": {
+        "win": "이기다",
+        "draw": "그리다",
+        "loss": "손실",
+        "bye": "안녕"
+      }
+    },
+    "prizes": {
+      "title": "상금 구조",
+      "goldUnit": "금화"
+    },
+    "announcements": {
+      "placeholder": "공지사항 입력...",
+      "postAction": "게시물 공지",
+      "empty": "이번 토너먼트에 대한 공지가 없습니다."
+    },
+    "detail": {
+      "notFound": "토너먼트를 찾을 수 없습니다.",
+      "champion": {
+        "title": "챔피언",
+        "points": "포인트",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "등록하다",
+        "joined": "등기",
+        "pending": "보류 중",
+        "createRound": "라운드 생성 {{round}}",
+        "finishTournament": "토너먼트 종료"
+      },
+      "tabs": {
+        "timeline": "타임라인",
+        "standings": "순위",
+        "players": "플레이어",
+        "prizes": "상금",
+        "announcements": "공지사항"
+      },
+      "meta": {
+        "title": "{{name}} | 샹치 온라인",
+        "description": "{{name}} 토너먼트의 세부 사항, 일정 및 순위입니다."
+      },
+      "messages": {
+        "joinSuccess": "✅ 등록 성공!",
+        "joinPending": "✅ 신청서가 전송되었으며 관리자 승인을 기다리고 있습니다.",
+        "roundStarted": "✅ 라운드 {{round}} 생성 — {{count}}이 {{bye}}와 일치",
+        "bye": "({{name}}이(가) BYE를 받았습니다.)",
+        "tournamentFinished": "🏆 토너먼트 종료! 챔피언: {{name}}",
+        "confirmFinish": "토너먼트를 종료하고 챔피언을 발표하시겠습니까?",
+        "confirm": "완료 확인"
+      },
+      "errors": {
+        "joinClosed": "⏰ 등록기간이 종료되었습니다.",
+        "joinFull": "❌ 토너먼트가 가득 찼습니다.",
+        "joinNotRegistration": "❌ 토너먼트는 더 이상 등록을 받지 않습니다.",
+        "joinFailed": "❌ 연결 오류입니다.",
+        "maxRounds": "최대 {{count}} 라운드에 도달했습니다!",
+        "notEnoughPlayers": "최소 2명의 플레이어가 필요합니다.",
+        "alreadyFinished": "토너먼트가 종료되었습니다.",
+        "finishError": "토너먼트를 완료하는 중에 오류가 발생했습니다."
+      }
+    },
+    "meta": {
+      "title": "온라인 샹치 대회 - 실력 겨루기 | 샹치 Online",
+      "description": "번개 대국부터 표준 대회까지 다양한 온라인 샹치 대회에 참여하세요. 일정과 순위를 확인하고 골드 보상을 받으세요.",
+      "home": "홈",
+      "tournaments": "대회"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "챔피언들의 <0>전장</0>",
+        "desc": "대회는 최고의 실력자들이 모이는 곳입니다. 이곳에서 당신의 진가를 증명하세요."
+      },
+      "features": {
+        "formats": {
+          "title": "스위스 및 라운드 로빈",
+          "desc": "국제 표준 규칙을 적용하여 공정한 경쟁을 보장합니다."
+        },
+        "prizes": {
+          "title": "풍성한 보상",
+          "desc": "승자에게는 골드 🪙와 특별한 트로피가 지급됩니다. 골드를 모아 상점을 이용하세요."
+        },
+        "experience": {
+          "title": "실전 경험",
+          "desc": "대회는 가장 좋은 스승입니다. 고수들과 대결하며 자신의 약점을 보충하세요."
+        },
+        "honor": {
+          "title": "명예의 전당",
+          "desc": "대회 우승 기록은 명예의 전당에 영구히 보존됩니다."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "{{name}} (AI)와 대국하기 - 온라인 샹치 훈련",
+    "seoTitleDefault": "컴퓨터와 대전 - 최강 피카피쉬 AI",
+    "seoDesc": "{{level}} 단계에서 {{name}}님과 대결해 보세요. 최첨단 피카피쉬 AI 기술이 당신의 실력 향상을 돕습니다.",
+    "seoDescDefault": "{{level}} 단계에서 컴퓨터와 연습해 보세요. 세계 최강 피카피쉬 AI 엔진이 수 읽기 분석을 지원합니다.",
+    "title": "AI <0>실전 대전</0>",
+    "settings": "대전 설정",
+    "undo": "한 수 무르기",
+    "newGame": "새 게임",
+    "agentsOnline": "{{count}} 에이전트 온라인",
+    "personality": {
+      "aggressive": "공격적인",
+      "defensive": "방어적",
+      "balanced": "균형 잡힌"
+    },
+    "ranks": {
+      "level1": "초보자",
+      "level4": "전문적인",
+      "level6": "그랜드마스터"
+    },
+    "bot": {
+      "error_not_found": "봇을 찾을 수 없습니다. 관리자 › 봇을 확인하세요."
+    },
+    "seoContent": {
+      "title": "인공지능 실전 – <0>피카피쉬</0>와 함께하는 훈련",
+      "intro": "cotuong.xyz의 <0>AI 대전</0>을 통해 최고의 훈련을 경험하세요. 세계 최강 엔진 중 하나인 피카피쉬를 활용하여 실전과 같은 긴장감을 제공합니다. 초보자부터 전문가까지 모든 수준의 AI가 준비되어 있습니다.",
+      "feature1": {
+        "title": "피카피쉬 AI 엔진",
+        "desc": "샹치용 Stockfish 개량 버전인 피카피쉬 엔진을 채택하여 초당 수백만 개의 수 읽기가 가능합니다."
+      },
+      "feature2": {
+        "title": "다양한 난이도",
+        "desc": "1단계(입문)부터 10단계(마스터)까지 실력에 맞춰 차근차근 도전해 보세요."
+      },
+      "feature3": {
+        "title": "즉각적인 복기",
+        "desc": "시스템이 기보를 저장하여 게임 직후 바로 실수를 분석하고 배울 수 있습니다."
+      },
+      "whyTitle": "왜 AI와 연습해야 하나요?",
+      "whyDesc": "기계와의 연습은 인내심과 정밀한 수 읽기를 길러줍니다. AI는 실수를 용납하지 않으므로 높은 집중력을 유지하게 해줍니다.",
+      "tags": {
+        "online": "샹치 온라인",
+        "withAi": "AI 대전",
+        "engine": "피카피쉬",
+        "practice": "장기 훈련",
+        "hall": "지혜의 전당",
+        "ai": "인공지능"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "테마: 어두운"
+    },
+    "title": "계정 설정",
+    "dashboard": "대시보드",
+    "account": "기본 설정",
+    "overview": "활동 요약",
+    "customize": "프로필 꾸미기",
+    "boardInterface": "게임 인터페이스",
+    "boardInterfaceDesc": "게임 환경을 취향에 맞게 조정하세요.",
+    "autoScroll": "자동 스크롤",
+    "autoScrollDesc": "방 입장 시 자동으로 보드 위치로 이동",
+    "autoScrollSuccess": "자동 스크롤 설정이 업데이트되었습니다",
+    "cropAvatar": "프로필 이미지 편집",
+    "zoom": "확대/축소",
+    "saveImage": "이미지 저장",
+    "updateNameSuccess": "닉네임이 성공적으로 변경되었습니다!",
+    "updateAvatarSuccess": "프로필 이미지가 변경되었습니다!",
+    "pieceStyle": "기물 스타일",
+    "pieceStyleDesc": "원하는 기물 모양을 선택하세요.",
+    "pieceStyles": {
+      "traditional": "전통형 (한자)",
+      "international": "국제형 (기호)",
+      "simple": "심플형"
+    },
+    "voicePack": "음성 팩",
+    "voicePackDesc": "게임 아나운서의 음성을 선택하세요.",
+    "voicePacks": {
+      "vi": "베트남어",
+      "en": "영어",
+      "zh": "중국어",
+      "ja": "일본어",
+      "none": "효과음만 사용"
+    },
+    "changePasswordSuccess": "비밀번호가 변경되었습니다!",
+    "deletePuzzleTitle": "묘수풀이 삭제",
+    "deletePuzzleConfirm": "정말로 [{{name}}] 문제를 삭제하시겠습니까? 삭제 후에는 복구할 수 없습니다.",
+    "deletePuzzleAction": "삭제하기",
+    "deletePuzzleSuccess": "문제가 삭제되었습니다!",
+    "notificationsEnabled": "알림이 활성화되었습니다!",
+    "notificationsError": "알림 활성화에 실패했습니다.",
+    "matchHistory": "대전 히스토리",
+    "achievements": "업적 내역",
+    "inventory": "내 소장 아이템",
+    "myContent": "내 콘텐츠",
+    "security": "보안",
+    "notifications": "알림 설정",
+    "changePassword": "비밀번호 변경",
+    "oldPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmPassword": "새 비밀번호 확인",
+    "displayName": "닉네임",
+    "updateProfile": "프로필 업데이트",
+    "notificationsDesc": "토너먼트, 메시지, 새로운 챌린지에 대한 알림을 받습니다.",
+    "pushSuccess": "알림이 활성화되었습니다!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - 최고의 샹치 플랫폼. 열정적인 팬들과 피카피쉬 AI가 함께하는 글로벌 Elo 랭킹 시스템.",
+    "missionShort": "품격 있는 샹치 플랫폼",
+    "experience": "콘텐츠",
+    "knowledge": "가이드",
+    "services": "서비스",
+    "contactLegal": "고객지원 및 약관",
+    "onlineArena": "온라인 대전장",
+    "puzzles": "샹치 묘수풀이",
+    "playWithAi": "AI 대전",
+    "leaderboard": "전체 순위",
+    "howToPlay": "기본 규칙",
+    "basicTactics": "기초 전술",
+    "practicalEndgame": "종반전 실습",
+    "news": "대회 소식",
+    "shop": "아이템 상점",
+    "profile": "내 프로필",
+    "vipUpgrade": "VIP 업그레이드",
+    "support": "헬프 센터",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용 약관",
+    "officialRules": "공식 규정",
+    "active": "운영 중",
+    "globalServer": "글로벌 서버",
+    "facebookPage": "페이스북 페이지",
+    "facebookGroup": "페이스북 그룹",
+    "allSystemsOperational": "모든 시스템 정상 작동 중",
+    "joinPlayers": "50,000명 이상의 플레이어와 함께하세요",
+    "globalPresence": "글로벌 입지",
+    "infrastructure": "하부 구조",
+    "security": "보안",
+    "versionControl": "버전 관리",
+    "release": "풀어 주다",
+    "deployTime": "배포 시간",
+    "staticHub": "글로벌 정적 허브",
+    "sslVerified": "SSL 인증됨",
+    "build": "빌드 버전",
+    "time": "시간",
+    "copyright": "Xiangqi Online - 모든 콘텐츠와 디자인의 저작권은 <0>cotuong.xyz</0>에 있습니다. 우리는 광고 없는 쾌적한 환경을 위해 노력합니다. 장기를 사랑하는 엔지니어들이 만듭니다 ❤️. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "이용 약관 | 샹치 Online",
+      "description": "샹치 Online 이용 약관. 계정 관리, 공정한 게임 참여 및 사용자 책임 안내."
+    },
+    "title": "이용 <0>약관</0>",
+    "title_p1": "이용",
+    "title_p2": "약관",
+    "intro": "온라인 샹치 커뮤니티에 오신 것을 환영합니다. 건전하고 공정한 게임 환경을 위해 모든 플레이어가 준수해야 할 규정입니다.",
+    "cardTitle": "서비스 이용 동의",
+    "lastUpdated": "최근 업데이트",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "acceptance": {
+        "title": "약관 준수",
+        "content": "본 웹사이트(cotuong.xyz)를 이용함은 명시된 모든 약관에 동의함을 의미합니다. 약관에 동의하지 않을 경우 서비스를 이용하실 수 없습니다."
+      },
+      "accounts": {
+        "title": "사용자 계정",
+        "item1": "자신의 계정과 비밀번호를 안전하게 보호할 책임은 사용자에게 있습니다.",
+        "item2": "등록 시 정확하고 최신의 정보를 제공해야 합니다.",
+        "item3": "랭킹의 공정성을 위해 1인 1계정 원칙을 지켜야 합니다.",
+        "item4": "부정 사용 적발 시 계정이 중단되거나 삭제될 수 있습니다."
+      },
+      "fairplay": {
+        "title": "공정 게임 가이드라인",
+        "intro": "매너 있는 게임 문화를 위해 다음 행위를 엄격히 금지합니다:",
+        "item1": "다른 사용자와의 온라인 대전 시 AI나 외부 도움을 받는 행위.",
+        "item2": "고의로 패배하거나 점수를 조작하는 모든 행위.",
+        "item3": "채팅창에서 욕설, 비하 발언 또는 차별적인 언어를 사용하는 행위.",
+        "item4": "스팸 게시물 작성이나 타인에 대한 괴롭힘."
+      },
+      "copyright": {
+        "title": "콘텐츠 저작권",
+        "content": "웹사이트 내의 모든 이미지, 소스 코드, 기보 데이터 등은 샹치 Online의 자산입니다. 서면 동의 없이 영리 목적으로 무단 전재 및 재배포하는 것을 금지합니다."
+      },
+      "liability": {
+        "title": "책임의 제한",
+        "content": "우리는 서비스가 항상 중단 없이 제공될 것임을 보장하지 않습니다. 서비스 이용 불능으로 인한 간접적인 손해에 대해서는 책임을 지지 않습니다."
+      },
+      "changes": {
+        "title": "약관의 변경",
+        "content": "우리는 필요에 따라 약관을 변경할 수 있으며, 게시와 동시에 효력이 발생합니다. 변경된 약관 게시 후 이용은 변경 사항에 동의한 것으로 간주합니다."
+      }
+    },
+    "footer": "건전한 샹치 커뮤니티를 위해 함께해 주셔서 감사합니다"
+  },
+  "privacy": {
+    "meta": {
+      "title": "개인정보 처리방침 | 샹치 Online",
+      "description": "샹치 Online 개인정보 처리방침. 데이터 수집, 보호 및 사용자 권리 안내."
+    },
+    "title": "개인정보 <0>보호</0>",
+    "title_p1": "개인정보",
+    "title_p2": "보호",
+    "intro": "우리는 플레이어의 개인정보를 최우선으로 생각합니다. 수집하는 정보와 보호 방식에 대해 투명하게 공개합니다.",
+    "cardTitle": "개인정보 정책",
+    "lastUpdated": "최근 업데이트",
+    "lastUpdatedDate": "2026-03-27",
+    "sections": {
+      "collection": {
+        "title": "수집하는 정보",
+        "intro": "더 나은 서비스 제공을 위해 다음 정보를 수집합니다:",
+        "item1": "계정 정보: 이메일, 닉네임, 프로필 이미지 정보.",
+        "item2": "대전 데이터: 게임 전적, Elo 점수, 골드 보유 현황 및 학습 기록.",
+        "item3": "기술 정보: 보안 및 부정 행위 방지를 위한 IP 주소 및 브라우저 정보."
+      },
+      "usage": {
+        "title": "정보 사용 목적",
+        "intro": "수집된 정보는 다음 용도로만 사용됩니다:",
+        "item1": "개인화된 게임 경험 제공 및 계정 관리.",
+        "item2": "대전 기록 보존 및 글로벌 랭킹 반영.",
+        "item3": "중요한 시스템 알림 및 시스템 최적화.",
+        "item4": "Google Analytics를 통한 서비스 개선 분석."
+      },
+      "security": {
+        "title": "데이터 보안",
+        "content": "최신 암호화 기술과 HTTPS 통신을 통해 정보를 안전하게 보호합니다. 다만 인터넷 환경의 특성상 본인의 비밀번호는 본인이 철저히 관리해야 합니다."
+      },
+      "sharing": {
+        "title": "제3자 정보 제공",
+        "content": "우리는 사용자의 정보를 외부에 <0>절대로</0> 판매하거나 대여하지 않습니다. 서비스 운영에 필수적인 최소한의 정보만 협력사(Google 등)와 공유합니다.",
+        "content_p1": "우리는 사용자의 정보를 외부에",
+        "content_p2": "절대로",
+        "content_p3": "판매하지 않습니다."
+      },
+      "rights": {
+        "title": "사용자의 권리",
+        "intro": "사용자는 자신의 정보에 대해 다음 권리를 가집니다:",
+        "item1": "설정 메뉴를 통한 정보 수정 및 공개 여부 결정.",
+        "item2": "언제든지 계정 삭제 및 모든 데이터의 파기 요청.",
+        "item3": "시스템 알림 수신 여부 선택."
+      }
+    },
+    "footer": "여러분의 소중한 정보는 안전하게 보호됩니다"
+  },
+  "shop": {
+    "title": "선물 가게",
+    "meta": {
+      "title": "선물 가게 | 샹치 온라인",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Xiangqi 온라인 선물 가게",
+      "listDesc": "xiangqi 플레이어를 위한 영적 선물.",
+      "home": "집",
+      "shop": "가게",
+      "loading": "상점 로드 중..."
+    },
+    "subtitle": "\"장미를 주면 손에 향기가 남습니다.\" 동료 선수들에게 사랑을 보내주세요.",
+    "yourCoins": "당신의 동전",
+    "messages": {
+      "success": "선물 구매 성공!",
+      "insufficient": "코인이 부족해요!",
+      "error": "선물을 구매하는 중에 오류가 발생했습니다.",
+      "networkError": "선물을 구매하는 중 네트워크 오류가 발생했습니다."
+    },
+    "buy": {
+      "processing": "구매 중...",
+      "insufficient": "코인이 부족합니다",
+      "now": "지금 구매",
+      "defaultDesc": "큰 의미를 담은 작은 선물."
+    },
+    "tips": {
+      "title": "코인 획득 팁",
+      "desc": "코인은 Xiangqi Online의 기본 통화입니다. 실제 돈으로 코인을 구매할 수는 없지만 <0>노력을 통해 축적</0>하고 기술을 훈련해야 합니다.",
+      "item1": "<0>게임 방법</0>에서 연습을 완료하세요. 모든 새로운 레슨에는 상당량의 코인이 제공됩니다.",
+      "item2": "<0>온라인 토너먼트</0>에 참여하세요. 높은 순위의 플레이어는 코인과 귀중한 아이템을 받게 됩니다.",
+      "item3": "훌륭한 경기를 펼쳤을 때 친구와 팬으로부터 선물을 받으세요.",
+      "viewTournaments": "다가오는 토너먼트 보기 →"
+    },
+    "culture": {
+      "title": "선물문화",
+      "desc1": "체스 세계에서 선물을 주는 것은 물질적인 것뿐만 아니라 플레이어 간의 <0>존중과 유대감을 표현</0>하는 것입니다.",
+      "desc2": "\"가치 있는 상대\" - 🌺 장미 또는 ✿ 커피와 같은 작은 선물은 스트레스가 많은 경기 후 새로운 우정을 시작하는 좋은 방법입니다. 획득한 코인을 사용하여 Xiangqi 커뮤니티를 아름답게 꾸며보세요."
+    }
+  },
+  "leaderboard": {
+    "title": "마스터 및 회원",
+    "subtitle": "커뮤니티 명예의 전당 ({{count}} 회원)",
+    "meta": {
+      "title": "리더보드 - 마스터 명예 | 샹치 온라인",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Xiangqi 온라인 플레이어 리더보드",
+      "listDesc": "커뮤니티에서 Elo가 가장 높은 플레이어 목록입니다.",
+      "home": "집"
+    },
+    "hierarchy": {
+      "title": "플레이어 계층 구조 및 Elo 시스템",
+      "desc": "Elo 등급 시스템은 국제 표준을 기반으로 구축되어 플레이어 레벨과 성과를 정확하게 반영합니다.",
+      "rank1": {
+        "title": "초보자 및 캐주얼",
+        "desc": "xiangqi 정복의 첫 번째 단계. 기본 체크메이트를 익히는 데 집중하세요."
+      },
+      "rank2": {
+        "title": "중급 및 고급",
+        "desc": "오프닝과 미드게임에 대한 깊은 이해. 유연한 조각 조정."
+      },
+      "rank3": {
+        "title": "주인",
+        "desc": "수십 개의 동작을 깊이 계산할 수 있는 최고 수준에 도달했습니다."
+      },
+      "rank4": {
+        "title": "그랜드마스터",
+        "desc": "모든 비밀 기술과 함정을 마스터하는 커뮤니티의 전설입니다."
+      }
+    },
+    "search": "플레이어 검색...",
+    "table": {
+      "rank": "#",
+      "player": "플레이어",
+      "elo": "Elo",
+      "games": "계략",
+      "status": "상태",
+      "playing": "재생",
+      "actions": "행위"
+    },
+    "statuses": {
+      "searching": "수색..."
+    },
+    "actions": {
+      "view": "📺 보기",
+      "message": "메시지"
+    },
+    "empty": "플레이어를 찾을 수 없습니다.",
+    "pagination": {
+      "page": "페이지 {{current}} / {{total}}",
+      "total": "{{count}} 플레이어",
+      "prev": "이전",
+      "next": "다음"
+    },
+    "footer": "Elo 순위 시스템은 공개 경기를 기반으로 합니다. 경쟁에 참여하여 순위를 높이고 명예의 전당에 입성하세요!",
+    "lesson": "수업"
+  },
+  "practice": {
+    "title": "학습 및 <0>연습</0>",
+    "subtitle": "기본부터 고급 체크메이트 및 최종 게임 조작까지 훈련하세요.",
+    "loading": "강의 로드 중...",
+    "meta": {
+      "title": "Xiangqi 온라인 학습 및 연습 - 장군 및 최종 게임 훈련",
+      "description": "기초부터 고급까지 xiangqi 강좌에 참여하세요. 조각 이동을 연습하고, 퍼즐을 풀고, AI Pikafish로 훈련하여 매일 기술을 향상하세요.",
+      "home": "집",
+      "practice": "관행"
+    },
+    "list": {
+      "title": "Xiangqi의 본질을 발견하십시오",
+      "description": "체계적인 로드맵을 통해 기본부터 고급까지 학습하세요. 각 레슨에는 모든 움직임에 대한 대화형 보드와 AI 지원이 포함되어 있습니다.",
+      "coins": "누적된 골드",
+      "all": "모두",
+      "lessonCount": "{{count}} 레슨"
+    },
+    "curriculum": {
+      "title": "선수 트레이닝 프로그램(커리큘럼)",
+      "subtitle": "초보자부터 그랜드마스터까지 4단계 로드맵",
+      "steps": {
+        "01": {
+          "title": "기본(기초)",
+          "desc": "보드, 7가지 유형의 말, 그리고 장군 확인 및 직면과 같은 기본 규칙에 익숙해지세요."
+        },
+        "02": {
+          "title": "전술(체크메이트)",
+          "desc": "마무리 조정 배우기: 말대포, 천지대포, 스머더드 메이트, 롤링 캐논."
+        },
+        "03": {
+          "title": "엔드게임(기술)",
+          "desc": "단일 전차, 단일 대포, 말/군인을 사용하는 기술이 최종 단계에서 승리합니다."
+        },
+        "04": {
+          "title": "오프닝(전략)",
+          "desc": "중앙 대포 대 스크린 호스, 같은 방향 대포, 반대 방향 대포와 같은 고전적인 형태를 연구하세요."
+        }
+      }
+    },
+    "card": {
+      "reward": "금화",
+      "status": {
+        "completed": "완전한",
+        "pending": "배우지 않음"
+      },
+      "start": "지금 학습을 시작하세요",
+      "defaultDesc": "최고 수준의 xiangqi 전술을 배우십시오.",
+      "completedTitle": "완전한"
+    },
+    "sidebar": {
+      "back": "모든 수업",
+      "difficulty": "어려움:",
+      "content": "수업 내용:",
+      "defaultMission": "새로운 지식을 발견하기 위해 연습을 시작하세요.",
+      "reward": "보상:",
+      "status": "상태:",
+      "statusDone": "완료",
+      "statusPending": "보류 중",
+      "processing": "처리 중...",
+      "nextLesson": "다음 강의",
+      "finishCourse": "전체 과정",
+      "completeAndNext": "완료 및 다음 강의"
+    },
+    "panel": {
+      "history": "이동 내역",
+      "aiTrain": "AI로 연습하기",
+      "aiTrainDesc": "기계에 대한 테스트 동작",
+      "engine": "엔진:",
+      "level": "수준:",
+      "humanSide": "옆:",
+      "redSide": "레드(레드 플레이)",
+      "blackSide": "블랙(플레이 블랙)",
+      "guide": {
+        "title": "학습 가이드",
+        "step1": "위치와 임무를 관찰하십시오.",
+        "step2": "AI로 조각을 옮기거나 연습해보세요.",
+        "step3": "보상을 받으려면 \"완료\"를 클릭하세요."
+      }
+    },
+    "board": {
+      "tab": "보드 {{index}}: {{title}}",
+      "defaultTitle": "기본",
+      "supplemental": {
+        "title": "심층적인 보충 지식",
+        "p1": "xiangqi에서는 보드와 말의 위치를 ​​이해하는 것이 가장 중요한 기초입니다. 궁전은 장군이 거주하는 곳일 뿐만 아니라 적의 주요 목표이기도 합니다.",
+        "p2": "{{title}} 학습 시, 조각 간의 조화에 주의하세요. 단지 한 부분만 보지 마십시오. 견고한 형성을 만들기 위해 다른 사람들을 어떻게 보호하거나 지원하는지 확인하십시오."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> 온라인 <span className=\"text-blue-600\">Xiangqi 과정</span> 기초부터 고급까지",
+      "intro": "<strong className=\"text-slate-600 dark:text-white/60\">xiangqi 수업</strong> 시스템은 규칙, 조각 이동, <strong className=\"text-slate-600 dark:text-white/60\">전술</strong> 및 고전적인 <strong className=\"text-slate-600 dark:text-white/60\">최종 게임</strong>을 익히는 데 도움이 되도록 과학적으로 설계되었습니다. 모든 레벨의 플레이어가 매일 기술을 연마하는 데 이상적입니다.",
+      "whyTitle": "왜 체크메이트와 엔드게임을 훈련해야 할까요?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "킬러 사고방식",
+        "desc": "고전적인 체크메이트 패턴(말 대포, 천지 대포...)을 빠르게 인식합니다."
+      },
+      "item2": {
+        "title": "최종 게임 기술",
+        "desc": "마스터 엔딩은 단일 전차에서 승리하는 말-고문-코끼리, 대포-고문이 승리하는 코끼리... 모든 마스터를 위한 죽음의 교훈입니다."
+      },
+      "item3": {
+        "title": "AI로 연습하기",
+        "desc": "모든 보드 설정에는 Pikafish 엔진이 통합되어 있어 즉시 컴퓨터에 시험해 볼 수 있습니다."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "게임 <0>갤러리</0>",
+    "subtitle": "수천 개의 온라인 경기를 보고 배우세요",
+    "meta": {
+      "title": "Xiangqi 게임 갤러리 - 라이브 및 리플레이 경기",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 라이브",
+      "open": "⏳ 대기 중",
+      "finished": "🏁 완료",
+      "all": "🌍 모두"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ 모든 모드",
+        "blitz": "블리츠",
+        "rapid": "빠른",
+        "standard": "기준"
+      },
+      "sort": {
+        "newest": "🕒 최신",
+        "popular": "🔥 인기",
+        "spectators": "👁 관중"
+      },
+      "timeRange": {
+        "all": "📅 모든 시간",
+        "day": "오늘",
+        "week": "이번 주",
+        "month": "이번 달"
+      },
+      "red": "빨간색",
+      "black": "검은색"
+    },
+    "empty": {
+      "searching": "일치하는 항목을 검색하는 중...",
+      "noGames": "일치하는 항목이 없습니다.",
+      "noResults": "필터와 일치하는 항목을 찾을 수 없습니다. 필터를 바꿔보세요.",
+      "clear": "필터 지우기"
+    },
+    "card": {
+      "puzzle": "퍼즐",
+      "waiting": "대기 중...",
+      "watch": "보다",
+      "participate": "가입하다",
+      "loadMore": "이전 경기 탐색 ↓"
+    },
+    "seoContent": {
+      "title": "온라인 <0>Xiangqi</0> 갤러리 시스템",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "비주얼 게임 기록",
+        "desc": "종료 후 모든 경기는 자세한 <0>게임 기록</0>으로 저장됩니다. 각 동작을 재생하고, 실수를 분석하고, 마스터의 생각에서 하이라이트를 찾을 수 있습니다."
+      },
+      "item2": {
+        "title": "활발한 온라인 커뮤니티",
+        "desc": "토론에 참여하고, 댓글을 달고, 멋진 게임에 좋아요를 누르세요. <0>Xiangqi 온라인</0>은 단지 승패의 문제가 아니라 64제곱미터 예술에 대한 경험과 열정을 교환하는 장소이기도 합니다."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "퍼즐 토론",
+    "titleTournament": "토너먼트 토론",
+    "titleDefault": "댓글",
+    "placeholderPuzzle": "해결책을 제안하거나 질문하세요...",
+    "placeholderDefault": "댓글을 쓰세요...",
+    "emptyStateFirst": "아직 댓글이 없습니다.",
+    "emptyStateSecond": "당신의 생각을 가장 먼저 공유해보세요!",
+    "loginPrompt": "토론에 참여하려면 <0>로그인</0>해야 합니다.",
+    "sending": "...",
+    "deleteTooltip": "댓글 삭제(관리자)",
+    "deleteTitle": "댓글을 삭제하시겠습니까?",
+    "deleteMsg": "이 댓글을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "deleteAction": "지금 삭제",
+    "errorTitle": "잘못된 댓글",
+    "errorNoLinks": "댓글에는 링크가 포함될 수 없습니다.",
+    "errorRateLimitTitle": "너무 빨리 보내는 중",
+    "errorRateLimit": "너무 빨리 보내고 있습니다. 1분 후에 다시 시도하세요.",
+    "redPlayer": "빨간색",
+    "blackPlayer": "검은색",
+    "reltime": {
+      "justNow": "방금",
+      "minutes": "{{count}}분 전",
+      "hours": "{{count}}시간 전"
+    }
+  },
+  "admin": {
+    "title": "관리자 대시보드",
+    "checkingPermissions": "권한 확인 중...",
+    "noPermission": "⚠️ 관리자 권한이 없습니다.",
+    "syncingData": "시스템 데이터 동기화 중...",
+    "searchPlaceholder": "정보 검색...",
+    "sidebar": {
+      "dashboard": "통계 요약 (AI)",
+      "users": "사용자 관리",
+      "matches": "대전 대기실",
+      "puzzles": "묘수풀이 관리",
+      "tournaments": "대회 관리",
+      "bots": "봇 계정 관리",
+      "comments": "댓글 모니터링",
+      "practice": "강좌 관리",
+      "shop": "상점 관리",
+      "analytics": "로그 분석 (Google)",
+      "ai": "AI 생성기",
+      "push": "푸시 알림 발송",
+      "cache": "캐시 정비 (Redis)",
+      "server": "서버 상태 (Logs)",
+      "settings": "전체 시스템 설정",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "제목과 내용을 입력해주세요",
+      "errorUid": "수신자 UID를 입력하세요.",
+      "errorSystem": "전송 중 시스템 오류"
+    },
+    "ai": {
+      "enterElo": "새 ELO 입력:",
+      "invalidNumber": "잘못된 번호"
+    },
+    "cache": {
+      "cleared": "캐시가 모두 지워졌습니다!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}

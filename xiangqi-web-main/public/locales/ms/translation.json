@@ -1,0 +1,1984 @@
+{
+  "common": {
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "errorBoundaryTitle": "⚠️ Ralat antara muka berlaku",
+    "errorBoundaryReload": "Muat Semula Halaman",
+    "cellAriaLabel": "Segi empat {{coord}}",
+    "cellAriaLabelOccupied": "Square {{coord}} - Diduduki",
+    "back": "Kembali",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "confirm": "Sahkan",
+    "viewAll": "Lihat Semua →",
+    "backToLobby": "Kembali ke Lobi",
+    "search": "Cari",
+    "reset": "Set Semula",
+    "login": "Log Masuk",
+    "you": "Anda",
+    "close": "Tutup",
+    "agree": "Setuju",
+    "refresh": "Segarkan semula",
+    "coins": "Emas",
+    "gold": "Emas",
+    "saveSuccess": "Berjaya disimpan!",
+    "sides": {
+      "red": "Merah",
+      "black": "Hitam"
+    },
+    "challenge": "Cabaran",
+    "send": "Hantar",
+    "reject": "Tolak",
+    "finished": "Selesai",
+    "play": "bermain",
+    "pieces": {
+      "general": "Jeneral",
+      "advisor": "Penasihat",
+      "elephant": "Gajah",
+      "horse": "Kuda",
+      "chariot": "Kereta",
+      "cannon": "Meriam",
+      "soldier": "askar"
+    },
+    "offline": "Luar talian",
+    "draw": "Lukis",
+    "room": "Bilik",
+    "and": "dan",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!"
+  },
+  "status": {
+    "available": "dalam talian",
+    "waiting": "Menunggu"
+  },
+  "siteSeo": {
+    "defaultTitle": "Xiangqi Online - Main Catur Profesional Secara Percuma",
+    "defaultDescription": "Platform xiangqi dalam talian percuma dengan antara muka yang cantik, senyap dan lancar. Main dalam talian atau cabar enjin AI.",
+    "siteName": "Xiangqi Online",
+    "titleSuffix": "| Xiangqi Dalam Talian"
+  },
+  "navbar": {
+    "brand": "Xiangqi",
+    "online": "dalam talian",
+    "home": "Laman Utama",
+    "puzzles": "Teka-teki",
+    "setup": "Susunan",
+    "ai": "Lawan AI",
+    "tournaments": "Kejohanan",
+    "practice": "Latihan",
+    "howToPlay": "Cara Bermain",
+    "players": "Master",
+    "leaderboard": "Papan Pendahulu",
+    "shop": "Kedai",
+    "logout": "Log Keluar",
+    "profile": "Profil",
+    "settings": "Tetapan",
+    "status": "Status",
+    "userMenu": "Menu Pengguna",
+    "guestName": "Pemain",
+    "playerType": "PEMAIN XIANGQI",
+    "coins": "Emas",
+    "rank": "Pangkat",
+    "welcome": "Selamat Datang!",
+    "loginToEarn": "Log masuk untuk menerima ganjaran dan bersaing di papan peringkat",
+    "googleMaintenance": "Log masuk Google sedang dalam penyelenggaraan",
+    "useEmail": "Gunakan Emel",
+    "playAsGuest": "Main sebagai Tetamu?",
+    "statuses": {
+      "online": "dalam talian",
+      "busy": "Sibuk",
+      "invisible": "Halimunan",
+      "free": "Tersedia",
+      "offline": "Luar talian"
+    },
+    "openMenu": "Buka Menu",
+    "closeMenu": "Tutup Menu",
+    "menu": "Menu",
+    "navigation": "Navigasi",
+    "activeGameAlert": "Anda sedang dalam permainan aktif!",
+    "returnToBoard": "Kembali ke papan sekarang",
+    "back": "KEMBALI",
+    "loginWithGoogle": "Log masuk dengan Google"
+  },
+  "site": {
+    "maintenanceModeTitle": "Penyelenggaraan Sistem",
+    "maintenanceMessageDefault": "Kami sedang menaik taraf sistem untuk pengalaman terbaik. Sila kembali sebentar lagi.",
+    "announcementLabel": "PENGUMUMAN"
+  },
+  "ranks": {
+    "novice": "Novis",
+    "amateur": "Amatur",
+    "intermediate": "Pertengahan",
+    "expert": "Pakar",
+    "master": "Cikgu",
+    "internationalMaster": "Master Antarabangsa",
+    "grandmaster": "Guru Besar",
+    "player": "Pemain"
+  },
+  "chat": {
+    "title": "Sembang",
+    "new_message": "Mesej baru",
+    "followed_you": "mula mengikuti anda!",
+    "view_profile": "LIHAT PROFIL",
+    "challenge_accepted": "Cabaran diterima!",
+    "go_to_play": "PERGI MAIN",
+    "is_online": "kini aktif.",
+    "entered_room": "masuk ke bilik",
+    "open_chat": "Buka sembang",
+    "close_chat": "Tutup sembang",
+    "disable_global_notifs": "Matikan Notis Global",
+    "enable_global_notifs": "Aktifkan Notis Global",
+    "disable_notifs": "Matikan Notis",
+    "enable_notifs": "Aktifkan Notis",
+    "disable_autoscroll": "Matikan Skrol Automatik",
+    "enable_autoscroll": "Aktifkan Skrol Automatik",
+    "tabs": {
+      "global": "Global",
+      "private": "Peribadi"
+    },
+    "to_prefix": "Kepada: ",
+    "is_online_label": "dalam talian",
+    "onlinePlayersHeader": "Pemain dalam talian",
+    "history": "Sejarah Sembang ({{count}})",
+    "labelGlobal": "Global",
+    "labelRoom": "Bilik {{id}}",
+    "labelPrivate": "Peribadi: {{name}}",
+    "followed_you_message": "kini mengikuti anda!",
+    "noMessages": "(tiada mesej)",
+    "noMessagesWelcome": "Tiada mesej lagi. Mula bersembang!",
+    "player": "PEMAIN",
+    "guestPlaceholder": "Sila log masuk untuk bersembang",
+    "placeholder": "Hantar mesej...",
+    "followed": "👤 Anda mengikut pihak lawan",
+    "wasFollowed": "🎉 Pihak lawan mengekori anda"
+  },
+  "auth": {
+    "registerTitle": "Buat Akaun",
+    "loginSubtitle": "Log masuk untuk mendapatkan ganjaran",
+    "registerSubtitle": "Sertai komuniti Xiangqi yang terbesar",
+    "loginWithGoogle": "Log masuk dengan Google",
+    "orEmail": "atau E-mel",
+    "emailLabel": "E-mel",
+    "displayNameLabel": "Nama Paparan (pilihan)",
+    "passwordLabel": "Kata laluan",
+    "termsAgreementPrefix": "Saya bersetuju dengan",
+    "termsLink": "Syarat Perkhidmatan",
+    "privacyLink": "Dasar Privasi",
+    "termsAgreementSuffix": "daripada Xiangqi Online.",
+    "termsError": "Anda mesti bersetuju menerima Terma dan Dasar Privasi.",
+    "processing": "Memproses…",
+    "haveAccount": "Sudah mempunyai akaun? Log Masuk",
+    "noAccount": "Buat Akaun",
+    "backToLobby": "Kembali ke Lobi",
+    "loginPrompt": "Anda perlu <0>Log masuk</0> untuk mengambil bahagian dalam perbincangan",
+    "passwordsNotMatch": "Kata laluan tidak sepadan.",
+    "passwordTooShort": "Kata laluan mestilah sekurang-kurangnya 6 aksara.",
+    "invalidOldPassword": "Kata laluan lama yang salah."
+  },
+  "profile": {
+    "originalBioTemplate": "<0>{{name}}</0> ialah pemain aktif dalam komuniti Xiangqi Online. Dengan pangkat <1>{{rank}}</1> ({{elo}} Elo), {{name}} telah mengambil bahagian dalam sejumlah <2>{{count}}</2> perlawanan sengit. Pada masa ini, pemain ini mempunyai <3>{{followers}}</3> pengikut dan merupakan bahagian penting dalam sistem penilaian kebangsaan pada platform.",
+    "social": {
+      "followers": "Pengikut",
+      "following": "Mengikuti",
+      "empty": "Senarai kosong"
+    },
+    "sections": {
+      "medals": "Pingat Kehormatan",
+      "noMedals": "Tiada pingat",
+      "inventory": "Aset Peribadi",
+      "noItems": "Tiada item",
+      "puzzles": "Teka-teki Asal",
+      "noPuzzles": "Tiada teka-teki asal",
+      "solved": "Teka-teki Selesai",
+      "noSolved": "Belum selesaikan teka-teki",
+      "history": "Sejarah Perlawanan",
+      "viewGame": "Tonton Perlawanan 📺"
+    },
+    "gifts": {
+      "title": "Beri Hadiah Untuk Master",
+      "loading": "Memuatkan hadiah...",
+      "empty": "Beg kosong.",
+      "sending": "Menghantar...",
+      "confirm": "Sahkan Hantar",
+      "loginPrivate": "Log masuk untuk mesej.",
+      "loginChallenge": "Log masuk untuk mencabar."
+    },
+    "bioTitle": "Bio & Pencapaian",
+    "game": {
+      "active": "Aktif",
+      "redWin": "Merah Menang",
+      "blackWin": "Hitam Menang",
+      "moves": "bergerak"
+    },
+    "notFound": "Pengguna tidak ditemui",
+    "meta": {
+      "title": "Player {{name}} - Profile & Achievements | Xiangqi Online",
+      "description": "View player profile of {{name}}, Elo rating, match history and created puzzles. Join the xiangqi community and challenge {{name}} at cotuong.xyz.",
+      "schemaDesc": "Player {{name}} with rank {{rank}} ({{elo}} Elo) on the Xiangqi Online platform."
+    },
+    "message": "Message",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "challenge": "Challenge",
+    "followers": "followers",
+    "games": "games",
+    "manage": "Manage Profile",
+    "viewFull": "View Full Profile",
+    "stats": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws"
+    }
+  },
+  "lobby": {
+    "createRoom": "Bina Bilik",
+    "playWithAi": "Main dengan AI",
+    "findMatch": "Cari Lawan",
+    "headerTitle": "Latih Xiangqi <0>Dengan AI</0> & Selesaikan Teka-teki",
+    "headerSubtitle": "Platform pertandingan & teka-teki terkemuka",
+    "waiting": "Mencari lawan...",
+    "noRooms": "Tiada bilik menunggu pada masa ini.",
+    "activeGameTitle": "Anda mempunyai perlawanan yang belum selesai!",
+    "activeGameSubtitle": "Sila kembali untuk menyambung permainan dengan lawan anda",
+    "returnToGame": "Kembali ke Perlawanan",
+    "roomList": "Senarai Bilik",
+    "roomListSubtitle": "Perlawanan aktif dan sejarah",
+    "noRoomsFiltered": "Tiada perlawanan yang sepadan dengan penapis ini.",
+    "onlinePlayers": "Pemain Online",
+    "onlinePlayersCount": "{{count}} ahli aktif",
+    "loginToChat": "Sila log masuk untuk bersembang.",
+    "loginToChallenge": "Sila log masuk untuk mencabar.",
+    "chatAction": "Sembang",
+    "challengeAction": "Jemput",
+    "tabs": {
+      "live": "Langsung",
+      "open": "Terbuka",
+      "finished": "Selesai",
+      "all": "Semua"
+    },
+    "seo": {
+      "recentPuzzles": {
+        "title": "Teka-teki Terkini",
+        "subtitle": "Teroka teka-teki taktikal daripada komuniti",
+        "puzzleType": "Teka-teki",
+        "unnamed": "Teka-teki Tanpa Nama",
+        "levelPrefix": "Tahap {{level}}",
+        "normalLevel": "Biasa",
+        "solve": "Selesaikan"
+      },
+      "features": {
+        "title": "Mengapa memilih Xiangqi Online?",
+        "premium": {
+          "title": "⚡ Pengalaman Premium Percuma",
+          "desc": "Platform yang dioptimumkan untuk kelajuan dan ketenangan. Anda boleh <0>menyusun teka-teki online</0> dan bermain tanpa gangguan iklan."
+        },
+        "ai": {
+          "title": "🤖 Main Lawan AI (Pikafish AI)",
+          "desc": "Cabar diri anda dengan <0>bermain xiangqi lawan mesin</0> menggunakan Enjin Pikafish terkuat di dunia. Dari tahap 1 untuk pemula hingga tahap 10 untuk pakar."
+        },
+        "data": {
+          "title": "🧩 Pangkalan Data Teka-teki Besar",
+          "desc": "Sistem latihan <0>menyelesaikan teka-teki xiangqi</0> sentiasa dikemas kini, membantu anda melatih pemikiran taktikal setiap hari."
+        }
+      },
+      "guide": {
+        "title": "Panduan Bermain Xiangqi Online",
+        "intro": "Untuk memulakan perjalanan anda di <0>cotuong.xyz</0>, hanya ikut 3 langkah mudah:",
+        "step1": {
+          "title": "Daftar akaun:",
+          "desc": "Simpan sejarah perlawanan dan mata Elo."
+        },
+        "step2": {
+          "title": "Cari lawan:",
+          "desc": "Jemput terus dari senarai pemain atau bina bilik baru."
+        },
+        "step3": {
+          "title": "Latihan:",
+          "desc": "Gunakan bahagian <0>Belajar</0> untuk menguasai corak skakmat asas."
+        },
+        "note": "* Sistem Elo dikira berdasarkan kekuatan lawan, menjamin keadilan dalam komuniti online."
+      },
+      "faq": {
+        "title": "Soalan Lazim (FAQ)",
+        "q1": {
+          "q": "S: Adakah bermain xiangqi online di sini percuma?",
+          "a": "J: Ya, sepenuhnya percuma. Semua ciri dari teka-teki ke kejohanan adalah percuma."
+        },
+        "q2": {
+          "q": "S: Bagaimana cara menjemput rakan untuk bermain?",
+          "a": "J: Selepas membina bilik, hanya salin URL halaman tersebut dan hantar kepada rakan anda."
+        },
+        "q3": {
+          "q": "S: Bolehkah saya menonton semula perlawanan saya?",
+          "a": "J: Ya. Semua perlawanan disimpan dalam Sejarah di halaman Profil anda."
+        },
+        "q4": {
+          "q": "S: Mengapa saya tidak boleh menggerakkan buah?",
+          "a": "J: Semak sama ada giliran anda (lihat penunjuk giliran) atau pastikan internet anda stabil."
+        }
+      },
+      "meta": {
+        "title": "Xiangqi Online - Latih AI, Selesaikan Teka-teki & Main Lawan Mesin",
+        "description": "Platform xiangqi online premium: Latih dengan Pikafish AI terkuat, selesaikan ribuan teka-teki taktik secara percuma."
+      },
+      "schema": {
+        "siteName": "Xiangqi Online",
+        "siteDesc": "Platform penyelesaian teka-teki, penyusunan papan dan latihan AI online percuma.",
+        "q1": {
+          "name": "Cara main xiangqi online dengan rakan?",
+          "text": "Klik 'Bina Bilik' dan hantar pautan kepada rakan anda."
+        },
+        "q2": {
+          "name": "Adakah AI xiangqi di cotuong.xyz kuat?",
+          "text": "Menggunakan Enjin Pikafish terkuat dari peringkat Novis ke Grandmaster."
+        }
+      }
+    },
+    "videoHighlight": {
+      "hot": "Hot Tutorial 🔥",
+      "title": "Hot Tutorial",
+      "description": "Improve your Xiangqi skills with real-game analysis and deep strategy guides.",
+      "watchMore": "Watch More 📺"
+    },
+    "headerTitlePrefix": "Xiangqi Online",
+    "headerTitleHighlight": "- Practice With AI & Solve Puzzles",
+    "social": {
+      "labels": {
+        "fanpage": "Fanpage",
+        "community": "Community",
+        "channel": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "x": "X (Twitter)"
+      }
+    }
+  },
+  "howToPlay": {
+    "meta": {
+      "title": "Peraturan Xiangqi Terkini - Panduan Asas Cara Bermain",
+      "description": "Peraturan xiangqi terkini: Panduan asas cara bermain, pergerakan buah dan larangan."
+    },
+    "title": "Cara Bermain Xiangqi",
+    "subtitle": "Pelajari aturan dasar dan pergerakan buah",
+    "intro": "Xiangqi (Catur Cina) adalah permainan minda taktik untuk dua pemain. Matlamat utama adalah untuk men-skakmat <0>Jeneral</0> lawan.",
+    "intro_p1": "Xiangqi adalah permainan minda taktik untuk dua pemain. Matlamat utama adalah untuk men-skakmat",
+    "intro_p3": "lawan.",
+    "section1": {
+      "title": "1. Papan dan Kawasan",
+      "river": {
+        "label": "Sungai (He):",
+        "desc": "Terletak di tengah, membahagikan papan. Sesetengah buah (seperti Gajah) tidak boleh menyeberangi sungai."
+      },
+      "palace": {
+        "label": "Istana (Jiu Gong):",
+        "desc": "Kawasan 3x3 di setiap hujung. Jeneral dan Penasihat hanya boleh bergerak di dalam kawasan ini."
+      },
+      "boardDesc": "Papan terdiri daripada 10 garisan melintang dan 9 garisan menegak. Buah diletakkan pada titik persilangan.",
+      "openingTitle": "Susunan Pembukaan"
+    },
+    "section2": {
+      "title": "2. Pergerakan Buah",
+      "pieces": {
+        "general": {
+          "desc": "Bergerak satu petak secara menegak atau melintang. Wajib berada di dalam Istana.",
+          "action": "→ Latihan Jeneral",
+          "name": "Jeneral"
+        },
+        "advisor": {
+          "desc": "Bergerak satu petak secara pepenjuru. Wajib berada di dalam Istana.",
+          "action": "→ Latihan Penasihat",
+          "name": "Penasihat"
+        },
+        "elephant": {
+          "desc": "Bergerak 2 petak secara pepenjuru (bentuk X). Tidak boleh seberang sungai. Terhalang jika ada buah di tengah.",
+          "action": "→ Latihan Gajah",
+          "name": "Gajah"
+        },
+        "horse": {
+          "desc": "Bergerak dalam bentuk L. Terhalang jika ada buah di 'lutut' bentuk L.",
+          "action": "→ Latihan Kuda",
+          "name": "Kuda"
+        },
+        "chariot": {
+          "desc": "Bergerak melintang atau menegak sejauh mana yang boleh jika tiada halangan.",
+          "action": "→ Latihan Kereta",
+          "name": "Kereta"
+        },
+        "cannon": {
+          "desc": "Bergerak seperti Kereta. Untuk makan, wajib melompati tepat satu buah lain.",
+          "action": "→ Latihan Meriam",
+          "name": "Meriam"
+        },
+        "soldier": {
+          "desc": "Sebelum seberang sungai, bergerak depan 1 petak. Selepas seberang, boleh bergerak depan atau ke tepi.",
+          "action": "→ Latihan askar",
+          "name": "askar"
+        }
+      }
+    },
+    "section3": {
+      "title": "3. Perbezaan Karakter Merah dan Hitam",
+      "intro": "Walaupun buah yang simetri mempunyai nilai yang sama, karakter yang diukir sering berbeza untuk membezakan pihak Merah dan Hitam.",
+      "table": {
+        "type": "Jenis Buah",
+        "red": "Buah Merah",
+        "black": "Buah Hitam",
+        "meaning": "Maksud"
+      },
+      "meanings": {
+        "general": "Merah: Marshal / Hitam: Jeneral",
+        "advisor": "Merah: Pegawai / Hitam: Pengawal",
+        "elephant": "Merah: Menteri / Hitam: Gajah",
+        "horse": "Merah: Kuda Perang / Hitam: Kuda",
+        "cannon": "Merah: Meriam Api / Hitam: Lastik",
+        "soldier": "Merah: Askar / Hitam: Milisia",
+        "chariot": "Sama untuk kedua-duanya"
+      },
+      "why": {
+        "title": "Mengapa berbeza?",
+        "desc": "Berasal dari simulasi perang Chu-Han. Karakter yang berbeza membantu pemain mengenal pasti buah mereka dengan mudah."
+      },
+      "elephantExample": {
+        "title": "Contoh Gajah (相/象)",
+        "desc": "Pasangan ini paling mengelirukan. Merah ialah <0>相 (menteri)</0>, Hitam ialah <1>象 (gajah)</1>. Kedua-duanya tidak boleh menyeberangi sungai kerana mereka adalah pelindung pertahanan.",
+        "desc_p1": "Pasangan ini paling mengelirukan. Merah adalah",
+        "desc_p2": "相 (Menteri)",
+        "desc_p3": "dan Hitam adalah",
+        "desc_p4": "象 (Gajah)",
+        "desc_p5": "Kedua-duanya tidak boleh menyeberangi sungai kerana mereka adalah pelindung pertahanan."
+      }
+    },
+    "section4": {
+      "title": "4. Nilai Buah (Rujukan)",
+      "table": {
+        "piece": "Buah",
+        "score": "Mata",
+        "stage": "Tahap Terkuat"
+      },
+      "pieces": {
+        "chariot": {
+          "name": "Kereta",
+          "power": "Terkuat di semua tahap"
+        },
+        "cannon": {
+          "name": "Meriam",
+          "power": "Sangat kuat di Pembukaan & Pertengahan"
+        },
+        "horse": {
+          "name": "Kuda",
+          "power": "Potensi maksimum di Pertengahan & Akhir"
+        },
+        "soldier": {
+          "name": "askar",
+          "power": "Nilai melonjak selepas seberang sungai"
+        },
+        "defense": {
+          "name": "Penasihat / Gajah",
+          "power": "Benteng pertahanan penting"
+        },
+        "general": {
+          "name": "Jeneral"
+        }
+      }
+    },
+    "section5": {
+      "title": "5. Peraturan Khas & Larangan",
+      "rules": {
+        "kingFace": {
+          "label": "Jeneral Berhadapan:",
+          "desc": "Jeneral tidak boleh berhadapan terus dalam satu garisan tanpa ada buah di antaranya."
+        },
+        "check": {
+          "label": "Sekak:",
+          "desc": "Apabila buah menyerang Jeneral lawan."
+        },
+        "mate": {
+          "label": "Skakmat:",
+          "desc": "Zaman apabila Jeneral diseukak dan tiada jalan keluar."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Taktik Lanjutan",
+      "phases": {
+        "opening": {
+          "title": "⚔️ Tahap Pembukaan",
+          "quote": "\"Keluarkan Kereta cepat, Kuda lambat, Meriam fleksibel\"",
+          "desc": "Utamakan menggerakkan buah utama ke posisi terbuka yang strategik."
+        },
+        "midgame": {
+          "title": "🛡️ Tahap Pertengahan",
+          "desc": "Fokus pada koordinasi buah untuk memberi tekanan kepada Jeneral atau menangkap buah lawan."
+        },
+        "endgame": {
+          "title": "🔚 Tahap Akhir",
+          "desc": "Apabila buah semakin sedikit, pergerakan Kuda dan pengaruh Askar sangat penting."
+        },
+        "tactics": {
+          "title": "🔥 Corak Skakmat",
+          "maHauPhao": "Meriam di Belakang Kuda: Menggunakan Kuda sebagai landasan Meriam untuk skakmat.",
+          "thienDiaPhao": "Meriam Langit Bumi: Menggunakan dua Meriam untuk mengawal garisan.",
+          "daiDamXa": "Kereta Berani: Menyerang terus ke tengah Istana."
+        }
+      }
+    },
+    "section7": {
+      "title": "7. FAQ: Peraturan Terlarang",
+      "faqs": {
+        "f1": {
+          "q": "S: Adakah sekak berulang dibenarkan?",
+          "a": "J: Tidak. Anda tidak boleh men-sekak berulang lebih daripada 3 kali. Jika dilakukan, anda dikira kalah."
+        },
+        "f2": {
+          "q": "S: Bolehkah Jeneral keluar dari Istana?",
+          "a": "J: Tidak boleh. Jeneral dan Penasihat hanya boleh berada di dalam kawasan 3x3."
+        },
+        "f3": {
+          "q": "S: Bilakah permainan dikira seri?",
+          "a": "J: Seri berlaku apabila:<1 />1. <0>Aturan 60 Langkah:</0> Tiada buah dimakan dalam 60 langkah.<2 />2. <0>Persetujuan:</0> Kedua-dua pemain setuju untuk seri.<3 />3. <0>Langkah Berulang:</0> 3 kali ulangan keadaan papan.<4 />4. <0>Seri Teknis:</0> Kedua-dua pihak tiada buah yang cukup untuk skakmat.",
+          "a_intro": "Seri berlaku apabila:",
+          "a_item1_title": "Aturan 60 Langkah:",
+          "a_item1_desc": "Tiada buah dimakan dalam 60 langkah.",
+          "a_item2_title": "Persetujuan:",
+          "a_item2_desc": "Kedua-dua pemain setuju untuk seri.",
+          "a_item3_title": "Langkah Berulang:",
+          "a_item3_desc": "3 kali ulangan keadaan papan.",
+          "a_item4_title": "Seri Teknis:",
+          "a_item4_desc": "Kedua-dua pihak tiada buah yang cukup untuk skakmat."
+        },
+        "f4": {
+          "q": "S: Adakah saya kalah jika masa habis?",
+          "a": "J: Ya. Jika masa habis, anda dikira kalah walaupun mempunyai kelebihan buah.",
+          "a_p1": "J: Ya. Jika masa habis, anda dikira",
+          "a_p2": "kalah",
+          "a_p3": "walaupun mempunyai kelebihan buah."
+        }
+      },
+      "practiceAction": "🔥 Mulakan Latihan Sekarang"
+    },
+    "history": {
+      "title": "Sejarah Ringkas Xiangqi",
+      "p1": "Xiangqi berasal daripada <0>Saturanga</0> India kuno, yang diperkenalkan ke Tiongkok dan diubah suai. Papan dengan sungai mensimulasikan peperangan <1>Chu-Han</1>.",
+      "p2": "Selama beribu tahun, ia menjadi teras budaya di Asia Timur. Anda boleh menemui orang bermain xiangqi di merata-rata.",
+      "p3": "Hari ini, bermain online di <0>cotuong.xyz</0> menghubungkan berjuta peminat, berkongsi minat di mana-mana sahaja."
+    },
+    "videoTutorial": "Video tutorial",
+    "videoHighlight": {
+      "title": "Learn Xiangqi via Video",
+      "description": "Watch top-tier matches and learn tactics from professional players on our official YouTube channel.",
+      "watchMore": "Watch more on YouTube"
+    }
+  },
+  "room": {
+    "vsAi": "Main vs AI",
+    "labelWithId": "Bilik {{id}}",
+    "ready": "Sedia",
+    "finished": "Tamat",
+    "waitingPlayer": "Menunggu",
+    "join": "Main",
+    "copyLinkSuccess": "Pautan bilik disalin ke papan keratan!",
+    "inviteBtn": "Jemput Rakan",
+    "role": "Peranan",
+    "turn": "pusing",
+    "spectatorsShort": "Spesifikasi",
+    "noSpectators": "tiada"
+  },
+  "game": {
+    "sides": {
+      "red": "merah",
+      "black": "Hitam"
+    },
+    "timeModes": {
+      "blitz": "Blitz",
+      "rapid": "Cepat",
+      "standard": "Standard",
+      "slow": "Lambat",
+      "gridLabel": "Mod Masa"
+    },
+    "timeModeSub": {
+      "blitz": "3m",
+      "rapid": "10m",
+      "standard": "20m",
+      "slow": "45m"
+    },
+    "status": {
+      "redWin": "Merah Menang",
+      "blackWin": "Hitam Menang",
+      "draw": "Seri",
+      "ongoing": "Sedang Berlangsung",
+      "check": "SEMAK!",
+      "startPrompt_red": "Giliran anda - Buat langkah pertama untuk bermula",
+      "startPrompt_black": "Menunggu Red membuat langkah pertama",
+      "waitingForPlayers": "Menunggu pemain..."
+    },
+    "actions": {
+      "draw": "Tawarkan Seri",
+      "resign": "Menyerah Kalah",
+      "swap": "Tukar Sisi",
+      "leave": "Keluar Bilik",
+      "publish": "Terbitkan",
+      "undo": "Buat asal",
+      "newGame": "Permainan Baru"
+    },
+    "confirm": {
+      "drawTitle": "Tawarkan Seri",
+      "drawMsg": "Hantar permintaan seri kepada lawan?",
+      "resignTitle": "Menyerah Kalah",
+      "resignMsg": "Adakah anda pasti ingin menyerah kalah?",
+      "leaveTitle": "Keluar dan Kalah",
+      "leaveMsg": "Permainan sedang berlangsung. Keluar sekarang bermakna anda kalah. Teruskan?",
+      "loginTitle": "Perlu Log Masuk",
+      "loginMsg": "Sila log masuk untuk menyimpan perlawanan ke kegemaran.",
+      "leaveMsg_casual": "Ini perlawanan kasual, adakah anda pasti mahu pergi?",
+      "leaveMsg_spectator": "Anda akan meninggalkan bilik penonton.",
+      "undoMsg": "Adakah anda mahu menghantar permintaan buat asal kepada lawan anda?"
+    },
+    "modals": {
+      "swapTitle": "Cadangan Tukar Sisi",
+      "swapMessage": "Lawan ingin bertukar sisi dengan anda. Setuju?",
+      "drawTitle": "Cadangan Seri",
+      "drawMessage": "Lawan menawarkan seri. Terima?",
+      "accept": "Terima"
+    },
+    "comments": "Komen Perlawanan",
+    "private": "Perlawanan Peribadi",
+    "publishDesc": "Terbitkan perlawanan anda",
+    "viewDetails": "Lihat butiran perlawanan",
+    "notFoundTitle": "Kawasan Runtuhan",
+    "notFoundDesc": "Perlawanan #{{id}} tidak wujud atau telah dipadam.",
+    "redSide": "Pihak Merah",
+    "blackSide": "Pihak Hitam",
+    "sideBlack": "Main Hitam",
+    "aiPlayer": "AI",
+    "rankGeneric": "Pemain",
+    "redPlayerDefault": "Pemain Merah",
+    "blackPlayerDefault": "Pemain Hitam",
+    "roomIdLabel": "ID Bilik: #{{id}}",
+    "active": "Dalam Perlawanan",
+    "moves": "{{count}} bergerak",
+    "seo": {
+      "title": {
+        "prefix": "Analisis Mendalam: ",
+        "videoTitle": "Video Permainan: {{title}}"
+      },
+      "intro": "Perlawanan <0>xiangqi online</0> yang sengit antara <1>{{red}}</1> dan <2>{{black}}</2> menunjukkan taktik yang mendalam. <3>Menonton semula perlawanan</3> adalah cara terbaik untuk belajar.",
+      "comments": {
+        "title": "💡 Nilai Analisis",
+        "desc": "Sistem menyokong <0>notasi xiangqi</0> real-time. Perlawanan peringkat tinggi mengandungi <1>taktik xiangqi</1> yang boleh anda contohi."
+      },
+      "ai": {
+        "title": "🤖 Latihan Dengan AI",
+        "desc": "Gunakan ciri AI <0>bermain lawan mesin</0> (Pikafish) untuk mencuba situasi sukar dari perlawanan ini."
+      },
+      "keywords": "xiangqi, xiangqi dalam talian, {{red}}, {{black}}, ulasan perlawanan, arena dalam talian, kejohanan xiangqi, taktik xiangqi, bermain dengan komputer, berlatih dengan ai, bermain xiangqi dengan mesin",
+      "hashtags": [
+        "#cotuongonline",
+        "#xemlaivandau",
+        "#danhcotuongvoimay"
+      ]
+    },
+    "h2h": {
+      "title": "Kepala-ke-Kepala",
+      "analysis": "Analisis",
+      "matchesCount": "{{count}} sepadan",
+      "recentMatches": "Perlawanan terkini",
+      "collectingData": "Mengumpul data H2H...",
+      "red": "merah",
+      "black": "Hitam",
+      "youWin": "ANDA MENANG",
+      "opponentWin": "LAWAN MENANG"
+    },
+    "panel": {
+      "title": "Maklumat Perlawanan",
+      "matchId": "ID: #{{id}}",
+      "createdOn": "• {{date}}",
+      "winnerTitle": "{{side}} SISI",
+      "winStatus": "MENANG",
+      "drawStatus": "MENARIK",
+      "reasons": {
+        "checkmate": "Syahmat",
+        "stalemate": "kebuntuan",
+        "timeout": "tamat masa",
+        "resign": "Perletakan jawatan",
+        "perpetual": "Peraturan kekal",
+        "agreed": "Draw agreed",
+        "draw": "Draw agreed",
+        "default": "Undecided"
+      },
+      "details": {
+        "title": "Tajuk",
+        "defaultTitle": "Padankan #{{id}}",
+        "puzzleOrigin": "Dicipta daripada teka-teki",
+        "puzzleTitle": "Teka-teki #{{id}}",
+        "drawRules": "Lukis Peraturan",
+        "rule60": "Lukis jika 60 bergerak tanpa tangkapan.",
+        "ruleRepeat": "Rugi jika Perpetual Check atau Chase 3 kali.",
+        "ruleTimeout": "Rugi serta-merta apabila tamat masa.",
+        "rule60Label": "60-Peraturan Bergerak:",
+        "ruleRepeatLabel": "Pengulangan:",
+        "ruleTimeoutLabel": "tamat masa:",
+        "materialAdvantage": "Kelebihan Bahan",
+        "drawProgress": "Lukis Kemajuan",
+        "redAdvantage": "MERAH +{{count}}",
+        "blackAdvantage": "HITAM +{{count}}",
+        "balanced": "SEIMBANG"
+      },
+      "actions": {
+        "save": "JIMAT",
+        "lobby": "LOBI"
+      },
+      "resultTitle": "MATCH RESULT"
+    },
+    "result": {
+      "win": "Kemenangan!",
+      "loss": "Kalah",
+      "draw": "Lukis!",
+      "finished": "Perlawanan Selesai",
+      "elo": "Penilaian ELO",
+      "reward": "Ganjaran",
+      "review": "Semakan",
+      "share": "Kongsi"
+    },
+    "spectators": {
+      "title": "Penonton ({{count}})",
+      "empty": "Tiada siapa yang memerhati",
+      "label_short": "PENONTON",
+      "alt": "Penonton {{name}}"
+    },
+    "lobbyTitle": "Lobi",
+    "puzzleTag": "Teka-teki",
+    "aiLevels": {
+      "1": "Novis",
+      "2": "Asas",
+      "3": "Pertengahan",
+      "4": "Mahir",
+      "5": "Lanjutan",
+      "6": "Juara",
+      "default": "Tahap {{level}}"
+    },
+    "moveList": {
+      "progress": "Kemajuan Permainan",
+      "first": "Pertama",
+      "prev": "Sebelumnya",
+      "next": "Seterusnya",
+      "last": "Terakhir",
+      "pause": "Jeda",
+      "play": "Mainkan",
+      "empty": "Belum ada langkah",
+      "initial": "Posisi Awal",
+      "viewMove": "Lihat langkah ke-{{index}}",
+      "returnToLive": "Kembali ke Live"
+    },
+    "export": {
+      "copyFen": "Salin FEN",
+      "copyFenSuccess": "FEN disalin ke papan klip!",
+      "copyFenError": "Ralat menyalin FEN",
+      "exportFile": "Eksport Fail",
+      "saveImage": "Simpan Gambar (Klien)",
+      "saveImageSuccess": "Gambar berjaya disimpan!",
+      "saveImageError": "Ralat menyimpan gambar",
+      "downloadHd": "Muat Turun HD (Server)",
+      "downloadHdSuccess": "Gambar HD berjaya disimpan!",
+      "downloadHdError": "Eksport HD gagal: {{message}}",
+      "cancelInfo": "Eksport dibatalkan",
+      "noMovesError": "Tiada langkah, tidak boleh buat video",
+      "clientVideo": "Video - Klien (WebM)",
+      "clientVideoSuccess": "Video berjaya dieksport!",
+      "clientVideoError": "Ralat video klien: {{message}}",
+      "serverVideo": "Video - Pelayan (MP4)",
+      "serverVideoSuccess": "Muat turun {{format}} berjaya!",
+      "serverVideoError": "Eksport HD ralat: {{message}}",
+      "serverTimeout": "Server tamat masa. Perlawanan terlalu panjang.",
+      "animatedGif": "GIF Animasi",
+      "size": "Saiz",
+      "ratios": {
+        "horizontal": "Mendatar",
+        "vertical": "Menegak",
+        "square": "Segi Empat",
+        "board": "Papan"
+      }
+    },
+    "move": "Langkah",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "match": {
+    "redJoined": "Pemain Merah telah masuk!",
+    "blackJoined": "Pemain Hitam telah masuk!",
+    "redLeft": "Pemain Merah telah keluar.",
+    "blackLeft": "Pemain Hitam telah keluar.",
+    "opponentDisconnected": "Lawan terputus!",
+    "opponentReconnected": "Lawan telah bersambung semula!",
+    "newSpectator": "Penonton baru bergabung (Jumlah {{count}})",
+    "started": "Perlawanan bermula! Semoga berjaya.",
+    "drawDeclined": "Lawan menolak tawaran seri.",
+    "swapDeclined": "Lawan menolak permintaan tukar sisi.",
+    "swapSuccess": "Anda telah bertukar ke pihak {{side}}",
+    "resultDraw": "Tamat: Seri",
+    "resultWin": "Tahniah! Anda Menang!",
+    "resultLoss": "Tamat: Anda Kalah.",
+    "resultOtherWin": "Tamat: Pihak {{side}} Menang!",
+    "errorViewingReplay": "Anda sedang menonton tayangan semula.",
+    "backToLive": "Kembali ke Live",
+    "errorLoginToPlay": "Sila log masuk untuk bermain.",
+    "errorNotYourTurn": "Bukan giliran anda.",
+    "errorSpectator": "Anda adalah penonton.",
+    "engineError": "Ralat Enjin: {{error}}",
+    "config": {
+      "titleChallenge": "Jemput Pemain",
+      "titlePuzzle": "Perlawanan Teka-teki",
+      "titleNew": "Bina Perlawanan Baru",
+      "readyToPlay": "Sedia Bermain",
+      "invitedOpponent": "Tantangan Masuk",
+      "challengeInvite": "{{name}} mencabar anda!",
+      "inviteDesc": "{{type}} · {{time}}",
+      "status": {
+        "declined": "❌ {{name}} menolak jemputan.",
+        "wait": "⏳ {{name}} sedang sibuk, sila tunggu sebentar!",
+        "accepted": "🎉 Cabaran diterima! Bersedia.",
+        "canceled": "Cabaran dibatalkan.",
+        "sent": "Cabaran dikirim kepada {{name}}.",
+        "busy": "📭 {{name}} sibuk. Jemputan anda dalam barisan.",
+        "offline": "Lawan sedang offline. Tidak dapat mula."
+      },
+      "ready": {
+        "title": "Perlawanan Sedia",
+        "desc": "Pemain pertama masuk akan main Hitam (Jalan Kemudian), kedua main Merah.",
+        "action": "MASUK SEKARANG",
+        "hide": "Sembunyikan"
+      },
+      "gifts": {
+        "received": "{{name}} menghantar hadiah!",
+        "coins": "{{name}} menghantar emas!",
+        "coinsDesc": "Anda menerima +{{amount}} emas",
+        "candy": "🍬 Gula-gula",
+        "bear": "🧸 Anak Beruang",
+        "ring": "💍 Cincin Berlian"
+      },
+      "defaultConfigDesc": "Perlawanan akan dibina dengan tetapan sedia ada:",
+      "defaultConfigDetails": "Standard (20 minit), Awam, ELO Pangkat.",
+      "advancedConfig": "⚙️ Tetapan Lanjut",
+      "timeMode": "Mode Masa",
+      "findOpponent": "Cari Lawan",
+      "selected": "Terpilih",
+      "searchPlaceholder": "Ikut nama atau UID...",
+      "online": "dalam talian",
+      "noResults": "Tidak ditemui...",
+      "select": "Pilih",
+      "unselect": "Batal Pilih",
+      "boardOptions": "Opsi Papan",
+      "private": "🔒 Peribadi (Tanpa Pangkat)",
+      "public": "🌐 Awam (Pangkat ELO)",
+      "boardType": "Jenis Papan",
+      "standard": "♟ Standard",
+      "puzzle": "🧩 Teka-teki",
+      "puzzleSetup": "Tetapan Teka-teki",
+      "selectedPuzzle": "Teka-teki Terpilih",
+      "change": "Ubah",
+      "suggestions": "Cadangan untuk anda",
+      "searchPuzzlePlaceholder": "Cari nama teka-teki...",
+      "level": "Tahap",
+      "challengeOptions": "Opsi Cabaran",
+      "message": "Mesej",
+      "defaultMessage": "Mari main xiangqi!",
+      "betGifts": "Taruhan Hadiah",
+      "betActive": "🎁 Taruhan Aktif",
+      "betNone": "🎁 Tiada Taruhan",
+      "giftType": "Jenis Hadiah",
+      "backToSimple": "« Kembali ke Mudah",
+      "goldWarning": "ℹ️ Teka-teki mungkin tidak beri emas",
+      "goldSuccess": "ℹ️ Teka-teki standard beri hadiah emas",
+      "creating": "Membina...",
+      "sendChallenge": "⚔️ Kirim Cabaran",
+      "openMatch": "🚀 Buka Perlawanan Awam",
+      "playNow": "🚀 Main Sekarang",
+      "modes": {
+        "blitz": "⚡ Kilat",
+        "rapid": "🏃 Cepat",
+        "standard": "⏱ Standard",
+        "slow": "🎯 Lambat"
+      },
+      "toasts": {
+        "loginRequired": "Perlu log masuk untuk bina perlawanan.",
+        "challengeSent": "Cabaran dihantar ke {{name}}!",
+        "roomCreated": "Bilik berjaya dibina!",
+        "alreadyInGame": "Anda ada permainan belum selesai.",
+        "serverError": "Ralat sambungan server."
+      }
+    }
+  },
+  "puzzles": {
+    "title": "Selesaikan <0>Teka-teki</0>",
+    "subtitle": "Teroka dan selesaikan ribuan teka-teki komuniti",
+    "listTitle": "Senarai Teka-teki Xiangqi",
+    "explore": "Teroka",
+    "saved": "Disimpan",
+    "searchPlaceholder": "Cari nama...",
+    "level": "Tahap Kesukaran",
+    "levelValue": "Tahap {{level}}",
+    "unclassified": "Tanpa Kategori",
+    "sort": {
+      "label": "Susun",
+      "newest": "Terbaru",
+      "popular": "Popular",
+      "solved": "Paling Banyak Selesai"
+    },
+    "time": {
+      "label": "Masa",
+      "all": "Semua Masa",
+      "day": "Hari Ini",
+      "week": "Minggu Ini",
+      "month": "Bulan Ini"
+    },
+    "empty": {
+      "title": "Teka-teki Tidak Ditemui",
+      "desc": "Tiada teka-teki sepadan dengan penapis anda.",
+      "reset": "Set Semula Penapis"
+    },
+    "actions": {
+      "solve": "Selesaikan Sekarang",
+      "loadMore": "Teroka Teka-teki Lain ↓",
+      "backToSolve": "Kembali Selesaikan"
+    },
+    "loginToSave": "Log masuk untuk simpan teka-teki.",
+    "loginToChallenge": "Log masuk untuk mencabar dengan teka-teki.",
+    "red": "Merah",
+    "black": "Hitam",
+    "byUser": "Oleh {{name}}",
+    "meta": {
+      "title": "Selesaikan Teka-teki Xiangqi Online",
+      "description": "Teroka ribuan teka-teki xiangqi: pembukaan, taktikal, latihan percuma.",
+      "itemListDesc": "Senarai teka-teki xiangqi terbaik",
+      "itemListSchemaDesc": "Pangkalan data teka-teki xiangqi online.",
+      "home": "Laman Utama",
+      "puzzles": "Teka-teki",
+      "schemaGameTitle": "Teka-teki: {{name}}",
+      "schemaVideoTitle": "Penjelasan Video: {{name}}",
+      "schemaVideoDesc": "Cara selesaikan teka-teki: {{name}}.",
+      "schemaVideoSolutionTitle": "Penjelasan: {{name}} (Selesaian {{index}})",
+      "schemaVideoSolutionDesc": "Cara selesaikan: {{name}} - Penjelasan #{{index}}.",
+      "authorDefault": "Xiangqi Online"
+    },
+    "seoContent": {
+      "whyTitle": "Mengapa Perlu <0>Latih Teka-teki</0>?",
+      "intro": "<0>Memecah teka-teki</0> adalah teras pemikiran taktik. Ia bukan sekadar hiburan tetapi latihan wajib.",
+      "guide": {
+        "title": "Panduan untuk Pemula",
+        "intro": "Untuk meningkatkan kemahiran <0>teka-teki</0>, analisislah langkah asas:",
+        "item1": "<0>Nilai Kekuatan:</0> Semak baki buah lawan.",
+        "item2": "<0>Analisis Posisi:</0> Cari kelemahan lawan.",
+        "item3": "<0>Kiraan Langkah:</0> Jangka skakmat."
+      },
+      "ai": {
+        "title": "Gunakan AI Selesaian",
+        "intro": "Gunakan <0>AI Pikafish</0> untuk:",
+        "item1": "Cari langkah tersembunyi.",
+        "item2": "Fahami mengapa langkah tertentu gagal.",
+        "item3": "Latih jangkaan 10-20 langkah ke depan."
+      },
+      "benefits": {
+        "title": "Faedah Berlatih Teka-teki",
+        "satt": {
+          "title": "Skakmat",
+          "desc": "Kuasai teknik penutup permainan."
+        },
+        "tanquoc": {
+          "title": "Permainan Akhir",
+          "desc": "Belajar koordinasi buah ketika sedikit."
+        },
+        "tuduy": {
+          "title": "Pemikiran",
+          "desc": "Kenali corak kemenangan dengan cepat."
+        }
+      }
+    },
+    "view": {
+      "seoContent": {
+        "title": "Analisis Teka-teki:",
+        "defaultName": "Langkah Klasik",
+        "intro": "Teka-teki <0>{{name}}</0> adalah latihan online yang bagus.",
+        "tips": {
+          "title": "💡 Tip",
+          "desc": "Perhatikan buah penyerang. Sekak mengejut selalunya berkesan."
+        },
+        "advanced": {
+          "title": "📈 Tingkatkan Tahap",
+          "desc": "Gunakan AI untuk melihat variasi lain. Fahami struktur papan."
+        }
+      },
+      "seoTitle": "Selesaikan Teka-teki: {{name}} - Online",
+      "seoDesc": "Selesaikan teka-teki {{name}} online. Mantapkan latihan taktikal.",
+      "rewardFirst": "🏆 Bagus! Anda dapat {{count}} 🪙 emas untuk selesaian pertama.",
+      "rewardUpdate": "Tahniah! Langkah anda telah dikemas kini.",
+      "viewingSolution": "Melihat penyelesaian dari",
+      "loadError": "Gagal muat data papan",
+      "loginRequiredTitle": "Perlu Log Masuk",
+      "loginRequiredMsg": "Sila log masuk untuk tindakan ini.",
+      "mission": "Misi",
+      "missionDesc": "Cari jalan untuk menang atau dapat kelebihan.",
+      "aiSolver": "Selesaian AI",
+      "aiSolverDesc": "Aktifkan \"🤖 Selesaian AI\" untuk bantuan.",
+      "achievement": "Pencapaian",
+      "achievementDesc": "Terima emas untuk selesaian pertama.",
+      "aiServer": "Server AI",
+      "aiServerDesc": "Tahap tinggi guna server Pikafish.",
+      "title": "Maklumat Teka-teki",
+      "backToList": "Kembali ke Senarai",
+      "puzzleNameLabel": "Teka-teki {{id}}",
+      "firstPlayer": "Pemain Pertama",
+      "redFirst": "🔴 Merah Dulu",
+      "blackFirst": "⚫ Hitam Dulu",
+      "creator": "Pembuat",
+      "difficulty": "Kesukaran",
+      "relatedGames": "Perlawanan Terkait",
+      "justHappened": "Baru berlaku",
+      "saved": "Disimpan",
+      "savePuzzle": "Simpan Teka-teki",
+      "solverTitle": "Penyelesaian Teka-teki",
+      "solveMode": "Mode Selesaian",
+      "modeAi": "🤖 Selesaian AI (Automatik)",
+      "modeManual": "👥 Selesaikan Sendiri (AI Mati)",
+      "aiLevel": "Kesukaran AI",
+      "sideSelect": "Sisi Anda",
+      "redSide": "Sisi Merah",
+      "blackSide": "Sisi Hitam",
+      "undo": "Undurkan",
+      "restart": "Mula Semula",
+      "hallOfFame": "Dewan Kemasyhuran",
+      "solvedBy": "Pemain yang selesaikan ini",
+      "player": "Pemain",
+      "movesCount": "{{count}} langkah",
+      "view": "Lihat",
+      "noSolutions": "Belum ada yang selesaikan.\nJadilah yang pertama!",
+      "similarPuzzles": "Teka-teki Serupa",
+      "relatedMatchReports": "Laporan Perlawanan Terkait"
+    }
+  },
+  "notifications": {
+    "title": "Notifikasi",
+    "panelHeader": "Mesej Notifikasi",
+    "clearAll": "Padam Semua",
+    "empty": "Tiada mesej.",
+    "viewNow": "Lihat Sekarang →",
+    "push": {
+      "prompt": "Aktifkan notifikasi supaya tidak terlepas perlawanan!",
+      "enable": "Aktifkan Sekarang",
+      "saveError": "Gagal simpan tetapan. Cuba lagi.",
+      "deniedError": "Izin ditolak. Aktifkan di tetapan pelayar.",
+      "genericError": "Ralat mengaktifkan notifikasi."
+    },
+    "challenges": {
+      "standard": "Standard",
+      "puzzle": "Teka-teki",
+      "accepted": "🔥 Diterima",
+      "declined": "❌ Ditolak",
+      "canceled": "⚪ Dibatalkan",
+      "waitOpponent": "⏳ Tunggu lawan...",
+      "waitYou": "⏳ Tunggu anda...",
+      "acceptAction": "Terima",
+      "waitAction": "Tunggu",
+      "cancelAction": "Batal Jemputan",
+      "deleteAction": "Padam",
+      "inGameTooltip": "Anda sedang bermain"
+    }
+  },
+  "setup": {
+    "validation": {
+      "title": "Papan Tidak Sah",
+      "checkAgain": "Sila semak semula",
+      "loginRequired": "Sila log masuk untuk meneruskan.",
+      "nameRequired": "Sila masukkan nama untuk persediaan ini.",
+      "descRequired": "Sila masukkan perihalan untuk persediaan ini.",
+      "twoKings": "Persediaan mesti mempunyai tepat 2 Raja.",
+      "faceToFace": "Ralat: Raja tidak boleh bersemuka secara langsung.",
+      "redCheck": "Raja Merah sedang dalam pemeriksaan.",
+      "blackCheck": "Black King sedang dalam pemeriksaan.",
+      "pieceLimit": "Kepingan maksimum {{limit}} jenis {{type}} dibenarkan.",
+      "generalPalace": "{{side}} Jeneral mesti berada di dalam istana (3x3).",
+      "advisorPalace": "Penasihat {{side}} mesti berada di dalam istana (3x3).",
+      "advisorDiagonal": "Penasihat {{side}} hanya boleh diletakkan pada mata istana pepenjuru.",
+      "elephantRiver": "{{side}} Gajah tidak boleh menyeberangi sungai.",
+      "elephantPoints": "{{side}} Elephant hanya boleh diletakkan pada kedudukan tetap di sebelah rumah.",
+      "redSoldierBackward": "Askar Merah tidak boleh bergerak ke belakang di belakang garisan permulaan.",
+      "redSoldierColumns": "Askar Merah sebelum sungai hanya boleh berdiri di lajur ganjil (1, 3, 5, 7, 9).",
+      "blackSoldierBackward": "Askar Hitam tidak boleh bergerak ke belakang di belakang garisan permulaan.",
+      "blackSoldierColumns": "Askar Hitam sebelum sungai hanya boleh berdiri di lajur ganjil (1, 3, 5, 7, 9).",
+      "saveError": "Ralat semasa menyimpan",
+      "unknownError": "Ralat tidak diketahui berlaku.",
+      "connError": "Ralat Sambungan",
+      "connMsg": "Tidak dapat menyambung ke pelayan.",
+      "fenError": "FEN error.",
+      "red": "merah",
+      "black": "Hitam",
+      "successLoad": "Dimuatkan: {{name}}",
+      "successUpdate": "Dikemas kini: {{name}}",
+      "successSave": "Disimpan: {{name}}",
+      "successImportFen": "Imported setup from FEN"
+    },
+    "title": "Penyusunan & Editor",
+    "tryoutTitle": "Uji Cuba Dengan AI",
+    "tryout": {
+      "modeLabel": "Mod:",
+      "modeAi": "🤖 Main Lawan AI",
+      "modeManual": "👥 Demonstrasi Manual (Kedua-dua Pihak)",
+      "selectBot": "Pilih Lawan:",
+      "levelLabel": "Kesukaran AI:",
+      "levelOption": "Tahap {{level}}: {{name}} [{{type}}]",
+      "sideLabel": "Pihak Anda:",
+      "viewLabel": "Sudut Pandangan:",
+      "sideRed": "Merah",
+      "sideBlack": "Hitam",
+      "backLabel": "Kembali ke Tetapan"
+    },
+    "paletteTitle": "Palet Buah",
+    "palette": {
+      "selecting": "Terpilih:",
+      "erase": "Padam Buah",
+      "clear": "Padam Semua",
+      "redPrefix": "Merah",
+      "blackPrefix": "Hitam"
+    },
+    "fen": {
+      "label": "Import dari FEN",
+      "placeholder": "Masukkan string FEN...",
+      "apply": "Terapkan FEN"
+    },
+    "historyTitle": "Susunan Tersimpan",
+    "history": {
+      "loadAction": "Muat",
+      "viewAction": "Lihat"
+    },
+    "modals": {
+      "duplicateTitle": "Susunan Sudah Ada",
+      "duplicateMsg": "Sama dengan [{{name}}].",
+      "duplicateAction": "Lihat Susunan",
+      "clearTitle": "Padam Papan?",
+      "clearMsg": "Adakah anda pasti ingin padam semua buah?"
+    },
+    "rules": {
+      "title": "Peraturan Penyusunan",
+      "orientation": {
+        "label": "Orientasi:",
+        "desc": "Merah di bawah, Hitam di atas."
+      },
+      "turn": {
+        "label": "Giliran Pertama:",
+        "desc": "Default Merah jalan dulu."
+      },
+      "general": {
+        "label": "Jenderal:",
+        "desc": "1 setiap pasukan, wajib dalam Istana."
+      },
+      "check": {
+        "label": "Larangan Sekak:",
+        "desc": "Keadaan awal tidak boleh sedang diseukak."
+      },
+      "facing": {
+        "label": "Jenderal Berhadapan:",
+        "desc": "Jenderal tidak boleh saling berhadapan terus."
+      },
+      "defense": {
+        "label": "Penasihat/Gajah:",
+        "desc": "2 setiap jenis. Penasihat di Istana, Gajah jangan seberang."
+      },
+      "soldier": {
+        "label": "Askar:",
+        "desc": "5 setiap pasukan. Jangan gerak tepi jika belum seberang."
+      }
+    },
+    "seoTitle": "Penyusunan & Editor Xiangqi Online",
+    "seoDesc": "Susun papan online, bina teka-teki dan teroka dengan AI.",
+    "modeTryout": "Mode Uji Cuba",
+    "modeEditor": "Mode Editor • Klik Untuk Letak",
+    "actionTry": "Main Lawan AI",
+    "actionUndo": "Undurkan",
+    "actionReset": "Set Semula",
+    "toast": {
+      "loginSave": "Log masuk untuk simpan susunan.",
+      "loginChallenge": "Log masuk untuk mencabar.",
+      "boardCleared": "Papan dibersihkan."
+    },
+    "seoContent": {
+      "title": "Alat <0>Penyusunan Xiangqi Online</0> Profesional",
+      "intro": "Platform <0>penyusunan</0> dan <1>editor teka-teki</1> utama. Bebas <2>atur papan</2>.",
+      "feature1": {
+        "title": "Ciri Hebat",
+        "desc": "Mendukung drag-and-drop, import FEN dan integrasi <1>Pikafish AI</1>."
+      },
+      "feature2": {
+        "title": "Kongsi Minat",
+        "desc": "Teka-teki disimpan dalam pangkalan data. Sumbang kepada komuniti."
+      }
+    },
+    "form": {
+      "guestTitle": "Mode Tetamu",
+      "guestDesc": "Log masuk untuk simpan dan kongsi.",
+      "nameLabel": "Nama Susunan:",
+      "namePlaceholder": "Masukkan nama...",
+      "levelLabel": "Kesukaran:",
+      "levelOption": "Pilih",
+      "levelValue": "Tahap {{level}}",
+      "descLabel": "Penerangan:",
+      "descPlaceholder": "...",
+      "saveAction": "Simpan Susunan",
+      "loginSaveAction": "🔐 Log Masuk Untuk Simpan",
+      "importError": "Ralat import FEN:"
+    }
+  },
+  "tournaments": {
+    "title": "Kejohanan",
+    "subtitle": "Arena Master Terkuat",
+    "loading": "Memuatkan maklumat kejohanan...",
+    "empty": "Tiada kejohanan tersedia sekarang.",
+    "listTitle": "Senarai Kejohanan Xiangqi Online",
+    "listDesc": "Kejohanan xiangqi terkini dan berlangsung.",
+    "champion": "Juara: {{name}}",
+    "players": {
+      "pendingTitle": "Permintaan Sertai ({{count}})",
+      "registeredTitle": "Pemain Berdaftar ({{count}})",
+      "empty": "Belum ada pemain yang mendaftar.",
+      "approve": "Luluskan"
+    },
+    "rounds": "{{count}} Pusingan",
+    "minElo": "ELO {{elo}}+",
+    "requireApproval": "Perlu Kelulusan",
+    "hasPrizes": "Ada Hadiah",
+    "deadline": "Tarikh Tutup:",
+    "createdAt": "Dibina Pada:",
+    "noDescription": "Tiada penerangan.",
+    "status": {
+      "registration": "Pendaftaran",
+      "active": "Berlangsung",
+      "deadline_closed": "Pendaftaran Tutup",
+      "finished": "Selesai"
+    },
+    "backToList": "Kembali ke Senarai",
+    "noDescriptionDetail": "Tiada penerangan terperinci tersedia untuk kejohanan ini.",
+    "currentRound": "Pusingan: {{current}}{{total}}",
+    "playersCount": "Pemain: {{current}}/{{total}}",
+    "registrationInfo": "Maklumat Pendaftaran",
+    "start": "Mulakan",
+    "closed": "tertutup",
+    "joinAction": "Daftar Sekarang",
+    "joining": "Menyertai...",
+    "joined": "Berdaftar",
+    "pendingApproval": "Menunggu Kelulusan",
+    "formats": {
+      "swiss": "Swiss",
+      "roundrobin": "Round Robin"
+    },
+    "timeline": {
+      "emptyAdmin": "Belum ada perlawanan. Buat pusingan baharu!",
+      "emptyUser": "Perlawanan sedang dikemas kini...",
+      "roundLabel": "Bulat {{round}}",
+      "status": {
+        "active": "Aktif"
+      },
+      "actions": {
+        "review": "Semakan",
+        "play": "Main Sekarang",
+        "watch": "Tonton"
+      },
+      "sides": {
+        "red": "merah",
+        "black": "Hitam"
+      }
+    },
+    "standings": {
+      "empty": "Tiada data kedudukan tersedia.",
+      "stats": {
+        "win": "Menang",
+        "draw": "Lukis",
+        "loss": "rugi",
+        "bye": "Selamat tinggal"
+      }
+    },
+    "prizes": {
+      "title": "Struktur Hadiah",
+      "goldUnit": "Emas"
+    },
+    "announcements": {
+      "placeholder": "Masukkan kandungan pengumuman...",
+      "postAction": "Selepas Pengumuman",
+      "empty": "Tiada pengumuman untuk kejohanan ini."
+    },
+    "detail": {
+      "notFound": "Kejohanan tidak ditemui.",
+      "champion": {
+        "title": "juara",
+        "points": "mata",
+        "elo": "Elo"
+      },
+      "actions": {
+        "join": "Daftar",
+        "joined": "Berdaftar",
+        "pending": "Belum selesai",
+        "createRound": "Cipta Pusingan {{round}}",
+        "finishTournament": "Tamat Kejohanan"
+      },
+      "tabs": {
+        "timeline": "Garis masa",
+        "standings": "Kedudukan",
+        "players": "Pemain",
+        "prizes": "Hadiah",
+        "announcements": "Pengumuman"
+      },
+      "meta": {
+        "title": "{{name}} | Xiangqi Dalam Talian",
+        "description": "Butiran, jadual dan kedudukan untuk kejohanan {{name}}."
+      },
+      "messages": {
+        "joinSuccess": "✅ Pendaftaran berjaya!",
+        "joinPending": "✅ Permohonan dihantar, menunggu kelulusan admin.",
+        "roundStarted": "✅ Pusingan {{round}} dicipta — {{count}} sepadan dengan{{bye}}",
+        "bye": "({{name}} menerima BYE)",
+        "tournamentFinished": "🏆 Kejohanan selesai! Juara: {{name}}",
+        "confirmFinish": "Tamatkan kejohanan dan umumkan juara?",
+        "confirm": "Sahkan Selesai"
+      },
+      "errors": {
+        "joinClosed": "⏰ Tempoh pendaftaran telah tamat.",
+        "joinFull": "❌ Kejohanan penuh.",
+        "joinNotRegistration": "❌ Kejohanan tidak lagi menerima pendaftaran.",
+        "joinFailed": "❌ Ralat sambungan.",
+        "maxRounds": "Pusingan maksimum {{count}} dicapai!",
+        "notEnoughPlayers": "Sekurang-kurangnya 2 pemain diperlukan.",
+        "alreadyFinished": "Kejohanan telah selesai.",
+        "finishError": "Ralat menamatkan kejohanan."
+      }
+    },
+    "meta": {
+      "title": "Kejohanan Xiangqi Online - Bersaing Untuk Kehormatan",
+      "description": "Sertai kejohanan xiangqi sengit. Semak jadual, pangkat dan menang hadiah.",
+      "home": "Laman Utama",
+      "tournaments": "Kejohanan"
+    },
+    "seoContent": {
+      "arena": {
+        "title": "Tempat Berkumpul <0>Juara</0>",
+        "desc": "Buktikan tahap anda di sini."
+      },
+      "features": {
+        "formats": {
+          "title": "Sistem Swiss & Round Robin",
+          "desc": "Piawaian antarabangsa."
+        },
+        "prizes": {
+          "title": "Hadiah Menarik",
+          "desc": "Juara terima emas 🪙 dan trofi."
+        },
+        "experience": {
+          "title": "Kumpul Pengalaman",
+          "desc": "Perbaiki kelemahan anda."
+        },
+        "honor": {
+          "title": "Hall of Fame",
+          "desc": "Sejarah juara disimpan selamanya."
+        }
+      }
+    }
+  },
+  "ai": {
+    "seoTitle": "Main Lawan {{name}} (AI) - Latihan Online",
+    "seoTitleDefault": "Main Lawan Komputer - AI Terkuat",
+    "seoDesc": "Cabar lawan AI di tahap {{level}}. Guna teknologi Pikafish AI.",
+    "seoDescDefault": "Latihan lawan komputer. Platform AI terkuat.",
+    "title": "Perlawanan <0>Nyata</0> Lawan AI",
+    "settings": "Tetapan Perlawanan",
+    "undo": "Undurkan",
+    "newGame": "Perlawanan Baru",
+    "agentsOnline": "Ejen {{count}} dalam talian",
+    "personality": {
+      "aggressive": "Agresif",
+      "defensive": "Bertahan",
+      "balanced": "Seimbang"
+    },
+    "ranks": {
+      "level1": "pemula",
+      "level4": "Profesional",
+      "level6": "Guru Besar"
+    },
+    "bot": {
+      "error_not_found": "Tiada bot ditemui. Semak Admin › Bot."
+    },
+    "seoContent": {
+      "title": "Latihan Dengan AI <0>Pikafish</0>",
+      "intro": "Pikafish (Stockfish versi xiangqi) memberikan pengalaman latihan profesional.",
+      "feature1": {
+        "title": "Enjin AI Pikafish",
+        "desc": "Kira beribu langkah sesaat."
+      },
+      "feature2": {
+        "title": "Pelbagai Tahap",
+        "desc": "Dari Tahap 1 hingga Tahap 10."
+      },
+      "feature3": {
+        "title": "Analisis Segera",
+        "desc": "Sistem simpan langkah untuk tonton semula."
+      },
+      "whyTitle": "Mengapa Latih Lawan AI?",
+      "whyDesc": "Bina kesabaran dan kira dengan tepat.",
+      "tags": {
+        "online": "Xiangqi Online",
+        "withAi": "Lawan AI",
+        "engine": "Pikafish",
+        "practice": "Latihan",
+        "hall": "Balai Kebahagiaan",
+        "ai": "Kecerdasan Buatan"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "dark": "Tema: Gelap"
+    },
+    "title": "Pusat Peribadi",
+    "dashboard": "Lobi",
+    "account": "Tetapan",
+    "overview": "Ringkasan Aktiviti",
+    "customize": "Ubah Akaun",
+    "boardInterface": "Antara Muka Papan",
+    "boardInterfaceDesc": "Ubah gaya permainan anda.",
+    "autoScroll": "Skrol Automatik",
+    "autoScrollDesc": "Skrol terus ke papan bila masuk bilik.",
+    "autoScrollSuccess": "Tetapan dikemas kini.",
+    "cropAvatar": "Potong Avatar",
+    "zoom": "Zum",
+    "saveImage": "Simpan Gambar",
+    "updateNameSuccess": "Nama berjaya diubah!",
+    "updateAvatarSuccess": "Avatar berjaya diubah!",
+    "pieceStyle": "Gaya Buah",
+    "pieceStyleDesc": "Pilih gaya buah kesukaan anda.",
+    "pieceStyles": {
+      "traditional": "Klasik (Cina)",
+      "international": "Antarabangsa (Simbol)",
+      "simple": "Minimalis"
+    },
+    "voicePack": "Paket Suara",
+    "voicePackDesc": "Suara pergerakan buah.",
+    "voicePacks": {
+      "vi": "Vietnam",
+      "en": "Inggeris",
+      "zh": "Cina",
+      "ja": "Jepun",
+      "none": "Tiada (Kesan Sahaja)"
+    },
+    "changePasswordSuccess": "Katalaluan berjaya diubah!",
+    "deletePuzzleTitle": "Padam Teka-teki?",
+    "deletePuzzleConfirm": "Pasti ingin padam [{{name}}]?",
+    "deletePuzzleAction": "Padam Sekarang",
+    "deletePuzzleSuccess": "Teka-teki dipadam!",
+    "notificationsEnabled": "Notis diaktifkan!",
+    "notificationsError": "Gagal aktifkan notis.",
+    "matchHistory": "Sejarah Perlawanan",
+    "achievements": "Pencapaian",
+    "inventory": "Gudang Aset",
+    "myContent": "Konten Saya",
+    "security": "Keselamatan",
+    "notifications": "Notifikasi",
+    "changePassword": "Ubah Katalaluan",
+    "oldPassword": "Katalaluan Lama",
+    "newPassword": "Katalaluan Baru",
+    "confirmPassword": "Sahkan Katalaluan",
+    "displayName": "Nama Paparan",
+    "updateProfile": "Kemaskini Profil",
+    "notificationsDesc": "Terima pemberitahuan tentang kejohanan, mesej dan cabaran baharu.",
+    "pushSuccess": "Pemberitahuan berjaya didayakan!"
+  },
+  "footer": {
+    "mission": "cotuong.xyz - Platform xiangqi utama. Satukan peminat dengan Pikafish AI.",
+    "missionShort": "Platform xiangqi kualiti",
+    "experience": "Pengalaman",
+    "knowledge": "Pengetahuan",
+    "services": "Servis",
+    "contactLegal": "Kontak & Hukum",
+    "onlineArena": "Arena Online",
+    "puzzles": "Teka-teki",
+    "playWithAi": "Main Lawan AI",
+    "leaderboard": "Peringkat",
+    "howToPlay": "Aturan Bermain",
+    "basicTactics": "Taktik Asas",
+    "practicalEndgame": "Tamat Permainan",
+    "news": "Berita Kejohanan",
+    "shop": "Kedai Item",
+    "profile": "Profil",
+    "vipUpgrade": "Upgrade VIP",
+    "support": "Sokongan",
+    "privacy": "Privasi",
+    "terms": "Terma",
+    "officialRules": "Peraturan Rasmi",
+    "active": "Beroperasi",
+    "globalServer": "Server Global",
+    "facebookPage": "Laman Facebook",
+    "facebookGroup": "Grup Facebook",
+    "allSystemsOperational": "Sistem beroperasi normal",
+    "joinPlayers": "Sertai 50,000+ Pemain",
+    "globalPresence": "Kehadiran Global",
+    "infrastructure": "Infrastruktur",
+    "security": "Keselamatan",
+    "versionControl": "Kawalan Versi",
+    "release": "Lepaskan",
+    "deployTime": "Masa Penempatan",
+    "staticHub": "Hab Statik Global",
+    "sslVerified": "SSL Disahkan",
+    "build": "Versi",
+    "time": "Masa",
+    "copyright": "Xiangqi Online - Hak cipta milik <0>cotuong.xyz</0>. Dibuat oleh peminat xiangqi ❤️. &copy; {{year}}"
+  },
+  "terms": {
+    "meta": {
+      "title": "Terma Servis | Xiangqi Online",
+      "description": "Peraturan tentang akaun dan sportiviti."
+    },
+    "title": "Terma & <0>Peraturan</0>",
+    "title_p1": "Terma &",
+    "title_p2": "Peraturan",
+    "intro": "Membina lingkungan xiangqi yang adil.",
+    "cardTitle": "Perjanjian Servis",
+    "lastUpdated": "Kemaskini",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "acceptance": {
+        "title": "Penerimaan Terma",
+        "content": "Menggunakan cotuong.xyz bermakna anda setuju."
+      },
+      "accounts": {
+        "title": "Akaun Pengguna",
+        "item1": "Jaga keselamatan katalaluan.",
+        "item2": "Beri info tepat.",
+        "item3": "Satu pengguna satu akaun.",
+        "item4": "Akaun boleh dipadam jika langgar peraturan."
+      },
+      "fairplay": {
+        "title": "Sportiviti",
+        "intro": "Dilarang:",
+        "item1": "Guna AI dalam perlawanan online.",
+        "item2": "Sengaja kalah untuk ubah poin ELO.",
+        "item3": "Bahasa kasar dalam sembang.",
+        "item4": "Spam."
+      },
+      "copyright": {
+        "title": "Hak Cipta",
+        "content": "Semua konten milik Xiangqi Online."
+      },
+      "liability": {
+        "title": "Tanggungjawab",
+        "content": "Servis disediakan 'as is'."
+      },
+      "changes": {
+        "title": "Perubahan Terma",
+        "content": "Kami boleh ubah terma bila-bila masa."
+      }
+    },
+    "footer": "Terima kasih sertai kami."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privasi | Xiangqi Online",
+      "description": "Info tentang perlindungan data."
+    },
+    "title": "Privasi & <0>Keselamatan</0>",
+    "title_p1": "Privasi &",
+    "title_p2": "Keselamatan",
+    "intro": "Data anda keutamaan kami.",
+    "cardTitle": "Polisi Privasi",
+    "lastUpdated": "Kemaskini",
+    "lastUpdatedDate": "27-03-2026",
+    "sections": {
+      "collection": {
+        "title": "Data Dikumpul",
+        "intro": "Kami kumpul:",
+        "item1": "Info akaun (Email, Nama).",
+        "item2": "Data perlawanan (Sejarah, Poin ELO).",
+        "item3": "Info teknikal (IP)."
+      },
+      "usage": {
+        "title": "Tujuan Guna",
+        "intro": "Untuk:",
+        "item1": "Urus akaun.",
+        "item2": "Simpan sejarah perlawanan.",
+        "item3": "Hantar notis sistem.",
+        "item4": "Analisis data (Google Analytics)."
+      },
+      "security": {
+        "title": "Keselamatan",
+        "content": "Guna enkripsi HTTPS. Jaga katalaluan anda."
+      },
+      "sharing": {
+        "title": "Kongsi Pihak Ketiga",
+        "content": "Kami <0>tidak pernah</0> jual data anda.",
+        "content_p1": "Kami",
+        "content_p2": "tidak pernah",
+        "content_p3": "jual data anda."
+      },
+      "rights": {
+        "title": "Hak Anda",
+        "intro": "Anda boleh:",
+        "item1": "Kemaskini info.",
+        "item2": "Padam akaun.",
+        "item3": "Tutup notis."
+      }
+    },
+    "footer": "Privasi anda keutamaan cotuong.xyz"
+  },
+  "shop": {
+    "title": "Kedai Cenderamata",
+    "meta": {
+      "title": "Kedai Hadiah | Xiangqi Dalam Talian",
+      "description": "Send love with unique gifts. Use coins earned from puzzles and tournaments to buy meaningful gifts at cotuong.xyz.",
+      "listTitle": "Kedai Hadiah Dalam Talian Xiangqi",
+      "listDesc": "Hadiah rohani untuk pemain xiangqi.",
+      "home": "Rumah",
+      "shop": "Kedai",
+      "loading": "Memuatkan kedai..."
+    },
+    "subtitle": "\"Memberi sekuntum bunga mawar meninggalkan wangian di tangan\". Hantar kasih sayang kepada rakan pemain anda.",
+    "yourCoins": "Syiling Anda",
+    "messages": {
+      "success": "Hadiah berjaya dibeli!",
+      "insufficient": "Syiling tak cukup!",
+      "error": "Ralat membeli hadiah.",
+      "networkError": "Ralat rangkaian semasa membeli hadiah."
+    },
+    "buy": {
+      "processing": "Membeli...",
+      "insufficient": "Syiling tidak mencukupi",
+      "now": "Beli Sekarang",
+      "defaultDesc": "Hadiah kecil dengan makna yang besar."
+    },
+    "tips": {
+      "title": "Petua untuk mendapatkan Syiling",
+      "desc": "Syiling ialah mata wang utama dalam Xiangqi Online. Anda tidak boleh membeli Syiling dengan wang sebenar, tetapi mesti <0>terkumpul melalui usaha</0> dan melatih kemahiran anda:",
+      "item1": "Lengkapkan latihan di <0>Cara bermain</0>. Setiap pelajaran baharu membawa sejumlah Syiling yang berbaloi.",
+      "item2": "Sertai <0>Kejohanan Dalam Talian</0>. Pemain berpangkat tinggi akan menerima Syiling dan barang berharga.",
+      "item3": "Terima hadiah daripada rakan dan peminat apabila anda mempunyai perlawanan yang sangat baik.",
+      "viewTournaments": "Lihat kejohanan akan datang →"
+    },
+    "culture": {
+      "title": "Budaya Pemberian",
+      "desc1": "Dalam dunia catur, pemberian hadiah bukan sahaja mengenai perkara material tetapi <0>menunjukkan rasa hormat dan hubungan</0> antara pemain.",
+      "desc2": "\"Lawan Layak\" - Hadiah kecil seperti 🌹 Mawar atau ☕ Kopi adalah cara terbaik untuk memulakan persahabatan baharu selepas perlawanan yang penuh tekanan. Gunakan Syiling yang anda perolehi untuk mencantikkan komuniti Xiangqi kami."
+    }
+  },
+  "leaderboard": {
+    "title": "Sarjana & Ahli",
+    "subtitle": "Dewan Kemasyhuran Komuniti (ahli {{count}})",
+    "meta": {
+      "title": "Papan pendahulu - Menghormati Sarjana | Xiangqi Dalam Talian",
+      "description": "Follow Elo rankings, honor masters and grandmasters in the xiangqi community. Search and invite the best players at cotuong.xyz.",
+      "listTitle": "Papan Pendahulu Pemain Dalam Talian Xiangqi",
+      "listDesc": "Senarai pemain yang mempunyai Elo tertinggi dalam komuniti.",
+      "home": "Rumah"
+    },
+    "hierarchy": {
+      "title": "Hierarki Pemain & Sistem Elo",
+      "desc": "Sistem penarafan Elo dibina berdasarkan piawaian antarabangsa, mencerminkan tahap dan prestasi pemain dengan tepat.",
+      "rank1": {
+        "title": "Novis & Santai",
+        "desc": "Langkah pertama dalam menakluki xiangqi. Fokus pada penguasaan checkmate asas."
+      },
+      "rank2": {
+        "title": "Pertengahan & Lanjutan",
+        "desc": "Pemahaman mendalam tentang pembukaan dan permainan tengah. Penyelarasan bahagian yang fleksibel."
+      },
+      "rank3": {
+        "title": "Cikgu",
+        "desc": "Mencapai tahap tertinggi, dapat mengira berpuluh-puluh pergerakan dalam."
+      },
+      "rank4": {
+        "title": "Guru Besar",
+        "desc": "Lagenda masyarakat, menguasai semua seni rahsia dan perangkap."
+      }
+    },
+    "search": "Cari pemain...",
+    "table": {
+      "rank": "#",
+      "player": "Pemain",
+      "elo": "Elo",
+      "games": "Permainan",
+      "status": "Status",
+      "playing": "bermain",
+      "actions": "Tindakan"
+    },
+    "statuses": {
+      "searching": "Mencari..."
+    },
+    "actions": {
+      "view": "📺 Pandangan",
+      "message": "Mesej"
+    },
+    "empty": "Tiada pemain ditemui",
+    "pagination": {
+      "page": "Halaman {{current}} / {{total}}",
+      "total": "Pemain {{count}}",
+      "prev": "Sebelum",
+      "next": "Seterusnya"
+    },
+    "footer": "Sistem ranking Elo adalah berdasarkan pada perlawanan awam. Sertai pertandingan untuk naik pangkat dan masuk ke Dewan Kemasyhuran!",
+    "lesson": "pelajaran"
+  },
+  "practice": {
+    "title": "Belajar & <0>Berlatih</0>",
+    "subtitle": "Latih asas kepada manuver semakan lanjutan dan akhir permainan",
+    "loading": "Memuatkan pelajaran...",
+    "meta": {
+      "title": "Belajar & Berlatih Xiangqi Dalam Talian - Latihan Checkmate & Endgame",
+      "description": "Sertai kursus xiangqi dari asas hingga lanjutan. Berlatih pergerakan sekeping, selesaikan teka-teki dan latih dengan AI Pikafish untuk meningkatkan kemahiran anda setiap hari.",
+      "home": "Rumah",
+      "practice": "berlatih"
+    },
+    "list": {
+      "title": "Temui Intipati Xiangqi",
+      "description": "Belajar daripada asas kepada lanjutan dengan peta jalan berstruktur. Setiap pelajaran mempunyai papan interaktif dan sokongan AI untuk setiap langkah.",
+      "coins": "Emas Terkumpul",
+      "all": "Semua",
+      "lessonCount": "Pelajaran {{count}}"
+    },
+    "curriculum": {
+      "title": "Program Latihan Pemain (Kurikulum)",
+      "subtitle": "Pelan hala tuju 4 peringkat daripada Pemula hingga Grandmaster",
+      "steps": {
+        "01": {
+          "title": "Asas (Asas)",
+          "desc": "Biasakan diri dengan papan, 7 jenis potongan dan peraturan asas seperti Semak dan Menghadapi Jeneral."
+        },
+        "02": {
+          "title": "Taktik (Rakan Semak)",
+          "desc": "Belajar koordinasi penamat: Meriam Kuda, Meriam Syurga-dan-Bumi, Pasangan Tertahan, Meriam Berguling."
+        },
+        "03": {
+          "title": "Endgame (Teknik)",
+          "desc": "Teknik menggunakan Single Chariot, Single Cannon, Kuda/Askar untuk menang di peringkat akhir."
+        },
+        "04": {
+          "title": "Pembukaan (Strategi)",
+          "desc": "Kaji formasi klasik seperti Central Cannon lwn Screen Horse, Same Direction Cannons, Opposite Direction Cannons."
+        }
+      }
+    },
+    "card": {
+      "reward": "Emas",
+      "status": {
+        "completed": "Selesai",
+        "pending": "Tidak belajar"
+      },
+      "start": "Mula belajar sekarang",
+      "defaultDesc": "Pelajari taktik xiangqi peringkat teratas.",
+      "completedTitle": "Selesai"
+    },
+    "sidebar": {
+      "back": "Semua pelajaran",
+      "difficulty": "Kesukaran:",
+      "content": "Isi pelajaran:",
+      "defaultMission": "Mulakan latihan untuk mencari pengetahuan baharu.",
+      "reward": "Ganjaran:",
+      "status": "Status:",
+      "statusDone": "Selesai",
+      "statusPending": "Belum selesai",
+      "processing": "Memproses...",
+      "nextLesson": "Pelajaran Seterusnya",
+      "finishCourse": "Kursus Lengkap",
+      "completeAndNext": "Pelajaran Lengkap & Seterusnya"
+    },
+    "panel": {
+      "history": "Sejarah Pindah",
+      "aiTrain": "Berlatih dengan AI",
+      "aiTrainDesc": "Uji bergerak terhadap mesin",
+      "engine": "Enjin:",
+      "level": "Tahap:",
+      "humanSide": "sisi:",
+      "redSide": "Merah (Main Merah)",
+      "blackSide": "Hitam (Main Hitam)",
+      "guide": {
+        "title": "Panduan Belajar",
+        "step1": "Perhatikan kedudukan & misi.",
+        "step2": "Gerakkan kepingan atau berlatih dengan AI.",
+        "step3": "Klik \"Lengkap\" untuk menerima ganjaran."
+      }
+    },
+    "board": {
+      "tab": "Papan {{index}}: {{title}}",
+      "defaultTitle": "Lalai",
+      "supplemental": {
+        "title": "Pengetahuan Tambahan yang Mendalam",
+        "p1": "Di xiangqi, memahami kedudukan papan dan bahagian adalah asas yang paling penting. Istana bukan sahaja tempat Jeneral tinggal tetapi juga sasaran utama pihak lawan.",
+        "p2": "Apabila mempelajari tentang {{title}}, perhatikan koordinasi antara kepingan. Jangan hanya melihat sekeping; lihat bagaimana ia melindungi atau menyokong orang lain untuk mencipta formasi yang kukuh."
+      }
+    },
+    "seoContent": {
+      "title": "<span className=\"text-blue-500\">📚</span> Dalam talian <span className=\"text-blue-600\">Kursus Xiangqi</span> daripada asas kepada lanjutan",
+      "intro": "Sistem <strong className=\"text-slate-600 dark:text-white/60\">xiangqi</strong> direka bentuk secara saintifik untuk membantu anda menguasai peraturan, pergerakan bahagian, <strong className=\"text-slate-600 dark:text-white/60\">taktik</strong> dan <strong className=\"text-slate-slate-600\" klasik. Sesuai untuk pemain dari semua peringkat untuk mengasah kemahiran mereka setiap hari.",
+      "whyTitle": "Mengapa melatih checkmate & endgame?",
+      "whyIntro": "In xiangqi, the ability to coordinate pieces for the kill (checkmate) and endgame manual techniques are two decisive factors. The exercise system at <0>cotuong.xyz</0> is scientifically organized to help you:",
+      "item1": {
+        "title": "Minda Pembunuh",
+        "desc": "Mengecam corak semak klasik dengan pantas (Meriam Kuda, Meriam Syurga dan Bumi...)."
+      },
+      "item2": {
+        "title": "Teknik Endgame",
+        "desc": "Guru berakhir seperti kuda-penasihat-gajah yang menang kereta tunggal, gajah menang penasihat meriam... Pelajaran maut untuk setiap tuan."
+      },
+      "item3": {
+        "title": "Berlatih dengan AI",
+        "desc": "Setiap persediaan papan menyepadukan Enjin Pikafish supaya anda boleh mencuba mesin tersebut dengan segera."
+      },
+      "hashtags": [
+        "#cotuongxyz",
+        "#hocco",
+        "#satphapcotuong",
+        "#tancuoccotuong"
+      ]
+    }
+  },
+  "games": {
+    "title": "Permainan <0>Galeri</0>",
+    "subtitle": "Tonton dan pelajari daripada beribu-ribu perlawanan dalam talian",
+    "meta": {
+      "title": "Galeri Permainan Xiangqi - Perlawanan Langsung & Main Ulang",
+      "description": "Watch and learn from thousands of online xiangqi matches currently happening at cotuong.xyz."
+    },
+    "tabs": {
+      "live": "🔥 Langsung",
+      "open": "⏳ Menunggu",
+      "finished": "🏁 Selesai",
+      "all": "🌍 Semua"
+    },
+    "filters": {
+      "timeMode": {
+        "all": "⚡ Semua Mod",
+        "blitz": "Blitz",
+        "rapid": "Cepat",
+        "standard": "Standard"
+      },
+      "sort": {
+        "newest": "🕒 Terbaru",
+        "popular": "🔥 Popular",
+        "spectators": "👁 Penonton"
+      },
+      "timeRange": {
+        "all": "📅 Sepanjang Masa",
+        "day": "Hari ini",
+        "week": "Minggu ini",
+        "month": "Bulan ini"
+      },
+      "red": "merah",
+      "black": "Hitam"
+    },
+    "empty": {
+      "searching": "Mencari padanan...",
+      "noGames": "Tiada padanan ditemui",
+      "noResults": "Tiada padanan ditemui sepadan dengan penapis anda. Cuba tukar penapis.",
+      "clear": "Kosongkan Penapis"
+    },
+    "card": {
+      "puzzle": "Teka-teki",
+      "waiting": "Menunggu...",
+      "watch": "Tonton",
+      "participate": "Sertai",
+      "loadMore": "Terokai perlawanan lama ↓"
+    },
+    "seoContent": {
+      "title": "Sistem Galeri <0>Xiangqi</0> Dalam Talian",
+      "intro": "Welcome to the <0>Game Gallery</0> at cotuong.xyz. This is where thousands of dramatic matches between players from all over are concentrated. You can <1>watch xiangqi online</1> and learn the most modern <2>xiangqi openings</2>.",
+      "item1": {
+        "title": "Rekod Permainan Visual",
+        "desc": "Setiap perlawanan selepas tamat disimpan sebagai <0>rekod permainan</0> terperinci. Anda boleh memainkan semula setiap langkah, menganalisis kesilapan dan mencari sorotan dalam pemikiran tuan."
+      },
+      "item2": {
+        "title": "Komuniti Dalam Talian yang Rancak",
+        "desc": "Sertai perbincangan, komen dan suka permainan yang hebat. <0>Xiangqi dalam talian</0> bukan sahaja tentang menang atau kalah, tetapi juga tempat untuk bertukar pengalaman dan semangat untuk seni 64 persegi."
+      },
+      "hashtags": [
+        "#cotuongonline",
+        "#xemcotuong",
+        "#bancotuongonline"
+      ]
+    }
+  },
+  "comments": {
+    "titlePuzzle": "Perbincangan Teka-teki",
+    "titleTournament": "Perbincangan Kejohanan",
+    "titleDefault": "Komen",
+    "placeholderPuzzle": "Cadangkan penyelesaian atau tanya soalan...",
+    "placeholderDefault": "Tulis komen...",
+    "emptyStateFirst": "Tiada ulasan lagi.",
+    "emptyStateSecond": "Jadilah yang pertama berkongsi pendapat anda!",
+    "loginPrompt": "Anda perlu <0>Log Masuk</0> untuk menyertai perbincangan.",
+    "sending": "...",
+    "deleteTooltip": "Padamkan ulasan (Pentadbir)",
+    "deleteTitle": "Padamkan ulasan?",
+    "deleteMsg": "Adakah anda pasti mahu memadamkan ulasan ini? Tindakan ini tidak boleh dibuat asal.",
+    "deleteAction": "PADAM SEKARANG",
+    "errorTitle": "Ulasan Tidak Sah",
+    "errorNoLinks": "Komen tidak boleh mengandungi pautan.",
+    "errorRateLimitTitle": "Menghantar Terlalu Cepat",
+    "errorRateLimit": "Anda menghantar terlalu cepat. Cuba lagi dalam 1 minit.",
+    "redPlayer": "MERAH",
+    "blackPlayer": "HITAM",
+    "reltime": {
+      "justNow": "tadi",
+      "minutes": "{{count}} minit yang lalu",
+      "hours": "{{count}} jam yang lalu"
+    }
+  },
+  "admin": {
+    "title": "Panel Admin",
+    "checkingPermissions": "Semak izin...",
+    "noPermission": "⚠️ Tiada izin admin.",
+    "syncingData": "Segerak data...",
+    "searchPlaceholder": "Cari...",
+    "sidebar": {
+      "dashboard": "Ikhtisar (AI)",
+      "users": "Urus Pengguna",
+      "matches": "Bilik Perlawanan",
+      "puzzles": "Urus Teka-teki",
+      "tournaments": "Urus Kejohanan",
+      "bots": "Urus Bot",
+      "comments": "Urus Komen",
+      "practice": "Urus Tutorial",
+      "shop": "Urus Kedai",
+      "analytics": "Analisis (Google)",
+      "ai": "Generator AI",
+      "push": "Hantar Notis",
+      "cache": "Urus Cache (Redis)",
+      "server": "Urus Sistem (Log)",
+      "settings": "Konfigurasi",
+      "social": "Social Media"
+    },
+    "push": {
+      "errorInput": "Sila masukkan tajuk dan kandungan",
+      "errorUid": "Sila masukkan UID penerima",
+      "errorSystem": "Ralat sistem semasa menghantar"
+    },
+    "ai": {
+      "enterElo": "Masukkan ELO baharu:",
+      "invalidNumber": "Nombor tidak sah"
+    },
+    "cache": {
+      "cleared": "Semua cache dikosongkan!"
+    },
+    "social": {
+      "title": "Social Media Management",
+      "postTitle": "Create New Post",
+      "platforms": "Target Platforms",
+      "placeholder": "Enter post content here...",
+      "aiHelp": "Optimize with AI ✨",
+      "preview": "Post Preview",
+      "schedule": "Schedule Post",
+      "postNow": "🚀 Post Now",
+      "history": "Post History",
+      "platformLabels": {
+        "facebook": "Facebook Fanpage",
+        "youtube": "YouTube Channel",
+        "tiktok": "TikTok",
+        "instagram": "Instagram"
+      },
+      "status": {
+        "posted": "Posted",
+        "scheduled": "Scheduled",
+        "failed": "Failed",
+        "processing": "Processing"
+      }
+    }
+  }
+}
